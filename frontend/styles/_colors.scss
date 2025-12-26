@@ -1,0 +1,56 @@
+// Brand Colors
+$primary-light: #e0e0e0;
+$primary: #d4d4d4;
+$primary-dark: #a8a8a8;
+$secondary-light: #333;
+$secondary: #121212;
+$secondary-dark: #000;
+
+// Grays
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+// Success
+$success-light: #28a745;
+$success: #1c7c31;
+$success-dark: #145220;
+
+// Error
+$error-light: #fdfafa;
+$error: #b10;
+$error-dark: #e98076;
+
+// Loading
+$warning-light: #fdfd96;
+$warning: #e3ed2c;
+$warning-dark: #c7d71f;
+
+// Background
+
+$background-default: rgb(0 0 0 / 75%);
+$background-secondary: rgb(0 0 0 / 30%);
+$background-light: rgb(0 0 0 / 10%);
+
+// Hover
+$hover: #4fc3f7;
+
+// Button
+$button-primary: #007bff;
+$button-primary-hover: #0056b3;
+$button-primary-disabled: #6c757d;
+$button-success: $success;
+$button-success-hover: $success-dark;
+$button-error: $error;
+$button-error-hover: $error-dark;
+
+// Utility
+$text-default: $gray-900;
+$text-light: $gray-200;
+$text-inverse: #fff;

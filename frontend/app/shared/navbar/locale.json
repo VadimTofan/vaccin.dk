@@ -1,0 +1,50 @@
+{
+  "da": {
+    "location": "Hej Danmark",
+    "nav": [
+      { "name": "Hjem", "path": "/" },
+      { "name": "Services", "path": "/services" },
+      { "name": "Destination", "path": "/destination" },
+      { "name": "Om os", "path": "/about-us" },
+      { "name": "Kontakt", "path": "/contact" },
+      { "name": "Råd", "path": "/advice" },
+      { "name": "Firmaaftaler", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" },
+      { "name": "Vacciner", "path": "/vaccines" },
+      { "name": "Narkotest", "path": "/narco-test" },
+      { "name": "Priser", "path": "/prices" }
+    ]
+  },
+  "sv": {
+    "location": "Hej Sverige",
+    "nav": [
+      { "name": "Hem", "path": "/" },
+      { "name": "Services", "path": "/services" },
+      { "name": "Destination", "path": "/destination" },
+      { "name": "Om oss", "path": "/about-us" },
+      { "name": "Kontakt", "path": "/contact" },
+      { "name": "Råd", "path": "/advice" },
+      { "name": "Företagsavtal", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" },
+      { "name": "Vacciner", "path": "/vaccines" },
+      { "name": "Narkotest", "path": "/narco-test" },
+      { "name": "Priser", "path": "/prices" }
+    ]
+  },
+  "en": {
+    "location": "Hello England",
+    "nav": [
+      { "name": "Home", "path": "/" },
+      { "name": "Services", "path": "/services" },
+      { "name": "Destination", "path": "/destination" },
+      { "name": "About us", "path": "/about-us" },
+      { "name": "Contact", "path": "/contact" },
+      { "name": "Advice", "path": "/advice" },
+      { "name": "Company Agreements", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" },
+      { "name": "Vaccines", "path": "/vaccines" },
+      { "name": "Narco Test", "path": "/narco-test" },
+      { "name": "Prices", "path": "/prices" }
+    ]
+  }
+}

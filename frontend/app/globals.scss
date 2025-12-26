@@ -1,14 +1,16 @@
 html,
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: Montserrat, Helvetica, sans-serif;
+  color: $secondary;
+  background-color: $primary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,11 +23,10 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: $secondary;
+  cursor: pointer;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+li {
+  list-style: none;
 }

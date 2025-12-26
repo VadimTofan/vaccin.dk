@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import styles from './page.module.scss';
+import { Navbar } from './shared/navbar/navbar';
 
-export default function Home() {
-  return;
-}
+export default function Home() {}
