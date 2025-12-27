@@ -1,0 +1,47 @@
+@use '@/styles/mixins';
+
+.contacts {
+  display: none;
+
+  @include mixins.tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    color: $primary-dark;
+    gap: 0.5rem;
+  }
+
+  &__communication {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  &__modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $background-secondary;
+  }
+
+  &__form {
+    position: relative;
+    max-width: 35rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: $primary;
+    border-radius: 1rem;
+  }
+}

@@ -1,5 +1,5 @@
 @mixin tablet {
-  @media (width >= 744px) {
+  @media (width >= 875px) {
     @content;
   }
 }

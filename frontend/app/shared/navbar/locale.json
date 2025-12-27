@@ -1,50 +1,53 @@
 {
   "da": {
-    "location": "Hej Danmark",
     "nav": [
-      { "name": "Hjem", "path": "/" },
-      { "name": "Services", "path": "/services" },
-      { "name": "Destination", "path": "/destination" },
-      { "name": "Om os", "path": "/about-us" },
-      { "name": "Kontakt", "path": "/contact" },
-      { "name": "Råd", "path": "/advice" },
-      { "name": "Firmaaftaler", "path": "/company-agreements" },
-      { "name": "FAQ", "path": "/faq" },
+      { "name": "Forside", "path": "/", "dropdown": false },
+      { "name": "Destination", "path": "/destination", "dropdown": false },
+      { "name": "Services", "path": "/services", "dropdown": true },
+      { "name": "Om os", "path": "/about-us", "dropdown": false },
+      { "name": "Kontakt", "path": "/contact", "dropdown": false }
+    ],
+    "services": [
+      { "name": "Priser", "path": "/prices" },
       { "name": "Vacciner", "path": "/vaccines" },
+      { "name": "Råd", "path": "/advice" },
       { "name": "Narkotest", "path": "/narco-test" },
-      { "name": "Priser", "path": "/prices" }
+      { "name": "Firmaaftaler", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" }
     ]
   },
   "sv": {
-    "location": "Hej Sverige",
     "nav": [
-      { "name": "Hem", "path": "/" },
-      { "name": "Services", "path": "/services" },
-      { "name": "Destination", "path": "/destination" },
-      { "name": "Om oss", "path": "/about-us" },
-      { "name": "Kontakt", "path": "/contact" },
-      { "name": "Råd", "path": "/advice" },
-      { "name": "Företagsavtal", "path": "/company-agreements" },
-      { "name": "FAQ", "path": "/faq" },
+      { "name": "Startsida", "path": "/", "dropdown": false },
+      { "name": "Destination", "path": "/destination", "dropdown": false },
+      { "name": "Services", "path": "/services", "dropdown": true },
+      { "name": "Om oss", "path": "/about-us", "dropdown": false },
+      { "name": "Kontakt", "path": "/contact", "dropdown": false }
+    ],
+    "services": [
+      { "name": "Priser", "path": "/prices" },
       { "name": "Vacciner", "path": "/vaccines" },
+      { "name": "Råd", "path": "/advice" },
       { "name": "Narkotest", "path": "/narco-test" },
-      { "name": "Priser", "path": "/prices" }
+      { "name": "Företagsavtal", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" }
     ]
   },
   "en": {
-    "location": "Hello England",
     "nav": [
-      { "name": "Home", "path": "/" },
-      { "name": "Services", "path": "/services" },
-      { "name": "Destination", "path": "/destination" },
-      { "name": "About us", "path": "/about-us" },
-      { "name": "Contact", "path": "/contact" },
-      { "name": "Advice", "path": "/advice" },
-      { "name": "Company Agreements", "path": "/company-agreements" },
-      { "name": "FAQ", "path": "/faq" },
+      { "name": "Home", "path": "/", "dropdown": false },
+      { "name": "Destination", "path": "/destination", "dropdown": false },
+      { "name": "Services", "path": "/services", "dropdown": true },
+      { "name": "About us", "path": "/about-us", "dropdown": false },
+      { "name": "Contact", "path": "/contact", "dropdown": false }
+    ],
+    "services": [
+      { "name": "Prices", "path": "/prices" },
       { "name": "Vaccines", "path": "/vaccines" },
+      { "name": "Advice", "path": "/advice" },
       { "name": "Narco Test", "path": "/narco-test" },
-      { "name": "Prices", "path": "/prices" }
+      { "name": "Company Agreements", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" }
     ]
   }
 }

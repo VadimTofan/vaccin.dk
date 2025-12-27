@@ -1,3 +1,3 @@
-import { Navbar } from './shared/navbar/navbar';
-
-export default function Home() {}
+export default function Home() {
+  return <h1>Hello from Home</h1>;
+}

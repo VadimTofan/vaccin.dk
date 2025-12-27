@@ -10,48 +10,90 @@ import { useEffect, useState } from 'react';
 import { getLocale, setLanguage } from '@/utils/localization';
 
 import type { NavItem } from './navbar.type';
+import { Contacts } from './components/contacts';
+import { Language } from '@/utils/localization.type';
 
 export function Navbar() {
-  const [state, setState] = useState('da');
+  const [isOpen, setIsOpen] = useState(false);
+  const [lang, setLang] = useState('da');
 
   useEffect(() => {
     const storedLanguage = localStorage.getItem('language');
-    if (storedLanguage) {
-      setLanguage(storedLanguage);
-      setState(storedLanguage);
+    if (
+      storedLanguage &&
+      ['en', 'da', 'sv', 'ru'].includes(storedLanguage) &&
+      lang !== storedLanguage
+    ) {
+      setLanguage(storedLanguage as Language);
+      setLang(storedLanguage as Language);
     }
-  }, [state]);
+  }, [lang]);
 
   const content = getLocale(locale);
-
   const navigation: NavItem[] = content.nav.map((item: NavItem, index: number) => ({
     id: index,
     name: item.name,
     path: item.path,
+    dropdown: item.dropdown,
   }));
+
+  const handleDropdown = () => {
+    setIsOpen((prevIsOpen) => !prevIsOpen);
+  };
 
   return (
     <nav className={styles.navigation}>
-      <div className={styles.navigation__info}>
-        <div className={styles.navigation__location}>{content.location}</div>
-        <div className={styles.navigation__hours}></div>
-      </div>
-      <div className={styles.navigation__contacts}></div>
-      <div>
-        <Image
-          className={styles.navigation__logo}
-          src="/images/logo.webp"
-          width={150}
-          height={100}
-          alt="logo"
-        />
-        <ul className={styles.navigation__list}>
-          {navigation.map((item, index: number) => (
-            <li className={styles.navigation__item} key={index}>
-              <Link href={item.path}>{item.name}</Link>
-            </li>
-          ))}
-        </ul>
+      <Contacts />
+      <div className={styles.navigation__navbar}>
+        <div className={styles.navigation__container}>
+          <Image
+            className={styles.navigation__logo}
+            src="/images/logo.webp"
+            width={100}
+            height={70}
+            alt="logo"
+          />
+          <ul className={styles.navigation__list}>
+            {navigation.map((item, index: number) => (
+              <li className={styles.navigation__item} key={index}>
+                {item.dropdown === true ? (
+                  <div className={styles.navigation__dropdown}>
+                    <button className={styles.navigation__link} onClick={handleDropdown}>
+                      {item.name}▾
+                    </button>
+                    {isOpen && (
+                      <ul className={styles.navigation__droplist}>
+                        {content.services.map((item: NavItem, index: number) => (
+                          <li key={index}>
+                            <Link
+                              onClick={() => {
+                                setIsOpen(false);
+                              }}
+                              className={styles.navigation__link}
+                              href={item.path}
+                            >
+                              {item.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ) : (
+                  <Link
+                    onClick={() => {
+                      setIsOpen(false);
+                    }}
+                    className={styles.navigation__link}
+                    href={item.path}
+                  >
+                    {item.name}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </nav>
   );

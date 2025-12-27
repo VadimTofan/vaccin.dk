@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.scss';
 import { Navbar } from '@/app/shared/navbar/navbar';
+import { Footer } from '@/app/shared/footer/footer';
 import { getLanguage } from '@/utils/localization';
 
 const montserrat = Montserrat({
@@ -23,8 +24,8 @@ export default function RootLayout({
     <html lang={getLanguage()}>
       <body className={montserrat.variable}>
         <Navbar />
-        {children}
-        {/* <Footer /> */}
+        <main className="main">{children}</main>
+        <Footer />
       </body>
     </html>
   );
