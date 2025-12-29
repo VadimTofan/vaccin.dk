@@ -3,7 +3,7 @@ import { Montserrat } from 'next/font/google';
 import './globals.scss';
 import { Navbar } from '@/app/shared/navbar/navbar';
 import { Footer } from '@/app/shared/footer/footer';
-import { getLanguage } from '@/utils/localization';
+import { LanguageProvider } from '@/utils/localization';
 
 const montserrat = Montserrat({
   variable: '--font-montserrat',
@@ -21,11 +21,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang={getLanguage()}>
+    <html lang="en">
       <body className={montserrat.variable}>
-        <Navbar />
-        <main className="main">{children}</main>
-        <Footer />
+        <LanguageProvider>
+          <Navbar />
+          <main className="main">{children}</main>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -49,5 +49,22 @@
       { "name": "Company Agreements", "path": "/company-agreements" },
       { "name": "FAQ", "path": "/faq" }
     ]
+  },
+  "ru": {
+    "nav": [
+      { "name": "Главная", "path": "/", "dropdown": false },
+      { "name": "Направления", "path": "/destination", "dropdown": false },
+      { "name": "Услуги", "path": "/services", "dropdown": true },
+      { "name": "О нас", "path": "/about-us", "dropdown": false },
+      { "name": "Контакты", "path": "/contact", "dropdown": false }
+    ],
+    "services": [
+      { "name": "Цены", "path": "/prices" },
+      { "name": "Вакцины", "path": "/vaccines" },
+      { "name": "Рекомендации", "path": "/advice" },
+      { "name": "Наркотест", "path": "/narco-test" },
+      { "name": "Корпоративные договоры", "path": "/company-agreements" },
+      { "name": "ЧАВО", "path": "/faq" }
+    ]
   }
 }

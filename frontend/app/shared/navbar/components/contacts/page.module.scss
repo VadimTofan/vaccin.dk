@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem;
+    padding-block: 2rem;
   }
 
   &__link {
@@ -31,6 +31,7 @@
     align-items: center;
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: $background-secondary;
@@ -43,5 +44,24 @@
     text-align: center;
     background-color: $primary;
     border-radius: 1rem;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 0.5rem;
+  }
+
+  &__arrow {
+    color: $primary-dark;
+  }
+
+  &__choice {
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    top: 2rem;
+    left: -2.5rem;
   }
 }

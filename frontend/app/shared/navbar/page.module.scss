@@ -9,6 +9,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: $secondary-light;
+
+    @include mixins.tablet {
+      background-color: transparent;
+    }
   }
 
   &__container {
@@ -18,12 +23,16 @@
   }
 
   &__list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    max-width: 80vw;
-    flex: 1;
-    gap: 5rem;
+    display: none;
+
+    @include mixins.tablet {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      max-width: 80vw;
+      flex: 1;
+      gap: 5rem;
+    }
   }
 
   &__dropdown {
@@ -36,6 +45,7 @@
 
   &__link {
     font-size: 2rem;
+    white-space: nowrap;
     font-weight: 600;
     color: $primary-dark;
     border: 0.1px solid transparent;

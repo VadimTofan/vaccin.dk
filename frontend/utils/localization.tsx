@@ -1,19 +1,32 @@
-import { Language } from './localization.type';
+'use client';
 
-let language: Language = 'da';
+import { createContext, useContext, useState } from 'react';
+import type { Language, LanguageContextType } from './localization.type';
 
-export function getLanguage() {
-  return language;
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  const [language, setLanguage] = useState('da' as Language);
+
+  return (
+    <LanguageContext.Provider value={{ language, setLanguage }}>
+      {children}
+    </LanguageContext.Provider>
+  );
 }
 
-export function setLanguage(property: Language) {
-  language = property;
+export function useLanguage() {
+  const context = useContext(LanguageContext);
+
+  if (context === undefined) {
+    throw new Error('useLanguage must be used inside LanguageProvider');
+  }
+  return context;
 }
 
-export function getLocale(locale: any) {
-  let text: any = '';
-  if (language === 'en') text = locale.en;
-  if (language === 'da') text = locale.da;
-  if (language === 'sv') text = locale.sv;
-  return text;
+export function useLocale(locale: any, language: Language) {
+  if (language === 'da') return locale.da;
+  if (language === 'sv') return locale.sv;
+  if (language === 'en') return locale.en;
+  if (language === 'ru') return locale.ru;
 }

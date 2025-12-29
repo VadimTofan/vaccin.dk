@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 100vh;
   font-family: Montserrat, Helvetica, sans-serif;
   color: $secondary;
   background-color: $primary;
@@ -50,6 +51,7 @@ li {
 }
 
 p,
-a {
+a,
+span {
   font-size: 1.4rem;
 }
