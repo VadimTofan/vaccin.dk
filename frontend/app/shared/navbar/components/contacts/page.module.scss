@@ -1,13 +1,20 @@
 @use '@/styles/mixins';
 
 .contacts {
-  display: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: $secondary-light;
+  margin-bottom: -0.1rem;
 
   @include mixins.tablet {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-block: 2rem;
+    padding: 2rem;
+    background-color: $primary;
+  }
+
+  @include mixins.laptop {
+    padding-inline: 0;
   }
 
   &__link {
@@ -61,7 +68,15 @@
     display: flex;
     gap: 0.5rem;
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     left: -2.5rem;
+  }
+
+  &__mobile {
+    display: none;
+
+    @include mixins.tablet {
+      display: flex;
+    }
   }
 }

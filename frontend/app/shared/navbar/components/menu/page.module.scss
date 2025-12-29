@@ -14,7 +14,7 @@
   border: none;
   cursor: pointer;
 
-  &.open {
+  &__open {
     span:nth-child(1) {
       transform: rotate(45deg) translate(0.5rem, 0.5rem);
     }
@@ -28,14 +28,14 @@
     }
   }
 
-  @include mixins.laptop {
+  @include mixins.tablet {
     display: none;
   }
 
   &__line {
     width: 2.5rem;
     height: 0.3rem;
-    background: red;
+    background: $primary;
     border-radius: 0.2rem;
     opacity: 1;
     transition: all 0.3s ease;

@@ -31,24 +31,17 @@ export function Contacts() {
   }, [languages]);
 
   const handleClick = () => {
-    if (!isModalOpen) {
-      setState((prev) => ({ ...prev, isModalOpen: true }));
-    } else {
-      setState((prev) => ({ ...prev, isModalOpen: false }));
-    }
+    setState((prev) => ({ ...prev, isModalOpen: !prev.isModalOpen }));
   };
 
   const handleLanguage = (language: Language) => {
     localStorage.setItem('language', language);
+    console.log(`this is working`);
     setLanguage(language);
   };
 
   const handleDropdown = () => {
-    if (isDropdown === false) {
-      setState((prev) => ({ ...prev, isDropdown: true }));
-    } else {
-      setState((prev) => ({ ...prev, isDropdown: false }));
-    }
+    setState((prev) => ({ ...prev, isDropdown: !prev.isDropdown }));
   };
 
   return (
@@ -60,7 +53,7 @@ export function Contacts() {
           </form>
         </div>
       )}
-      <div className={styles.contacts__location}>
+      <div className={`${styles.contacts__location} ${styles.contacts__mobile}`}>
         <Link
           className={styles.contacts__link}
           href={`https://www.google.com/maps/place/${address.join('+')}+Kastrup/`}
@@ -76,7 +69,7 @@ export function Contacts() {
           {address.join(' ')}
         </Link>
       </div>
-      <div className={styles.contacts__link}>
+      <div className={`${styles.contacts__link} ${styles.contacts__mobile}`}>
         <Image
           className={styles.contacts__svg}
           src="/images/clock.svg"
@@ -88,7 +81,7 @@ export function Contacts() {
       </div>
       <div className={styles.contacts__communication}>
         <Link
-          className={styles.contacts__link}
+          className={`${styles.contacts__link} ${styles.contacts__mobile}`}
           href="mailto:klinik@rcscanning.com"
           onClick={handleClick}
         >
@@ -127,7 +120,7 @@ export function Contacts() {
                   height={20}
                   alt={`Flag ${item}`}
                   onClick={() => {
-                    handleLanguage(item as Language);
+                    handleLanguage(item);
                   }}
                 />
               ))}
