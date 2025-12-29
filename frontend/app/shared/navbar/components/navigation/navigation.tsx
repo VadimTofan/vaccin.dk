@@ -31,6 +31,11 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: any) {
     setState((prev) => ({ ...prev, isDropdown: !prev.isDropdown }));
   };
 
+  const handleLink = () => {
+    setState((prev) => ({ ...prev, isDropdown: false }));
+    setIsMenuOpen(false);
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setIsMenuOpen(false);
@@ -58,7 +63,7 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: any) {
                   {content.services.map((item, index) => (
                     <li key={index}>
                       <Link
-                        onClick={handleDropdown}
+                        onClick={handleLink}
                         className={`${styles.navigation__link} ${styles.navigation__linkdrop}`}
                         href={item.path}
                       >
@@ -70,13 +75,7 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: any) {
               )}
             </div>
           ) : (
-            <Link
-              onClick={() => {
-                setState((prev) => ({ ...prev, isDropdown: false }));
-              }}
-              className={styles.navigation__link}
-              href={item.path}
-            >
+            <Link onClick={handleLink} className={styles.navigation__link} href={item.path}>
               {item.name}
             </Link>
           )}

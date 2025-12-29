@@ -3,6 +3,7 @@
 .navigation {
   &__list {
     display: none;
+    position: relative;
 
     @include mixins.tablet {
       display: flex;
@@ -17,9 +18,13 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 15rem;
-      right: 2rem;
+      top: 12rem;
+      left: 0;
+      width: 100%;
+      padding-right: 2rem;
+      padding-bottom: 2rem;
       text-align: right;
+      background-color: $secondary-light;
     }
   }
 
@@ -37,18 +42,16 @@
     font-size: 2rem;
     font-weight: 600;
     color: $primary-dark;
-    border: 0.1px solid transparent;
-    transition:
-      color 0.5s ease,
-      border-color 0.5s ease;
+    transition: color 0.5s ease;
     white-space: nowrap;
 
     &:hover {
-      color: $secondary-light;
-      border-radius: 0.5rem;
-      transition:
-        color 0.5s ease,
-        border-color 0.5s ease;
+      @include mixins.tablet {
+        color: $secondary-light;
+        transition:
+          color 0.5s ease,
+          border-color 0.5s ease;
+      }
     }
 
     &drop {
