@@ -91,7 +91,7 @@
     }
   },
 
-  "gr": {
+  "el": {
     "nav": [
       { "name": "Αρχική", "path": "/", "dropdown": false },
       { "name": "Προορισμοί", "path": "/destination", "dropdown": false },

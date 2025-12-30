@@ -16,7 +16,7 @@ export function Contacts() {
 
   const address: string[] = ['Amager', 'Landevej', '31,', '2770'];
 
-  const languages: Language[] = ['da', 'en', 'sv', 'ru', 'gr'];
+  const languages: Language[] = ['da', 'en', 'sv', 'ru', 'el'];
   const inactiveLanguages = languages.filter((lang) => lang !== language);
 
   useEffect(() => {
