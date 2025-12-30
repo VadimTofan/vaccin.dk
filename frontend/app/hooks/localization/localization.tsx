@@ -29,5 +29,5 @@ export function useLocale(locale: any, language: Language) {
   if (language === 'sv') return locale.sv;
   if (language === 'en') return locale.en;
   if (language === 'ru') return locale.ru;
-  if (language === 'el') return locale.gr;
+  if (language === 'el') return locale.el;
 }
