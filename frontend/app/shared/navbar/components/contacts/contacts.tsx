@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { useEffect, useState } from 'react';
-import { useLanguage } from '@/utils/localization';
+import { useLanguage } from '@/app/hooks/localization/localization';
 
-import type { Language } from '@/utils/localization.type';
+import type { Language } from '@/app/hooks/localization/localization.type';
 
 export function Contacts() {
   const [state, setState] = useState({ isModalOpen: false, isDropdown: false });
@@ -16,7 +16,7 @@ export function Contacts() {
 
   const address: string[] = ['Amager', 'Landevej', '31,', '2770'];
 
-  const languages: Language[] = ['da', 'en', 'sv', 'ru'];
+  const languages: Language[] = ['da', 'en', 'sv', 'ru', 'el'];
   const inactiveLanguages = languages.filter((lang) => lang !== language);
 
   useEffect(() => {
