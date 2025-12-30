@@ -4,7 +4,7 @@ import styles from './page.module.scss';
 
 import { useEffect, useState } from 'react';
 import { NavItem } from '../../navbar.type';
-import { useLanguage, useLocale } from '@/utils/localization';
+import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
 import Link from 'next/link';
 
 export function Navigation({ isMenuOpen, setIsMenuOpen }: any) {
