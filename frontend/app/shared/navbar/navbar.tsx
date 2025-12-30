@@ -27,7 +27,7 @@ export function Navbar() {
             <Image
               className={styles.navigation__logo}
               src="/images/logo.webp"
-              width={50}
+              width={60}
               height={40}
               alt="logo"
             />
