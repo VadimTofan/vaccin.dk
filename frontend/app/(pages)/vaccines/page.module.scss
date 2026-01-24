@@ -1,0 +1,7 @@
+@use '@/styles/mixins';
+
+.vaccines {
+  display: flex;
+  flex: row;
+  gap: 5rem;
+}

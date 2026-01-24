@@ -25,9 +25,5 @@ export function useLanguage() {
 }
 
 export function useLocale(locale: any, language: Language) {
-  if (language === 'da') return locale.da;
-  if (language === 'sv') return locale.sv;
-  if (language === 'en') return locale.en;
-  if (language === 'ru') return locale.ru;
-  if (language === 'el') return locale.el;
+  return locale[language];
 }

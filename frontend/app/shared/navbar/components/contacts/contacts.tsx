@@ -36,7 +36,6 @@ export function Contacts() {
 
   const handleLanguage = (language: Language) => {
     localStorage.setItem('language', language);
-    console.log(`this is working`);
     setLanguage(language);
   };
 
