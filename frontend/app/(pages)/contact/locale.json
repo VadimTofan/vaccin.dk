@@ -1,0 +1,405 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Contact us",
+      "title": "Welcome to VACCIN DK",
+      "lead": [
+        "Destinations and relevant vaccinations.",
+        "Before booking, we recommend that you call or write for the best guidance."
+      ],
+      "actions": {
+        "call": "Call now",
+        "write": "Write to us"
+      }
+    },
+    "contact": {
+      "title": "Contact information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "phoneValue": "(+45) 54 55 89 65",
+      "emailValue": "klinik@rcscanning.com",
+      "addressValue": "Amager Landevej 31, 2770",
+      "instagramValue": "vaccin.dk.7",
+      "facebookValue": "vaccin.dk.7"
+    },
+    "sections": {
+      "highlights": "Contact highlights",
+      "consultation": "Consultation",
+      "about": "About us"
+    },
+    "features": {
+      "certificate": {
+        "title": "Vaccination card",
+        "text": "After vaccination at our clinic, you receive a vaccination card for your destination."
+      },
+      "documentation": {
+        "title": "Valid documentation",
+        "text": "The card is valid documentation when entering the country you travel to."
+      },
+      "help": {
+        "title": "We are here to help",
+        "text": "We appreciate your choice and look forward to helping you."
+      },
+      "consultation": {
+        "title": "Advice",
+        "text": "Vaccination can protect against serious diseases, and thanks to the childhood vaccination program, many diseases are now rare in Denmark."
+      },
+      "travel": {
+        "title": "Travel guidance",
+        "text": "When you travel outside Denmark, vaccinations may be relevant for diseases not covered by the Danish childhood vaccination program."
+      },
+      "advice": {
+        "title": "Get advice",
+        "text": "Contact your doctor or a vaccination clinic for good vaccination guidance."
+      },
+      "team": {
+        "title": "About the clinic",
+        "text": "Our team consists of doctors and clinic staff who want to provide a good experience, even in difficult situations."
+      },
+      "facility": {
+        "title": "Facilities",
+        "text": "We have spacious premises, a good location, and free parking at the door."
+      }
+    },
+    "form": {
+      "title": "Write to us",
+      "text": "Send us a message and we will get back to you as soon as possible.",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "name@example.com",
+        "phone": "+45 12 34 56 78",
+        "message": "How can we help you?"
+      },
+      "submit": "Send"
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ["", ""],
+      "actions": {
+        "call": "",
+        "write": ""
+      }
+    },
+    "contact": {
+      "title": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "instagram": "",
+      "facebook": "",
+      "phoneValue": "",
+      "emailValue": "",
+      "addressValue": "",
+      "instagramValue": "",
+      "facebookValue": ""
+    },
+    "sections": {
+      "highlights": "",
+      "consultation": "",
+      "about": ""
+    },
+    "features": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "documentation": {
+        "title": "",
+        "text": ""
+      },
+      "help": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": ""
+      },
+      "travel": {
+        "title": "",
+        "text": ""
+      },
+      "advice": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "form": {
+      "title": "",
+      "text": "",
+      "fields": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "placeholders": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "submit": ""
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ["", ""],
+      "actions": {
+        "call": "",
+        "write": ""
+      }
+    },
+    "contact": {
+      "title": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "instagram": "",
+      "facebook": "",
+      "phoneValue": "",
+      "emailValue": "",
+      "addressValue": "",
+      "instagramValue": "",
+      "facebookValue": ""
+    },
+    "sections": {
+      "highlights": "",
+      "consultation": "",
+      "about": ""
+    },
+    "features": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "documentation": {
+        "title": "",
+        "text": ""
+      },
+      "help": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": ""
+      },
+      "travel": {
+        "title": "",
+        "text": ""
+      },
+      "advice": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "form": {
+      "title": "",
+      "text": "",
+      "fields": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "placeholders": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "submit": ""
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ["", ""],
+      "actions": {
+        "call": "",
+        "write": ""
+      }
+    },
+    "contact": {
+      "title": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "instagram": "",
+      "facebook": "",
+      "phoneValue": "",
+      "emailValue": "",
+      "addressValue": "",
+      "instagramValue": "",
+      "facebookValue": ""
+    },
+    "sections": {
+      "highlights": "",
+      "consultation": "",
+      "about": ""
+    },
+    "features": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "documentation": {
+        "title": "",
+        "text": ""
+      },
+      "help": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": ""
+      },
+      "travel": {
+        "title": "",
+        "text": ""
+      },
+      "advice": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "form": {
+      "title": "",
+      "text": "",
+      "fields": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "placeholders": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "submit": ""
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ["", ""],
+      "actions": {
+        "call": "",
+        "write": ""
+      }
+    },
+    "contact": {
+      "title": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "instagram": "",
+      "facebook": "",
+      "phoneValue": "",
+      "emailValue": "",
+      "addressValue": "",
+      "instagramValue": "",
+      "facebookValue": ""
+    },
+    "sections": {
+      "highlights": "",
+      "consultation": "",
+      "about": ""
+    },
+    "features": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "documentation": {
+        "title": "",
+        "text": ""
+      },
+      "help": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": ""
+      },
+      "travel": {
+        "title": "",
+        "text": ""
+      },
+      "advice": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "form": {
+      "title": "",
+      "text": "",
+      "fields": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "placeholders": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "message": ""
+      },
+      "submit": ""
+    }
+  }
+}
