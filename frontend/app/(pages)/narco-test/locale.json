@@ -1,0 +1,193 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Narco test",
+      "title": "Narco test",
+      "lede": "We offer drug testing for both individuals and companies."
+    },
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "text": "Alcohol and drugs remain a major problem for individuals, society, and many workplaces. Drug testing can be an effective part of prevention work when it is part of a clear alcohol and drug policy.",
+        "list": [
+          "Identify employees at risk early and provide help before it impacts health or finances."
+        ]
+      },
+      "companies": {
+        "title": "Companies",
+        "text": "If an employee is under the influence at work, the risk of accidents increases and business insurance may not cover losses when drugs are involved. Before booking a random test, ensure you have a clear drug policy.",
+        "intro": "Guiding conditions for lawful testing:",
+        "list": [
+          "There must be a well-founded (concrete and current) suspicion of an unlawful relationship.",
+          "There must be special operational or safety conditions that justify an inspection.",
+          "The test must not be unnecessarily offensive or intrusive to the employee."
+        ],
+        "note": "These conditions are guidance only, and control measures may be regulated elsewhere depending on how your drug policy is implemented."
+      },
+      "private": {
+        "title": "Private",
+        "text": "As a private person, you can book an appointment and have a drug test performed at the clinic. We can also send the test to your private address. Our staff provides guidance in connection with the test."
+      },
+      "price": {
+        "title": "Price",
+        "value": "690 DKK Multitest",
+        "note": "For tests of persons without a Danish civil registration number and NemID, please contact us."
+      },
+      "contact": {
+        "title": "Contact us",
+        "address": "Amager Landevej 31, 2770",
+        "hours": "08.00 - 16.00",
+        "phone": "(+45) 54 55 89 65",
+        "note": "Before booking, make sure you call or message us for the best guidance."
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "companies": {
+        "title": "",
+        "text": "",
+        "intro": "",
+        "list": ["", "", ""],
+        "note": ""
+      },
+      "private": {
+        "title": "",
+        "text": ""
+      },
+      "price": {
+        "title": "",
+        "value": "",
+        "note": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "note": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "companies": {
+        "title": "",
+        "text": "",
+        "intro": "",
+        "list": ["", "", ""],
+        "note": ""
+      },
+      "private": {
+        "title": "",
+        "text": ""
+      },
+      "price": {
+        "title": "",
+        "value": "",
+        "note": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "note": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "companies": {
+        "title": "",
+        "text": "",
+        "intro": "",
+        "list": ["", "", ""],
+        "note": ""
+      },
+      "private": {
+        "title": "",
+        "text": ""
+      },
+      "price": {
+        "title": "",
+        "value": "",
+        "note": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "note": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "companies": {
+        "title": "",
+        "text": "",
+        "intro": "",
+        "list": ["", "", ""],
+        "note": ""
+      },
+      "private": {
+        "title": "",
+        "text": ""
+      },
+      "price": {
+        "title": "",
+        "value": "",
+        "note": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "note": ""
+      }
+    }
+  }
+}
