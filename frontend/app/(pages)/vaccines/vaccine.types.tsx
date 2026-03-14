@@ -10,8 +10,8 @@ export type Vaccine = {
 };
 
 export type Info = {
-  price: number;
-  doses: number;
+  price: string;
+  doses: string;
   protection: string;
   extra: string;
 };

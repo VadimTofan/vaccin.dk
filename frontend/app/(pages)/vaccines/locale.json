@@ -46,6 +46,27 @@
       }
     },
 
+    "headers": {
+      "symptoms": "Sygdommen og dens symptomer",
+      "how_common": "Hvor udbredt er ",
+      "what_is": "Hvad er ",
+      "what_is_chronic": "Hvad er kronisk",
+      "can_be_vaccinated": "Kan man vaccineres mod ",
+      "protection": "Anden beskyttelse",
+      "how_can_be_transmited": "Hvordan sker smitter ",
+      "vaccination": "Vaccination",
+      "vulnerable": "De mest udsatte personer",
+      "source": "Smittekilder",
+      "occurrence": "Forekomst"
+    },
+
+    "info": {
+      "title": "Vaccinationsinformation",
+      "price": "Pris pr. dosis",
+      "doses": "Antal doser",
+      "protection": "Anslået beskyttelse"
+    },
+
     "hepatitis_a": {
       "title": "Hepatitis A",
       "description": "Hepatitis A også kaldet smitsom leverbetændelse, er en akut smitsom leversygdom, der skyldes en virus. Vaccination mod hepatitis A er ikke en del af det nationale vaccinationsprogram.",
@@ -881,27 +902,6 @@
         "protection": "5 år",
         "extra": ""
       }
-    },
-
-    "headers": {
-      "symptoms": "Sygdommen og dens symptomer",
-      "how_common": "Hvor udbredt er ",
-      "what_is": "Hvad er ",
-      "what_is_chronic": "Hvad er kronisk",
-      "can_be_vaccinated": "Kan man vaccineres mod ",
-      "protection": "Anden beskyttelse",
-      "how_can_be_transmited": "Hvordan sker smitter ",
-      "vaccination": "Vaccination",
-      "vulnerable": "De mest udsatte personer",
-      "source": "Smittekilder",
-      "occurrence": "Forekomst"
-    },
-
-    "info": {
-      "title": "Vaccinationsinformation",
-      "price": "Pris pr. dosis",
-      "doses": "Antal doser",
-      "protection": "Anslået beskyttelse"
     }
   },
 
@@ -950,6 +950,26 @@
         "protection": "",
         "extra": ""
       }
+    },
+    "headers": {
+      "symptoms": "Sjukdomen och dess symtom",
+      "how_common": "Hur vanligt är ",
+      "what_is": "Vad är ",
+      "what_is_chronic": "Vad är kronisk",
+      "can_be_vaccinated": "Kan du vaccineras mot ",
+      "protection": "Annat skydd",
+      "how_can_be_transmited": "Hur smittar ",
+      "vaccination": "Vaccination",
+      "vulnerable": "De mest sårbara personerna",
+      "source": "Smittkällor",
+      "occurrence": "Förekomst"
+    },
+
+    "info": {
+      "title": "Vaccinationsinformation",
+      "price": "Pris per dos",
+      "doses": "Antal doser",
+      "protection": "Uppskattat skydd"
     },
 
     "hepatitis_a": {
@@ -1784,27 +1804,6 @@
         "protection": "5 år",
         "extra": ""
       }
-    },
-
-    "headers": {
-      "symptoms": "Sjukdomen och dess symtom",
-      "how_common": "Hur vanligt är ",
-      "what_is": "Vad är ",
-      "what_is_chronic": "Vad är kronisk",
-      "can_be_vaccinated": "Kan du vaccineras mot ",
-      "protection": "Annat skydd",
-      "how_can_be_transmited": "Hur smittar ",
-      "vaccination": "Vaccination",
-      "vulnerable": "De mest sårbara personerna",
-      "source": "Smittkällor",
-      "occurrence": "Förekomst"
-    },
-
-    "info": {
-      "title": "Vaccinationsinformation",
-      "price": "Pris per dos",
-      "doses": "Antal doser",
-      "protection": "Uppskattat skydd"
     }
   },
 
@@ -1853,6 +1852,27 @@
         "protection": "",
         "extra": ""
       }
+    },
+
+    "headers": {
+      "symptoms": "The disease and its symptoms",
+      "how_common": "How common is ",
+      "what_is": "What is ",
+      "what_is_chronic": "What is chronic",
+      "can_be_vaccinated": "Can you be vaccinated against ",
+      "protection": "Other protection",
+      "how_can_be_transmited": "How is it transmitted ",
+      "vaccination": "Vaccination",
+      "vulnerable": "The most vulnerable people",
+      "source": "Sources of infection",
+      "occurrence": "Occurrence"
+    },
+
+    "info": {
+      "title": "Vaccination information",
+      "price": "Price per dose",
+      "doses": "Number of doses",
+      "protection": "Estimated protection"
     },
 
     "hepatitis_a": {
@@ -2692,27 +2712,6 @@
         "protection": "5 years",
         "extra": ""
       }
-    },
-
-    "headers": {
-      "symptoms": "The disease and its symptoms",
-      "how_common": "How common is ",
-      "what_is": "What is ",
-      "what_is_chronic": "What is chronic",
-      "can_be_vaccinated": "Can you be vaccinated against ",
-      "protection": "Other protection",
-      "how_can_be_transmited": "How is it transmitted ",
-      "vaccination": "Vaccination",
-      "vulnerable": "The most vulnerable people",
-      "source": "Sources of infection",
-      "occurrence": "Occurrence"
-    },
-
-    "info": {
-      "title": "Vaccination information",
-      "price": "Price per dose",
-      "doses": "Number of doses",
-      "protection": "Estimated protection"
     }
   },
 
@@ -2761,6 +2760,27 @@
         "protection": "",
         "extra": ""
       }
+    },
+
+    "headers": {
+      "symptoms": "Заболевание и его симптомы",
+      "how_common": "Насколько распространено ",
+      "what_is": "Что это",
+      "what_is_chronic": "Что такое хроническое",
+      "can_be_vaccinated": "Можно ли вакцинироваться от ",
+      "protection": "Дополнительная защита",
+      "how_can_be_transmited": "как передаётся ",
+      "vaccination": "Вакцинация",
+      "vulnerable": "Наиболее уязвимые группы",
+      "source": "Источники инфекции",
+      "occurrence": "Распространённость"
+    },
+
+    "info": {
+      "title": "Информация о вакцине",
+      "price": "Цена за дозу",
+      "doses": "Количество доз",
+      "protection": "Примерная защита"
     },
 
     "hepatitis_a": {
@@ -3002,7 +3022,7 @@
     },
 
     "hpv": {
-      "title": "Инфекция HPV(Человеческий Папилломавирус)",
+      "title": "Инфекция HPV(ВПЧ)",
       "description": "Инфекция HPV (человеческий папилломавирус) является основной причиной рака шейки матки. Вакцинация входит в программу вакцинации детей в Дании.",
       "what_is": [
         "HPV (человеческий папилломавирус) включает около 100 различных типов вирусов.",
@@ -3598,27 +3618,6 @@
         "protection": "5 лет",
         "extra": ""
       }
-    },
-
-    "headers": {
-      "symptoms": "заболевание и его симптомы",
-      "how_common": "насколько распространено ",
-      "what_is": "что такое ",
-      "what_is_chronic": "что такое хроническое",
-      "can_be_vaccinated": "можно ли вакцинироваться от ",
-      "protection": "другая защита",
-      "how_can_be_transmited": "как передаётся ",
-      "vaccination": "вакцинация",
-      "vulnerable": "наиболее уязвимые группы",
-      "source": "источники инфекции",
-      "occurrence": "распространённость"
-    },
-
-    "info": {
-      "title": "информация о вакцинации",
-      "price": "цена за дозу",
-      "doses": "количество доз",
-      "protection": "примерная защита"
     }
   },
 
@@ -3667,6 +3666,27 @@
         "protection": "",
         "extra": ""
       }
+    },
+
+    "headers": {
+      "symptoms": "Η νόσος και τα συμπτώματά της",
+      "how_common": "Πόσο κοινή είναι η ",
+      "what_is": "Τι είναι η ",
+      "what_is_chronic": "Τι είναι η χρόνια",
+      "can_be_vaccinated": "Μπορείτε να εμβολιαστείτε κατά της ",
+      "protection": "Άλλη προστασία",
+      "how_can_be_transmited": "Πώς μεταδίδεται ",
+      "vaccination": "Εμβολιασμός",
+      "vulnerable": "Οι πιο ευάλωτοι άνθρωποι",
+      "source": "Πηγές μόλυνσης",
+      "occurrence": "Εμφάνιση"
+    },
+
+    "info": {
+      "title": "Πληροφορίες εμβολιασμού",
+      "price": "Τιμή ανά δόση",
+      "doses": "Αριθμός δόσεων",
+      "protection": "Εκτιμώμενη προστασία"
     },
 
     "hepatitis_a": {
@@ -4506,27 +4526,6 @@
         "protection": "5 χρόνια",
         "extra": ""
       }
-    },
-
-    "headers": {
-      "symptoms": "Η νόσος και τα συμπτώματά της",
-      "how_common": "Πόσο κοινή είναι η ",
-      "what_is": "Τι είναι η ",
-      "what_is_chronic": "Τι είναι η χρόνια",
-      "can_be_vaccinated": "Μπορείτε να εμβολιαστείτε κατά της ",
-      "protection": "Άλλη προστασία",
-      "how_can_be_transmited": "Πώς μεταδίδεται ",
-      "vaccination": "Εμβολιασμός",
-      "vulnerable": "Οι πιο ευάλωτοι άνθρωποι",
-      "source": "Πηγές μόλυνσης",
-      "occurrence": "Εμφάνιση"
-    },
-
-    "info": {
-      "title": "Πληροφορίες εμβολιασμού",
-      "price": "Τιμή ανά δόση",
-      "doses": "Αριθμός δόσεων",
-      "protection": "Εκτιμώμενη προστασία"
     }
   }
 }

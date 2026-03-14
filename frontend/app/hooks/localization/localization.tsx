@@ -24,6 +24,6 @@ export function useLanguage() {
   return context;
 }
 
-export function useLocale(locale: any, language: Language) {
+export function useLocale<T>(locale: Record<Language, T>, language: Language): T {
   return locale[language];
 }

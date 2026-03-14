@@ -4,60 +4,62 @@ import locale from './locale.json';
 
 import styles from './page.module.scss';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
-import { Vaccine } from './vaccine.types';
+
+const localeData = locale as const;
+
+type LocaleContent = (typeof localeData)['da'];
+type VaccineKey = Extract<LocaleContent['types'][number]['path'], keyof LocaleContent> | 'welcome';
 
 export default function Vaccines() {
-  const [state, setState] = useState({
-    content: locale.da,
-    vaccine: 'welcome',
-  });
-  const { content, vaccine } = state;
+  const [vaccine, setVaccine] = useState<VaccineKey>('welcome');
 
   const { language } = useLanguage();
+  const content = useLocale<LocaleContent>(localeData, language);
 
-  useEffect(() => {
-    setState((prev) => ({ ...prev, content: useLocale(locale, language) }));
-  }, [language]);
+  const selectedVaccine = content[vaccine];
 
-  const selectedVaccine: Vaccine = (content as Record<string, any>)[vaccine];
-  console.log(selectedVaccine);
   return (
     <div className={styles.vaccines}>
-      <ul>
-        {content?.types.map((item, index) => (
+      <ul className={styles.vaccines__list}>
+        {content?.types.map((item) => (
           <li key={item.path}>
-            <button onClick={() => setState((prev) => ({ ...prev, vaccine: item.path }))}>
+            <button
+              className={styles.vaccines__button}
+              onClick={() => setVaccine(item.path)}
+            >
               {item.name}
             </button>
           </li>
         ))}
       </ul>
       {vaccine === 'welcome' ? (
-        <h1>Welcome to our Vaccination Page</h1>
+        <h1>{content.welcome.title}</h1>
       ) : (
-        <div>
-          <h1>{selectedVaccine.title}</h1>
-          {selectedVaccine.info.price && (
-            <table>
-              <caption>{content.info.title}</caption>
-              <thead>
-                <tr>
-                  <th>{content.info.price}</th>
-                  <th>{content.info.doses}</th>
-                  <th>{content.info.protection}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>{selectedVaccine.info.price} DKK</td>
-                  <td>{selectedVaccine.info.doses}</td>
-                  <td>{selectedVaccine.info.protection}</td>
-                </tr>
-              </tbody>
-            </table>
-          )}
+        <section>
+          <div className={styles.vaccines__information}>
+            <h1 className={styles.vaccines__heading}>{selectedVaccine.title}</h1>
+            {selectedVaccine.info.price && (
+              <table className={styles.vaccines__table}>
+                <caption className={styles.vaccines__info}>{content.info.title}</caption>
+                <thead>
+                  <tr>
+                    <th className={styles.vaccines__thead}>{content.info.price}</th>
+                    <th className={styles.vaccines__thead}>{content.info.doses}</th>
+                    <th className={styles.vaccines__thead}>{content.info.protection}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className={styles.vaccines__tbody}>{selectedVaccine.info.price} DKK</td>
+                    <td className={styles.vaccines__tbody}>{selectedVaccine.info.doses}</td>
+                    <td className={styles.vaccines__tbody}>{selectedVaccine.info.protection}</td>
+                  </tr>
+                </tbody>
+              </table>
+            )}
+          </div>
           {selectedVaccine.info.extra && <p>{selectedVaccine.info.extra}</p>}
           <h2>{content.headers.symptoms}</h2>
           <p>{selectedVaccine.what_is}</p>
@@ -67,7 +69,7 @@ export default function Vaccines() {
           <p>{selectedVaccine.protection}</p>
           <h2>{content.headers.source}</h2>
           <p>{selectedVaccine.source}</p>
-        </div>
+        </section>
       )}
     </div>
   );

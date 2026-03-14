@@ -4,4 +4,44 @@
   display: flex;
   flex: row;
   gap: 5rem;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    min-width: 20%;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  &__button {
+    font-size: 2rem;
+  }
+
+  &__heading {
+    text-align: center;
+  }
+
+  &__information {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__table {
+    width: 50%;
+  }
+
+  &__thead,
+  &__tbody,
+  &__table {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid $secondary;
+  }
+
+  &__info {
+    font-size: 2.5rem;
+  }
 }
