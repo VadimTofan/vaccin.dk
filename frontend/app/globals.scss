@@ -8,10 +8,6 @@ body {
   font-size: 62.5%;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -52,6 +48,18 @@ li {
 
 p,
 a,
-span {
+span,
+th,
+td {
   font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
