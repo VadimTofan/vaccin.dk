@@ -7,18 +7,15 @@ import styles from './page.module.scss';
 import { useState } from 'react';
 import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
 
-const localeData = locale as const;
-
-type LocaleContent = (typeof localeData)['da'];
-type VaccineKey = Extract<LocaleContent['types'][number]['path'], keyof LocaleContent> | 'welcome';
+import type { LocaleContent, LocaleVaccine, VaccineKey } from './vaccines.type';
 
 export default function Vaccines() {
   const [vaccine, setVaccine] = useState<VaccineKey>('welcome');
 
   const { language } = useLanguage();
-  const content = useLocale<LocaleContent>(localeData, language);
+  const content = useLocale<LocaleContent>(locale, language);
 
-  const selectedVaccine = content[vaccine];
+  const selectedVaccine = content[vaccine] as LocaleVaccine;
 
   return (
     <div className={styles.vaccines}>
@@ -58,14 +55,14 @@ export default function Vaccines() {
               {selectedVaccine.info.price && (
                 <table className={styles.vaccines__table}>
                   <caption className={styles.vaccines__info}>{content.info.title}</caption>
-                  <thead className={styles.vaccines__table_head}>
+                  <thead>
                     <tr>
                       <th className={styles.vaccines__thead}>{content.info.price}</th>
                       <th className={styles.vaccines__thead}>{content.info.doses}</th>
                       <th className={styles.vaccines__thead}>{content.info.protection}</th>
                     </tr>
                   </thead>
-                  <tbody className={styles.vaccines__table_body}>
+                  <tbody>
                     <tr>
                       <td className={styles.vaccines__tbody}>{selectedVaccine.info.price} DKK</td>
                       <td className={styles.vaccines__tbody}>{selectedVaccine.info.doses}</td>
@@ -105,3 +102,4 @@ export default function Vaccines() {
     </div>
   );
 }
+
