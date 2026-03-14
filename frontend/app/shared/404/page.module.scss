@@ -1,0 +1,61 @@
+@use '@/styles/colors' as *;
+@use '@/styles/mixins' as mixins;
+
+.not_found {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+  padding: 2.5rem;
+  text-align: center;
+  color: $text-ink;
+  background: rgba($surface-card, 0.9);
+  border-radius: 2rem;
+
+  @include mixins.small-tablet {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 3rem;
+  }
+
+  &__badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: $text-inverse;
+    background: $accent-sea;
+    border-radius: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 2.6rem;
+  }
+
+  &__message {
+    margin: 0;
+    font-size: 1.4rem;
+    color: $text-muted;
+  }
+
+  &__button {
+    align-self: flex-start;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: $text-inverse;
+    background: $accent-sea;
+    border-radius: 999rem;
+  }
+}
