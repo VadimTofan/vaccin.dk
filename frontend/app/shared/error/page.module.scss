@@ -1,0 +1,65 @@
+@use '@/styles/colors' as *;
+@use '@/styles/mixins' as mixins;
+
+.error {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 2rem;
+  border-radius: 1.6rem;
+  background: rgba($surface-card, 0.9);
+  color: $text-ink;
+
+  @include mixins.small-tablet {
+    padding: 2.4rem;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  &__badge {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 999rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $text-inverse;
+    background: $accent-sea;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  &__message {
+    margin: 0;
+    font-size: 1.4rem;
+    color: $text-muted;
+  }
+
+  &__button {
+    align-self: flex-start;
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: $text-inverse;
+    background: $accent-sea;
+    border: none;
+    border-radius: 999rem;
+    cursor: pointer;
+  }
+}
