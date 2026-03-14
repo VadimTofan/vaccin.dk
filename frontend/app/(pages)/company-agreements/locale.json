@@ -1,0 +1,182 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Company agreements",
+      "title": "Company agreements",
+      "lede": "We help companies keep employees protected for business travel with the right vaccinations and clear guidance."
+    },
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "text": "We place great importance on keeping employees safe when traveling. We can deliver this service to companies that want an agreement with our clinic."
+      },
+      "guidance": {
+        "title": "Guidance and planning",
+        "text": "We are ready to advise which vaccinations are necessary, and we help plan each employee's vaccination schedule."
+      },
+      "service": {
+        "title": "Complete service",
+        "text": "We ensure that employees receive all necessary vaccinations related to business travel."
+      },
+      "vat": {
+        "title": "VAT deduction",
+        "text": "Vaccines purchased through the clinic are deductible when they are necessary for the business trip."
+      },
+      "logistics": {
+        "title": "Logistics",
+        "text": "Vaccines are often delivered in larger packages and must be prepared. An agreement helps ensure the right vaccines are available when needed. Vaccines can only be ordered from the clinic after an agreement."
+      },
+      "contact": {
+        "title": "Contact",
+        "address": "Amager Landevej 31, 2770",
+        "phone": "(+45) 54 55 89 65",
+        "email": "klinik@rcscanning.com",
+        "note": "We appreciate our collaboration with companies and are ready to help you." 
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": ""
+      },
+      "guidance": {
+        "title": "",
+        "text": ""
+      },
+      "service": {
+        "title": "",
+        "text": ""
+      },
+      "vat": {
+        "title": "",
+        "text": ""
+      },
+      "logistics": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "note": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": ""
+      },
+      "guidance": {
+        "title": "",
+        "text": ""
+      },
+      "service": {
+        "title": "",
+        "text": ""
+      },
+      "vat": {
+        "title": "",
+        "text": ""
+      },
+      "logistics": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "note": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": ""
+      },
+      "guidance": {
+        "title": "",
+        "text": ""
+      },
+      "service": {
+        "title": "",
+        "text": ""
+      },
+      "vat": {
+        "title": "",
+        "text": ""
+      },
+      "logistics": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "note": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lede": ""
+    },
+    "sections": {
+      "overview": {
+        "title": "",
+        "text": ""
+      },
+      "guidance": {
+        "title": "",
+        "text": ""
+      },
+      "service": {
+        "title": "",
+        "text": ""
+      },
+      "vat": {
+        "title": "",
+        "text": ""
+      },
+      "logistics": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "note": ""
+      }
+    }
+  }
+}
