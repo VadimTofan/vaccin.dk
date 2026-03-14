@@ -1,65 +1,35 @@
 @use '@/styles/colors' as *;
-@use '@/styles/mixins';
+@use '@/styles/mixins' as mixins;
 
 .contact {
-  position: relative;
-  min-height: 100vh;
-  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem 1.5rem;
   color: $text-ink;
-  background:
-    radial-gradient(120rem 50rem at 10% -10%, $accent-peach-soft 0%, transparent 60%),
-    radial-gradient(90rem 60rem at 90% 10%, $accent-mint-soft 0%, transparent 55%),
-    linear-gradient(160deg, $surface-cream, $surface-card 45%, $surface-sand 100%);
-  overflow: hidden;
+  background: rgba($surface-card, 0.9);
+  border-radius: 2rem;
 
   @include mixins.small-tablet {
-    padding: clamp(2rem, 4vw, 5rem);
-  }
-
-  &::before,
-  &::after {
-    position: absolute;
-    z-index: 0;
-    border-radius: 999rem;
-    opacity: 0.35;
-    content: '';
-    filter: blur(0);
-  }
-
-  &::before {
-    top: -9rem;
-    right: -12rem;
-    width: 34rem;
-    height: 34rem;
-    background: $accent-peach;
-  }
-
-  &::after {
-    bottom: -11rem;
-    left: -7rem;
-    width: 26rem;
-    height: 26rem;
-    background: $accent-mint;
+    padding: 3rem;
   }
 
   &__hero {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-    gap: clamp(2rem, 4vw, 4rem);
-    align-items: center;
-    position: relative;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @include mixins.small-tablet {
+      flex-direction: row;
+      align-items: flex-start;
+    }
   }
 
   &__hero_copy {
-    display: grid;
-    gap: 1.25rem;
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2.4rem, 4vw, 4rem);
-      line-height: 1.05;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
   }
 
   &__eyebrow {
@@ -72,150 +42,115 @@
   }
 
   &__lede {
-    max-width: 40ch;
     margin: 0;
-    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    font-size: 1.2rem;
     color: $text-muted;
   }
 
   &__actions {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
-
-    @include mixins.small-tablet {
-      flex-direction: row;
-      align-items: center;
-    }
+    gap: 1rem;
   }
 
   &__button_primary,
   &__button_ghost {
-    padding: 0.85rem 1.5rem;
+    padding: 0.8rem 1.4rem;
     font-size: 1rem;
     font-weight: 600;
-    border: none;
+    border: 0.1rem solid transparent;
     border-radius: 999rem;
     cursor: pointer;
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease,
-      background-color 0.2s ease;
   }
 
   &__button_primary {
     color: $text-inverse;
     background: $accent-sea;
-    box-shadow: 0 1.2rem 2.4rem rgba($accent-sea, 0.25);
   }
 
   &__button_ghost {
     color: $accent-sea;
     background: transparent;
-    border: 0.1rem solid rgba($accent-sea, 0.4);
-  }
-
-  &__button_primary:hover,
-  &__button_primary:focus-visible,
-  &__button_ghost:hover,
-  &__button_ghost:focus-visible {
-    transform: translateY(-0.2rem);
+    border-color: rgba($accent-sea, 0.4);
   }
 
   &__card {
-    display: grid;
-    padding: 2rem;
-    background: $surface-card;
-    border-radius: 2.4rem;
-    box-shadow: 0 1.8rem 4rem rgba($secondary, 0.08);
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
-
-    h2 {
-      margin: 0 0 0.5rem;
-      font-size: 1.4rem;
-    }
-
-    address {
-      display: grid;
-      gap: 0.75rem;
-      font-style: normal;
-    }
+    padding: 1.6rem;
+    background: $surface-card;
+    border-radius: 1.6rem;
   }
 
   &__detail {
-    display: grid;
-    gap: 0.25rem;
-    font-size: 0.95rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 1.2rem;
     color: $text-muted;
-
-    strong {
-      font-weight: 600;
-      color: $text-ink;
-    }
   }
 
   &__grid {
-    margin-top: clamp(2.5rem, 5vw, 4rem);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-    gap: 1.5rem;
-    position: relative;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include mixins.small-tablet {
+      flex-direction: row;
+    }
   }
 
   &__feature {
-    padding: 1.5rem;
-    background: rgba($surface-card, 0.8);
-    border-radius: 2rem;
-    box-shadow: 0 1rem 3rem rgba($secondary, 0.08);
-
-    h3 {
-      margin: 0 0 0.5rem;
-      font-size: 1.2rem;
-    }
+    flex: 1;
+    padding: 1.4rem;
+    background: $surface-card;
+    border-radius: 1.4rem;
   }
 
   &__feature_text {
     margin: 0;
+    font-size: 1.2rem;
     color: $text-muted;
   }
 
   &__form_wrap {
-    margin-top: clamp(3rem, 6vw, 5rem);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-    gap: 2.5rem;
-    align-items: start;
-    position: relative;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    @include mixins.small-tablet {
+      flex-direction: row;
+      align-items: flex-start;
+    }
   }
 
   &__form_intro {
-    display: grid;
-    gap: 0.75rem;
-
-    h2 {
-      margin: 0;
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    flex: 1;
   }
 
   &__form_text {
     margin: 0;
+    font-size: 1.2rem;
     color: $text-muted;
   }
 
   &__form {
-    display: grid;
-    padding: 2rem;
-    background: rgba($surface-card, 0.85);
-    border-radius: 2.4rem;
-    box-shadow: 0 1.8rem 4rem rgba($secondary, 0.08);
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex: 1;
+    padding: 1.6rem;
+    background: $surface-card;
+    border-radius: 1.6rem;
   }
 
   &__label {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 0.4rem;
     font-weight: 600;
     color: $text-ink;
@@ -223,16 +158,16 @@
 
   &__input,
   &__textarea {
-    padding: 0.75rem 0.9rem;
+    padding: 0.7rem 0.9rem;
     font-family: inherit;
     font-size: 1rem;
     background: $surface-card;
     border: 0.1rem solid rgba($text-ink, 0.1);
-    border-radius: 1.4rem;
+    border-radius: 1.2rem;
   }
 
   &__textarea {
     resize: vertical;
-    min-height: 13rem;
+    min-height: 12rem;
   }
 }

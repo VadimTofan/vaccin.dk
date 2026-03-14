@@ -3,7 +3,6 @@
 
 .navigation {
   background: rgba($surface-card, 0.9);
-  box-shadow: 0 1.2rem 2.4rem rgba($secondary, 0.08);
 
   @include mixins.laptop {
     padding-inline: 10vw;
@@ -14,14 +13,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6rem 2rem;
-    gap: 1.5rem;
-    background-color: $secondary-light;
-
-    @include mixins.tablet {
-      padding: 2rem 0;
-      background-color: transparent;
-    }
+    padding: 1.4rem 1.6rem;
+    gap: 1rem;
   }
 
   &__brand {
@@ -30,7 +23,7 @@
   }
 
   &__logo {
-    border-radius: 0.8rem;
+    border-radius: 0.6rem;
 
     @include mixins.tablet {
       width: 7rem;

@@ -37,6 +37,7 @@ export function Contacts() {
   const handleLanguage = (nextLanguage: Language) => {
     localStorage.setItem('language', nextLanguage);
     setLanguage(nextLanguage);
+    setState((prev) => ({ ...prev, isDropdown: false }));
   };
 
   const handleDropdown = () => {
@@ -107,9 +108,21 @@ export function Contacts() {
       </div>
 
       {language && (
-        <button className={styles.contacts__button} onClick={handleDropdown} type="button">
-          <Image src={`/images/${language}.svg`} width={20} height={20} alt={`Flag ${language}`} />
-          <span className={styles.contacts__arrow}>▾</span>
+        <div className={styles.contacts__language}>
+          <button
+            className={styles.contacts__button}
+            onClick={handleDropdown}
+            type="button"
+            aria-expanded={isDropdown}
+          >
+            <Image
+              src={`/images/${language}.svg`}
+              width={20}
+              height={20}
+              alt={`Flag ${language}`}
+            />
+            <span className={styles.contacts__arrow}>▾</span>
+          </button>
           {isDropdown === true && (
             <div className={styles.contacts__choice}>
               {inactiveLanguages.map((item) => (
@@ -126,7 +139,7 @@ export function Contacts() {
               ))}
             </div>
           )}
-        </button>
+        </div>
       )}
     </div>
   );

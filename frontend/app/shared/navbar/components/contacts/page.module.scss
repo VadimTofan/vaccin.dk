@@ -6,13 +6,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 1rem;
   background-color: $secondary-light;
-  margin-bottom: -0.1rem;
 
   @include mixins.tablet {
-    padding: 2rem;
+    padding: 1.4rem 1.6rem;
     background: rgba($surface-card, 0.9);
   }
 
@@ -32,7 +31,7 @@
   &__communication {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1.2rem;
   }
 
   &__modal {
@@ -49,8 +48,8 @@
 
   &__form {
     position: relative;
-    max-width: 35rem;
-    padding: 3rem;
+    max-width: 32rem;
+    padding: 2rem;
     text-align: center;
     background-color: $primary;
     border-radius: 1rem;
@@ -61,10 +60,15 @@
     color: $text-ink;
   }
 
-  &__button {
+  &__language {
     display: flex;
     align-items: center;
     position: relative;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
     background: none;
     border: none;
     cursor: pointer;
@@ -79,11 +83,10 @@
     display: flex;
     position: absolute;
     top: 3rem;
-    left: -5rem;
+    right: 0;
     padding: 0.6rem;
-    background: rgba($surface-card, 0.95);
+    background: $surface-card;
     border-radius: 1rem;
-    box-shadow: 0 1rem 2rem rgba($secondary, 0.12);
     gap: 0.5rem;
   }
 

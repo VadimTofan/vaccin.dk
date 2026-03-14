@@ -12,22 +12,20 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      max-width: 80vw;
       flex: 1;
-      gap: 3rem;
+      gap: 2rem;
     }
 
     &[data-open='true'] {
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 8rem;
+      top: 7rem;
       left: 0;
       width: 100%;
-      padding: 0 2rem 2rem;
+      padding: 0 1.6rem 1.6rem;
       text-align: right;
-      background-color: $secondary-light;
-      box-shadow: 0 1.2rem 2.4rem rgba($secondary, 0.08);
+      background: rgba($surface-card, 0.9);
     }
   }
 
@@ -40,20 +38,20 @@
   }
 
   &__droplist {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    padding: 0.5rem 0;
-    gap: 0.5rem;
+    padding: 0.4rem 0;
+    gap: 0.4rem;
 
     @include mixins.tablet {
       position: absolute;
-      top: 2.6rem;
+      top: 2.4rem;
       left: 0;
       min-width: 16rem;
-      padding: 1rem;
-      background: rgba($surface-card, 0.9);
-      border-radius: 1.2rem;
-      box-shadow: 0 1.2rem 2.4rem rgba($secondary, 0.08);
+      padding: 0.8rem;
+      background: $surface-card;
+      border-radius: 1rem;
     }
   }
 
@@ -66,7 +64,6 @@
     font-size: 1.6rem;
     font-weight: 600;
     color: $primary-dark;
-    transition: color 0.3s ease;
     white-space: nowrap;
   }
 
@@ -81,10 +78,5 @@
   &__arrow {
     margin-left: 0.4rem;
     color: $primary-dark;
-  }
-
-  &__link:hover,
-  &__link_drop:hover {
-    color: $accent-sea;
   }
 }
