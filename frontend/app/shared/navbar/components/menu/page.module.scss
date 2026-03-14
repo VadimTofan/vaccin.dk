@@ -1,4 +1,5 @@
-@use '@/styles/mixins';
+@use '@/styles/colors' as *;
+@use '@/styles/mixins' as mixins;
 
 .menu {
   display: flex;
@@ -14,22 +15,22 @@
   border: none;
   cursor: pointer;
 
-  &__open {
-    span:nth-child(1) {
+  @include mixins.tablet {
+    display: none;
+  }
+
+  &[data-open='true'] {
+    .menu__line:nth-child(1) {
       transform: rotate(45deg) translate(0.5rem, 0.5rem);
     }
 
-    span:nth-child(2) {
+    .menu__line:nth-child(2) {
       opacity: 0;
     }
 
-    span:nth-child(3) {
+    .menu__line:nth-child(3) {
       transform: rotate(-45deg) translate(0.7rem, -0.7rem);
     }
-  }
-
-  @include mixins.tablet {
-    display: none;
   }
 
   &__line {

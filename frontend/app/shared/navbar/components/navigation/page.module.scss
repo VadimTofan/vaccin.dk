@@ -1,9 +1,12 @@
-@use '@/styles/mixins';
+@use '@/styles/colors' as *;
+@use '@/styles/mixins' as mixins;
 
 .navigation {
   &__list {
     display: none;
     position: relative;
+    margin: 0;
+    padding: 0;
 
     @include mixins.tablet {
       display: flex;
@@ -11,55 +14,77 @@
       align-items: center;
       max-width: 80vw;
       flex: 1;
-      gap: 5rem;
+      gap: 3rem;
     }
 
-    &--open {
+    &[data-open='true'] {
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 10rem;
+      top: 8rem;
       left: 0;
       width: 100%;
-      padding-right: 2rem;
-      padding-bottom: 2rem;
+      padding: 0 2rem 2rem;
       text-align: right;
       background-color: $secondary-light;
+      box-shadow: 0 1.2rem 2.4rem rgba($secondary, 0.08);
     }
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__dropdown {
+    position: relative;
   }
 
   &__droplist {
+    display: grid;
     position: relative;
-    padding-block: 0.5rem;
+    padding: 0.5rem 0;
+    gap: 0.5rem;
 
     @include mixins.tablet {
       position: absolute;
-      padding-block: 0;
+      top: 2.6rem;
+      left: 0;
+      min-width: 16rem;
+      padding: 1rem;
+      background: rgba($surface-card, 0.9);
+      border-radius: 1.2rem;
+      box-shadow: 0 1.2rem 2.4rem rgba($secondary, 0.08);
     }
   }
 
-  &__link {
-    font-size: 2rem;
+  &__drop_item {
+    list-style: none;
+  }
+
+  &__link,
+  &__link_drop {
+    font-size: 1.6rem;
     font-weight: 600;
     color: $primary-dark;
-    transition: color 0.5s ease;
+    transition: color 0.3s ease;
     white-space: nowrap;
+  }
 
-    &:hover {
-      @include mixins.tablet {
-        color: $secondary-light;
-        transition:
-          color 0.5s ease,
-          border-color 0.5s ease;
-      }
+  &__link_drop {
+    font-size: 1.4rem;
+
+    @include mixins.tablet {
+      font-size: 1.6rem;
     }
+  }
 
-    &drop {
-      font-size: 1.5rem;
+  &__arrow {
+    margin-left: 0.4rem;
+    color: $primary-dark;
+  }
 
-      @include mixins.tablet {
-        font-size: 2rem;
-      }
-    }
+  &__link:hover,
+  &__link_drop:hover {
+    color: $accent-sea;
   }
 }

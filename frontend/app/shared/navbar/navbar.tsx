@@ -19,23 +19,22 @@ export function Navbar() {
   };
 
   return (
-    <>
-      <nav className={styles.navigation}>
-        <Contacts />
-        <div className={styles.navigation__navbar}>
-          <Link href="/">
-            <Image
-              className={styles.navigation__logo}
-              src="/images/logo.webp"
-              width={60}
-              height={40}
-              alt="logo"
-            />
-          </Link>
-          <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-          <Menu isMenuOpen={isMenuOpen} handleMenu={handleMenu} />
-        </div>
-      </nav>
-    </>
+    <nav className={styles.navigation}>
+      <Contacts />
+      <div className={styles.navigation__navbar}>
+        <Link href="/" className={styles.navigation__brand}>
+          <Image
+            className={styles.navigation__logo}
+            src="/images/logo.webp"
+            width={60}
+            height={40}
+            alt="logo"
+            priority
+          />
+        </Link>
+        <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        <Menu isMenuOpen={isMenuOpen} handleMenu={handleMenu} />
+      </div>
+    </nav>
   );
 }

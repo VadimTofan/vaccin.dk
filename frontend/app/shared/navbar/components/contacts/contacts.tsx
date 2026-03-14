@@ -28,15 +28,15 @@ export function Contacts() {
     ) {
       setLanguage(storedLanguage as Language);
     }
-  }, [languages]);
+  }, [language, setLanguage]);
 
   const handleClick = () => {
     setState((prev) => ({ ...prev, isModalOpen: !prev.isModalOpen }));
   };
 
-  const handleLanguage = (language: Language) => {
-    localStorage.setItem('language', language);
-    setLanguage(language);
+  const handleLanguage = (nextLanguage: Language) => {
+    localStorage.setItem('language', nextLanguage);
+    setLanguage(nextLanguage);
   };
 
   const handleDropdown = () => {
@@ -48,7 +48,7 @@ export function Contacts() {
       {isModalOpen && (
         <div className={styles.contacts__modal} onClick={handleClick}>
           <form className={styles.contacts__form} onClick={(event) => event.stopPropagation()}>
-            <p>TBD</p>
+            <p className={styles.contacts__form_text}>TBD</p>
           </form>
         </div>
       )}
@@ -57,6 +57,7 @@ export function Contacts() {
           className={styles.contacts__link}
           href={`https://www.google.com/maps/place/${address.join('+')}+Kastrup/`}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <Image
             className={styles.contacts__svg}
@@ -106,22 +107,22 @@ export function Contacts() {
       </div>
 
       {language && (
-        <button className={styles.contacts__button} onClick={handleDropdown}>
+        <button className={styles.contacts__button} onClick={handleDropdown} type="button">
           <Image src={`/images/${language}.svg`} width={20} height={20} alt={`Flag ${language}`} />
           <span className={styles.contacts__arrow}>▾</span>
           {isDropdown === true && (
             <div className={styles.contacts__choice}>
-              {inactiveLanguages.map((item: Language, index: number) => (
-                <Image
-                  key={index}
-                  src={`/images/${item}.svg`}
-                  width={20}
-                  height={20}
-                  alt={`Flag ${item}`}
+              {inactiveLanguages.map((item) => (
+                <button
+                  className={styles.contacts__choice_button}
+                  key={item}
                   onClick={() => {
                     handleLanguage(item);
                   }}
-                />
+                  type="button"
+                >
+                  <Image src={`/images/${item}.svg`} width={20} height={20} alt={`Flag ${item}`} />
+                </button>
               ))}
             </div>
           )}

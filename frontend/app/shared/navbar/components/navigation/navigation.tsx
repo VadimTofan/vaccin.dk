@@ -3,11 +3,16 @@ import locale from '../../locale.json';
 import styles from './page.module.scss';
 
 import { useEffect, useState } from 'react';
-import { NavItem } from '../../navbar.type';
+import type { NavItem } from '../../navbar.type';
 import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
 import Link from 'next/link';
 
-export function Navigation({ isMenuOpen, setIsMenuOpen }: any) {
+type NavigationProps = {
+  isMenuOpen: boolean;
+  setIsMenuOpen: (open: boolean) => void;
+};
+
+export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
   const [state, setState] = useState({
     content: locale.da,
     isDropdown: false,
@@ -47,27 +52,28 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: any) {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [setIsMenuOpen]);
+
   return (
-    <ul className={isMenuOpen ? styles['navigation__list--open'] : styles.navigation__list}>
-      {navigation.map((item, index: number) => (
-        <li className={styles.navigation__item} key={index}>
+    <ul className={styles.navigation__list} data-open={isMenuOpen}>
+      {navigation.map((item) => (
+        <li className={styles.navigation__item} key={item.id}>
           {item.dropdown ? (
             <div className={styles.navigation__dropdown}>
-              <button className={styles.navigation__link} onClick={handleDropdown}>
+              <button className={styles.navigation__link} onClick={handleDropdown} type="button">
                 {item.name}
                 <span className={styles.navigation__arrow}>▾</span>
               </button>
               {isDropdown && (
                 <ul className={styles.navigation__droplist}>
-                  {content.services.map((item, index) => (
-                    <li key={index}>
+                  {content.services.map((service) => (
+                    <li key={service.path} className={styles.navigation__drop_item}>
                       <Link
                         onClick={handleLink}
-                        className={`${styles.navigation__link} ${styles.navigation__linkdrop}`}
-                        href={item.path}
+                        className={styles.navigation__link_drop}
+                        href={service.path}
                       >
-                        {item.name}
+                        {service.name}
                       </Link>
                     </li>
                   ))}
