@@ -1,0 +1,167 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "About VACCIN DK",
+      "title": "A clinic built around safe travel",
+      "lead": "We help travelers feel prepared with evidence-based vaccine guidance and a calm, professional clinic experience."
+    },
+    "sections": {
+      "mission": {
+        "title": "Our mission",
+        "text": "We make travel health simple: clear advice, the right vaccines, and documentation you can rely on when you arrive."
+      },
+      "team": {
+        "title": "Professional team",
+        "text": "Our clinic team consists of professional doctors and trained staff focused on creating a good patient experience."
+      },
+      "facility": {
+        "title": "Comfortable facilities",
+        "text": "The clinic offers spacious premises, a good location, and free parking at the front door."
+      },
+      "care": {
+        "title": "Care before you go",
+        "text": "We take time to understand your itinerary and tailor recommendations so you travel with confidence."
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "Before booking, call or message for the best guidance.",
+        "address": "Address: Amager Landevej 31, 2770",
+        "hours": "Open 08.00 - 16.00",
+        "phone": "Phone: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com"
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "mission": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      },
+      "care": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "mission": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      },
+      "care": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "mission": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      },
+      "care": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "mission": {
+        "title": "",
+        "text": ""
+      },
+      "team": {
+        "title": "",
+        "text": ""
+      },
+      "facility": {
+        "title": "",
+        "text": ""
+      },
+      "care": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  }
+}

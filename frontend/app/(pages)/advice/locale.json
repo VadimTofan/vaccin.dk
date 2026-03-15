@@ -1,0 +1,185 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Travel advice",
+      "title": "Advice for safe travel",
+      "lead": "Prepare with practical guidance before you leave, and keep the essentials close during your trip."
+    },
+    "sections": {
+      "before": {
+        "title": "Before you travel",
+        "text": "Start planning early so you have time for vaccines, prescriptions, and documents.",
+        "list": [
+          "Review routine vaccinations and destination-specific recommendations.",
+          "Bring a summary of prescriptions, allergies, and key medical history.",
+          "Check entry requirements and keep your vaccine certificate accessible."
+        ]
+      },
+      "vaccines": {
+        "title": "Vaccines and documentation",
+        "text": "A travel consultation helps you understand which vaccines and boosters are relevant to your itinerary and activities."
+      },
+      "health": {
+        "title": "Health on the move",
+        "text": "Simple habits can reduce your risk of illness while traveling.",
+        "list": [
+          "Wash hands or use sanitizer regularly.",
+          "Choose safe food and water sources.",
+          "Protect yourself from mosquito bites with repellent and coverings."
+        ]
+      },
+      "after": {
+        "title": "After you return",
+        "text": "If you feel unwell after travel, especially with fever or stomach symptoms, seek medical advice and mention your destination."
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "Need advice for your trip? Call or message for the best guidance.",
+        "address": "Address: Amager Landevej 31, 2770",
+        "hours": "Open 08.00 - 16.00",
+        "phone": "Phone: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com"
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "before": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "vaccines": {
+        "title": "",
+        "text": ""
+      },
+      "health": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "after": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "before": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "vaccines": {
+        "title": "",
+        "text": ""
+      },
+      "health": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "after": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "before": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "vaccines": {
+        "title": "",
+        "text": ""
+      },
+      "health": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "after": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "before": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "vaccines": {
+        "title": "",
+        "text": ""
+      },
+      "health": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "after": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  }
+}

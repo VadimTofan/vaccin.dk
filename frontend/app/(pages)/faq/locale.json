@@ -1,0 +1,148 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "lead": "Quick answers to common questions about travel vaccines, certificates, and booking."
+    },
+    "sections": {
+      "questions": {
+        "title": "Questions we hear most",
+        "items": [
+          {
+            "question": "When should I book a travel consultation?",
+            "answer": "Book as early as possible so you have time for the full vaccine schedule and any required boosters."
+          },
+          {
+            "question": "Do I need a vaccination certificate?",
+            "answer": "Many destinations require proof of vaccination. Your clinic visit includes a vaccination card you can show at entry if needed."
+          },
+          {
+            "question": "Which vaccines do I need?",
+            "answer": "Recommendations depend on your destination, trip length, and activities. A consultation helps tailor the list to your trip."
+          },
+          {
+            "question": "Can I combine multiple vaccines in one visit?",
+            "answer": "Often yes, but timing can vary by vaccine. The clinic will plan a schedule that fits your travel dates."
+          },
+          {
+            "question": "What should I bring to my appointment?",
+            "answer": "Bring any prior vaccination records and information about your travel itinerary."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Need more help?",
+        "text": "Call or message us for guidance tailored to your trip.",
+        "address": "Address: Amager Landevej 31, 2770",
+        "hours": "Open 08.00 - 16.00",
+        "phone": "Phone: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com"
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "questions": {
+        "title": "",
+        "items": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "questions": {
+        "title": "",
+        "items": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "questions": {
+        "title": "",
+        "items": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "questions": {
+        "title": "",
+        "items": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "email": ""
+      }
+    }
+  }
+}
