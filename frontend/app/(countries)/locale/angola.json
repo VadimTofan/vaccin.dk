@@ -1,0 +1,220 @@
+﻿{
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Angola",
+      "imageAlt": "A photo that describes Angola"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Hepatitis B",
+            "text": "Hepatitis B is a viral infection caused by a viral infection - potentially serious and chronic. Hepatitis B is widespread in large parts of the world.",
+            "link": "Read more about hepatitis b",
+            "href": "/vaccines/hepatitis%20b"
+          },
+          {
+            "title": "Hepatitis A",
+            "text": "Hepatitis A, also called contagious hepatitis, is an acute infectious liver disease caused by a virus. Vaccination against hepatitis A is not part of the national vaccination program.",
+            "link": "Read more about hepatitis a",
+            "href": "/vaccines/hepatitis%20a"
+          },
+          {
+            "title": "Diphtheria",
+            "text": "Diphtheria is a bacterial infection. Toxins produced by the bacterium can damage the nerves and the heart muscle. Combination vaccinations, which also work against diphtheria, are part of the national childhood vaccination program.",
+            "link": "Read more about diphtheria",
+            "href": "/vaccines/diphtheria"
+          },
+          {
+            "title": "Yellow fever",
+            "text": "Yellow fever is an acute viral disease transmitted by mosquito bites, which can lead to hemorrhagic fever and death. Vaccination is not part of the national vaccination program.",
+            "link": "Read more about yellow fever",
+            "href": "/vaccines/yellow%20fever"
+          },
+          {
+            "title": "Malaria",
+            "text": "A serious, even life-threatening febrile illness, caused by malaria parasites and spread by mosquitoes. Preventive treatment with malaria medicine can be used",
+            "link": "Read more about malaria",
+            "href": "/vaccines/malaria"
+          },
+          {
+            "title": "Rabies",
+            "text": "A viral disease which affects the central nervous system and ultimately causes encephalitis and death. Rabies is transmitted through the saliva of an infected animal. Vaccination against rabies is not part of the national childhood vaccination program.",
+            "link": "Read more about rabies",
+            "href": "/vaccines/rabies"
+          },
+          {
+            "title": "Tetanus",
+            "text": "A disease caused by an infection with a bacterium normally found in soil. Combination vaccination, which also applies to tetanus, is part of the national childhood vaccination program.",
+            "link": "Read more about tetanus",
+            "href": "/vaccines/tetanus"
+          },
+          {
+            "title": "Tuberculosis",
+            "text": "A contagious and potentially fatal bacterial disease that is widespread throughout the world.",
+            "link": "Read more about tuberculosis",
+            "href": "/vaccines/tuberculosis"
+          },
+          {
+            "title": "Typhoid fever",
+            "text": "Typhoid fever is a serious bacterial infection transmitted through contaminated food and water. Vaccination against typhoid is not part of national vaccination programs in most countries.",
+            "link": "Read more about typhoid fever",
+            "href": "/vaccines/typhoid%20fever"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Angola",
+        "text": "Angola is often associated with strife and destruction due to civil war, but Angola also has beautiful scenery, exciting wildlife, and 41 different languages are spoken.",
+        "textTwo": "Most enter the country via the capital, Luanda, which has the dubious and surprising distinction of being the most expensive city in the world. With its gleaming skyscrapers, grand government buildings, and palm-lined promenades, downtown Luandas prosperity probably comes as a revelation to many visitors. But the spoils of Angolas considerable oil wealth soon give way to unofficial shantytowns, proving that not everyone is benefitting from the black gold rush.",
+        "notice": "The vaccines listed for Angola are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Angola, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  }
+}

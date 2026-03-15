@@ -1,0 +1,177 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Destinations and relevant vaccinations",
+      "title": "Destinations",
+      "lead": "Plan your trip with guidance from VACCIN DK and choose the destination you are traveling to."
+    },
+    "sections": {
+      "certificate": {
+        "title": "Vaccination certificate",
+        "text": "When you receive vaccines at the clinic for your destination, you will get a vaccination card. It serves as a valid certificate you can show when entering the country you are traveling to."
+      },
+      "consultation": {
+        "title": "Consultation",
+        "text": "Vaccination helps protect against serious diseases. While many illnesses are now rare in Denmark thanks to the childhood vaccination program, travel can require protection against diseases not covered by that program.",
+        "note": "Contact your doctor or a vaccination clinic for guidance tailored to your trip."
+      },
+      "regions": {
+        "title": "Select your travel destination",
+        "text": "Choose a region to explore destination-specific vaccine information.",
+        "list": ["Africa", "Asia", "North America", "South America", "Europe", "Oceania"]
+      },
+      "about": {
+        "title": "About VACCIN DK",
+        "text": "The clinic team consists of professional doctors and trained staff, focused on creating a good patient experience. The clinic offers spacious premises, a good location, and free parking at the front door."
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "Before booking, call or message for the best guidance.",
+        "hours": "Open 08.00 - 16.00",
+        "phone": "Phone: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com",
+        "address": "Address: Amager Landevej 31, 2770"
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": "",
+        "note": ""
+      },
+      "regions": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "about": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "hours": "",
+        "phone": "",
+        "email": "",
+        "address": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": "",
+        "note": ""
+      },
+      "regions": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "about": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "hours": "",
+        "phone": "",
+        "email": "",
+        "address": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": "",
+        "note": ""
+      },
+      "regions": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "about": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "hours": "",
+        "phone": "",
+        "email": "",
+        "address": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sections": {
+      "certificate": {
+        "title": "",
+        "text": ""
+      },
+      "consultation": {
+        "title": "",
+        "text": "",
+        "note": ""
+      },
+      "regions": {
+        "title": "",
+        "text": "",
+        "list": [""]
+      },
+      "about": {
+        "title": "",
+        "text": ""
+      },
+      "contact": {
+        "title": "",
+        "text": "",
+        "hours": "",
+        "phone": "",
+        "email": "",
+        "address": ""
+      }
+    }
+  }
+}

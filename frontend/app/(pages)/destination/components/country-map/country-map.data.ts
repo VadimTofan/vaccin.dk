@@ -1,0 +1,42 @@
+import type { MapContinent, MapCountry } from './country-map.type';
+
+export const continentOrder: MapContinent[] = [
+  'Europe',
+  'Asia',
+  'North America',
+  'South America',
+  'Africa',
+  'Oceania',
+];
+
+export const mapCountries: MapCountry[] = [
+  { name: 'Canada', slug: 'canada', continent: 'North America' },
+  { name: 'United States', slug: 'united-states', continent: 'North America' },
+  { name: 'Mexico', slug: 'mexico', continent: 'North America' },
+  { name: 'Colombia', slug: 'colombia', continent: 'South America' },
+  { name: 'Brazil', slug: 'brazil', continent: 'South America' },
+  { name: 'Argentina', slug: 'argentina', continent: 'South America' },
+  { name: 'United Kingdom', slug: 'united-kingdom', continent: 'Europe' },
+  { name: 'Spain', slug: 'spain', continent: 'Europe' },
+  { name: 'France', slug: 'france', continent: 'Europe' },
+  { name: 'Germany', slug: 'germany', continent: 'Europe' },
+  { name: 'Italy', slug: 'italy', continent: 'Europe' },
+  { name: 'Greece', slug: 'greece', continent: 'Europe' },
+  { name: 'Morocco', slug: 'morocco', continent: 'Africa' },
+  { name: 'Algeria', slug: 'algeria', continent: 'Africa' },
+  { name: 'Egypt', slug: 'egypt', continent: 'Africa' },
+  { name: 'Nigeria', slug: 'nigeria', continent: 'Africa' },
+  { name: 'Kenya', slug: 'kenya', continent: 'Africa' },
+  { name: 'South Africa', slug: 'south-africa', continent: 'Africa' },
+  { name: 'Angola', slug: 'angola', continent: 'Africa' },
+  { name: 'Saudi Arabia', slug: 'saudi-arabia', continent: 'Asia' },
+  { name: 'India', slug: 'india', continent: 'Asia' },
+  { name: 'Sri Lanka', slug: 'sri-lanka', continent: 'Asia' },
+  { name: 'Thailand', slug: 'thailand', continent: 'Asia' },
+  { name: 'Vietnam', slug: 'vietnam', continent: 'Asia' },
+  { name: 'China', slug: 'china', continent: 'Asia' },
+  { name: 'Japan', slug: 'japan', continent: 'Asia' },
+  { name: 'Indonesia', slug: 'indonesia', continent: 'Asia' },
+  { name: 'Australia', slug: 'australia', continent: 'Oceania' },
+  { name: 'New Zealand', slug: 'new-zealand', continent: 'Oceania' },
+];

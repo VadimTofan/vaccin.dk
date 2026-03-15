@@ -1,0 +1,137 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "{{country}}",
+      "imageAlt": "A photo that describes {{country}}"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "{{country}}",
+        "text": "{{country}} destination vaccine guidance is available through our travel consultation service.",
+        "textTwo": "Recommendations depend on itinerary, duration, season, and personal medical history.",
+        "notice": "The vaccines listed for {{country}} are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is {{country}}, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "{{country}}",
+      "imageAlt": "A photo that describes {{country}}"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "{{country}}",
+        "text": "{{country}} destination vaccine guidance is available through our travel consultation service.",
+        "textTwo": "Recommendations depend on itinerary, duration, season, and personal medical history.",
+        "notice": "The vaccines listed for {{country}} are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is {{country}}, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "{{country}}",
+      "imageAlt": "A photo that describes {{country}}"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "{{country}}",
+        "text": "{{country}} destination vaccine guidance is available through our travel consultation service.",
+        "textTwo": "Recommendations depend on itinerary, duration, season, and personal medical history.",
+        "notice": "The vaccines listed for {{country}} are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is {{country}}, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "{{country}}",
+      "imageAlt": "A photo that describes {{country}}"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "{{country}}",
+        "text": "{{country}} destination vaccine guidance is available through our travel consultation service.",
+        "textTwo": "Recommendations depend on itinerary, duration, season, and personal medical history.",
+        "notice": "The vaccines listed for {{country}} are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is {{country}}, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "{{country}}",
+      "imageAlt": "A photo that describes {{country}}"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "{{country}}",
+        "text": "{{country}} destination vaccine guidance is available through our travel consultation service.",
+        "textTwo": "Recommendations depend on itinerary, duration, season, and personal medical history.",
+        "notice": "The vaccines listed for {{country}} are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is {{country}}, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Afghanistan",
+      "imageAlt": "A photo that describes Afghanistan"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Hepatitis B",
+            "text": "Hepatitis B is a viral infection caused by a viral infection - potentially serious and chronic. Hepatitis B is widespread in large parts of the world.",
+            "link": "Read more about hepatitis b",
+            "href": "/vaccines/hepatitis%20b"
+          },
+          {
+            "title": "Hepatitis A",
+            "text": "Hepatitis A, also called contagious hepatitis, is an acute infectious liver disease caused by a virus. Vaccination against hepatitis A is not part of the national vaccination program.",
+            "link": "Read more about hepatitis a",
+            "href": "/vaccines/hepatitis%20a"
+          },
+          {
+            "title": "Diphtheria",
+            "text": "Diphtheria is a bacterial infection. Toxins produced by the bacterium can damage the nerves and the heart muscle. Combination vaccinations, which also work against diphtheria, are part of the national childhood vaccination program.",
+            "link": "Read more about diphtheria",
+            "href": "/vaccines/diphtheria"
+          },
+          {
+            "title": "Malaria",
+            "text": "A serious, even life-threatening febrile illness, caused by malaria parasites and spread by mosquitoes. Preventive treatment with malaria medicine can be used",
+            "link": "Read more about malaria",
+            "href": "/vaccines/malaria"
+          },
+          {
+            "title": "Rabies",
+            "text": "A viral disease which affects the central nervous system and ultimately causes encephalitis and death. Rabies is transmitted through the saliva of an infected animal. Vaccination against rabies is not part of the national childhood vaccination program.",
+            "link": "Read more about rabies",
+            "href": "/vaccines/rabies"
+          },
+          {
+            "title": "Tetanus",
+            "text": "A disease caused by an infection with a bacterium normally found in soil. Combination vaccination, which also applies to tetanus, is part of the national childhood vaccination program.",
+            "link": "Read more about tetanus",
+            "href": "/vaccines/tetanus"
+          },
+          {
+            "title": "Tuberculosis",
+            "text": "A contagious and potentially fatal bacterial disease that is widespread throughout the world.",
+            "link": "Read more about tuberculosis",
+            "href": "/vaccines/tuberculosis"
+          },
+          {
+            "title": "Typhoid fever",
+            "text": "Typhoid fever is a serious bacterial infection transmitted through contaminated food and water. Vaccination against typhoid is not part of national vaccination programs in most countries.",
+            "link": "Read more about typhoid fever",
+            "href": "/vaccines/typhoid%20fever"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Afghanistan",
+        "text": "Afghanistan has often been associated with war, but the country also has a rich and magnificent nature. The country offers many diverse landscapes with high mountains, glaciers, isolated valleys, plains, and deserts.",
+        "textTwo": "Guides make the point that for many ordinary Afghans, life has continued much the same as it has for centuries. Indeed of the few travelers who do make it to the country, they tell of Kabul's surprising normality, with little signs of the instability reported by international media. The country also remains a fascinating melting pot of ethnic and tribal groups.",
+        "notice": "The vaccines listed for Afghanistan are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Afghanistan, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "da": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "imageAlt": ""
+    },
+    "sections": {
+      "recommended": {
+        "title": "",
+        "subtitle": "",
+        "items": [
+          {
+            "title": "",
+            "text": "",
+            "link": "",
+            "href": ""
+          }
+        ],
+        "cta": "",
+        "note": ""
+      },
+      "about": {
+        "title": "",
+        "text": "",
+        "textTwo": "",
+        "notice": "",
+        "sourcePrefix": "",
+        "sourceLabel": "",
+        "sourceHref": "",
+        "footer": "",
+        "mapNote": ""
+      }
+    }
+  }
+}
