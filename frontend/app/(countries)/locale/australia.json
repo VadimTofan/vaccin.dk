@@ -1,4 +1,74 @@
 {
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Australien",
+      "imageAlt": "Et billede, der beskriver Australien"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Gul feber",
+            "text": [
+              "Gul feber er en akut virussygdom, der overføres ved myggestik, og som kan føre til hæmoragisk feber. Tidlige symptomer er feber og kvalme. I den anden, mere alvorlige 'gule' fase, kan sygdommen føre til blødning, nyre- eller leversvigt og dødsfald."
+            ],
+            "link": "Anbefalede vacciner: Gul feber",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Japansk Hjernebetændelse",
+            "text": [
+              "Japansk hjernebetændelse er en alvorlig virusinfektion, der overføres af myg.",
+              "De fleste smittede personer får ingen eller kun milde symptomer såsom feber og hovedpine.",
+              "I nogle tilfælde udvikles alvorlig sygdom med meningitis, hjernebetændelse og andre komplikationer.",
+              "Selvom kun en lille andel af infektionerne fører til sygdom, er dødeligheden blandt syge patienter høj og kan være op til 30 %.",
+              "Sygdommen kan medføre varige neurologiske skader hos overlevende."
+            ],
+            "link": "Anbefalede vacciner: Japansk Hjernebetændelse",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Australien",
+        "text": "Størstedelen af Australien består af savanne eller ørken, men i de nordøstlige egne findes også områder med regnskov. Australien udgør sammen med New Zealand, Papua Ny Guinea og en række mindre øer i Stillehavet verdensdelen Oceanien.",
+        "textTwo": "Australien er et velkendt paradis for backpackere, men kontinentets skønne klima, spændende natur og kultur har noget at tilbyde for alle. Seværdigheder som Ayers Rock, Great Barrier Reef og storbyer som Sydney og Melbourne lokker besøgende fra hele verden. Det er let at komme rundt når du rejser til Australien. Venlige og hjælpsomme australiere sørger for, at du altid føler dig velkommen i det store land Down Under.",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
   "en": {
     "hero": {
       "eyebrow": "Authority Recommendations",
@@ -9,25 +79,57 @@
       "recommended": {
         "title": "Recommended vaccines",
         "subtitle": "For travel up to 6 months",
-        "items": {
-          "diphtheria": {
-            "title": "Diphtheria",
-            "text": "Diphtheria is a bacterial infection. Toxins produced by the bacterium can damage the nerves and the heart muscle. Combination vaccinations, which also work against diphtheria, are part of the national childhood vaccination program.",
-            "link": "Read more about diphtheria"
-          },
-          "tetanus": {
+        "items": [
+          {
             "title": "Tetanus",
-            "text": "A disease caused by an infection with a bacterium normally found in soil. Combination vaccination, which also applies to tetanus, is part of the national childhood vaccination program.",
-            "link": "Read more about tetanus"
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Yellow fever",
+            "text": [
+              "Yellow fever is an acute viral disease transmitted by mosquito bites and can lead to hemorrhagic fever. Early symptoms are fever and nausea. In the second, more severe 'yellow' phase, the disease can cause bleeding, kidney or liver failure, and death."
+            ],
+            "link": "Recommended vaccines: Yellow fever",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Japanese encephalitis",
+            "text": [
+              "Japanese encephalitis is a serious viral infection transmitted by mosquitoes.",
+              "Most infected persons have no or only mild symptoms such as fever and headache.",
+              "In some cases, severe disease develops with meningitis, encephalitis, and other complications.",
+              "Although only a small proportion of infections lead to illness, mortality among sick patients is high and can be up to 30%.",
+              "The disease can cause lasting neurological damage in survivors."
+            ],
+            "link": "Recommended vaccines: Japanese encephalitis",
+            "href": "/vaccines"
           }
-        },
+        ],
         "cta": "Contact Us",
         "note": "Before booking, make sure you call or message us for best guidance."
       },
       "about": {
         "title": "Australia",
         "text": "Most of Australia consists of savannah or desert, but there are also areas of rainforest in the northeastern regions. Australia, along with New Zealand, Papua New Guinea, and some smaller islands in the Pacific Ocean, forms the continent of Oceania.",
-        "textTwo": "There are iconic Aussie clichés by the barrel-load (from cork hats to barbecues, koalas to crocodiles, and cricketers to bush tucker) but the real beauty of the place lies in the stuff youre not expecting; the dusty open road that unfurls to reveal verdant hills; the cold beer at an outback pub that turns into an evening-long session; the stroll to the beach that throws up a street market, open-air concert and implausibly beautiful sunset.",
+        "textTwo": "There are iconic Aussie clichés by the barrel-load (from cork hats to barbecues, koalas to crocodiles, and cricketers to bush tucker) but the real beauty of the place lies in the stuff you’re not expecting; the dusty open road that unfurls to reveal verdant hills; the cold beer at an outback pub that turns into an evening-long session; the stroll to the beach that throws up a street market, open-air concert and implausibly beautiful sunset.",
         "notice": "The vaccines listed for Australia are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
         "sourcePrefix": "The information is based on recommendations for travel abroad from the",
         "sourceLabel": "Statens Serum Institut (SSI)",
@@ -37,155 +139,213 @@
       }
     }
   },
-  "da": {
-    "hero": {
-      "eyebrow": "",
-      "title": "",
-      "imageAlt": ""
-    },
-    "sections": {
-      "recommended": {
-        "title": "",
-        "subtitle": "",
-        "items": {
-          "diphtheria": {
-            "title": "",
-            "text": "",
-            "link": ""
-          },
-          "tetanus": {
-            "title": "",
-            "text": "",
-            "link": ""
-          }
-        },
-        "cta": "",
-        "note": ""
-      },
-      "about": {
-        "title": "",
-        "text": "",
-        "textTwo": "",
-        "notice": "",
-        "sourcePrefix": "",
-        "sourceLabel": "",
-        "sourceHref": "",
-        "footer": "",
-        "mapNote": ""
-      }
-    }
-  },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "imageAlt": ""
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Australien",
+      "imageAlt": "Ett foto som beskriver Australien"
     },
     "sections": {
       "recommended": {
-        "title": "",
-        "subtitle": "",
-        "items": {
-          "diphtheria": {
-            "title": "",
-            "text": "",
-            "link": ""
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
           },
-          "tetanus": {
-            "title": "",
-            "text": "",
-            "link": ""
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Gul feber",
+            "text": [
+              "Gul feber är en akut virussjukdom som överförs via myggbett och kan leda till blödarfeber. Tidiga symtom är feber och illamående. I den andra, mer allvarliga 'gula' fasen kan sjukdomen orsaka blödningar, njur- eller leversvikt och död."
+            ],
+            "link": "Rekommenderade vacciner: Gul feber",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Japansk encefalit",
+            "text": [
+              "Japansk encefalit är en allvarlig virussjukdom som sprids via myggor.",
+              "De flesta infekterade personer har inga eller endast milda symtom såsom feber och huvudvärk.",
+              "I vissa fall utvecklas allvarlig sjukdom med meningit, encefalit och andra komplikationer.",
+              "Även om endast en liten andel av infektionerna leder till sjukdom är dödligheten bland sjuka patienter hög och kan vara upp till 30 %. ",
+              "Sjukdomen kan orsaka bestående neurologiska skador hos överlevande."
+            ],
+            "link": "Rekommenderade vacciner: Japansk encefalit",
+            "href": "/vaccines"
           }
-        },
-        "cta": "",
-        "note": ""
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
       },
       "about": {
-        "title": "",
-        "text": "",
-        "textTwo": "",
-        "notice": "",
-        "sourcePrefix": "",
-        "sourceLabel": "",
-        "sourceHref": "",
-        "footer": "",
-        "mapNote": ""
+        "title": "Australien",
+        "text": "Största delen av Australien består av savann eller öken, men i de nordöstra regionerna finns det även områden med regnskog. Australien bildar tillsammans med Nya Zeeland, Papua Nya Guinea och ett antal mindre öar i Stilla havet kontinenten Oceanien.",
+        "textTwo": "Det finns ikoniska Aussie-klichéer vid tunnbelastningen (från korkhattar till grillar, koalor till krokodiler och cricketers till bush tucker) men platsens verkliga skönhet ligger i de saker du inte förväntar dig; den dammiga öppna vägen som rullar ut för att avslöja grönskande kullar; den kalla ölen på en outback pub som förvandlas till en kvällslång session; promenaden till stranden som ger upp en gatumarknad, utomhuskonsert och otroligt vacker solnedgång.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Australien rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
       }
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "imageAlt": ""
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Австралия",
+      "imageAlt": "Фотография, описывающая Австралия"
     },
     "sections": {
       "recommended": {
-        "title": "",
-        "subtitle": "",
-        "items": {
-          "diphtheria": {
-            "title": "",
-            "text": "",
-            "link": ""
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
           },
-          "tetanus": {
-            "title": "",
-            "text": "",
-            "link": ""
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Жёлтая Лихорадка",
+            "text": [
+              "Жёлтая лихорадка — острое вирусное заболевание, передающееся укусами комаров и может привести к геморрагической лихорадке. Ранние симптомы — температура и тошнота. Во второй, более тяжёлой «жёлтой» фазе заболевание может вызвать кровотечения, почечную или печёночную недостаточность и смерть."
+            ],
+            "link": "Рекомендуемые вакцины: Жёлтая Лихорадка",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Японский Энцефалит",
+            "text": [
+              "Японский энцефалит — серьёзная вирусная инфекция, передающаяся комарами.",
+              "Большинство инфицированных не имеют симптомов или имеют только лёгкие симптомы, такие как температура и головная боль.",
+              "В некоторых случаях развивается тяжёлое заболевание с менингитом, энцефалитом и другими осложнениями.",
+              "Хотя только небольшая доля инфекций приводит к заболеванию, смертность среди больных пациентов высокая и может достигать 30%.",
+              "Заболевание может вызвать стойкое неврологическое повреждение у выживших."
+            ],
+            "link": "Рекомендуемые вакцины: Японский Энцефалит",
+            "href": "/vaccines"
           }
-        },
-        "cta": "",
-        "note": ""
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
       },
       "about": {
-        "title": "",
-        "text": "",
-        "textTwo": "",
-        "notice": "",
-        "sourcePrefix": "",
-        "sourceLabel": "",
-        "sourceHref": "",
-        "footer": "",
-        "mapNote": ""
+        "title": "Австралия",
+        "text": "Большая часть Австралии состоит из саванны или пустыни, но в северо-восточных регионах есть также участки тропических лесов. Австралия вместе с Новой Зеландией, Папуа-Новой Гвинеей и некоторыми более мелкими островами в Тихом океане образует континент Океания.",
+        "textTwo": "Здесь полно культовых австралийских клише (от пробковых шляп до барбекю, от коал до крокодилов и от игроков в крикет до кустарников), но настоящая красота этого места заключается в вещах, которых вы не ожидаете; пыльная открытая дорога, которая разворачивается, открывая зеленые холмы; холодное пиво в пабе в глубинке, которое превращается в вечернюю беседу; прогулка до пляжа с уличным рынком, концертом под открытым небом и невероятно красивым закатом.",
+        "notice": "Вакцины, перечисленные для Австралия, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Австралия, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
       }
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "imageAlt": ""
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Αυστραλία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Αυστραλία"
     },
     "sections": {
       "recommended": {
-        "title": "",
-        "subtitle": "",
-        "items": {
-          "diphtheria": {
-            "title": "",
-            "text": "",
-            "link": ""
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
           },
-          "tetanus": {
-            "title": "",
-            "text": "",
-            "link": ""
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Κίτρινος Πυρετός",
+            "text": [
+              "Ο κίτρινος πυρετός είναι οξεία ιογενής νόσος που μεταδίδεται από τσιμπήματα κουνουπιών και μπορεί να οδηγήσει σε αιμορραγικό πυρετό. Τα πρώιμα συμπτώματα είναι πυρετός και ναυτία. Στη δεύτερη, πιο σοβαρή «κίτρινη» φάση, η νόσος μπορεί να προκαλέσει αιμορραγίες, νεφρική ή ηπατική ανεπάρκεια και θάνατο."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Κίτρινος Πυρετός",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Ιαπωνική Εγκεφαλίτιδα",
+            "text": [
+              "Η ιαπωνική εγκεφαλίτιδα είναι σοβαρή ιογενής λοίμωξη που μεταδίδεται από κουνούπια.",
+              "Οι περισσότεροι μολυσμένοι δεν έχουν συμπτώματα ή έχουν μόνο ήπια συμπτώματα όπως πυρετό και πονοκέφαλο.",
+              "Σε ορισμένες περιπτώσεις, αναπτύσσεται σοβαρή νόσος με μηνιγγίτιδα, εγκεφαλίτιδα και άλλες επιπλοκές.",
+              "Αν και μόνο ένα μικρό ποσοστό λοιμώξεων οδηγεί σε ασθένεια, η θνησιμότητα μεταξύ των ασθενών είναι υψηλή και μπορεί να φτάσει έως 30%.",
+              "Η νόσος μπορεί να προκαλέσει μόνιμη νευρολογική βλάβη στους επιζώντες."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Ιαπωνική Εγκεφαλίτιδα",
+            "href": "/vaccines"
           }
-        },
-        "cta": "",
-        "note": ""
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
       },
       "about": {
-        "title": "",
-        "text": "",
-        "textTwo": "",
-        "notice": "",
-        "sourcePrefix": "",
-        "sourceLabel": "",
-        "sourceHref": "",
-        "footer": "",
-        "mapNote": ""
+        "title": "Αυστραλία",
+        "text": "Το μεγαλύτερο μέρος της Αυστραλίας αποτελείται από σαβάνα ή έρημο, αλλά υπάρχουν και περιοχές με τροπικά δάση στις βορειοανατολικές περιοχές. Η Αυστραλία, μαζί με τη Νέα Ζηλανδία, την Παπούα Νέα Γουινέα και μερικά μικρότερα νησιά στον Ειρηνικό Ωκεανό, αποτελούν την ήπειρο της Ωκεανίας.",
+        "textTwo": "Υπάρχουν εμβληματικά αυστραλιανά κλισέ από το βαρέλι (από καπέλα από φελλό μέχρι μπάρμπεκιου, κοάλα μέχρι κροκόδειλους και κρίκετους μέχρι ταμπούρες) αλλά η πραγματική ομορφιά του τόπου βρίσκεται στα πράγματα που δεν περιμένεις. Ο σκονισμένος ανοιχτός δρόμος που ξεδιπλώνεται για να αποκαλύψει καταπράσινους λόφους. η παγωμένη μπύρα σε μια παμπ έξω που μετατρέπεται σε μια βραδινή συνεδρία. η βόλτα στην παραλία που ανοίγει μια υπαίθρια αγορά, υπαίθρια συναυλία και απίστευτα όμορφο ηλιοβασίλεμα.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
       }
     }
   }
