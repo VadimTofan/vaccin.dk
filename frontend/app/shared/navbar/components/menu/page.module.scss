@@ -2,17 +2,18 @@
 @use '@/styles/mixins' as mixins;
 
 .menu {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  width: 2.3rem;
-  height: 2rem;
-  min-width: 2.3rem;
-  background: none;
-  border: none;
-  cursor: pointer;
+  width: 4.4rem;
+  height: 4.4rem;
+  min-width: 4.4rem;
+  padding: 0;
+  gap: 0.5rem;
+  background: rgb(15 107 107 / 8%);
+  border: 0.1rem solid var(--clinic-surface-border);
+  border-radius: var(--refero-card-radius);
 
   @include mixins.tablet {
     display: none;
@@ -28,17 +29,19 @@
     }
 
     .menu__line:nth-child(3) {
-      transform: rotate(-45deg) translate(0.7rem, -0.7rem);
+      transform: rotate(-45deg) translate(0.5rem, -0.5rem);
     }
   }
 
   &__line {
-    width: 2.5rem;
-    height: 0.3rem;
-    background: $primary;
-    border-radius: 0.2rem;
+    width: 2rem;
+    height: 0.2rem;
+    background: $accent-sea;
+    border-radius: var(--refero-control-radius);
     opacity: 1;
-    transition: all 0.3s ease;
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
     transform-origin: center;
   }
 }

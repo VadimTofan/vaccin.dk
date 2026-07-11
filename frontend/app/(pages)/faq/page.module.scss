@@ -1,3 +1,6 @@
+// clinic-surface
+// refero-clinical-blueprint
+// refero-auros
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
@@ -23,9 +26,10 @@
     display: flex;
     flex-direction: column;
     padding: 3.2rem;
-    background: linear-gradient(135deg, $accent-mint-soft, $surface-cream);
-    border-radius: 2.4rem;
-    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+    background: $surface-card;
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
     gap: 1.4rem;
 
     @include mixins.tablet {
@@ -43,7 +47,7 @@
 
   &__title {
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 500;
     color: $secondary;
 
     @include mixins.tablet {
@@ -63,8 +67,9 @@
     flex-direction: column;
     padding: 2.4rem;
     background-color: $surface-card;
-    border-radius: 2rem;
-    box-shadow: 0 1.6rem 3.2rem rgb(0 0 0 / 6%);
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
     gap: 1.6rem;
 
     @include mixins.laptop {

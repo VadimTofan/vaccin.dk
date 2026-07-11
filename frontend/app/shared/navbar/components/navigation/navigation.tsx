@@ -25,8 +25,7 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
     setState((prev) => ({ ...prev, content: useLocale(locale, language) }));
   }, [language]);
 
-  const navigation: NavItem[] = content.nav.map((item: NavItem, index: number) => ({
-    id: index,
+  const navigation: NavItem[] = content.nav.map((item: NavItem) => ({
     name: item.name,
     path: item.path,
     dropdown: item.dropdown,
@@ -57,7 +56,7 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
   return (
     <ul className={styles.navigation__list} data-open={isMenuOpen}>
       {navigation.map((item) => (
-        <li className={styles.navigation__item} key={item.id}>
+        <li className={styles.navigation__item} key={`${item.path}-${item.name}`}>
           {item.dropdown ? (
             <div className={styles.navigation__dropdown}>
               <button className={styles.navigation__link} onClick={handleDropdown} type="button">

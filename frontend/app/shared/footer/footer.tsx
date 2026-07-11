@@ -51,6 +51,14 @@ export function Footer() {
           </Link>
           <h2 className={styles.footer__heading}>Vaccin.dk</h2>
         </div>
+        <div className={styles.footer__cta}>
+          <p className={styles.footer__cta_text}>
+            Before booking, call or message us for destination-specific guidance.
+          </p>
+          <Link href="/contact" className={styles.footer__cta_link}>
+            Contact Us
+          </Link>
+        </div>
         <ul className={styles.footer__socials}>
           {socials.map((social, index) => (
             <li key={index}>

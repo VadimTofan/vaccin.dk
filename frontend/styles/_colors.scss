@@ -1,71 +1,85 @@
-// svg colors: #5DB2FF
+// Refero: Auros - abyssal terminal with bioluminescent data orbs
+$refero-canvas: #012624;
+$refero-deep: #011d1c;
+$refero-kelp: #003734;
+$refero-phosphor: #fde9ff;
+$refero-slate: #707777;
+$refero-silver: #bbc7c6;
+$refero-ash: #f2f2f2;
+$refero-mist: #edfffe;
+$refero-platinum: #fff;
+$refero-gradient: linear-gradient(
+  90deg,
+  rgb(0 130 124) 0%,
+  rgb(203 255 252) 48%,
+  rgb(250 209 255) 100%
+);
 
 // Brand Colors
-$primary-light: #e0e0e0;
-$primary: #d4d4d4;
-$primary-dark: #a8a8a8;
-$secondary-light: #333;
-$secondary: #121212;
+$primary-light: $refero-mist;
+$primary: $refero-silver;
+$primary-dark: $refero-slate;
+$secondary-light: $refero-deep;
+$secondary: $refero-canvas;
 $secondary-dark: #000;
 
 // Grays
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
+$gray-100: $refero-mist;
+$gray-200: $refero-ash;
+$gray-300: $refero-silver;
+$gray-400: $refero-silver;
+$gray-500: $refero-slate;
+$gray-600: $refero-slate;
+$gray-700: $refero-kelp;
+$gray-800: $refero-deep;
+$gray-900: $refero-canvas;
 
 // Success
-$success-light: #28a745;
-$success: #1c7c31;
-$success-dark: #145220;
+$success-light: #cbfffc;
+$success: #00827c;
+$success-dark: #03514b;
 
 // Error
-$error-light: #fdfafa;
-$error: #b10;
-$error-dark: #e98076;
+$error-light: $refero-phosphor;
+$error: #fad1ff;
+$error-dark: #f3aaff;
 
 // Loading
-$warning-light: #fdfd96;
-$warning: #e3ed2c;
-$warning-dark: #c7d71f;
+$warning-light: $refero-mist;
+$warning: #cbfffc;
+$warning-dark: #00827c;
 
 // Background
-
-$background-default: rgb(0 0 0 / 75%);
-$background-secondary: rgb(0 0 0 / 30%);
-$background-light: rgb(0 0 0 / 10%);
+$background-default: rgb(1 29 28 / 75%);
+$background-secondary: rgb(1 29 28 / 30%);
+$background-light: rgb(237 255 254 / 10%);
 
 // Hover
-$hover: #4fc3f7;
+$hover: $refero-mist;
 
 // Button
-$button-primary: #007bff;
-$button-primary-hover: #0056b3;
-$button-primary-disabled: #6c757d;
+$button-primary: $refero-kelp;
+$button-primary-hover: #03514b;
+$button-primary-disabled: $refero-slate;
 $button-success: $success;
 $button-success-hover: $success-dark;
 $button-error: $error;
 $button-error-hover: $error-dark;
 
 // Utility
-$text-default: $gray-900;
-$text-light: $gray-200;
-$text-inverse: #fff;
+$text-default: $refero-platinum;
+$text-light: $refero-ash;
+$text-inverse: $refero-deep;
 
-// Surface & Accent (custom)
-$surface-card: #fff;
-$surface-cream: #fff7ef;
-$surface-sand: #f2e6d8;
-$accent-sea: #0f6b6b;
-$accent-sun: #f5b36c;
-$accent-peach: #ffd2a6;
-$accent-peach-soft: #ffe3c2;
-$accent-mint: #a7d9d1;
-$accent-mint-soft: #cfeeea;
-$text-ink: #1a1a1a;
-$text-muted: #5b5f66;
+// Surface & Accent
+$surface-card: $refero-kelp;
+$surface-cream: $refero-canvas;
+$surface-sand: $refero-deep;
+$accent-sea: $refero-mist;
+$accent-sun: $refero-phosphor;
+$accent-peach: $refero-phosphor;
+$accent-peach-soft: $refero-mist;
+$accent-mint: #00827c;
+$accent-mint-soft: rgb(203 255 252 / 18%);
+$text-ink: $refero-platinum;
+$text-muted: $refero-silver;

@@ -17,6 +17,10 @@ export default function Vaccines() {
 
   const selectedVaccine = content[vaccine] as LocaleVaccine;
 
+  const handleVaccineSelect = (path: string) => {
+    setVaccine(path as VaccineKey);
+  };
+
   return (
     <div className={styles.vaccines}>
       <aside className={styles.vaccines__sidebar}>
@@ -28,7 +32,7 @@ export default function Vaccines() {
                 className={styles.vaccines__button}
                 data-active={item.path === vaccine}
                 aria-pressed={item.path === vaccine}
-                onClick={() => setVaccine(item.path)}
+                onClick={() => handleVaccineSelect(item.path)}
               >
                 {item.name}
               </button>

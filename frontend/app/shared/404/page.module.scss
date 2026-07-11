@@ -1,61 +1,79 @@
+// clinic-surface
+// refero-clinical-blueprint
+// refero-auros
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .not_found {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  width: min(100%, 72rem);
+  margin: 0 auto;
+  padding: 5rem var(--clinic-page-gutter) 7rem;
   gap: 1.6rem;
-  align-items: center;
-  padding: 2.5rem;
   text-align: center;
   color: $text-ink;
-  background: rgba($surface-card, 0.9);
-  border-radius: 2rem;
 
   @include mixins.small-tablet {
-    flex-direction: row;
+    grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
     text-align: left;
-    padding: 3rem;
   }
 
   &__badge {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 8rem;
-    height: 8rem;
-    font-size: 2.6rem;
-    font-weight: 700;
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto;
+    font-size: 2.8rem;
+    font-weight: 500;
     color: $text-inverse;
-    background: $accent-sea;
-    border-radius: 2rem;
+    background: $refero-gradient;
+    border-radius: var(--refero-control-radius);
+    box-shadow: none;
   }
 
   &__content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+    display: grid;
+    padding: 2.4rem;
+    gap: 1.2rem;
+    background: rgb(0 55 52 / 82%);
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
   }
 
   &__title {
-    margin: 0;
-    font-size: 2.6rem;
+    font-size: clamp(2.8rem, 5vw, 4.8rem);
+    font-weight: 500;
+    line-height: 1;
   }
 
   &__message {
-    margin: 0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
     color: $text-muted;
   }
 
   &__button {
-    align-self: flex-start;
-    padding: 0.8rem 1.6rem;
-    font-size: 1rem;
-    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    min-height: 4.6rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+    font-size: 1.35rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     color: $text-inverse;
-    background: $accent-sea;
-    border-radius: 999rem;
+    background: $refero-gradient;
+    border-radius: var(--refero-control-radius);
+
+    @include mixins.small-tablet {
+      margin: 0;
+    }
   }
 }

@@ -1,3 +1,6 @@
+// clinic-surface
+// refero-clinical-blueprint
+// refero-auros
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
@@ -26,9 +29,10 @@
     display: flex;
     flex-direction: column;
     padding: 1.4rem;
-    background: linear-gradient(160deg, rgba($accent-sea, 0.08), rgba($success, 0.07));
+    background: $surface-card;
     border: 0.1rem solid rgba($secondary, 0.1);
-    border-radius: 1.4rem;
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
     gap: 1rem;
   }
 
@@ -57,7 +61,7 @@
     color: $secondary;
     background-color: $surface-card;
     border: 0.1rem solid rgba($secondary, 0.16);
-    border-radius: 1rem;
+    border-radius: var(--refero-card-radius);
 
     &:focus-visible {
       outline: 0.2rem solid $accent-sea;

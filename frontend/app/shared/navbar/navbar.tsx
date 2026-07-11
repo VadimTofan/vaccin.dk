@@ -33,6 +33,9 @@ export function Navbar() {
           />
         </Link>
         <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        <Link href="/contact" className={styles.navigation__cta}>
+          Book consultation
+        </Link>
         <Menu isMenuOpen={isMenuOpen} handleMenu={handleMenu} />
       </div>
     </nav>

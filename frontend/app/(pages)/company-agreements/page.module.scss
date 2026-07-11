@@ -1,63 +1,100 @@
+// clinic-surface
+// refero-clinical-blueprint
+// refero-auros
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .agreements {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 2rem 1.5rem;
+  display: grid;
+  width: min(100%, var(--clinic-page-max));
+  margin: 0 auto;
+  padding: 5rem var(--clinic-page-gutter) 7rem;
+  gap: 1.6rem;
   color: $text-ink;
-  background: rgba($surface-card, 0.9);
-  border-radius: 2rem;
 
-  @include mixins.small-tablet {
-    padding: 3rem;
+  @include mixins.tablet {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-block: 7rem 9rem;
   }
 
   &__hero {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    min-height: 34rem;
+    padding: 3rem;
+    gap: 1.4rem;
+    background: $surface-card;
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
+
+    @include mixins.tablet {
+      grid-row: span 2;
+      justify-content: end;
+    }
   }
 
   &__eyebrow {
-    margin: 0;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.3em;
+    width: fit-content;
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
     text-transform: uppercase;
     color: $accent-sea;
+    background: rgb(0 55 52 / 82%);
+    border-radius: var(--refero-control-radius);
   }
 
-  &__lede {
-    margin: 0;
-    font-size: 1.2rem;
+  &__lede,
+  &__text {
+    font-size: 1.55rem;
+    line-height: 1.7;
     color: $text-muted;
   }
 
   &__section {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    padding: 2.2rem;
+    gap: 1rem;
+    background: rgb(0 55 52 / 82%);
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
   }
 
-  &__text {
-    margin: 0;
-    font-size: 1.1rem;
-    color: $text-muted;
+  &__section h2,
+  &__hero h1 {
+    font-size: clamp(2.4rem, 4vw, 4.6rem);
+    font-weight: 500;
+    line-height: 1.05;
+  }
+
+  &__section h2 {
+    font-size: 2.2rem;
   }
 
   &__contact {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+    display: grid;
+    gap: 0.8rem;
   }
 
   &__contact_item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
+    display: grid;
+    padding: 1rem 0;
+    gap: 0.3rem;
+    border-bottom: 0.1rem solid rgb(15 107 107 / 12%);
+  }
+
+  &__contact_item span {
     font-size: 1.1rem;
-    color: $text-muted;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $accent-sea;
+  }
+
+  &__contact_item strong {
+    font-size: 1.45rem;
+    line-height: 1.45;
   }
 }

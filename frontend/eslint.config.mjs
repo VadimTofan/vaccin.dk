@@ -4,6 +4,9 @@ import eslintPluginJsxA11y from "eslint-plugin-jsx-a11y";
 
 export default [
   {
+    ignores: [".next/**", "node_modules/**", "out/**", "dist/**"],
+  },
+  {
     files: ["**/*.js", "**/*.jsx"],
     languageOptions: {
       ecmaVersion: "latest",

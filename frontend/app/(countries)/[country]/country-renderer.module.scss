@@ -1,16 +1,20 @@
+// clinic-surface
+// refero-clinical-blueprint
+// refero-auros
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .country {
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+  width: min(100%, var(--clinic-page-max));
   margin: 0 auto;
-  padding: 4.8rem 2.4rem 6.4rem;
+  padding: 5rem var(--clinic-page-gutter) 7rem;
   color: $text-ink;
+  gap: 3.2rem;
 
   @include mixins.tablet {
-    padding: 6.4rem 4rem 8rem;
+    padding-block: 7rem 9rem;
     gap: 4rem;
   }
 
@@ -29,15 +33,15 @@
   &__eyebrow {
     font-size: 1.2rem;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: $accent-sea;
   }
 
   &__title {
     font-size: 4.4rem;
-    font-weight: 700;
-    color: $secondary;
+    font-weight: 500;
+    color: $text-ink;
 
     @include mixins.tablet {
       font-size: 5.2rem;
@@ -45,8 +49,9 @@
   }
 
   &__image_wrap {
-    border-radius: 2.4rem;
-    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
     overflow: hidden;
   }
 
@@ -64,9 +69,9 @@
 
   &__heading {
     font-size: 2.6rem;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
-    color: $secondary;
+    color: $text-ink;
   }
 
   &__subheading {
@@ -91,8 +96,9 @@
     flex-direction: column;
     padding: 2.4rem;
     background-color: $surface-card;
-    border-radius: 2rem;
-    box-shadow: 0 1.6rem 3.2rem rgb(0 0 0 / 6%);
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
+    box-shadow: none;
     gap: 1.2rem;
   }
 
@@ -125,9 +131,11 @@
   &__cta {
     padding: 1.2rem 2.6rem;
     font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     color: $text-inverse;
-    background-color: $button-primary;
-    border-radius: 999rem;
+    background: $refero-gradient;
+    border-radius: var(--refero-control-radius);
   }
 
   &__note {
@@ -157,7 +165,7 @@
     font-size: 1.5rem;
     line-height: 1.7;
     font-style: italic;
-    color: $secondary;
+    color: $text-ink;
   }
 
   &__map_placeholder {
@@ -168,7 +176,8 @@
     padding: 2.4rem;
     text-align: center;
     background: $surface-cream;
-    border-radius: 2rem;
+    border: 0.1rem solid var(--clinic-surface-border);
+    border-radius: var(--refero-card-radius);
   }
 
   &__map_text {
