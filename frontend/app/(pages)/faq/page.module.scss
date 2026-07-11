@@ -1,121 +1,98 @@
 // clinic-surface
 // refero-clinical-blueprint
-// refero-auros
+// sitewide-editorial-retouch
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .faq {
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
-  max-width: 100rem;
+  display: grid;
+  width: min(100% - 4rem, var(--clinic-page-max));
   margin: 0 auto;
-  padding: 4.8rem 2.4rem 6.4rem;
+  padding: 6rem 0 9rem;
   color: $text-ink;
 
-  @include mixins.tablet {
-    padding: 6.4rem 4rem 8rem;
-    gap: 4rem;
-  }
-
-  @include mixins.laptop {
-    padding: 8rem 5.6rem 9.6rem;
-  }
-
   &__hero {
-    display: flex;
-    flex-direction: column;
-    padding: 3.2rem;
-    background: $surface-card;
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
-    gap: 1.4rem;
-
-    @include mixins.tablet {
-      padding: 4rem;
-    }
+    display: grid;
+    max-width: 92rem;
+    padding: 2rem 0 6rem;
+    gap: 1.6rem;
   }
 
   &__eyebrow {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     color: $accent-sea;
   }
 
   &__title {
-    font-size: 4rem;
+    max-width: 86rem;
+    font-size: clamp(4.8rem, 8vw, 8.8rem);
     font-weight: 500;
-    color: $secondary;
-
-    @include mixins.tablet {
-      font-size: 4.8rem;
-    }
+    line-height: 0.94;
+    letter-spacing: -0.04em;
+    color: $text-ink;
   }
 
   &__lead {
-    max-width: 64rem;
-    font-size: 1.7rem;
+    max-width: 68rem;
+    font-size: 1.8rem;
     line-height: 1.6;
-    color: $text-muted;
+    color: $text-light;
   }
 
   &__section {
-    display: flex;
-    flex-direction: column;
-    padding: 2.4rem;
-    background-color: $surface-card;
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
-    gap: 1.6rem;
+    display: grid;
+    padding: 3.2rem 0;
+    gap: 2.4rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+  }
 
-    @include mixins.laptop {
-      padding: 3.2rem;
+  @include mixins.tablet {
+    &__section {
+      grid-template-columns: minmax(22rem, 0.45fr) minmax(0, 1fr);
+      padding: 4rem 0;
+      gap: 5rem;
     }
   }
 
   &__heading {
     font-size: 2.4rem;
-    color: $secondary;
+    font-weight: 500;
+    color: $text-ink;
   }
 
-  &__text {
+  &__text,
+  &__answer {
     font-size: 1.6rem;
     line-height: 1.7;
-    color: $text-muted;
+    color: $text-light;
   }
 
   &__list {
     display: grid;
-    gap: 1.6rem;
   }
 
   &__item {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: $surface-cream;
-    border-radius: 1.6rem;
+    display: grid;
+    padding: 2rem 0;
     gap: 0.8rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 14%);
+
+    &:last-child {
+      border-bottom: 0.1rem solid rgb(203 255 252 / 14%);
+    }
   }
 
   &__question {
     font-size: 1.8rem;
-    color: $secondary;
-  }
-
-  &__answer {
-    font-size: 1.6rem;
-    line-height: 1.7;
-    color: $text-muted;
+    font-weight: 500;
+    color: $text-ink;
   }
 
   &__contact {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 0.8rem;
     font-style: normal;
   }
