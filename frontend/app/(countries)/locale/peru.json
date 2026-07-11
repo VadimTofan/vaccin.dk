@@ -1,0 +1,632 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Peru",
+      "imageAlt": "Et billede, der beskriver Peru"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatitis A",
+            "text": [
+              "Hepatitis A, også kaldet smitsom leverbetændelse, er en akut smitsom leversygdom, som skyldes en virus og overføres fækal-oralt. Den overføres normalt ved indtagelse af mad eller vand, der er forurenet med fæces (afføring) eller direkte eller indirekte kontakt med afføring. Hepatitis A er en af de mest almindelige alvorlige infektionssygdomme, man kan få på rejser, og som kan forebygges med vaccination.",
+              "Symptomerne kan vare ved i flere uger eller måneder. Hepatitis A-virus forårsager ikke kronisk leversygdom, men det kan tage flere uger at blive rask. Trætheden kan dog vare ved i flere måneder, efter at betændelsestilstanden er aftaget.",
+              "Det kliniske forløb varierer lige fra asymptomatisk infektion, som er almindelig hos mindre børn, til symptomatisk sygdom hos voksne eller sjældent livstruende leversvigt. Virussen kan også overføres af personer med en asymptomatisk infektion."
+            ],
+            "link": "Anbefalede vacciner: Hepatitis A",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatitis B",
+            "text": [
+              "Hepatitis B er en virusinfektion, som angriber leveren og kan forårsage både akut og kronisk leverbetændelse.",
+              "Inkubationstiden for hepatitis B er fra én til seks måneder. Om man får symptomer afhænger blandt andet af alderen på smittetidspunktet.",
+              "Den akutte infektion forløber ofte uden symptomer, særligt hos mindre børn. Langt de fleste nyfødte, der smittes ved fødslen, får ingen symptomer.",
+              "Ved symptomgivende akut hepatitis B kan man opleve influenzalignende symptomer som hovedpine, feber, træthed og ømhed i kroppen.",
+              "Der kan også forekomme appetitløshed, kvalme, opkastning, mavesmerter, gulsot, mørk urin og lys afføring samt kløe og ledsmerter.",
+              "Sygdomsvarigheden varierer fra få uger til flere måneder. De fleste voksne bliver raske og udvikler livslang immunitet.",
+              "I sjældne tilfælde kan akut hepatitis B føre til livstruende leversvigt.",
+              "Kronisk hepatitis B kan udvikles efter infektion og kan føre til skrumpelever og i sjældne tilfælde leverkræft.",
+              "Risikoen for kronisk infektion er størst hos spædbørn og mindre børn. Op til 90 % af børn smittet ved fødslen udvikler kronisk infektion.",
+              "Mange mennesker lever med kronisk hepatitis B uden nogensinde at have haft symptomer på den akutte infektion."
+            ],
+            "link": "Anbefalede vacciner: Hepatitis B",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Gul feber",
+            "text": [
+              "Gul feber er en akut virussygdom, der overføres ved myggestik, og som kan føre til hæmoragisk feber. Tidlige symptomer er feber og kvalme. I den anden, mere alvorlige 'gule' fase, kan sygdommen føre til blødning, nyre- eller leversvigt og dødsfald."
+            ],
+            "link": "Anbefalede vacciner: Gul feber",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Tyfus",
+            "text": [
+              "Tyfus skyldes bakterien Salmonella Typhi og forekommer især i områder med dårlig hygiejne og begrænset adgang til rent drikkevand.",
+              "Symptomer omfatter langvarig feber, hovedpine, mavesmerter, træthed, diarré eller forstoppelse. Symptomer optræder typisk 1–3 uger efter smitte, men kan variere fra person til person.",
+              "Forløbet kan variere fra milde eller asymptomatiske tilfælde, ofte hos børn, til alvorlig sygdom hos voksne. Ubehandlet kan tyfus være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Tyfus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Tuberkulose",
+            "text": [
+              "Tuberkulose er en hyppigt forekommende smitsom sygdom, der skyldes bakterier. Tuberkulose er stadig en væsentlig årsag til sygelighed og dødelighed over store dele af verden. Tuberkulose angriber som regel lungerne, men kan også påvirke andre organer. Symptomerne på lungetuberkulose er længerevarende hoste og blod i spyttet. Desuden ses typisk feber, træthed og vægttab. Sygdom kan udvikles længe efter smittetidspunkt. De fleste smittede udvikler aldrig sygdom."
+            ],
+            "link": "Anbefalede vacciner: Tuberkulose",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Malaria",
+            "text": [
+              "Malaria er en alvorlig, endog livstruende febersygdom, som forårsages af malariaparasitter og spredes via myg. Blot ét enkelt bid fra en parasitbærende myg kan medføre infektion.",
+              "Typiske symptomer omfatter influenzalignende symptomer som feber, kulderystelser, svedeture, hovedpine, mavesmerter og kvalme.",
+              "Malaria kan medføre alvorlige komplikationer, og ubehandlet kan sygdommen være dødelig, især falciparum malaria.",
+              "De fleste dødsfald rammer børn og gravide i de endemiske områder.",
+              "Malaria kræver akut behandling."
+            ],
+            "link": "Anbefalede vacciner: Malaria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Rabies (Hundegalskab)",
+            "text": [
+              "Rabies (eller hundegalskab) er en virussygdom, som påvirker centralnervesystemet og i sidste ende forårsager hjernebetændelse og død. Sygdommen overføres til mennesker via et smittet dyrs spyt. Typisk som følge af et bid eller evt. ved at spyt kommer i kontakt med åbne sår eller slimhinder ved, at dyret slikker på disse.",
+              "Symptomerne opstår fra typisk et par uger til flere måneder efter et bid. Blandt de første symptomer kan nævnes feber, hovedpine og utilpashed, og disse efterfølges af symptomer på hjernebetændelse, f.eks. kan der være hallucinationer.",
+              "Ligeledes kan personer, der er smittet med rabies, reagere på vand og få anfald med vejrtræknings- og synkebesvær, hvilket beskrives som hydrofobi. Der kan også forekomme lammelser.",
+              "Hvis man først har fået symptomer på sygdommen, kan rabies ikke kureres og vil medføre døden hos den syge person, men sygdommen kan forebygges med vaccination (evt sammen med immunglobulin)."
+            ],
+            "link": "Anbefalede vacciner: Rabies (Hundegalskab)",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Peru",
+        "text": "Peru er blevet delt af Andesbjergkæden i tre regioner: Kystegnene, højlandet og Amazonasjunglen. Over halvdelen af befolkningen har bosat sig i højlandet, hvor mange lever af dyrkningen af majs og kartofler, som findes i henholdsvis 55 og 3000 varianter i landet.",
+        "textTwo": "Men landets virkelige appel ligger uden for hovedstaden. Kontrasterer smukt med Lima er den antikke hovedstad i Cusco med sine snoede brostensbelagte gader og mere end 1.000 års historie. Det er porten for besøgende til den uundgåelige Machu Picchu såvel som dem, der går på Inca-stien, men det skaber en farverig destination i sig selv. Der er ikke noget bedre sted at lære mere om landets tidligere tider og omvæltningen af den spanske erobring.",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Peru",
+      "imageAlt": "A photo that describes Peru"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatitis A",
+            "text": [
+              "Hepatitis A, also called infectious hepatitis, is an acute infectious liver disease caused by a virus and transmitted fecal-orally. It is usually transmitted by consuming food or water contaminated with feces or through direct or indirect contact with feces. Hepatitis A is one of the most common serious infectious diseases that can be acquired during travel and can be prevented with vaccination.",
+              "Symptoms can last for several weeks or months. Hepatitis A virus does not cause chronic liver disease, but it can take several weeks to recover. Fatigue can continue for several months after the inflammation has subsided.",
+              "The clinical course varies from asymptomatic infection, which is common in young children, to symptomatic disease in adults or rarely life-threatening liver failure. The virus can also be transmitted by people with asymptomatic infection."
+            ],
+            "link": "Recommended vaccines: Hepatitis A",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatitis B",
+            "text": [
+              "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic liver inflammation.",
+              "The incubation period for hepatitis B is from one to six months. Whether symptoms occur depends among other things on the age at the time of infection.",
+              "The acute infection often occurs without symptoms, especially in young children. Most newborns infected at birth show no symptoms.",
+              "With symptomatic acute hepatitis B, one may experience flu-like symptoms such as headache, fever, fatigue, and body aches.",
+              "There may also be loss of appetite, nausea, vomiting, abdominal pain, jaundice, dark urine, pale stools, itching, and joint pain.",
+              "The duration of illness varies from a few weeks to several months. Most adults recover and develop lifelong immunity.",
+              "In rare cases, acute hepatitis B can lead to life-threatening liver failure.",
+              "Chronic hepatitis B can develop after infection and can lead to cirrhosis and in rare cases liver cancer.",
+              "The risk of chronic infection is greatest in infants and young children. Up to 90% of children infected at birth develop chronic infection.",
+              "Many people live with chronic hepatitis B without ever having had symptoms of the acute infection."
+            ],
+            "link": "Recommended vaccines: Hepatitis B",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Yellow fever",
+            "text": [
+              "Yellow fever is an acute viral disease transmitted by mosquito bites and can lead to hemorrhagic fever. Early symptoms are fever and nausea. In the second, more severe 'yellow' phase, the disease can cause bleeding, kidney or liver failure, and death."
+            ],
+            "link": "Recommended vaccines: Yellow fever",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Typhoid Fever",
+            "text": [
+              "Typhoid is caused by the bacterium Salmonella Typhi and occurs especially in areas with poor hygiene and limited access to clean drinking water.",
+              "Symptoms include prolonged fever, headache, abdominal pain, fatigue, diarrhea or constipation. Symptoms typically appear 1–3 weeks after infection, but can vary from person to person.",
+              "The course of illness can vary from mild or asymptomatic cases, often in children, to severe disease in adults. Untreated typhoid can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Typhoid Fever",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Tuberculosis",
+            "text": [
+              "Tuberculosis is a common contagious disease caused by bacteria. Tuberculosis remains a major cause of illness and death in large parts of the world. Tuberculosis usually affects the lungs but can also affect other organs. Symptoms of pulmonary tuberculosis are prolonged cough and blood in sputum. Fever, fatigue, and weight loss are also common. Disease can develop long after infection. Most infected people never develop disease."
+            ],
+            "link": "Recommended vaccines: Tuberculosis",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Malaria",
+            "text": [
+              "Malaria is a serious, potentially life-threatening fever disease caused by malaria parasites and spread by mosquitoes. Just one bite from an infected mosquito can cause infection.",
+              "Typical symptoms include flu-like symptoms such as fever, chills, sweating, headache, abdominal pain, and nausea.",
+              "Malaria can cause serious complications, and untreated it can be fatal, especially falciparum malaria.",
+              "Most deaths occur in children and pregnant women in endemic areas.",
+              "Malaria requires urgent treatment."
+            ],
+            "link": "Recommended vaccines: Malaria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Rabies",
+            "text": [
+              "Rabies is a viral disease affecting the central nervous system and eventually causing encephalitis and death. The disease is transmitted to humans via saliva from an infected animal, typically through a bite or when saliva comes into contact with open wounds or mucous membranes by the animal licking them.",
+              "Symptoms appear typically a few weeks to several months after a bite. Early symptoms include fever, headache, and malaise, followed by symptoms of encephalitis, e.g., hallucinations.",
+              "Infected persons can also react to water and have seizures with breathing and swallowing difficulties, described as hydrophobia. Paralysis may also occur.",
+              "Once symptoms appear, rabies cannot be cured and will result in death, but the disease can be prevented with vaccination (possibly combined with immunoglobulin)."
+            ],
+            "link": "Recommended vaccines: Rabies",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Peru",
+        "text": "Peru has been divided by the Andes mountain range into three regions: the coastal signs, the highlands, and the Amazon jungle. More than half of the population has settled in the highlands, where many live off the cultivation of maize and potatoes, which are found in 55 and 3000 varieties in the country, respectively.",
+        "textTwo": "But the country’s real appeal lies outside the capital. Contrasting beautifully with Lima is Cusco's ancient capital with its winding cobbled streets and 1,000-plus years of history. It’s the gateway for visitors to the unmissable Machu Picchu, as well as those walking the Inca trail, but it makes for a colorful destination in its own right. There’s no better place to learn more about the country’s earlier times and the Spanish conquest's upheaval. ",
+        "notice": "The vaccines listed for Peru are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Peru, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Peru",
+      "imageAlt": "Ett foto som beskriver Peru"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatit A",
+            "text": [
+              "Hepatit A, även kallad smittsam hepatit, är en akut infektionssjukdom i levern som orsakas av ett virus och sprids fekal-oralt. Den överförs vanligtvis genom att man konsumerar mat eller vatten som är kontaminerat med avföring eller genom direkt eller indirekt kontakt med avföring. Hepatit A är en av de vanligaste allvarliga infektionssjukdomar som kan förvärvas under resor och kan förebyggas med vaccination.",
+              "Symtomen kan vara i flera veckor eller månader. Hepatit A-virus orsakar inte kronisk leversjukdom, men det kan ta flera veckor att återhämta sig. Trötthet kan fortsätta i flera månader efter att inflammationen har lagt sig.",
+              "Kliniska förloppet varierar från asymtomatisk infektion, vilket är vanligt hos små barn, till symtomatisk sjukdom hos vuxna eller i sällsynta fall livshotande leversvikt. Viruset kan också spridas av personer med asymtomatisk infektion."
+            ],
+            "link": "Rekommenderade vacciner: Hepatit A",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatit B",
+            "text": [
+              "Hepatit B är en virussjukdom som angriper levern och kan orsaka både akut och kronisk leverinflammation.",
+              "Inkuba­tions­tiden för hepatit B är från en till sex månader. Om symtom uppstår beror bland annat på åldern vid infektionstillfället.",
+              "Den akuta infektionen sker ofta utan symtom, särskilt hos små barn. De flesta nyfödda som smittas vid födseln visar inga symtom.",
+              "Vid symtomatisk akut hepatit B kan man uppleva influensaliknande symtom såsom huvudvärk, feber, trötthet och värk i kroppen.",
+              "Det kan också förekomma aptitlöshet, illamående, kräkningar, buksmärtor, gulsot, mörk urin, ljus avföring, klåda och ledvärk.",
+              "Sjukdomens varaktighet varierar från några veckor till flera månader. De flesta vuxna återhämtar sig och utvecklar livslång immunitet.",
+              "I sällsynta fall kan akut hepatit B leda till livshotande leversvikt.",
+              "Kronisk hepatit B kan utvecklas efter infektion och kan leda till skrumplever och i sällsynta fall levercancer.",
+              "Risken för kronisk infektion är störst hos spädbarn och små barn. Upp till 90 % av barn som smittas vid födseln utvecklar kronisk infektion.",
+              "Många lever med kronisk hepatit B utan att någonsin ha haft symtom av den akuta infektionen."
+            ],
+            "link": "Rekommenderade vacciner: Hepatit B",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Gul feber",
+            "text": [
+              "Gul feber är en akut virussjukdom som överförs via myggbett och kan leda till blödarfeber. Tidiga symtom är feber och illamående. I den andra, mer allvarliga 'gula' fasen kan sjukdomen orsaka blödningar, njur- eller leversvikt och död."
+            ],
+            "link": "Rekommenderade vacciner: Gul feber",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Tyfoidfeber",
+            "text": [
+              "Tyfoid orsakas av bakterien Salmonella Typhi och förekommer särskilt i områden med dålig hygien och begränsad tillgång till rent dricksvatten.",
+              "Symtom inkluderar långvarig feber, huvudvärk, buksmärta, trötthet, diarré eller förstoppning. Symtom uppträder vanligtvis 1–3 veckor efter infektion, men kan variera från person till person.",
+              "Sjukdomsförloppet kan variera från milda eller asymtomatiska fall, ofta hos barn, till allvarlig sjukdom hos vuxna. Obehandlad tyfoid kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Tyfoidfeber",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Tuberkulos",
+            "text": [
+              "Tuberkulos är en vanlig smittsam sjukdom orsakad av bakterier. Tuberkulos är fortfarande en stor orsak till sjukdom och död i stora delar av världen. Tuberkulos drabbar vanligtvis lungorna men kan också påverka andra organ. Symtom på lungtuberkulos är långvarig hosta och blod i slem. Feber, trötthet och viktminskning är också vanliga. Sjukdom kan utvecklas långt efter infektion. De flesta som är smittade utvecklar aldrig sjukdom."
+            ],
+            "link": "Rekommenderade vacciner: Tuberkulos",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Malaria",
+            "text": [
+              "Malaria är en allvarlig, potentiellt livshotande feber­sjukdom orsakad av malaria­parasiter och sprids av myggor. Bara ett bett från en infekterad mygga kan orsaka infektion.",
+              "Typiska symtom inkluderar influensaliknande symtom såsom feber, frossa, svettningar, huvudvärk, buksmärta och illamående.",
+              "Malaria kan orsaka allvarliga komplikationer, och obehandlad kan den vara dödlig, särskilt falciparum­malaria.",
+              "De flesta dödsfallen sker hos barn och gravida kvinnor i endemiska områden.",
+              "Malaria kräver snabb behandling."
+            ],
+            "link": "Rekommenderade vacciner: Malaria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Rabies",
+            "text": [
+              "Rabies är en virussjukdom som påverkar centrala nervsystemet och så småningom orsakar encefalit och död. Sjukdomen överförs till människor via saliv från ett infekterat djur, vanligtvis genom ett bett eller när saliv kommer i kontakt med öppna sår eller slemhinnor genom att djuret slickar dem.",
+              "Symtom uppträder vanligtvis några veckor till flera månader efter ett bett. Tidiga symtom inkluderar feber, huvudvärk och allmän sjukdomskänsla, följt av symtom på encefalit, t.ex. hallucinationer.",
+              "Infekterade personer kan också reagera på vatten och få kramper med andnings- och sväljsvårigheter, beskrivet som hydrofobi. Förlamning kan också uppstå.",
+              "När symtomen väl har uppstått kan rabies inte botas och leder till döden, men sjukdomen kan förebyggas med vaccination (eventuellt kombinerat med immunoglobulin)."
+            ],
+            "link": "Rekommenderade vacciner: Rabies",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Peru",
+        "text": "Peru har delats av bergskedjan Andes i tre regioner: kustskyltarna, höglandet och Amazonas djungel. Mer än hälften av befolkningen har bosatt sig i höglandet, där många lever av odling av majs och potatis, som finns i 55 respektive 3000 sorter i landet.",
+        "textTwo": "Men landets verkliga överklagande ligger utanför huvudstaden. Kontrasterar vackert med Lima är den antika huvudstaden i Cusco med sina slingrande kullerstensgator och 1000-åriga historia. Det är porten för besökare till den otillåtna Machu Picchu, liksom de som går på Inca-spåret, men det ger en färgstark destination i sig. Det finns inget bättre ställe att lära sig mer om landets tidigare tider och omvälvningen av den spanska erövringen.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Peru rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Перу",
+      "imageAlt": "Фотография, описывающая Перу"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Гепатит А",
+            "text": [
+              "Гепатит А, также называемый инфекционным гепатитом, — это острое инфекционное заболевание печени, вызываемое вирусом и передающееся фекально-оральным путем. Обычно передается через употребление пищи или воды, загрязненных фекалиями, либо через прямой или косвенный контакт с фекалиями. Гепатит А — одно из самых распространённых серьёзных инфекционных заболеваний, которое можно получить во время путешествий, и его можно предотвратить вакцинацией.",
+              "Симптомы могут длиться несколько недель или месяцев. Вирус гепатита А не вызывает хроническое заболевание печени, но восстановление может занять несколько недель. Усталость может сохраняться несколько месяцев после того, как воспаление прошло.",
+              "Клиническое течение варьируется от бессимптомной инфекции (что часто бывает у маленьких детей) до симптоматического заболевания у взрослых или, в редких случаях, угрожающей жизни печёночной недостаточности. Вирус также может передаваться людьми с бессимптомной инфекцией."
+            ],
+            "link": "Рекомендуемые вакцины: Гепатит А",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Гепатит Б",
+            "text": [
+              "Гепатит B — вирусная инфекция, которая поражает печень и может вызвать как острое, так и хроническое воспаление печени.",
+              "Инкубационный период гепатита B составляет от одного до шести месяцев. Наличие симптомов зависит, среди прочего, от возраста в момент заражения.",
+              "Острая инфекция часто протекает бессимптомно, особенно у маленьких детей. Большинство новорождённых, инфицированных при рождении, не имеют симптомов.",
+              "При симптоматическом остром гепатите B могут возникать симптомы, похожие на грипп, такие как головная боль, температура, усталость и боли в теле.",
+              "Могут также наблюдаться потеря аппетита, тошнота, рвота, боли в животе, желтуха, тёмная моча, светлый стул, зуд и боли в суставах.",
+              "Продолжительность заболевания варьируется от нескольких недель до нескольких месяцев. Большинство взрослых выздоравливают и вырабатывают пожизненный иммунитет.",
+              "В редких случаях острый гепатит B может привести к опасной для жизни печёночной недостаточности.",
+              "После заражения может развиться хронический гепатит B, который может привести к циррозу и в редких случаях к раку печени.",
+              "Риск хронической инфекции наиболее высок у младенцев и маленьких детей. До 90% детей, инфицированных при рождении, развивают хроническую инфекцию.",
+              "Многие люди живут с хроническим гепатитом B, не имея симптомов острой инфекции."
+            ],
+            "link": "Рекомендуемые вакцины: Гепатит Б",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Жёлтая Лихорадка",
+            "text": [
+              "Жёлтая лихорадка — острое вирусное заболевание, передающееся укусами комаров и может привести к геморрагической лихорадке. Ранние симптомы — температура и тошнота. Во второй, более тяжёлой «жёлтой» фазе заболевание может вызвать кровотечения, почечную или печёночную недостаточность и смерть."
+            ],
+            "link": "Рекомендуемые вакцины: Жёлтая Лихорадка",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Тиф",
+            "text": [
+              "Тиф вызывается бактерией Salmonella Typhi и особенно распространён в районах с плохой гигиеной и ограниченным доступом к чистой питьевой воде.",
+              "Симптомы включают продолжительную лихорадку, головную боль, боль в животе, усталость, диарею или запор. Симптомы обычно появляются через 1–3 недели после заражения, но могут различаться у разных людей.",
+              "Течение болезни может варьироваться от лёгких или бессимптомных случаев (часто у детей) до тяжёлого заболевания у взрослых. Нелечёный тиф может быть опасным для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Тиф",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Туберкулёз",
+            "text": [
+              "Туберкулёз — распространённое заразное заболевание, вызываемое бактериями. Туберкулёз остаётся основной причиной болезни и смерти во многих частях мира. Обычно поражает лёгкие, но может затрагивать и другие органы. Симптомы лёгочного туберкулёза включают продолжительный кашель и кровь в мокроте. Также часто наблюдаются лихорадка, усталость и потеря веса. Болезнь может развиться спустя долгое время после заражения. Большинство заражённых людей никогда не заболевают."
+            ],
+            "link": "Рекомендуемые вакцины: Туберкулёз",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Малярия",
+            "text": [
+              "Малярия — серьёзное, потенциально опасное для жизни лихорадочное заболевание, вызываемое паразитами малярии и передающееся комарами. Один укус инфицированного комара может вызвать заражение.",
+              "Типичные симптомы включают симптомы, похожие на грипп: температуру, озноб, потливость, головную боль, боли в животе и тошноту.",
+              "Малярия может вызвать серьёзные осложнения, и без лечения она может быть смертельной, особенно при тропической малярии (falciparum).",
+              "Большинство смертей происходит у детей и беременных женщин в эндемичных районах.",
+              "Малярия требует срочного лечения."
+            ],
+            "link": "Рекомендуемые вакцины: Малярия",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Бешенство",
+            "text": [
+              "Бешенство — вирусное заболевание, поражающее центральную нервную систему и в конечном итоге вызывающее энцефалит и смерть. Заболевание передаётся человеку через слюну инфицированного животного, обычно через укус или когда слюна попадает на открытые раны или слизистые оболочки при облизывании животным.",
+              "Симптомы обычно появляются через несколько недель или месяцев после укуса. Ранние симптомы включают температуру, головную боль и недомогание, затем появляются симптомы энцефалита, например галлюцинации.",
+              "Инфицированные также могут реагировать на воду и иметь судороги с нарушением дыхания и глотания, что описывается как гидрофобия. Также может развиться паралич.",
+              "После появления симптомов бешенство неизлечимо и приводит к смерти, но заболевание можно предотвратить вакцинацией (возможно в комбинации с иммуноглобулином)."
+            ],
+            "link": "Рекомендуемые вакцины: Бешенство",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Перу",
+        "text": "Перу разделено горным хребтом Анд на три региона: прибрежные зоны, высокогорья и джунгли Амазонки. Более половины населения обосновалось в высокогорье, где многие живут за счет выращивания кукурузы и картофеля, которых в стране насчитывается соответственно 55 и 3000 сортов.",
+        "textTwo": "Но настоящая привлекательность страны находится за пределами столицы. Красиво контрастируя с Лимой, древняя столица Куско с ее извилистыми мощеными улочками и более чем 1000-летней историей. Это ворота для посетителей незабываемого Мачу-Пикчу, а также для тех, кто идет по тропе инков, но сам по себе он представляет собой красочное место. Нет лучшего места, чтобы узнать больше о прежних временах страны и потрясениях испанского завоевания. ",
+        "notice": "Вакцины, перечисленные для Перу, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Перу, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Περού",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Περού"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Ηπατίτιδα Α",
+            "text": [
+              "Η ηπατίτιδα Α, επίσης γνωστή ως λοιμώδης ηπατίτιδα, είναι μια οξεία λοιμώδης νόσος του ήπατος που προκαλείται από ιό και μεταδίδεται κοπρανο-στοματικά. Συνήθως μεταδίδεται μέσω κατανάλωσης τροφής ή νερού μολυσμένου με κόπρανα ή μέσω άμεσης/έμμεσης επαφής με κόπρανα. Η ηπατίτιδα Α είναι μία από τις πιο κοινές σοβαρές λοιμώδεις ασθένειες που μπορεί να αποκτηθούν κατά τη διάρκεια ταξιδιού και μπορεί να προληφθεί με εμβολιασμό.",
+              "Τα συμπτώματα μπορεί να διαρκέσουν για αρκετές εβδομάδες ή μήνες. Ο ιός της ηπατίτιδας Α δεν προκαλεί χρόνια νόσο του ήπατος, αλλά μπορεί να χρειαστούν αρκετές εβδομάδες για ανάρρωση. Η κόπωση μπορεί να συνεχιστεί για αρκετούς μήνες μετά την υποχώρηση της φλεγμονής.",
+              "Η κλινική πορεία ποικίλλει από ασυμπτωματική λοίμωξη, η οποία είναι συχνή σε μικρά παιδιά, έως συμπτωματική νόσο σε ενήλικες ή σπάνια απειλητική για τη ζωή ανεπάρκεια ήπατος. Ο ιός μπορεί επίσης να μεταδοθεί από άτομα με ασυμπτωματική λοίμωξη."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Ηπατίτιδα Α",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Ηπατίτιδα Β",
+            "text": [
+              "Η ηπατίτιδα Β είναι ιογενής λοίμωξη που προσβάλλει το ήπαρ και μπορεί να προκαλέσει τόσο οξεία όσο και χρόνια φλεγμονή του ήπατος.",
+              "Η περίοδος επώασης για την ηπατίτιδα Β είναι από ένα έως έξι μήνες. Το αν εμφανιστούν συμπτώματα εξαρτάται μεταξύ άλλων από την ηλικία κατά τη στιγμή της λοίμωξης.",
+              "Η οξεία λοίμωξη συχνά εμφανίζεται χωρίς συμπτώματα, ειδικά σε μικρά παιδιά. Τα περισσότερα νεογνά που μολύνονται κατά τη γέννηση δεν εμφανίζουν συμπτώματα.",
+              "Με συμπτωματική οξεία ηπατίτιδα Β, μπορεί να εμφανιστούν συμπτώματα όπως πονοκέφαλος, πυρετός, κόπωση και πόνοι στο σώμα.",
+              "Μπορεί επίσης να υπάρχει απώλεια όρεξης, ναυτία, έμετος, κοιλιακός πόνος, ίκτερος, σκούρα ούρα, ανοιχτόχρωμα κόπρανα, φαγούρα και πόνοι στις αρθρώσεις.",
+              "Η διάρκεια της νόσου ποικίλλει από λίγες εβδομάδες έως αρκετούς μήνες. Οι περισσότεροι ενήλικες αναρρώνουν και αναπτύσσουν ανοσία δια βίου.",
+              "Σε σπάνιες περιπτώσεις, η οξεία ηπατίτιδα Β μπορεί να οδηγήσει σε απειλητική για τη ζωή ανεπάρκεια ήπατος.",
+              "Η χρόνια ηπατίτιδα Β μπορεί να αναπτυχθεί μετά τη λοίμωξη και μπορεί να οδηγήσει σε κίρρωση και σε σπάνιες περιπτώσεις σε καρκίνο του ήπατος.",
+              "Ο κίνδυνος χρόνιας λοίμωξης είναι μεγαλύτερος σε βρέφη και μικρά παιδιά. Έως 90% των παιδιών που μολύνονται κατά τη γέννηση αναπτύσσουν χρόνια λοίμωξη.",
+              "Πολλοί άνθρωποι ζουν με χρόνια ηπατίτιδα Β χωρίς ποτέ να έχουν εμφανίσει συμπτώματα της οξείας λοίμωξης."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Ηπατίτιδα Β",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Κίτρινος Πυρετός",
+            "text": [
+              "Ο κίτρινος πυρετός είναι οξεία ιογενής νόσος που μεταδίδεται από τσιμπήματα κουνουπιών και μπορεί να οδηγήσει σε αιμορραγικό πυρετό. Τα πρώιμα συμπτώματα είναι πυρετός και ναυτία. Στη δεύτερη, πιο σοβαρή «κίτρινη» φάση, η νόσος μπορεί να προκαλέσει αιμορραγίες, νεφρική ή ηπατική ανεπάρκεια και θάνατο."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Κίτρινος Πυρετός",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Τύφος",
+            "text": [
+              "Ο τύφος προκαλείται από το βακτήριο Salmonella Typhi και εμφανίζεται ειδικά σε περιοχές με κακή υγιεινή και περιορισμένη πρόσβαση σε καθαρό πόσιμο νερό.",
+              "Τα συμπτώματα περιλαμβάνουν παρατεταμένο πυρετό, πονοκέφαλο, κοιλιακό πόνο, κόπωση, διάρροια ή δυσκοιλιότητα. Τα συμπτώματα συνήθως εμφανίζονται 1–3 εβδομάδες μετά τη μόλυνση, αλλά μπορεί να διαφέρουν από άτομο σε άτομο.",
+              "Η πορεία της νόσου μπορεί να ποικίλει από ήπιες ή ασυμπτωματικές περιπτώσεις, συχνά σε παιδιά, έως σοβαρή νόσο σε ενήλικες. Ο untreated τύφος μπορεί να είναι απειλητικός για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τύφος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Φυματίωση",
+            "text": [
+              "Η φυματίωση είναι κοινή μεταδοτική νόσος που προκαλείται από βακτήρια. Η φυματίωση παραμένει σημαντική αιτία ασθενειών και θανάτου σε μεγάλες περιοχές του κόσμου. Συνήθως επηρεάζει τους πνεύμονες αλλά μπορεί να προσβάλλει και άλλα όργανα. Τα συμπτώματα της πνευμονικής φυματίωσης είναι παρατεταμένος βήχας και αίμα στα πτύελα. Πυρετός, κόπωση και απώλεια βάρους είναι επίσης κοινά. Η νόσος μπορεί να αναπτυχθεί πολύ μετά τη μόλυνση. Τα περισσότερα μολυσμένα άτομα δεν αναπτύσσουν ποτέ νόσο."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Φυματίωση",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Μαλάρια",
+            "text": [
+              "Η μαλάρια είναι σοβαρή, ενδεχομένως απειλητική για τη ζωή νόσος με πυρετό, που προκαλείται από παράσιτα της μαλάριας και μεταδίδεται από κουνούπια. Μόνο ένα τσίμπημα από μολυσμένο κουνούπι μπορεί να προκαλέσει μόλυνση.",
+              "Τα τυπικά συμπτώματα περιλαμβάνουν συμπτώματα παρόμοια με γρίπη όπως πυρετό, ρίγη, εφίδρωση, πονοκέφαλο, κοιλιακό πόνο και ναυτία.",
+              "Η μαλάρια μπορεί να προκαλέσει σοβαρές επιπλοκές και αν δεν αντιμετωπιστεί μπορεί να είναι θανατηφόρα, ειδικά η μαλάρια falciparum.",
+              "Οι περισσότερες θάνατοι συμβαίνουν σε παιδιά και έγκυες γυναίκες σε ενδημικές περιοχές.",
+              "Η μαλάρια απαιτεί άμεση θεραπεία."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Μαλάρια",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Λύσσα",
+            "text": [
+              "Η λύσσα είναι ιογενής νόσος που επηρεάζει το κεντρικό νευρικό σύστημα και τελικά προκαλεί εγκεφαλίτιδα και θάνατο. Η νόσος μεταδίδεται στον άνθρωπο μέσω σάλιου από μολυσμένο ζώο, συνήθως μέσω δαγκώματος ή όταν το σάλιο έρχεται σε επαφή με ανοιχτές πληγές ή βλεννογόνους, όταν το ζώο τα γλύφει.",
+              "Τα συμπτώματα εμφανίζονται συνήθως λίγες εβδομάδες έως αρκετούς μήνες μετά από δάγκωμα. Τα πρώιμα συμπτώματα περιλαμβάνουν πυρετό, πονοκέφαλο και κακουχία, ακολουθούμενα από συμπτώματα εγκεφαλίτιδας, π.χ. παραισθήσεις.",
+              "Οι μολυσμένοι μπορούν επίσης να αντιδράσουν στο νερό και να έχουν σπασμούς με δυσκολία στην αναπνοή και την κατάποση, περιγράφεται ως υδροφοβία. Μπορεί επίσης να εμφανιστεί παράλυση.",
+              "Μόλις εμφανιστούν τα συμπτώματα, η λύσσα δεν μπορεί να θεραπευτεί και θα οδηγήσει σε θάνατο, αλλά η νόσος μπορεί να προληφθεί με εμβολιασμό (ενδεχομένως σε συνδυασμό με ανοσοσφαιρίνη)."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Λύσσα",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Περού",
+        "text": "Το Περού έχει χωριστεί από την οροσειρά των Άνδεων σε τρεις περιοχές: τα παράκτια σημεία, τα υψίπεδα και τη ζούγκλα του Αμαζονίου. Πάνω από το ήμισυ του πληθυσμού έχει εγκατασταθεί στα υψίπεδα, όπου πολλοί ζουν από την καλλιέργεια καλαμποκιού και πατάτας, που απαντώνται σε 55 και 3000 ποικιλίες στη χώρα, αντίστοιχα.",
+        "textTwo": "Αλλά η πραγματική απήχηση της χώρας βρίσκεται έξω από την πρωτεύουσα. Σε όμορφη αντίθεση με τη Λίμα, η αρχαία πρωτεύουσα του Κούσκο με τα δαιδαλώδη λιθόστρωτα δρομάκια και τα 1.000 και πλέον χρόνια ιστορίας. Είναι η πύλη για τους επισκέπτες στο αξεπέραστο Μάτσου Πίτσου, καθώς και για όσους περπατούν στο μονοπάτι των Ίνκας, αλλά αποτελεί έναν πολύχρωμο προορισμό από μόνο του. Δεν υπάρχει καλύτερο μέρος για να μάθετε περισσότερα για τις παλαιότερες εποχές της χώρας και την αναταραχή της ισπανικής κατάκτησης. ",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
