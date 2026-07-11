@@ -2,7 +2,7 @@ import locale from '../../locale.json';
 
 import styles from './page.module.scss';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { NavItem } from '../../navbar.type';
 import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
 import Link from 'next/link';
@@ -13,6 +13,7 @@ type NavigationProps = {
 };
 
 export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const [state, setState] = useState({
     content: locale.da,
     isDropdown: false,
@@ -41,6 +42,28 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
   };
 
   useEffect(() => {
+    const handlePointerDown = (event: PointerEvent) => {
+      if (!dropdownRef.current?.contains(event.target as Node)) {
+        setState((prev) => ({ ...prev, isDropdown: false }));
+      }
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setState((prev) => ({ ...prev, isDropdown: false }));
+      }
+    };
+
+    document.addEventListener('pointerdown', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('pointerdown', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  useEffect(() => {
     const handleResize = () => {
       setIsMenuOpen(false);
       setState((prev) => ({ ...prev, isDropdown: false }));
@@ -58,13 +81,20 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
       {navigation.map((item) => (
         <li className={styles.navigation__item} key={`${item.path}-${item.name}`}>
           {item.dropdown ? (
-            <div className={styles.navigation__dropdown}>
-              <button className={styles.navigation__link} onClick={handleDropdown} type="button">
+            <div className={styles.navigation__dropdown} ref={dropdownRef}>
+              <button
+                aria-controls="services-menu"
+                aria-expanded={isDropdown}
+                className={styles.navigation__trigger}
+                data-expanded={isDropdown}
+                onClick={handleDropdown}
+                type="button"
+              >
                 {item.name}
-                <span className={styles.navigation__arrow}>▾</span>
+                <span aria-hidden="true" className={styles.navigation__arrow} />
               </button>
               {isDropdown && (
-                <ul className={styles.navigation__droplist}>
+                <ul className={styles.navigation__droplist} id="services-menu">
                   {content.services.map((service) => (
                     <li key={service.path} className={styles.navigation__drop_item}>
                       <Link

@@ -43,21 +43,56 @@
     position: relative;
   }
 
+  &__trigger {
+    display: inline-flex;
+    align-items: center;
+    min-height: 4rem;
+    padding: 0 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $text-ink;
+    white-space: nowrap;
+    background: transparent;
+    border: 0;
+    border-radius: var(--refero-control-radius);
+    gap: 0.8rem;
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      color: $accent-sea;
+      background: rgb(15 107 107 / 8%);
+    }
+
+    &[data-expanded='true'] {
+      color: $accent-sea;
+      background: rgb(15 107 107 / 10%);
+
+      .navigation__arrow {
+        transform: rotate(225deg) translate(-0.1rem, -0.1rem);
+      }
+    }
+  }
+
   &__droplist {
     display: grid;
-    padding: 0.8rem;
-    gap: 0.4rem;
-    background: rgb(15 107 107 / 7%);
+    margin-top: 0.4rem;
+    padding: 0.6rem;
+    gap: 0.2rem;
+    background: rgb(0 55 52 / 96%);
     border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
+    border-radius: 0.8rem;
+    box-shadow: 0 1.6rem 4rem rgb(0 16 15 / 24%);
+    animation: dropdown-reveal 0.16s ease-out;
 
     @include mixins.tablet {
       position: absolute;
-      top: 4.2rem;
+      top: calc(100% + 0.8rem);
       left: 0;
-      min-width: 22rem;
-      background: $surface-card;
-      box-shadow: none;
+      min-width: 24rem;
+      margin-top: 0;
     }
   }
 
@@ -91,12 +126,69 @@
   &__link_drop {
     justify-content: flex-start;
     width: 100%;
+    min-height: 4.4rem;
+    padding: 0 1.4rem;
     font-size: 1.3rem;
+    letter-spacing: 0;
+    text-transform: none;
+    color: $text-inverse;
+    border-radius: 0.5rem;
+
+    &::after {
+      width: 0.6rem;
+      height: 0.6rem;
+      margin-left: auto;
+      border-top: 0.1rem solid currentcolor;
+      border-right: 0.1rem solid currentcolor;
+      content: '';
+      opacity: 0;
+      transform: rotate(45deg) translateX(-0.4rem);
+      transition:
+        opacity 0.16s ease,
+        transform 0.16s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: $text-inverse;
+      background: rgb(255 255 255 / 8%);
+
+      &::after {
+        opacity: 1;
+        transform: rotate(45deg) translateX(0);
+      }
+    }
   }
 
   &__arrow {
-    margin-left: 0.5rem;
-    font-size: 1.1rem;
-    color: $accent-sea;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-right: 0.1rem solid currentcolor;
+    border-bottom: 0.1rem solid currentcolor;
+    transform: rotate(45deg) translate(-0.1rem, -0.1rem);
+    transition: transform 0.16s ease;
+  }
+}
+
+@keyframes dropdown-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-0.4rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navigation__droplist {
+    animation: none;
+  }
+
+  .navigation__arrow,
+  .navigation__link_drop::after {
+    transition: none;
   }
 }
