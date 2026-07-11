@@ -1,0 +1,252 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Portugal",
+      "imageAlt": "Et billede, der beskriver Portugal"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Portugal",
+        "text": "Portugal består af sydvestsiden af Den Ibiriske Halvø samt Azorerne og Madeira, og landets areal er dermed dobbelt så stort som Danmark. Landet har et typisk middelhavsklima med varme somre og milde vintre.",
+        "textTwo": "På en ferie i Portugal får du åbnet op for et rent skatkammer af naturoplevelser, og en utroligt varieret natur. Man kan besøge den til tider barske vestkyst fra Sagres til Setúbal, hvor surferne holder til langs de endeløse strande. Man kan besøge overdådige Sintra med det prægtige palads, eller man kan udforske den gamle historiske by Obidos, som er omringet af gamle mure, ligesom man naturligvis bør lægge vejen forbi den prangende hovedstad, Lissabon. En ferie i Portugal er fantastisk året rundt. Om vinteren kan man besøge de milde atlanterhavsøer Azorerne og Madeira, eller man kan spille golf på fastlandet i passende temperaturer med masser af solskin og saftige greens. Og så er der naturligvis muligheden for at tage på storbyferie i Lissabon eller Porto, som også er betagende om vinteren, hvor hotellerne er lidt billigere og der er bedre plads på restauranterne..",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Portugal",
+      "imageAlt": "A photo that describes Portugal"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Portugal",
+        "text": "Portugal consists of the southwestern side of the Iberian Peninsula as well as the Azores and Madeira, and the country's area is thus twice as large as Denmark. The country has a typical Mediterranean climate with hot summers and mild winters.",
+        "textTwo": "It’s not all about Lisbon and Porto, though. Sintra plays host to the stunning National Palace, a Moorish castle, and the dramatic villa of Quinta da Regaleira. Simultaneously, the cities of Coimbra, Guimarães, Braga, and Évora all boast beautifully preserved medieval quarters. Unusually, the latter is home to a chapel made exclusively of human bones, which is a tad creepy.",
+        "notice": "The vaccines listed for Portugal are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Portugal, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Portugal",
+      "imageAlt": "Ett foto som beskriver Portugal"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Portugal",
+        "text": "Portugal består av den sydvästra sidan av den iberiska halvön samt Azorerna och Madeira, och landets område är därmed dubbelt så stort som Danmark. Landet har ett typiskt medelhavsklimat med varma somrar och milda vintrar.",
+        "textTwo": "Det handlar dock inte bara om Lissabon och Porto. Sintra är värd för det fantastiska nationalpalatset, ett moriskt slott och den dramatiska villan Quinta da Regaleira, medan städerna Coimbra, Guimarães, Braga och Évora alla har vackert bevarade medeltida kvarter. Ovanligt är det senare hem till ett kapell som uteslutande består av mänskliga ben, vilket är lite obehagligt.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Portugal rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Португалия",
+      "imageAlt": "Фотография, описывающая Португалия"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Португалия",
+        "text": "Португалия состоит из юго-западной части Пиренейского полуострова, а также Азорских островов и Мадейры, поэтому площадь страны в два раза больше Дании. В стране типичный средиземноморский климат с жарким летом и мягкой зимой.",
+        "textTwo": "Однако дело не только в Лиссабоне и Порту. В Синтре находятся потрясающий Национальный дворец, мавританский замок и впечатляющая вилла Кинта-да-Регалейра. В то же время города Коимбра, Гимарайнш, Брага и Эвора могут похвастаться прекрасно сохранившимися средневековыми кварталами. Необычно то, что в последнем находится часовня, сделанная исключительно из человеческих костей, что немного жутковато.",
+        "notice": "Вакцины, перечисленные для Португалия, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Португалия, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Πορτογαλία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Πορτογαλία"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Πορτογαλία",
+        "text": "Η Πορτογαλία αποτελείται από τη νοτιοδυτική πλευρά της Ιβηρικής Χερσονήσου καθώς και τις Αζόρες και τη Μαδέρα, και η έκταση της χώρας είναι επομένως διπλάσια από τη Δανία. Η χώρα έχει τυπικό μεσογειακό κλίμα με ζεστά καλοκαίρια και ήπιους χειμώνες.",
+        "textTwo": "Ωστόσο, δεν είναι όλα για τη Λισαβόνα και το Πόρτο. Το Sintra φιλοξενεί το εκπληκτικό Εθνικό Παλάτι, ένα μαυριτανικό κάστρο και τη δραματική βίλα Quinta da Regaleira. Ταυτόχρονα, οι πόλεις Coimbra, Guimarães, Braga και Évora διαθέτουν όλες όμορφα διατηρημένες μεσαιωνικές συνοικίες. Ασυνήθιστα, το τελευταίο φιλοξενεί ένα παρεκκλήσι φτιαγμένο αποκλειστικά από ανθρώπινα οστά, κάτι που είναι λίγο ανατριχιαστικό.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
