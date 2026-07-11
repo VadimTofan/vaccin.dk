@@ -1,0 +1,252 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "New Zealand",
+      "imageAlt": "Et billede, der beskriver New Zealand"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "New Zealand",
+        "text": "På den anden side af kloden ligger New Zealand, som består af to store øer, kaldet Nordøen og Sydøen samt en række mindre øer og øgrupper. New Zealands landskab er varierende, men bærer præg af, at landet er dannet ved vulkansk aktivitet. Særligt på Nordøen kan man stadig opleve aktive vulkaner og gejsere.",
+        "textTwo": "Naturen er meget varieret i New Zealand, der byder på fascinerende varme kilder, geysere, betagende bjergsøer, regnskov, et spændende dyreliv og meget andet. Overalt i New Zealand kan du opleve actionmættet underholdning ud over det sædvanlige, så som sky diving, jet boating, bungy jump og rafting, men også knapt så halsbrækkende eventyr, fx hesteridning og at sejle i kajak..",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "New Zealand",
+      "imageAlt": "A photo that describes New Zealand"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "New Zealand",
+        "text": "On the other side of the globe lies New Zealand, which consists of two large islands, called the North Island and the South Island, and many smaller islands and archipelagos. New Zealand's landscape is varied but is characterized by the fact that it is formed by volcanic activity. Especially on the North Island, you can still experience active volcanoes and geysers.",
+        "textTwo": "Split into two main landmasses – the North and South Islands –New Zealand is a deceptively diverse and complicated destination that rewards both first-time and repeat visitors. The North Island is less visually dramatic than its southern counterpart, but it is home to around two-thirds of its inhabitants. The majority of the major urban centers are here, including the capital, Wellington, and Auckland's increasingly dynamic city. But nature is still a major player, thanks to volcanoes, thermal regions, and the magnificent Bay of Islands.",
+        "notice": "The vaccines listed for New Zealand are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is New Zealand, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Nya Zeeland",
+      "imageAlt": "Ett foto som beskriver Nya Zeeland"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Nya Zeeland",
+        "text": "På andra sidan jorden ligger Nya Zeeland, som består av två stora öar, kallade Nordön och Sydön, och ett antal mindre öar och skärgårdar. Nya Zeelands landskap är varierat men kännetecknas av det faktum att landet bildas av vulkanisk aktivitet. Särskilt på Nordön kan du fortfarande uppleva aktiva vulkaner och gejsrar.",
+        "textTwo": "Delad i två huvudmassor - Nord- och Sydöarna - Nya Zeeland är ett bedrägligt mångsidigt och komplicerat resmål som belönar både första gången och återkommande besökare. Nordön är mindre visuellt dramatisk än dess södra motsvarighet, men det är hem för cirka två tredjedelar av landets invånare. Majoriteten av de stora stadscentrumen är här, inklusive huvudstaden Wellington och den alltmer dynamiska staden Auckland. Men naturen är fortfarande en viktig aktör tack vare vulkaner, termiska områden och den magnifika ön.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Nya Zeeland rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Новая Зеландия",
+      "imageAlt": "Фотография, описывающая Новая Зеландия"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Новая Зеландия",
+        "text": "На другой стороне земного шара находится Новая Зеландия, состоящая из двух крупных островов, называемых Северным и Южным, и множества более мелких островов и архипелагов. Ландшафт Новой Зеландии разнообразен, но характеризуется тем, что он сформирован вулканической деятельностью. Особенно на Северном острове вы все еще можете увидеть действующие вулканы и гейзеры.",
+        "textTwo": "Разделенная на два основных массива суши – Северный и Южный острова – Новая Зеландия представляет собой обманчиво разнообразное и сложное место, которое вознаграждает как новых, так и постоянных посетителей. Северный остров менее эффектен визуально, чем его южный аналог, но на нем проживает около двух третей его жителей. Здесь находится большинство крупных городских центров, включая столицу Веллингтон и все более динамичный город Окленд. Но природа по-прежнему играет важную роль благодаря вулканам, термальным регионам и великолепному заливу островов.",
+        "notice": "Вакцины, перечисленные для Новая Зеландия, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Новая Зеландия, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Νέα Ζηλανδία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Νέα Ζηλανδία"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Νέα Ζηλανδία",
+        "text": "Στην άλλη πλευρά του πλανήτη βρίσκεται η Νέα Ζηλανδία, η οποία αποτελείται από δύο μεγάλα νησιά, που ονομάζονται το Βόρειο και το Νότιο νησί, και πολλά μικρότερα νησιά και αρχιπέλαγος. Το τοπίο της Νέας Ζηλανδίας είναι ποικίλο αλλά χαρακτηρίζεται από το γεγονός ότι σχηματίζεται από ηφαιστειακή δραστηριότητα. Ειδικά στο Βόρειο Νησί, μπορείτε ακόμα να ζήσετε ενεργά ηφαίστεια και θερμοπίδακες.",
+        "textTwo": "Χωρισμένη σε δύο κύριες εδαφικές μάζες – τα Βόρεια και Νότια Νησιά – η Νέα Ζηλανδία είναι ένας απατηλά ποικιλόμορφος και περίπλοκος προορισμός που ανταμείβει τόσο τους πρώτους όσο και τους επαναλαμβανόμενους επισκέπτες. Το Βόρειο Νησί είναι λιγότερο οπτικά δραματικό από το νότιο ομόλογό του, αλλά φιλοξενεί περίπου τα δύο τρίτα των κατοίκων του. Η πλειονότητα των μεγάλων αστικών κέντρων βρίσκεται εδώ, συμπεριλαμβανομένης της πρωτεύουσας, Ουέλινγκτον, και της ολοένα και πιο δυναμικής πόλης του Όκλαντ. Αλλά η φύση εξακολουθεί να είναι ένας σημαντικός παίκτης, χάρη στα ηφαίστεια, τις θερμικές περιοχές και τον υπέροχο κόλπο των νησιών.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
