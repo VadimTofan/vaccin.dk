@@ -1,0 +1,252 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Frankrig",
+      "imageAlt": "Et billede, der beskriver Frankrig"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Frankrig",
+        "text": "Ud over at være et af Europas største og rigeste lande, er Frankrig også medstifter af EU og spiller derfor her en vigtig rolle. Frankrigs landskab varierer med højslette, lange kyststrækninger, skove, floder og bjerge. Mod sydøst findes blandt andet Mont Blanc, som er Vesteuropas højeste punkt og en del af Alperne.",
+        "textTwo": "Du kan nyde A-listens strande i Cote d'Azur, tryllebue i det tidløse grønne område i Loire-dalen eller kigge op på de monumentale toppe i Alperne. Gå rundt i lavendelmarkerne i Provence, spis dig rundt i de legendariske bistroer i Lyon, eller prøv Korsikas robuste charme. Frankrikes byer, kystlinje og landskaber har alle deres egne kærlige belønninger, og når de tages som en helhed, præsenterer de en næsten perfekt besøgspakke.",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "France",
+      "imageAlt": "A photo that describes France"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "France",
+        "text": "In addition to being one of Europe's largest and richest countries, France is also a co-founder of the EU and therefore plays an important role here. The landscape of France varies with plateaus, long coastlines, forests, rivers, and mountains. To the southeast is Mont Blanc, which is Western Europe's highest point and part of the Alps.",
+        "textTwo": "You can soak up the A-list beaches of the Cote d’Azur, drowse in the timeless greenery of the Loire Valley, or gaze up at the monumental peaks of the Alps. Wander the lavender fields of Provence, eat your way around the legendary bistros of Lyon, or sample the rugged charm of Corsica. France's cities, coastline, and countryside all have their own endearing rewards, and when taken as a whole, they present a near-perfect visitor package.",
+        "notice": "The vaccines listed for France are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is France, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Frankrike",
+      "imageAlt": "Ett foto som beskriver Frankrike"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Frankrike",
+        "text": "Förutom att vara ett av Europas största och rikaste länder är Frankrike också en av grundarna av EU och spelar därför en viktig roll här. Landskapet i Frankrike varierar med platåer, långa kustlinjer, skogar, floder och berg. I sydost ligger Mont Blanc, som är Västeuropas högsta punkt och en del av Alperna.",
+        "textTwo": "Du kan njuta av A-listens stränder i Cote d'Azur, dröja i den tidlösa grönskan i Loire-dalen eller blicka upp på de monumentala topparna i Alperna. Vandra i lavendelfälten i Provence, äta dig runt de legendariska bistroerna i Lyon eller prova Korsikas robusta charm. Frankrikes städer, kust och landsbygd har alla sina egna förtjusande belöningar, och när de ses som en helhet presenterar de ett nästan perfekt paket för besökare.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Frankrike rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Франция",
+      "imageAlt": "Фотография, описывающая Франция"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Франция",
+        "text": "Помимо того, что Франция является одной из крупнейших и богатейших стран Европы, она также является соучредителем ЕС и поэтому играет здесь важную роль. Ландшафт Франции разнообразен: плато, длинные береговые линии, леса, реки и горы. На юго-востоке находится Монблан, самая высокая точка Западной Европы и часть Альп.",
+        "textTwo": "Вы можете понежиться на лучших пляжах Лазурного берега, вздремнуть в вечной зелени долины Луары или полюбоваться монументальными вершинами Альп. Прогуляйтесь по лавандовым полям Прованса, пообедайте в легендарных бистро Лиона или попробуйте суровое очарование Корсики. Французские города, береговая линия и сельская местность имеют свои собственные приятные преимущества, и в целом они представляют собой почти идеальный пакет для посетителей.",
+        "notice": "Вакцины, перечисленные для Франция, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Франция, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Γαλλία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Γαλλία"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Γαλλία",
+        "text": "Εκτός από μια από τις μεγαλύτερες και πλουσιότερες χώρες της Ευρώπης, η Γαλλία είναι επίσης συνιδρυτής της ΕΕ και ως εκ τούτου διαδραματίζει σημαντικό ρόλο εδώ. Το τοπίο της Γαλλίας ποικίλλει με οροπέδια, μεγάλες ακτές, δάση, ποτάμια και βουνά. Στα νοτιοανατολικά βρίσκεται το Mont Blanc, το οποίο είναι το υψηλότερο σημείο της Δυτικής Ευρώπης και μέρος των Άλπεων.",
+        "textTwo": "Μπορείτε να απολαύσετε τις παραλίες της A-list της Κυανής Ακτής, να ξαπλώσετε στο διαχρονικό πράσινο της κοιλάδας του Λίγηρα ή να ατενίσετε τις μνημειώδεις κορυφές των Άλπεων. Περιπλανηθείτε στα χωράφια με λεβάντα της Προβηγκίας, γευματίστε στα θρυλικά μπιστρό της Λυών ή δοκιμάστε την τραχιά γοητεία της Κορσικής. Οι πόλεις, οι ακτές και η ύπαιθρος της Γαλλίας έχουν όλες τις δικές τους αξιαγάπητες ανταμοιβές και, στο σύνολό τους, παρουσιάζουν ένα σχεδόν τέλειο πακέτο επισκεπτών.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
