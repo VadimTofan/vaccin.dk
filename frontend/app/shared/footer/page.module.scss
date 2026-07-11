@@ -1,124 +1,239 @@
+// footer-editorial-retouch
 // clinic-surface
 // refero-clinical-blueprint
-// refero-auros
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .footer {
-  display: grid;
   width: 100%;
-  padding: 5rem var(--clinic-page-gutter);
-  gap: 4rem;
+  padding: 0 var(--clinic-page-gutter);
   color: $text-light;
-  background: $surface-sand;
+  background: linear-gradient(120deg, rgb(0 55 52 / 58%), transparent 46%), $surface-sand;
+  border-top: 0.1rem solid rgb(203 255 252 / 18%);
+
+  &__inner {
+    display: grid;
+    width: min(100%, var(--clinic-page-max));
+    margin: 0 auto;
+    padding: 5.6rem 0 2.4rem;
+    gap: 5rem;
+  }
 
   @include mixins.tablet {
-    grid-template-columns: minmax(24rem, 0.8fr) minmax(0, 1.2fr);
-    align-items: start;
-    padding-block: 7rem;
+    &__inner {
+      grid-template-columns: minmax(30rem, 0.8fr) minmax(0, 1.2fr);
+      padding-top: 7.2rem;
+      gap: 7rem;
+    }
   }
 
-  &__left,
-  &__right {
-    width: min(100%, var(--clinic-page-max));
-  }
-
-  &__left {
+  &__statement {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
   }
 
-  &__credits {
+  &__identity {
     display: flex;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1.6rem;
   }
 
-  &__logo {
-    border-radius: 0.6rem;
+  &__brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
   }
 
-  &__heading {
-    font-size: 2.6rem;
-    font-weight: 500;
+  &__brand_mark {
+    display: grid;
+    place-items: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    font-size: 2.2rem;
+    font-weight: 600;
     line-height: 1;
-    letter-spacing: -0.03em;
+    color: $text-inverse;
+    background: $refero-gradient;
+  }
+
+  &__brand_name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: $text-ink;
   }
 
-  &__cta {
-    display: grid;
-    max-width: 34rem;
-    padding: 1.8rem;
-    gap: 1.4rem;
-    background: $surface-card;
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
+  &__eyebrow,
+  &__title,
+  &__baseline {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
   }
 
-  &__cta_text {
-    font-size: 1.45rem;
-    line-height: 1.55;
+  &__eyebrow {
+    color: $accent-sea;
+  }
+
+  &__heading {
+    max-width: 56rem;
+    font-size: clamp(4.8rem, 7vw, 8rem);
+    font-weight: 500;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    color: $text-ink;
+  }
+
+  &__intro {
+    max-width: 46rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
     color: $gray-200;
   }
 
-  &__cta_link {
+  &__cta {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-    width: fit-content;
-    min-height: 4.4rem;
-    padding: 0 1.6rem;
-    font-size: 1.35rem;
+    min-height: 4.8rem;
+    padding: 0 0 0.8rem;
+    gap: 2.4rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: $text-inverse;
-    background: $refero-gradient;
-    border-radius: var(--refero-control-radius);
+    color: $text-ink;
+    border-bottom: 0.1rem solid $refero-phosphor;
+  }
+
+  &__arrow {
+    color: $refero-phosphor;
   }
 
   &__socials {
     display: flex;
-    gap: 1rem;
+    margin-top: 0.8rem;
+    gap: 0.8rem;
     list-style: none;
   }
 
-  &__right {
-    display: grid;
-    gap: 2.4rem;
+  &__social_item {
+    list-style: none;
+  }
 
-    @include mixins.small-tablet {
+  &__social_link {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    color: $text-ink;
+    border: 0.1rem solid rgb(203 255 252 / 18%);
+  }
+
+  &__directory {
+    display: grid;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+  }
+
+  @include mixins.small-tablet {
+    &__directory {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
-  &__extra,
-  &__list {
-    display: grid;
-    gap: 1rem;
+  &__group,
+  &__address {
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 0;
+    gap: 1.2rem;
+    border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
+  }
+
+  @include mixins.small-tablet {
+    &__group,
+    &__address {
+      padding: 2.4rem 2rem;
+      border-right: 0.1rem solid rgb(203 255 252 / 18%);
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+        border-right: 0;
+      }
+    }
+  }
+
+  &__address {
+    font-style: normal;
   }
 
   &__title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: $text-inverse;
-    white-space: nowrap;
+    margin-bottom: 0.8rem;
+    color: $accent-sea;
   }
 
-  &__links {
+  &__list {
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  &__item {
     list-style: none;
   }
 
-  &__link {
+  &__link,
+  &__contact {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    gap: 0.8rem;
     font-size: 1.35rem;
     line-height: 1.55;
     color: $gray-200;
-    gap: 0.7rem;
+  }
+
+  &__link {
+    width: fit-content;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid transparent;
+
+    &:hover,
+    &:focus-visible {
+      color: $text-ink;
+      border-color: $accent-sea;
+    }
+  }
+
+  &__contact {
+    width: fit-content;
+  }
+
+  &__baseline {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.4rem;
+    gap: 0.8rem;
+    color: $text-muted;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+  }
+
+  @include mixins.small-tablet {
+    &__baseline {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  @include mixins.tablet {
+    &__baseline {
+      grid-column: 1 / -1;
+    }
   }
 }
