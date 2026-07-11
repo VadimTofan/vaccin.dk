@@ -1,0 +1,397 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Japan",
+      "imageAlt": "Et billede, der beskriver Japan"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatitis B",
+            "text": [
+              "Hepatitis B er en virusinfektion, som angriber leveren og kan forårsage både akut og kronisk leverbetændelse.",
+              "Inkubationstiden for hepatitis B er fra én til seks måneder. Om man får symptomer afhænger blandt andet af alderen på smittetidspunktet.",
+              "Den akutte infektion forløber ofte uden symptomer, særligt hos mindre børn. Langt de fleste nyfødte, der smittes ved fødslen, får ingen symptomer.",
+              "Ved symptomgivende akut hepatitis B kan man opleve influenzalignende symptomer som hovedpine, feber, træthed og ømhed i kroppen.",
+              "Der kan også forekomme appetitløshed, kvalme, opkastning, mavesmerter, gulsot, mørk urin og lys afføring samt kløe og ledsmerter.",
+              "Sygdomsvarigheden varierer fra få uger til flere måneder. De fleste voksne bliver raske og udvikler livslang immunitet.",
+              "I sjældne tilfælde kan akut hepatitis B føre til livstruende leversvigt.",
+              "Kronisk hepatitis B kan udvikles efter infektion og kan føre til skrumpelever og i sjældne tilfælde leverkræft.",
+              "Risikoen for kronisk infektion er størst hos spædbørn og mindre børn. Op til 90 % af børn smittet ved fødslen udvikler kronisk infektion.",
+              "Mange mennesker lever med kronisk hepatitis B uden nogensinde at have haft symptomer på den akutte infektion."
+            ],
+            "link": "Anbefalede vacciner: Hepatitis B",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Japansk Hjernebetændelse",
+            "text": [
+              "Japansk hjernebetændelse er en alvorlig virusinfektion, der overføres af myg.",
+              "De fleste smittede personer får ingen eller kun milde symptomer såsom feber og hovedpine.",
+              "I nogle tilfælde udvikles alvorlig sygdom med meningitis, hjernebetændelse og andre komplikationer.",
+              "Selvom kun en lille andel af infektionerne fører til sygdom, er dødeligheden blandt syge patienter høj og kan være op til 30 %.",
+              "Sygdommen kan medføre varige neurologiske skader hos overlevende."
+            ],
+            "link": "Anbefalede vacciner: Japansk Hjernebetændelse",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Japan",
+        "text": "Japan består af ca. 3400 små og store øer, som danner en ca. 2000 km lang tange ud for Asiens østkyst. Med sine mange bjerge byder Japan både på smuk og vild natur og samtidig et spændende storby liv.",
+        "textTwo": "Hvis du elsker naturen, vil du elske Japan. Dette er et land der byder på flotte naturoplevelser. Prøv at stå på ski på Hokkaidos pulverformede skråninger, gå en tur mellem sakura-kirsebærblomster i foråret, nyd de solbeskinnede strande og det turkisblå vand i det subtropiske Okinawa eller tag klatreturen på det ikoniske Fuji-bjerg. Uanset hvor du befinder dig, vil du få en gastronomisk madoplevelse på landets spisesteder, hvor menuen blandt andet står på frisk sushi, sashimi til robata-fyret kød eller retter med lækre japanske saucer; Japan er en glæde for gastronomer.",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Japan",
+      "imageAlt": "A photo that describes Japan"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatitis B",
+            "text": [
+              "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic liver inflammation.",
+              "The incubation period for hepatitis B is from one to six months. Whether symptoms occur depends among other things on the age at the time of infection.",
+              "The acute infection often occurs without symptoms, especially in young children. Most newborns infected at birth show no symptoms.",
+              "With symptomatic acute hepatitis B, one may experience flu-like symptoms such as headache, fever, fatigue, and body aches.",
+              "There may also be loss of appetite, nausea, vomiting, abdominal pain, jaundice, dark urine, pale stools, itching, and joint pain.",
+              "The duration of illness varies from a few weeks to several months. Most adults recover and develop lifelong immunity.",
+              "In rare cases, acute hepatitis B can lead to life-threatening liver failure.",
+              "Chronic hepatitis B can develop after infection and can lead to cirrhosis and in rare cases liver cancer.",
+              "The risk of chronic infection is greatest in infants and young children. Up to 90% of children infected at birth develop chronic infection.",
+              "Many people live with chronic hepatitis B without ever having had symptoms of the acute infection."
+            ],
+            "link": "Recommended vaccines: Hepatitis B",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Japanese encephalitis",
+            "text": [
+              "Japanese encephalitis is a serious viral infection transmitted by mosquitoes.",
+              "Most infected persons have no or only mild symptoms such as fever and headache.",
+              "In some cases, severe disease develops with meningitis, encephalitis, and other complications.",
+              "Although only a small proportion of infections lead to illness, mortality among sick patients is high and can be up to 30%.",
+              "The disease can cause lasting neurological damage in survivors."
+            ],
+            "link": "Recommended vaccines: Japanese encephalitis",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Japan",
+        "text": "Japan consists of approx. 3400 small and large islands, which form an approx. 2000 km long seaweed off the east coast of Asia. With its many mountains, Japan offers both beautiful and wild nature and exciting big cities.",
+        "textTwo": "f you love nature, you will adore Japan. This is a country swathed in natural beauty. Ski the powdery slopes of Hokkaido, revel in the springtime beauty of the sakura cherry blossoms, frolic in the sun-drenched beaches and turquoise waters of subtropical Okinawa, or climb up the iconic Mount Fuji. Wherever you go, good food is guaranteed – from fresh sushi and sashimi to robata-fired meats and sizzling sauces; Japan is a joy for gastronomes.",
+        "notice": "The vaccines listed for Japan are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Japan, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Japan",
+      "imageAlt": "Ett foto som beskriver Japan"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Hepatit B",
+            "text": [
+              "Hepatit B är en virussjukdom som angriper levern och kan orsaka både akut och kronisk leverinflammation.",
+              "Inkuba­tions­tiden för hepatit B är från en till sex månader. Om symtom uppstår beror bland annat på åldern vid infektionstillfället.",
+              "Den akuta infektionen sker ofta utan symtom, särskilt hos små barn. De flesta nyfödda som smittas vid födseln visar inga symtom.",
+              "Vid symtomatisk akut hepatit B kan man uppleva influensaliknande symtom såsom huvudvärk, feber, trötthet och värk i kroppen.",
+              "Det kan också förekomma aptitlöshet, illamående, kräkningar, buksmärtor, gulsot, mörk urin, ljus avföring, klåda och ledvärk.",
+              "Sjukdomens varaktighet varierar från några veckor till flera månader. De flesta vuxna återhämtar sig och utvecklar livslång immunitet.",
+              "I sällsynta fall kan akut hepatit B leda till livshotande leversvikt.",
+              "Kronisk hepatit B kan utvecklas efter infektion och kan leda till skrumplever och i sällsynta fall levercancer.",
+              "Risken för kronisk infektion är störst hos spädbarn och små barn. Upp till 90 % av barn som smittas vid födseln utvecklar kronisk infektion.",
+              "Många lever med kronisk hepatit B utan att någonsin ha haft symtom av den akuta infektionen."
+            ],
+            "link": "Rekommenderade vacciner: Hepatit B",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Japansk encefalit",
+            "text": [
+              "Japansk encefalit är en allvarlig virussjukdom som sprids via myggor.",
+              "De flesta infekterade personer har inga eller endast milda symtom såsom feber och huvudvärk.",
+              "I vissa fall utvecklas allvarlig sjukdom med meningit, encefalit och andra komplikationer.",
+              "Även om endast en liten andel av infektionerna leder till sjukdom är dödligheten bland sjuka patienter hög och kan vara upp till 30 %. ",
+              "Sjukdomen kan orsaka bestående neurologiska skador hos överlevande."
+            ],
+            "link": "Rekommenderade vacciner: Japansk encefalit",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Japan",
+        "text": "Japan består av ca. 3400 små och stora öar, som bildar en ca. 2000 km långt tång utanför Asiens östkust. Med sina många berg erbjuder Japan både vacker och vild natur och spännande storstäder.",
+        "textTwo": "Om du älskar naturen kommer du att älska Japan. Detta är ett land svängt av naturlig skönhet. Åk på Hokkaidos pulverformiga sluttningar, njut av sakura-körsbärsblommornas vårskönhet, roa dig i de soldränkta stränderna och det turkosa vattnet i subtropiska Okinawa, eller klättra upp på det ikoniska berget Fuji. Vart du än är garanterad god mat - från färsk sushi och sashimi till robatkött och fräsande såser; Japan är en glädje för gastronomer.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Japan rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Япония",
+      "imageAlt": "Фотография, описывающая Япония"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Гепатит Б",
+            "text": [
+              "Гепатит B — вирусная инфекция, которая поражает печень и может вызвать как острое, так и хроническое воспаление печени.",
+              "Инкубационный период гепатита B составляет от одного до шести месяцев. Наличие симптомов зависит, среди прочего, от возраста в момент заражения.",
+              "Острая инфекция часто протекает бессимптомно, особенно у маленьких детей. Большинство новорождённых, инфицированных при рождении, не имеют симптомов.",
+              "При симптоматическом остром гепатите B могут возникать симптомы, похожие на грипп, такие как головная боль, температура, усталость и боли в теле.",
+              "Могут также наблюдаться потеря аппетита, тошнота, рвота, боли в животе, желтуха, тёмная моча, светлый стул, зуд и боли в суставах.",
+              "Продолжительность заболевания варьируется от нескольких недель до нескольких месяцев. Большинство взрослых выздоравливают и вырабатывают пожизненный иммунитет.",
+              "В редких случаях острый гепатит B может привести к опасной для жизни печёночной недостаточности.",
+              "После заражения может развиться хронический гепатит B, который может привести к циррозу и в редких случаях к раку печени.",
+              "Риск хронической инфекции наиболее высок у младенцев и маленьких детей. До 90% детей, инфицированных при рождении, развивают хроническую инфекцию.",
+              "Многие люди живут с хроническим гепатитом B, не имея симптомов острой инфекции."
+            ],
+            "link": "Рекомендуемые вакцины: Гепатит Б",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Японский Энцефалит",
+            "text": [
+              "Японский энцефалит — серьёзная вирусная инфекция, передающаяся комарами.",
+              "Большинство инфицированных не имеют симптомов или имеют только лёгкие симптомы, такие как температура и головная боль.",
+              "В некоторых случаях развивается тяжёлое заболевание с менингитом, энцефалитом и другими осложнениями.",
+              "Хотя только небольшая доля инфекций приводит к заболеванию, смертность среди больных пациентов высокая и может достигать 30%.",
+              "Заболевание может вызвать стойкое неврологическое повреждение у выживших."
+            ],
+            "link": "Рекомендуемые вакцины: Японский Энцефалит",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Япония",
+        "text": "Япония состоит из ок. 3400 малых и больших островов, образующих ок. Морские водоросли длиной 2000 км у восточного побережья Азии. Япония с ее многочисленными горами предлагает как красивую дикую природу, так и захватывающие большие города.",
+        "textTwo": "Если вы любите природу, вы обожаете Японию. Это страна, окутанная природной красотой. Катайтесь на покрытых снегом склонах Хоккайдо, насладитесь весенней красотой цветущей сакуры, порезвитесь на залитых солнцем пляжах и бирюзовых водах субтропической Окинавы или поднимитесь на знаменитую гору Фудзи. Куда бы вы ни пошли, вам гарантирована хорошая еда – от свежих суши и сашими до мяса, приготовленного на огне в робате, и острых соусов; Япония – радость для гурманов.",
+        "notice": "Вакцины, перечисленные для Япония, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Япония, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Ιαπωνία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Ιαπωνία"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Ηπατίτιδα Β",
+            "text": [
+              "Η ηπατίτιδα Β είναι ιογενής λοίμωξη που προσβάλλει το ήπαρ και μπορεί να προκαλέσει τόσο οξεία όσο και χρόνια φλεγμονή του ήπατος.",
+              "Η περίοδος επώασης για την ηπατίτιδα Β είναι από ένα έως έξι μήνες. Το αν εμφανιστούν συμπτώματα εξαρτάται μεταξύ άλλων από την ηλικία κατά τη στιγμή της λοίμωξης.",
+              "Η οξεία λοίμωξη συχνά εμφανίζεται χωρίς συμπτώματα, ειδικά σε μικρά παιδιά. Τα περισσότερα νεογνά που μολύνονται κατά τη γέννηση δεν εμφανίζουν συμπτώματα.",
+              "Με συμπτωματική οξεία ηπατίτιδα Β, μπορεί να εμφανιστούν συμπτώματα όπως πονοκέφαλος, πυρετός, κόπωση και πόνοι στο σώμα.",
+              "Μπορεί επίσης να υπάρχει απώλεια όρεξης, ναυτία, έμετος, κοιλιακός πόνος, ίκτερος, σκούρα ούρα, ανοιχτόχρωμα κόπρανα, φαγούρα και πόνοι στις αρθρώσεις.",
+              "Η διάρκεια της νόσου ποικίλλει από λίγες εβδομάδες έως αρκετούς μήνες. Οι περισσότεροι ενήλικες αναρρώνουν και αναπτύσσουν ανοσία δια βίου.",
+              "Σε σπάνιες περιπτώσεις, η οξεία ηπατίτιδα Β μπορεί να οδηγήσει σε απειλητική για τη ζωή ανεπάρκεια ήπατος.",
+              "Η χρόνια ηπατίτιδα Β μπορεί να αναπτυχθεί μετά τη λοίμωξη και μπορεί να οδηγήσει σε κίρρωση και σε σπάνιες περιπτώσεις σε καρκίνο του ήπατος.",
+              "Ο κίνδυνος χρόνιας λοίμωξης είναι μεγαλύτερος σε βρέφη και μικρά παιδιά. Έως 90% των παιδιών που μολύνονται κατά τη γέννηση αναπτύσσουν χρόνια λοίμωξη.",
+              "Πολλοί άνθρωποι ζουν με χρόνια ηπατίτιδα Β χωρίς ποτέ να έχουν εμφανίσει συμπτώματα της οξείας λοίμωξης."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Ηπατίτιδα Β",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Ιαπωνική Εγκεφαλίτιδα",
+            "text": [
+              "Η ιαπωνική εγκεφαλίτιδα είναι σοβαρή ιογενής λοίμωξη που μεταδίδεται από κουνούπια.",
+              "Οι περισσότεροι μολυσμένοι δεν έχουν συμπτώματα ή έχουν μόνο ήπια συμπτώματα όπως πυρετό και πονοκέφαλο.",
+              "Σε ορισμένες περιπτώσεις, αναπτύσσεται σοβαρή νόσος με μηνιγγίτιδα, εγκεφαλίτιδα και άλλες επιπλοκές.",
+              "Αν και μόνο ένα μικρό ποσοστό λοιμώξεων οδηγεί σε ασθένεια, η θνησιμότητα μεταξύ των ασθενών είναι υψηλή και μπορεί να φτάσει έως 30%.",
+              "Η νόσος μπορεί να προκαλέσει μόνιμη νευρολογική βλάβη στους επιζώντες."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Ιαπωνική Εγκεφαλίτιδα",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Ιαπωνία",
+        "text": "Η Ιαπωνία αποτελείται από περίπου. 3400 μικρά και μεγάλα νησιά, που σχηματίζουν περίπου. Φύκια μήκους 2000 χιλιομέτρων στα ανοιχτά της ανατολικής ακτής της Ασίας. Με τα πολλά βουνά της, η Ιαπωνία προσφέρει όμορφη και άγρια ​​φύση και συναρπαστικές μεγάλες πόλεις.",
+        "textTwo": "Αν αγαπάτε τη φύση, θα λατρέψετε την Ιαπωνία. Αυτή είναι μια χώρα πλημμυρισμένη από φυσική ομορφιά. Κάντε σκι στις πουδρένιες πλαγιές του Χοκάιντο, απολαύστε την ανοιξιάτικη ομορφιά των ανθών της κερασιάς sakura, γλεντήστε στις ηλιόλουστες παραλίες και τα τιρκουάζ νερά της υποτροπικής Οκινάουα ή ανεβείτε στο εμβληματικό όρος Φούτζι. Όπου κι αν πάτε, το καλό φαγητό είναι εγγυημένο – από φρέσκο ​​σούσι και σασίμι μέχρι κρέατα ψητά στη ρομπάτα και σάλτσες. Η Ιαπωνία είναι χαρά για τους γαστρονομικούς.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
