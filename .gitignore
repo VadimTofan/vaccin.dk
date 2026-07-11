@@ -3,3 +3,6 @@ Agents
 
 # Temporary runtime logs must be deleted before handoff.
 *.log
+
+# Generated documentation is temporary and must be deleted after the task.
+docs/
