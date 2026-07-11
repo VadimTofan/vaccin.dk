@@ -1,0 +1,252 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Tyskland",
+      "imageAlt": "Et billede, der beskriver Tyskland"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Tyskland",
+        "text": "I Mellemeuropa ligger det folkerige land Tyskland. Tysklands landskab varierer fra lavland med kyst mod Nordsøen og Østersøen til bjergområder og bjerglandskaber, som udgør en del af Alperne. Tyskerne er kendt for en del opfindelser, blandt andet bogtrykkeri, ølbrygning og bilproduktion.",
+        "textTwo": "En ting der er særligt fascinerende, når man rejser til Tyskland, er de mange gamle købstæder med bindingsværkshuse og brostensbelagte, smalle gader. Byernes historie er velbevaret, hvilket man nemt kan ane. Specielt ved Schwarzwald og Franken er det let at blive sværmerisk, for ikke at tale om Bayerns vidunderlige Romantiske Rute (Romantische Strasse). De fleste vil formodentlig associere Tyskland med ovenstående, men det er en skam, for i Tyskland bliver der også produceret mange gode vine fra f.eks. Rhinen og Mosel, der desværre bliver overset. Pfalz anses af mange for at være en af landets bedste ud af de 13 vindistrikter. Tyskland har faktisk, som mange måske ikke ved, eksporteret meget vin til norden siden Middelalderen..",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Germany",
+      "imageAlt": "A photo that describes Germany"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Germany",
+        "text": "In Central Europe lies the populous country of Germany. Germany's landscape varies from lowlands with coasts towards the North Sea and the Baltic Sea to mountain areas and mountain landscapes that form part of the Alps. The Germans are known for several inventions, including book printing, beer brewing, the car, the bicycle, wine gummies, and kindergartens.",
+        "textTwo": "Elsewhere, the likes of Cologne, Munich, and Hamburg provide the capital with able support. Not only are they rich in history, whether in the forms of classical music, fine art, or medieval architecture, but they also put pay to the notion that Germans don’t do gastronomy. These days, you can dine and drink extremely well in Deutschland.",
+        "notice": "The vaccines listed for Germany are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Germany, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Tyskland",
+      "imageAlt": "Ett foto som beskriver Tyskland"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Tyskland",
+        "text": "I Centraleuropa ligger det tätbefolkade landet Tyskland. Tysklands landskap varierar från lågland med kuster mot Nordsjön och Östersjön till bergsområden och bergslandskap som ingår i Alperna. Tyskarna är kända för ett antal uppfinningar, inklusive boktryck, ölbryggning, bilen, cykeln, vingummier och dagis.",
+        "textTwo": "På andra ställen ger Köln, München och Hamburg huvudstaden stöd. De är inte bara rika på historia, oavsett om det finns former av klassisk musik, konst eller medeltida arkitektur, utan de betala också tanken att tyskar inte gör gastronomi. I dessa dagar kan du äta och dricka extremt bra i Deutschland.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Tyskland rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Германия",
+      "imageAlt": "Фотография, описывающая Германия"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Германия",
+        "text": "В Центральной Европе находится густонаселенная страна Германия. Ландшафт Германии варьируется от низменностей с побережьями, выходящими к Северному и Балтийскому морям, до горных районов и горных ландшафтов, которые являются частью Альп. Немцы известны несколькими изобретениями, в том числе книгопечатанием, пивоварением, автомобилем, велосипедом, мармеладными винами и детскими садами.",
+        "textTwo": "В других странах такие города, как Кельн, Мюнхен и Гамбург, оказывают столице квалифицированную поддержку. Они не только богаты историей, будь то классическая музыка, изобразительное искусство или средневековая архитектура, но также оправдывают представление о том, что немцы не занимаются гастрономией. Сегодня в Германии можно очень хорошо пообедать и выпить.",
+        "notice": "Вакцины, перечисленные для Германия, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Германия, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Γερμανία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Γερμανία"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Γερμανία",
+        "text": "Στην Κεντρική Ευρώπη βρίσκεται η πολυπληθής χώρα της Γερμανίας. Το τοπίο της Γερμανίας ποικίλλει από πεδινά με ακτές προς τη Βόρεια Θάλασσα και τη Βαλτική Θάλασσα έως τις ορεινές περιοχές και τα ορεινά τοπία που αποτελούν μέρος των Άλπεων. Οι Γερμανοί είναι γνωστοί για πολλές εφευρέσεις, συμπεριλαμβανομένης της εκτύπωσης βιβλίων, της παρασκευής μπύρας, του αυτοκινήτου, του ποδηλάτου, των κρασιών και των παιδικών σταθμών.",
+        "textTwo": "Σε άλλα μέρη, όπως η Κολωνία, το Μόναχο και το Αμβούργο παρέχουν στην πρωτεύουσα ικανή υποστήριξη. Όχι μόνο είναι πλούσιες σε ιστορία, είτε σε μορφές κλασικής μουσικής, καλών τεχνών ή μεσαιωνικής αρχιτεκτονικής, αλλά πληρώνουν επίσης την ιδέα ότι οι Γερμανοί δεν ασχολούνται με τη γαστρονομία. Αυτές τις μέρες, μπορείτε να δειπνήσετε και να πιείτε εξαιρετικά καλά στο Deutschland.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
