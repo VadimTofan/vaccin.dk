@@ -16,7 +16,7 @@ export default function NarcoTest() {
     <main className={styles.narco}>
       <header className={styles.narco__hero}>
         <p className={styles.narco__eyebrow}>{content.hero.eyebrow}</p>
-        <h1>{content.hero.title}</h1>
+        <h1 className={styles.narco__title}>{content.hero.title}</h1>
         <p className={styles.narco__lede}>{content.hero.lede}</p>
       </header>
 
@@ -32,7 +32,7 @@ export default function NarcoTest() {
       </section>
 
       <section className={styles.narco__section} aria-label={content.sections.companies.title}>
-        <h2>{content.sections.companies.title}</h2>
+        <h2 className={styles.narco__heading}>{content.sections.companies.title}</h2>
         <p className={styles.narco__text}>{content.sections.companies.text}</p>
         <p className={styles.narco__text}>{content.sections.companies.intro}</p>
         <ul className={styles.narco__list}>
@@ -46,30 +46,36 @@ export default function NarcoTest() {
       </section>
 
       <section className={styles.narco__section} aria-label={content.sections.private.title}>
-        <h2>{content.sections.private.title}</h2>
+        <h2 className={styles.narco__heading}>{content.sections.private.title}</h2>
         <p className={styles.narco__text}>{content.sections.private.text}</p>
       </section>
 
       <section className={styles.narco__section} aria-label={content.sections.price.title}>
-        <h2>{content.sections.price.title}</h2>
+        <h2 className={styles.narco__heading}>{content.sections.price.title}</h2>
         <p className={styles.narco__price}>{content.sections.price.value}</p>
         <p className={styles.narco__text}>{content.sections.price.note}</p>
       </section>
 
       <section className={styles.narco__cta} aria-label={content.sections.contact.title}>
-        <h2>{content.sections.contact.title}</h2>
+        <h2 className={styles.narco__heading}>{content.sections.contact.title}</h2>
         <div className={styles.narco__contact_grid}>
           <div className={styles.narco__contact_item}>
-            <span>Address</span>
-            <strong>{content.sections.contact.address}</strong>
+            <span className={styles.narco__contact_label}>Address</span>
+            <strong className={styles.narco__contact_value}>
+              {content.sections.contact.address}
+            </strong>
           </div>
           <div className={styles.narco__contact_item}>
-            <span>Hours</span>
-            <strong>{content.sections.contact.hours}</strong>
+            <span className={styles.narco__contact_label}>Hours</span>
+            <strong className={styles.narco__contact_value}>
+              {content.sections.contact.hours}
+            </strong>
           </div>
           <div className={styles.narco__contact_item}>
-            <span>Phone</span>
-            <strong>{content.sections.contact.phone}</strong>
+            <span className={styles.narco__contact_label}>Phone</span>
+            <strong className={styles.narco__contact_value}>
+              {content.sections.contact.phone}
+            </strong>
           </div>
         </div>
         <p className={styles.narco__text}>{content.sections.contact.note}</p>

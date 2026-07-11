@@ -17,7 +17,7 @@ export default function Contact() {
       <header className={styles.contact__hero}>
         <div className={styles.contact__hero_copy}>
           <p className={styles.contact__eyebrow}>{content.hero.eyebrow}</p>
-          <h1>{content.hero.title}</h1>
+          <h1 className={styles.contact__title}>{content.hero.title}</h1>
           {content.hero.lead.map((text) => (
             <p className={styles.contact__lede} key={text}>
               {text}
@@ -33,27 +33,35 @@ export default function Contact() {
           </div>
         </div>
         <section className={styles.contact__card} aria-labelledby="clinic-details-title">
-          <h2 id="clinic-details-title">{content.contact.title}</h2>
-          <address>
+          <h2 className={styles.contact__heading} id="clinic-details-title">
+            {content.contact.title}
+          </h2>
+          <address className={styles.contact__address}>
             <div className={styles.contact__detail}>
-              <span>{content.contact.phone}</span>
-              <strong>{content.contact.phoneValue}</strong>
+              <span className={styles.contact__detail_label}>{content.contact.phone}</span>
+              <strong className={styles.contact__detail_value}>{content.contact.phoneValue}</strong>
             </div>
             <div className={styles.contact__detail}>
-              <span>{content.contact.email}</span>
-              <strong>{content.contact.emailValue}</strong>
+              <span className={styles.contact__detail_label}>{content.contact.email}</span>
+              <strong className={styles.contact__detail_value}>{content.contact.emailValue}</strong>
             </div>
             <div className={styles.contact__detail}>
-              <span>{content.contact.address}</span>
-              <strong>{content.contact.addressValue}</strong>
+              <span className={styles.contact__detail_label}>{content.contact.address}</span>
+              <strong className={styles.contact__detail_value}>
+                {content.contact.addressValue}
+              </strong>
             </div>
             <div className={styles.contact__detail}>
-              <span>{content.contact.instagram}</span>
-              <strong>{content.contact.instagramValue}</strong>
+              <span className={styles.contact__detail_label}>{content.contact.instagram}</span>
+              <strong className={styles.contact__detail_value}>
+                {content.contact.instagramValue}
+              </strong>
             </div>
             <div className={styles.contact__detail}>
-              <span>{content.contact.facebook}</span>
-              <strong>{content.contact.facebookValue}</strong>
+              <span className={styles.contact__detail_label}>{content.contact.facebook}</span>
+              <strong className={styles.contact__detail_value}>
+                {content.contact.facebookValue}
+              </strong>
             </div>
           </address>
         </section>
@@ -61,48 +69,50 @@ export default function Contact() {
 
       <section className={styles.contact__grid} aria-label={content.sections.highlights}>
         <article className={styles.contact__feature}>
-          <h3>{content.features.certificate.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.certificate.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.certificate.text}</p>
         </article>
         <article className={styles.contact__feature}>
-          <h3>{content.features.documentation.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.documentation.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.documentation.text}</p>
         </article>
         <article className={styles.contact__feature}>
-          <h3>{content.features.help.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.help.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.help.text}</p>
         </article>
       </section>
 
       <section className={styles.contact__grid} aria-label={content.sections.consultation}>
         <article className={styles.contact__feature}>
-          <h3>{content.features.consultation.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.consultation.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.consultation.text}</p>
         </article>
         <article className={styles.contact__feature}>
-          <h3>{content.features.travel.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.travel.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.travel.text}</p>
         </article>
         <article className={styles.contact__feature}>
-          <h3>{content.features.advice.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.advice.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.advice.text}</p>
         </article>
       </section>
 
       <section className={styles.contact__grid} aria-label={content.sections.about}>
         <article className={styles.contact__feature}>
-          <h3>{content.features.team.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.team.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.team.text}</p>
         </article>
         <article className={styles.contact__feature}>
-          <h3>{content.features.facility.title}</h3>
+          <h3 className={styles.contact__feature_title}>{content.features.facility.title}</h3>
           <p className={styles.contact__feature_text}>{content.features.facility.text}</p>
         </article>
       </section>
 
       <section className={styles.contact__form_wrap} aria-labelledby="contact-form-title">
         <div className={styles.contact__form_intro}>
-          <h2 id="contact-form-title">{content.form.title}</h2>
+          <h2 className={styles.contact__heading} id="contact-form-title">
+            {content.form.title}
+          </h2>
           <p className={styles.contact__form_text}>{content.form.text}</p>
         </div>
         <form className={styles.contact__form}>

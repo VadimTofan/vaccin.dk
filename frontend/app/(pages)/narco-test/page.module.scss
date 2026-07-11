@@ -1,104 +1,89 @@
 // clinic-surface
 // refero-clinical-blueprint
-// refero-auros
+// sitewide-editorial-retouch
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .narco {
   display: grid;
-  width: min(100%, var(--clinic-page-max));
+  width: min(100% - 4rem, var(--clinic-page-max));
   margin: 0 auto;
-  padding: 5rem var(--clinic-page-gutter) 7rem;
-  gap: 1.6rem;
+  padding: 6rem 0 9rem;
   color: $text-ink;
 
-  @include mixins.tablet {
-    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-    padding-block: 7rem 9rem;
-  }
-
-  &__hero,
-  &__section,
-  &__cta {
-    display: flex;
-    flex-direction: column;
-    padding: 2.4rem;
-    gap: 1.2rem;
-    background: rgb(0 55 52 / 82%);
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
-  }
-
   &__hero {
-    min-height: 32rem;
-    background: $surface-card;
-
-    @include mixins.tablet {
-      grid-row: span 2;
-      justify-content: end;
-    }
+    display: grid;
+    max-width: 96rem;
+    padding: 2rem 0 6rem;
+    gap: 1.6rem;
   }
 
   &__eyebrow {
     width: fit-content;
-    padding: 0.7rem 1rem;
+    padding-bottom: 0.7rem;
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: $accent-sea;
-    background: rgb(0 55 52 / 82%);
-    border-radius: var(--refero-control-radius);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 22%);
   }
 
-  &__hero h1,
-  &__section h2,
-  &__cta h2 {
-    font-size: clamp(2.4rem, 4vw, 4.6rem);
+  &__title {
+    font-size: clamp(4.8rem, 8vw, 8.8rem);
     font-weight: 500;
-    line-height: 1.05;
+    line-height: 0.94;
+    letter-spacing: -0.04em;
+    color: $text-ink;
   }
 
-  &__section h2,
-  &__cta h2 {
-    font-size: 2.2rem;
+  &__section,
+  &__cta {
+    display: grid;
+    padding: 3.2rem 0;
+    gap: 1.6rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+  }
+
+  &__heading {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: $text-ink;
   }
 
   &__lede,
   &__text,
   &__list_item {
+    max-width: 72rem;
     font-size: 1.5rem;
     line-height: 1.7;
-    color: $text-muted;
+    color: $text-light;
   }
 
   &__list {
     display: grid;
-    padding: 0;
-    gap: 0.8rem;
     list-style: none;
+    border-top: 0.1rem solid rgb(203 255 252 / 14%);
   }
 
   &__list_item {
-    padding: 1rem 1.2rem;
+    padding: 1.2rem 0;
     color: $accent-sea;
-    background: rgb(15 107 107 / 8%);
-    border-radius: var(--refero-card-radius);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 14%);
   }
 
   &__price {
     width: fit-content;
     padding: 1rem 1.4rem;
     font-size: 2.2rem;
-    font-weight: 500;
+    font-weight: 600;
     color: $text-inverse;
     background: $refero-gradient;
-    border-radius: var(--refero-control-radius);
   }
 
   &__contact_grid {
     display: grid;
-    gap: 0.8rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 14%);
 
     @include mixins.small-tablet {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -107,21 +92,27 @@
 
   &__contact_item {
     display: grid;
-    padding: 1.2rem;
+    padding: 1.4rem 0;
     gap: 0.4rem;
-    background: rgb(15 107 107 / 7%);
-    border-radius: var(--refero-card-radius);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 14%);
+
+    @include mixins.small-tablet {
+      padding: 1.4rem;
+      border-right: 0.1rem solid rgb(203 255 252 / 14%);
+    }
   }
 
-  &__contact_item span {
-    font-size: 1.1rem;
-    font-weight: 500;
+  &__contact_label {
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $accent-sea;
   }
 
-  &__contact_item strong {
+  &__contact_value {
     font-size: 1.35rem;
     line-height: 1.45;
+    color: $text-ink;
   }
 }
