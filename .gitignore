@@ -1,2 +1,5 @@
 AGENTS.md
 Agents
+
+# Temporary runtime logs must be deleted before handoff.
+*.log
