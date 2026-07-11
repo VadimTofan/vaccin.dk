@@ -24,7 +24,7 @@ export default function Vaccines() {
   return (
     <div className={styles.vaccines}>
       <aside className={styles.vaccines__sidebar}>
-        <p className={styles.vaccines__eyebrow}>Vaccines</p>
+        <p className={styles.vaccines__eyebrow}>{content.welcome.title}</p>
         <ul className={styles.vaccines__list}>
           {content?.types.map((item) => (
             <li key={item.path} className={styles.vaccines__list_item}>

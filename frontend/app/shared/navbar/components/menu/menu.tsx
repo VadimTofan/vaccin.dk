@@ -1,4 +1,6 @@
 import styles from './page.module.scss';
+import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
+import locale from '../../locale.json';
 
 type MenuProps = {
   isMenuOpen: boolean;
@@ -6,11 +8,16 @@ type MenuProps = {
 };
 
 export function Menu({ isMenuOpen, handleMenu }: MenuProps) {
+  const { language } = useLanguage();
+  const content = useLocale(locale, language);
+
   return (
     <button
       aria-controls="primary-navigation"
       aria-expanded={isMenuOpen}
-      aria-label={isMenuOpen ? 'Close navigation' : 'Open navigation'}
+      aria-label={
+        isMenuOpen ? content.shell.closeNavigation : content.shell.openNavigation
+      }
       className={styles.menu}
       data-open={isMenuOpen}
       onClick={handleMenu}

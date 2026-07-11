@@ -11,7 +11,7 @@ test('mobile navigation controls expose their names and expanded state', async (
 
   // When
   const requirements = [
-    'aria-label={isMenuOpen ? \'Close navigation\' : \'Open navigation\'}',
+    'content.shell.closeNavigation : content.shell.openNavigation',
     'aria-controls="primary-navigation"',
     'aria-expanded={isMenuOpen}',
   ];
@@ -32,9 +32,9 @@ test('language controls use explicit accessible names and relationships', async 
   // When
   const requirements = [
     'aria-controls="language-menu"',
-    'aria-label={`Current language:',
+    'content.shell.currentLanguage',
     'id="language-menu"',
-    'aria-label={`Switch to ${languageNames[item]}`}',
+    'content.shell.switchLanguage',
     "event.key === 'Escape'",
     "document.addEventListener('pointerdown', handlePointerDown)",
   ];
@@ -66,19 +66,22 @@ test('navigation identifies the active page', async () => {
 test('the document synchronizes language and includes descriptive metadata', async () => {
   // Given
   const layoutSource = await readFile(new URL('./layout.tsx', import.meta.url), 'utf8');
+  const localeSource = await readFile(new URL('./locale.json', import.meta.url), 'utf8');
   const localizationSource = await readFile(
     new URL('./hooks/localization/localization.tsx', import.meta.url),
     'utf8',
   );
 
   // When
-  const hasDescription = layoutSource.includes('description:');
+  const hasDescription = localeSource.includes('"description"');
+  const generatesLocalizedMetadata = layoutSource.includes('generateMetadata');
   const synchronizesLanguage = localizationSource.includes(
     'document.documentElement.lang = language',
   );
 
   // Then
   assert.equal(hasDescription, true);
+  assert.equal(generatesLocalizedMetadata, true);
   assert.equal(synchronizesLanguage, true);
 });
 

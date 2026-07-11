@@ -1,76 +1,36 @@
+'use client';
+
 import Link from 'next/link';
 
+import { useLanguage, useLocale } from './hooks/localization/localization';
+import locale from './locale.json';
 import styles from './page.module.scss';
 
-const clinicFacts = [
-  {
-    value: 'Opening hours',
-    label: '08:00 - 16:00',
-  },
-  {
-    value: 'Phone guidance',
-    label: '(+45) 54 55 89 65',
-  },
-  {
-    value: 'Location',
-    label: 'Amager Landevej 31, 2770 Kastrup',
-  },
-];
-
-const travelServices = [
-  {
-    title: 'Destination advice',
-    text: 'Country-specific guidance before you book vaccines.',
-    href: '/destination',
-  },
-  {
-    title: 'Vaccines',
-    text: 'Review doses, protection windows, and practical pricing.',
-    href: '/vaccines',
-  },
-  {
-    title: 'Company agreements',
-    text: 'Vaccination planning for teams with recurring travel.',
-    href: '/company-agreements',
-  },
-  {
-    title: 'Narco test',
-    text: 'Discreet clinic testing with clear instructions before arrival.',
-    href: '/narco-test',
-  },
-];
-
-const travelPlan = [
-  'Share destination, dates, and travel style.',
-  'Get a practical vaccination plan from the clinic.',
-  'Leave with vaccine documentation ready for your trip.',
-];
-
 export default function Home() {
+  const { language } = useLanguage();
+  const content = useLocale(locale, language);
+
   return (
     <div className={styles.home}>
       <section className={styles.home__hero} aria-labelledby="home-title">
         <div className={styles.home__hero_content}>
-          <p className={styles.home__kicker}>Welcome to VACCIN DK</p>
+          <p className={styles.home__kicker}>{content.hero.eyebrow}</p>
           <h1 id="home-title" className={styles.home__title}>
-            Departure-ready travel health
+            {content.hero.title}
           </h1>
-          <p className={styles.home__lead}>
-            Vaccination guidance, travel certificates, and clinic appointments for people leaving
-            Denmark.
-          </p>
+          <p className={styles.home__lead}>{content.hero.lead}</p>
 
-          <div className={styles.home__actions} aria-label="Primary actions">
+          <div className={styles.home__actions} aria-label={content.hero.actionsLabel}>
             <Link className={styles.home__primary} href="/contact">
-              Book contact
+              {content.hero.contactAction}
             </Link>
             <Link className={styles.home__secondary} href="/destination">
-              Choose destination
+              {content.hero.destinationAction}
             </Link>
           </div>
         </div>
 
-        <div className={styles.home__route_map} aria-label="Travel planning summary">
+        <div className={styles.home__route_map} aria-label={content.hero.summaryLabel}>
           <div className={styles.home__orbit} aria-hidden="true">
             <span className={styles.home__route_line} />
             <span className={styles.home__route_pin} />
@@ -79,10 +39,8 @@ export default function Home() {
 
           <aside className={styles.home__glass}>
             <div className={styles.home__glass_copy}>
-              <p className={styles.home__label}>Clinic signal</p>
-              <h2 className={styles.home__glass_title}>
-                Call before booking so the visit matches the trip.
-              </h2>
+              <p className={styles.home__label}>{content.hero.signalLabel}</p>
+              <h2 className={styles.home__glass_title}>{content.hero.signalTitle}</h2>
               <p className={styles.home__glass_text}>
                 Amager Landevej 31, 2770 Kastrup · (+45) 54 55 89 65
               </p>
@@ -91,8 +49,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.home__facts} aria-label="Clinic highlights">
-        {clinicFacts.map((fact) => (
+      <section className={styles.home__facts} aria-label={content.facts.label}>
+        {content.facts.items.map((fact) => (
           <div className={styles.home__fact} key={fact.label}>
             <strong className={styles.home__fact_value}>{fact.value}</strong>
             <span className={styles.home__fact_label}>{fact.label}</span>
@@ -102,14 +60,14 @@ export default function Home() {
 
       <section className={styles.home__section} aria-labelledby="services-title">
         <div className={styles.home__section_header}>
-          <p className={styles.home__label}>Travel services</p>
+          <p className={styles.home__label}>{content.services.eyebrow}</p>
           <h2 id="services-title" className={styles.home__heading}>
-            Start with the route, finish with the right protection.
+            {content.services.title}
           </h2>
         </div>
 
         <div className={styles.home__service_grid}>
-          {travelServices.map((service) => (
+          {content.services.items.map((service) => (
             <Link className={styles.home__service} href={service.href} key={service.title}>
               <span className={styles.home__service_title}>{service.title}</span>
               <span className={styles.home__service_text}>{service.text}</span>
@@ -120,14 +78,14 @@ export default function Home() {
 
       <section className={styles.home__process} aria-labelledby="process-title">
         <div className={styles.home__section_header}>
-          <p className={styles.home__label}>Before the appointment</p>
+          <p className={styles.home__label}>{content.process.eyebrow}</p>
           <h2 id="process-title" className={styles.home__heading}>
-            A cleaner way to plan vaccines before you travel.
+            {content.process.title}
           </h2>
         </div>
 
         <ol className={styles.home__timeline}>
-          {travelPlan.map((item, index) => (
+          {content.process.items.map((item, index) => (
             <li className={styles.home__timeline_item} key={item}>
               <span className={styles.home__timeline_number}>0{index + 1}</span>
               <span className={styles.home__timeline_text}>{item}</span>
@@ -140,28 +98,25 @@ export default function Home() {
         <div className={styles.home__certificate_mark} aria-hidden="true">
           <span className={styles.home__certificate_code}>VACCIN DK</span>
           <span className={styles.home__certificate_line} />
-          <span className={styles.home__certificate_stamp}>Certificate</span>
+          <span className={styles.home__certificate_stamp}>{content.certificate.stamp}</span>
         </div>
 
         <div className={styles.home__certificate_copy}>
-          <p className={styles.home__label}>Documentation included</p>
+          <p className={styles.home__label}>{content.certificate.eyebrow}</p>
           <h2 id="certificate-title" className={styles.home__heading}>
-            Vaccination Certificate
+            {content.certificate.title}
           </h2>
-          <p className={styles.home__text}>
-            After receiving your vaccines, you receive a vaccination card that can be shown when
-            documentation is requested for your destination.
-          </p>
+          <p className={styles.home__text}>{content.certificate.text}</p>
         </div>
       </section>
 
       <section className={styles.home__visit} aria-labelledby="visit-title">
-        <p className={styles.home__label}>Visit the clinic</p>
+        <p className={styles.home__label}>{content.visit.eyebrow}</p>
         <h2 id="visit-title" className={styles.home__visit_title}>
-          Practical travel health from Kastrup, with free parking at the door.
+          {content.visit.title}
         </h2>
         <Link className={styles.home__primary} href="/contact">
-          Write or call the clinic
+          {content.visit.action}
         </Link>
       </section>
     </div>

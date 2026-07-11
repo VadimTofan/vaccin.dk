@@ -43,105 +43,169 @@
   },
   "da": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "FAQ",
+      "title": "Ofte stillede spørgsmål",
+      "lead": "Hurtige svar på almindelige spørgsmål om rejsevacciner, certifikater og booking."
     },
     "sections": {
       "questions": {
-        "title": "",
+        "title": "Spørgsmål vi hører mest",
         "items": [
           {
-            "question": "",
-            "answer": ""
+            "question": "Hvornår skal jeg bestille en rejsekonsultation?",
+            "answer": "Book så tidligt som muligt, så du har tid til det fulde vaccineskema og eventuelle nødvendige boostere."
+          },
+          {
+            "question": "Skal jeg have en vaccinationsattest?",
+            "answer": "Mange destinationer kræver bevis for vaccination. Dit klinikbesøg inkluderer et vaccinationskort, som du kan vise ved indgangen, hvis det er nødvendigt."
+          },
+          {
+            "question": "Hvilke vacciner har jeg brug for?",
+            "answer": "Anbefalinger afhænger af din destination, rejselængde og aktiviteter. En konsultation hjælper med at skræddersy listen til din rejse."
+          },
+          {
+            "question": "Kan jeg kombinere flere vacciner på et besøg?",
+            "answer": "Ofte ja, men timingen kan variere afhængigt af vaccinen. Klinikken planlægger en tidsplan, der passer til dine rejsedatoer."
+          },
+          {
+            "question": "Hvad skal jeg medbringe til min aftale?",
+            "answer": "Medbring eventuelle tidligere vaccinationsoplysninger og oplysninger om din rejseplan."
           }
         ]
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Har du brug for mere hjælp?",
+        "text": "Ring eller skriv til os for vejledning skræddersyet til din rejse.",
+        "address": "Adresse: Amager Landevej 31, 2770",
+        "hours": "Åbent 08.00 - 16.00",
+        "phone": "Telefon: (+45) 54558965",
+        "email": "E-mail: klinik@rcscanning.com"
       }
     }
   },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "FAQ",
+      "title": "Vanliga frågor",
+      "lead": "Snabba svar på vanliga frågor om resevaccin, certifikat och bokning."
     },
     "sections": {
       "questions": {
-        "title": "",
+        "title": "Frågor vi hör mest",
         "items": [
           {
-            "question": "",
-            "answer": ""
+            "question": "När ska jag boka en resekonsultation?",
+            "answer": "Boka så tidigt som möjligt så att du har tid för hela vaccinschemat och eventuella boosters."
+          },
+          {
+            "question": "Behöver jag ett vaccinationsintyg?",
+            "answer": "Många destinationer kräver bevis på vaccination. Ditt klinikbesök inkluderar ett vaccinationskort som du kan visa vid tillträde vid behov."
+          },
+          {
+            "question": "Vilka vacciner behöver jag?",
+            "answer": "Rekommendationer beror på din destination, resans längd och aktiviteter. En konsultation hjälper dig att skräddarsy listan efter din resa."
+          },
+          {
+            "question": "Kan jag kombinera flera vacciner på ett besök?",
+            "answer": "Ofta ja, men tidpunkten kan variera beroende på vaccin. Kliniken kommer att planera ett schema som passar dina resdatum."
+          },
+          {
+            "question": "Vad ska jag ta med mig till mitt möte?",
+            "answer": "Ta med eventuella tidigare vaccinationsuppgifter och information om din resplan."
           }
         ]
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Behöver du mer hjälp?",
+        "text": "Ring eller skicka ett meddelande till oss för vägledning skräddarsydd för din resa.",
+        "address": "Adress: Amager Landevej 31, 2770",
+        "hours": "Öppet 08.00 - 16.00",
+        "phone": "Telefon: (+45) 54558965",
+        "email": "E-post: klinik@rcscanning.com"
       }
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Часто задаваемые вопросы",
+      "title": "Часто задаваемые вопросы",
+      "lead": "Быстрые ответы на распространенные вопросы о туристических вакцинах, сертификатах и бронировании."
     },
     "sections": {
       "questions": {
-        "title": "",
+        "title": "Вопросы, которые мы слышим чаще всего",
         "items": [
           {
-            "question": "",
-            "answer": ""
+            "question": "Когда мне следует записаться на консультацию по путешествию?",
+            "answer": "Запишитесь как можно раньше, чтобы у вас было время получить полный график вакцинации и необходимые ревакцинации."
+          },
+          {
+            "question": "Нужен ли мне сертификат о вакцинации?",
+            "answer": "Многие направления требуют подтверждения вакцинации. При посещении клиники вам понадобится карта вакцинации, которую вы можете предъявить при входе в случае необходимости."
+          },
+          {
+            "question": "Какие вакцины мне нужны?",
+            "answer": "Рекомендации зависят от пункта назначения, продолжительности поездки и видов деятельности. Консультация поможет адаптировать список к вашей поездке."
+          },
+          {
+            "question": "Могу ли я объединить несколько вакцин за один визит?",
+            "answer": "Часто да, но сроки могут варьироваться в зависимости от вакцины. Клиника спланирует график, соответствующий датам вашего путешествия."
+          },
+          {
+            "question": "Что мне следует взять с собой на прием?",
+            "answer": "Возьмите с собой все предыдущие записи о вакцинации и информацию о маршруте вашего путешествия."
           }
         ]
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Нужна дополнительная помощь?",
+        "text": "Позвоните или напишите нам, чтобы получить рекомендации, адаптированные к вашей поездке.",
+        "address": "Адрес: Амагер Ландевей 31, 2770",
+        "hours": "Открыто 08.00 - 16.00",
+        "phone": "Телефон: (+45) 54558965",
+        "email": "Электронная почта: klinik@rcscanning.com"
       }
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "FAQ",
+      "title": "Συχνές ερωτήσεις",
+      "lead": "Γρήγορες απαντήσεις σε συνήθεις ερωτήσεις σχετικά με τα ταξιδιωτικά εμβόλια, τα πιστοποιητικά και τις κρατήσεις."
     },
     "sections": {
       "questions": {
-        "title": "",
+        "title": "Ερωτήσεις που ακούμε περισσότερο",
         "items": [
           {
-            "question": "",
-            "answer": ""
+            "question": "Πότε πρέπει να κάνω κράτηση για ταξιδιωτική επίσκεψη;",
+            "answer": "Κάντε κράτηση όσο το δυνατόν νωρίτερα, ώστε να έχετε χρόνο για το πλήρες πρόγραμμα εμβολίων και τυχόν απαιτούμενα ενισχυτικά."
+          },
+          {
+            "question": "Χρειάζομαι πιστοποιητικό εμβολιασμού;",
+            "answer": "Πολλοί προορισμοί απαιτούν απόδειξη εμβολιασμού. Η επίσκεψή σας στην κλινική περιλαμβάνει μια κάρτα εμβολιασμού που μπορείτε να επιδείξετε κατά την είσοδο εάν χρειαστεί."
+          },
+          {
+            "question": "Ποια εμβόλια χρειάζομαι;",
+            "answer": "Οι προτάσεις εξαρτώνται από τον προορισμό, τη διάρκεια του ταξιδιού και τις δραστηριότητές σας. Μια διαβούλευση βοηθά στην προσαρμογή της λίστας στο ταξίδι σας."
+          },
+          {
+            "question": "Μπορώ να συνδυάσω πολλά εμβόλια σε μία επίσκεψη;",
+            "answer": "Συχνά ναι, αλλά ο χρόνος μπορεί να διαφέρει ανάλογα με το εμβόλιο. Η κλινική θα προγραμματίσει ένα πρόγραμμα που ταιριάζει στις ημερομηνίες του ταξιδιού σας."
+          },
+          {
+            "question": "Τι πρέπει να φέρω στο ραντεβού μου;",
+            "answer": "Φέρτε τυχόν προηγούμενα αρχεία εμβολιασμού και πληροφορίες σχετικά με το δρομολόγιο του ταξιδιού σας."
           }
         ]
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Χρειάζεστε περισσότερη βοήθεια;",
+        "text": "Καλέστε μας ή στείλτε μας μήνυμα για καθοδήγηση προσαρμοσμένη στο ταξίδι σας.",
+        "address": "Διεύθυνση: Amager Landevej 31, 2770",
+        "hours": "Ανοιχτά 08.00 - 16.00",
+        "phone": "Τηλέφωνο: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com"
       }
     }
   }

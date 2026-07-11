@@ -9,8 +9,8 @@ test('footer uses semantic regions and working contact links', async () => {
   // When
   const requirements = [
     '<footer className={styles.footer}>',
-    '<nav aria-label="Services"',
-    '<nav aria-label="Useful links"',
+    'aria-label={content.footerCopy.servicesLabel}',
+    'aria-label={content.footerCopy.usefulLinksLabel}',
     '<address className={styles.footer__address}>',
     'href={`mailto:${information.email}`}',
     'rel="noopener noreferrer"',

@@ -12,7 +12,7 @@ function sortCountriesByName(countries: MapCountry[]) {
   return [...countries].sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export function CountryMap({ countries }: CountryMapProps) {
+export function CountryMap({ countries, label, optionLabel }: CountryMapProps) {
   const router = useRouter();
 
   const countriesByContinent = useMemo(() => {
@@ -31,7 +31,7 @@ export function CountryMap({ countries }: CountryMapProps) {
   }, [countries]);
 
   return (
-    <section className={styles.map} aria-label="Choose destination by continent">
+    <section className={styles.map} aria-label={label}>
       <div className={styles.map__continents}>
         {continentOrder.map((continent) => {
           const continentCountries = sortCountriesByName(countriesByContinent.get(continent) ?? []);
@@ -40,7 +40,7 @@ export function CountryMap({ countries }: CountryMapProps) {
             <article key={continent} className={styles.map__continent_card}>
               <h3 className={styles.map__continent_title}>{continent}</h3>
               <label className={styles.map__label}>
-                <span className={styles.map__label_text}>Choose country</span>
+                <span className={styles.map__label_text}>{optionLabel}</span>
                 <select
                   className={styles.map__select}
                   defaultValue=""
@@ -52,7 +52,7 @@ export function CountryMap({ countries }: CountryMapProps) {
                   }}
                 >
                   <option value="" disabled>
-                    Select country
+                    {optionLabel}
                   </option>
                   {continentCountries.map((country) => (
                     <option key={`${continent}-${country.slug}`} value={country.slug}>

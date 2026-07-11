@@ -49,7 +49,11 @@ export default function Destination() {
             </li>
           ))}
         </ul>
-        <CountryMap countries={mapCountries} />
+        <CountryMap
+          countries={mapCountries}
+          label={content.sections.regions.title}
+          optionLabel={content.sections.regions.text}
+        />
       </section>
 
       <section className={styles.destination__section} aria-labelledby="about">

@@ -36,141 +36,141 @@
   },
   "da": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Destinationer og relevante vaccinationer",
+      "title": "Destinationer",
+      "lead": "Planlæg din rejse med vejledning fra VACCIN DK og vælg den destination, du rejser til."
     },
     "sections": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Vaccinationsattest",
+        "text": "Når du modtager vacciner på klinikken til din destination, får du et vaccinationskort. Det fungerer som et gyldigt certifikat, du kan vise, når du rejser ind i det land, du rejser til."
       },
       "consultation": {
-        "title": "",
-        "text": "",
-        "note": ""
+        "title": "Konsultation",
+        "text": "Vaccination hjælper med at beskytte mod alvorlige sygdomme. Mens mange sygdomme nu er sjældne i Danmark takket være børnevaccinationsprogrammet, kan rejser kræve beskyttelse mod sygdomme, der ikke er omfattet af dette program.",
+        "note": "Kontakt din læge eller en vaccinationsklinik for vejledning tilpasset din rejse."
       },
       "regions": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Vælg din rejsedestination",
+        "text": "Vælg en region for at udforske destinationsspecifik vaccineinformation.",
+        "list": ["Afrika", "Asien", "Nordamerika", "Sydamerika", "Europa", "Oceanien"]
       },
       "about": {
-        "title": "",
-        "text": ""
+        "title": "Om VACCIN DK",
+        "text": "Klinikteamet består af professionelle læger og uddannet personale, med fokus på at skabe en god patientoplevelse. Klinikken tilbyder rummelige lokaler, god beliggenhed og gratis parkering ved hoveddøren."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "hours": "",
-        "phone": "",
-        "email": "",
-        "address": ""
+        "title": "Kontakt",
+        "text": "Inden du booker, ring eller besked for den bedste vejledning.",
+        "hours": "Åbent 08.00 - 16.00",
+        "phone": "Telefon: (+45) 54558965",
+        "email": "E-mail: klinik@rcscanning.com",
+        "address": "Adresse: Amager Landevej 31, 2770"
       }
     }
   },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Destinationer och relevanta vaccinationer",
+      "title": "Destinationer",
+      "lead": "Planera din resa med vägledning från VACCIN DK och välj resmålet du ska resa till."
     },
     "sections": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Vaccinationsintyg",
+        "text": "När du får vaccin på kliniken för din destination får du ett vaccinationskort. Det fungerar som ett giltigt certifikat du kan visa när du reser in i landet du reser till."
       },
       "consultation": {
-        "title": "",
-        "text": "",
-        "note": ""
+        "title": "Konsultation",
+        "text": "Vaccination hjälper till att skydda mot allvarliga sjukdomar. Medan många sjukdomar nu är sällsynta i Danmark tack vare barnvaccinationsprogrammet, kan resor kräva skydd mot sjukdomar som inte omfattas av det programmet.",
+        "note": "Kontakta din läkare eller en vaccinationsmottagning för vägledning anpassad för din resa."
       },
       "regions": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Välj ditt resmål",
+        "text": "Välj en region för att utforska destinationsspecifik vaccininformation.",
+        "list": ["Afrika", "Asien", "Nordamerika", "Sydamerika", "Europa", "Oceanien"]
       },
       "about": {
-        "title": "",
-        "text": ""
+        "title": "Om VACCIN DK",
+        "text": "Klinikteamet består av professionella läkare och utbildad personal, inriktade på att skapa en bra patientupplevelse. Kliniken erbjuder rymliga lokaler, bra läge och fri parkering vid ytterdörren."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "hours": "",
-        "phone": "",
-        "email": "",
-        "address": ""
+        "title": "Kontakta",
+        "text": "Innan du bokar, ring eller meddelande för bästa vägledning.",
+        "hours": "Öppet 08.00 - 16.00",
+        "phone": "Telefon: (+45) 54558965",
+        "email": "E-post: klinik@rcscanning.com",
+        "address": "Adress: Amager Landevej 31, 2770"
       }
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Направления и соответствующие прививки",
+      "title": "Направления",
+      "lead": "Спланируйте свою поездку под руководством VACCIN DK и выберите пункт назначения, куда вы направляетесь."
     },
     "sections": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Сертификат о вакцинации",
+        "text": "Когда вы получите вакцины в клинике пункта назначения, вы получите карту вакцинации. Он служит действительным сертификатом, который вы можете предъявить при въезде в страну, в которую направляетесь."
       },
       "consultation": {
-        "title": "",
-        "text": "",
-        "note": ""
+        "title": "Консультация",
+        "text": "Вакцинация помогает защититься от серьезных заболеваний. Хотя многие болезни сейчас в Дании редки благодаря программе вакцинации детей, путешествия могут потребовать защиты от болезней, не охваченных этой программой.",
+        "note": "Обратитесь к своему врачу или в вакцинационную клинику для получения рекомендаций, адаптированных к вашей поездке."
       },
       "regions": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Выберите пункт назначения",
+        "text": "Выберите регион, чтобы получить информацию о вакцинах для конкретного пункта назначения.",
+        "list": ["Африка", "Азия", "Северная Америка", "Южная Америка", "Европа", "Океания"]
       },
       "about": {
-        "title": "",
-        "text": ""
+        "title": "О ВАКЦИН ДК",
+        "text": "Команда клиники состоит из профессиональных врачей и обученного персонала, ориентированного на создание хорошего опыта для пациентов. Клиника предлагает просторные помещения, хорошее расположение и бесплатную парковку у входной двери."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "hours": "",
-        "phone": "",
-        "email": "",
-        "address": ""
+        "title": "Контакт",
+        "text": "Перед бронированием позвоните или напишите сообщение, чтобы получить лучшую консультацию.",
+        "hours": "Открыто 08.00 - 16.00",
+        "phone": "Телефон: (+45) 54558965",
+        "email": "Электронная почта: klinik@rcscanning.com",
+        "address": "Адрес: Амагер Ландевей 31, 2770"
       }
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Προορισμοί και σχετικοί εμβολιασμοί",
+      "title": "Προορισμοί",
+      "lead": "Προγραμματίστε το ταξίδι σας με καθοδήγηση από το VACCIN DK και επιλέξτε τον προορισμό στον οποίο θα ταξιδέψετε."
     },
     "sections": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Πιστοποιητικό εμβολιασμού",
+        "text": "Όταν λάβετε εμβόλια στην κλινική για τον προορισμό σας, θα λάβετε μια κάρτα εμβολιασμού. Λειτουργεί ως έγκυρο πιστοποιητικό που μπορείτε να εμφανίσετε κατά την είσοδό σας στη χώρα στην οποία ταξιδεύετε."
       },
       "consultation": {
-        "title": "",
-        "text": "",
-        "note": ""
+        "title": "Διαβούλευση",
+        "text": "Ο εμβολιασμός βοηθά στην προστασία από σοβαρές ασθένειες. Ενώ πολλές ασθένειες είναι πλέον σπάνιες στη Δανία χάρη στο πρόγραμμα εμβολιασμού της παιδικής ηλικίας, τα ταξίδια μπορεί να απαιτούν προστασία από ασθένειες που δεν καλύπτονται από αυτό το πρόγραμμα.",
+        "note": "Επικοινωνήστε με το γιατρό σας ή μια κλινική εμβολιασμού για καθοδήγηση προσαρμοσμένη στο ταξίδι σας."
       },
       "regions": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Επιλέξτε τον προορισμό του ταξιδιού σας",
+        "text": "Επιλέξτε μια περιοχή για να εξερευνήσετε πληροφορίες εμβολίου για συγκεκριμένο προορισμό.",
+        "list": ["Αφρική", "Ασία", "Βόρεια Αμερική", "Νότια Αμερική", "Ευρώπη", "Ωκεανία"]
       },
       "about": {
-        "title": "",
-        "text": ""
+        "title": "Σχετικά με το VACCIN DK",
+        "text": "Η ομάδα της κλινικής αποτελείται από επαγγελματίες γιατρούς και εκπαιδευμένο προσωπικό, επικεντρωμένο στη δημιουργία μιας καλής εμπειρίας για τον ασθενή. Η κλινική προσφέρει ευρύχωρους χώρους, καλή τοποθεσία και δωρεάν χώρο στάθμευσης στην μπροστινή πόρτα."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "hours": "",
-        "phone": "",
-        "email": "",
-        "address": ""
+        "title": "Επικοινωνία",
+        "text": "Πριν την κράτηση, καλέστε ή στείλτε μήνυμα για την καλύτερη καθοδήγηση.",
+        "hours": "Ανοιχτά 08.00 - 16.00",
+        "phone": "Τηλέφωνο: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com",
+        "address": "Διεύθυνση: Amager Landevej 31, 2770"
       }
     }
   }

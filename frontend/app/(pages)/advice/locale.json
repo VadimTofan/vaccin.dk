@@ -44,141 +44,173 @@
   },
   "da": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Rejseråd",
+      "title": "Råd til sikker rejse",
+      "lead": "Forbered dig med praktisk vejledning, inden du rejser, og hold det væsentlige tæt på under din rejse."
     },
     "sections": {
       "before": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Før du rejser",
+        "text": "Begynd at planlægge tidligt, så du har tid til vacciner, recepter og dokumenter.",
+        "list": [
+          "Gennemgå rutinevaccinationer og destinationsspecifikke anbefalinger.",
+          "Medbring et resumé af recepter, allergier og nøglesygehistorie.",
+          "Tjek adgangskravene og hold dit vaccinecertifikat tilgængeligt."
+        ]
       },
       "vaccines": {
-        "title": "",
-        "text": ""
+        "title": "Vacciner og dokumentation",
+        "text": "En rejsekonsultation hjælper dig med at forstå, hvilke vacciner og boostere, der er relevante for din rejseplan og aktiviteter."
       },
       "health": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Sundhed på farten",
+        "text": "Simple vaner kan reducere din risiko for sygdom, mens du rejser.",
+        "list": [
+          "Vask hænder eller brug desinfektionsmiddel regelmæssigt.",
+          "Vælg sikre mad- og vandkilder.",
+          "Beskyt dig selv mod myggestik med afskrækningsmiddel og belægninger."
+        ]
       },
       "after": {
-        "title": "",
-        "text": ""
+        "title": "Efter du vender tilbage",
+        "text": "Hvis du føler dig utilpas efter rejsen, især med feber eller mavesymptomer, så søg læge og angiv din destination."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Kontakt",
+        "text": "Har du brug for råd til din rejse? Ring eller skriv for den bedste vejledning.",
+        "address": "Adresse: Amager Landevej 31, 2770",
+        "hours": "Åbent 08.00 - 16.00",
+        "phone": "Telefon: (+45) 54558965",
+        "email": "E-mail: klinik@rcscanning.com"
       }
     }
   },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Reseråd",
+      "title": "Råd för säker resa",
+      "lead": "Förbered dig med praktisk vägledning innan du åker och håll det väsentliga nära under din resa."
     },
     "sections": {
       "before": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Innan du reser",
+        "text": "Börja planera tidigt så att du har tid med vacciner, recept och dokument.",
+        "list": [
+          "Granska rutinvaccinationer och destinationsspecifika rekommendationer.",
+          "Ta med en sammanfattning av recept, allergier och viktig medicinsk historia.",
+          "Kontrollera inträdeskraven och håll ditt vaccincertifikat tillgängligt."
+        ]
       },
       "vaccines": {
-        "title": "",
-        "text": ""
+        "title": "Vacciner och dokumentation",
+        "text": "En resekonsultation hjälper dig att förstå vilka vacciner och boosters som är relevanta för din resplan och aktiviteter."
       },
       "health": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Hälsa i rörelse",
+        "text": "Enkla vanor kan minska din risk för sjukdom när du reser.",
+        "list": [
+          "Tvätta händerna eller använd desinfektionsmedel regelbundet.",
+          "Välj säkra mat- och vattenkällor.",
+          "Skydda dig från myggbett med repellerande och beläggningar."
+        ]
       },
       "after": {
-        "title": "",
-        "text": ""
+        "title": "Efter att du kommit tillbaka",
+        "text": "Om du mår dåligt efter resan, särskilt med feber eller magsymtom, sök läkare och ange din destination."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Kontakta",
+        "text": "Behöver du råd inför din resa? Ring eller meddelande för bästa vägledning.",
+        "address": "Adress: Amager Landevej 31, 2770",
+        "hours": "Öppet 08.00 - 16.00",
+        "phone": "Telefon: (+45) 54558965",
+        "email": "E-post: klinik@rcscanning.com"
       }
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Советы путешественникам",
+      "title": "Советы по безопасному путешествию",
+      "lead": "Перед отъездом подготовьтесь, воспользовавшись практическими рекомендациями, и держите все необходимое под рукой во время поездки."
     },
     "sections": {
       "before": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Прежде чем отправиться в путешествие",
+        "text": "Начните планировать заранее, чтобы у вас было время на вакцины, рецепты и документы.",
+        "list": [
+          "Ознакомьтесь с плановыми прививками и рекомендациями для конкретных стран.",
+          "Принесите краткую информацию о рецептах, аллергиях и ключевой истории болезни.",
+          "Проверьте требования к въезду и держите сертификат о вакцинации под рукой."
+        ]
       },
       "vaccines": {
-        "title": "",
-        "text": ""
+        "title": "Вакцины и документация",
+        "text": "Консультация по поездке поможет вам понять, какие вакцины и ревакцинации подходят для вашего маршрута и деятельности."
       },
       "health": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Здоровье в движении",
+        "text": "Простые привычки могут снизить риск заболеваний во время путешествия.",
+        "list": [
+          "Регулярно мойте руки или используйте дезинфицирующее средство.",
+          "Выбирайте безопасные источники еды и воды.",
+          "Защитите себя от укусов комаров с помощью репеллентов и чехлов."
+        ]
       },
       "after": {
-        "title": "",
-        "text": ""
+        "title": "После того, как ты вернешься",
+        "text": "Если вы почувствуете недомогание после путешествия, особенно из-за лихорадки или симптомов со стороны желудка, обратитесь за медицинской помощью и укажите пункт назначения."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Контакт",
+        "text": "Нужен совет для вашей поездки? Позвоните или напишите, чтобы получить лучшее руководство.",
+        "address": "Адрес: Амагер Ландевей 31, 2770",
+        "hours": "Открыто 08.00 - 16.00",
+        "phone": "Телефон: (+45) 54558965",
+        "email": "Электронная почта: klinik@rcscanning.com"
       }
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ""
+      "eyebrow": "Ταξιδιωτικές συμβουλές",
+      "title": "Συμβουλές για ασφαλή ταξίδια",
+      "lead": "Προετοιμαστείτε με πρακτικές οδηγίες πριν φύγετε και κρατήστε τα απαραίτητα κοντά κατά τη διάρκεια του ταξιδιού σας."
     },
     "sections": {
       "before": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Πριν ταξιδέψετε",
+        "text": "Ξεκινήστε να προγραμματίζετε νωρίς, ώστε να έχετε χρόνο για εμβόλια, συνταγές και έγγραφα.",
+        "list": [
+          "Ελέγξτε τους τακτικούς εμβολιασμούς και τις συστάσεις για συγκεκριμένο προορισμό.",
+          "Φέρτε μια περίληψη των συνταγών, των αλλεργιών και του βασικού ιατρικού ιστορικού.",
+          "Ελέγξτε τις απαιτήσεις εισόδου και διατηρήστε το πιστοποιητικό εμβολίου σας προσβάσιμο."
+        ]
       },
       "vaccines": {
-        "title": "",
-        "text": ""
+        "title": "Εμβόλια και τεκμηρίωση",
+        "text": "Μια ταξιδιωτική διαβούλευση σάς βοηθά να κατανοήσετε ποια εμβόλια και ενισχυτικά είναι σχετικά με το δρομολόγιο και τις δραστηριότητές σας."
       },
       "health": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Υγεία εν κινήσει",
+        "text": "Οι απλές συνήθειες μπορούν να μειώσουν τον κίνδυνο ασθένειας ενώ ταξιδεύετε.",
+        "list": [
+          "Πλένετε τα χέρια ή χρησιμοποιείτε τακτικά απολυμαντικό.",
+          "Επιλέξτε ασφαλείς πηγές τροφής και νερού.",
+          "Προστατευτείτε από τα τσιμπήματα των κουνουπιών με απωθητικά και καλύμματα."
+        ]
       },
       "after": {
-        "title": "",
-        "text": ""
+        "title": "Αφού επιστρέψεις",
+        "text": "Εάν αισθάνεστε αδιαθεσία μετά το ταξίδι, ειδικά με πυρετό ή στομαχικά συμπτώματα, ζητήστε ιατρική συμβουλή και αναφέρετε τον προορισμό σας."
       },
       "contact": {
-        "title": "",
-        "text": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "email": ""
+        "title": "Επικοινωνία",
+        "text": "Χρειάζεστε συμβουλές για το ταξίδι σας; Καλέστε ή στείλτε μήνυμα για την καλύτερη καθοδήγηση.",
+        "address": "Διεύθυνση: Amager Landevej 31, 2770",
+        "hours": "Ανοιχτά 08.00 - 16.00",
+        "phone": "Τηλέφωνο: (+45) 54558965",
+        "email": "Email: klinik@rcscanning.com"
       }
     }
   }

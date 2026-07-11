@@ -14,4 +14,6 @@ export type MapCountry = {
 
 export type CountryMapProps = {
   countries: MapCountry[];
+  label: string;
+  optionLabel: string;
 };

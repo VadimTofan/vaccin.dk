@@ -5,18 +5,20 @@ import test from 'node:test';
 test('home page presents the clinic landing page content and primary routes', async () => {
   // Given
   const pageSource = await readFile(new URL('./page.tsx', import.meta.url), 'utf8');
+  const localeSource = await readFile(new URL('./locale.json', import.meta.url), 'utf8');
 
   // When
-  const hasClinicHeadline = pageSource.includes('Welcome to VACCIN DK');
-  const hasCertificateSection = pageSource.includes('Vaccination Certificate');
+  const hasClinicHeadline = localeSource.includes('Welcome to VACCIN DK');
+  const hasCertificateSection = localeSource.includes('Vaccination Certificate');
   const hasDestinationRoute = pageSource.includes('href="/destination"');
   const hasContactRoute = pageSource.includes('href="/contact"');
-  const hasClearWeekdayHours = pageSource.includes("value: 'Opening hours'")
-    && pageSource.includes("label: '08:00 - 16:00'");
-  const hasStackedPhoneGuidance = pageSource.includes("value: 'Phone guidance'")
-    && pageSource.includes("label: '(+45) 54 55 89 65'");
-  const hasStackedLocation = pageSource.includes("value: 'Location'")
-    && pageSource.includes("label: 'Amager Landevej 31, 2770 Kastrup'");
+  const hasClearWeekdayHours = localeSource.includes('Opening hours')
+    && localeSource.includes('08:00 - 16:00');
+  const hasStackedPhoneGuidance = localeSource.includes('Phone guidance')
+    && localeSource.includes('(+45) 54 55 89 65');
+  const hasStackedLocation = localeSource.includes('Location')
+    && localeSource.includes('Amager Landevej 31, 2770 Kastrup');
+  const rendersLocalizedContent = pageSource.includes('useLocale(locale, language)');
 
   // Then
   assert.equal(hasClinicHeadline, true);
@@ -26,4 +28,5 @@ test('home page presents the clinic landing page content and primary routes', as
   assert.equal(hasClearWeekdayHours, true);
   assert.equal(hasStackedPhoneGuidance, true);
   assert.equal(hasStackedLocation, true);
+  assert.equal(rendersLocalizedContent, true);
 });

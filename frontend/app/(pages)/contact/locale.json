@@ -7,10 +7,7 @@
         "Destinations and relevant vaccinations.",
         "Before booking, we recommend that you call or write for the best guidance."
       ],
-      "actions": {
-        "call": "Call now",
-        "write": "Write to us"
-      }
+      "actions": { "call": "Call now", "write": "Write to us" }
     },
     "contact": {
       "title": "Contact information",
@@ -67,12 +64,7 @@
     "form": {
       "title": "Write to us",
       "text": "Send us a message and we will get back to you as soon as possible.",
-      "fields": {
-        "name": "Name",
-        "email": "Email",
-        "phone": "Phone",
-        "message": "Message"
-      },
+      "fields": { "name": "Name", "email": "Email", "phone": "Phone", "message": "Message" },
       "placeholders": {
         "name": "Your name",
         "email": "name@example.com",
@@ -84,322 +76,303 @@
   },
   "da": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ["", ""],
-      "actions": {
-        "call": "",
-        "write": ""
-      }
+      "eyebrow": "Kontakt os",
+      "title": "Velkommen til VACCIN DK",
+      "lead": [
+        "Destinationer og relevante vaccinationer.",
+        "Inden du booker, anbefaler vi, at du ringer eller skriver for den bedste vejledning."
+      ],
+      "actions": { "call": "Ring nu", "write": "Skriv til os" }
     },
     "contact": {
-      "title": "",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "instagram": "",
-      "facebook": "",
-      "phoneValue": "",
-      "emailValue": "",
-      "addressValue": "",
-      "instagramValue": "",
-      "facebookValue": ""
+      "title": "Kontaktoplysninger",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Adresse",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "phoneValue": "(+45) 54 55 89 65",
+      "emailValue": "klinik@rcscanning.com",
+      "addressValue": "Amager Landevej 31, 2770",
+      "instagramValue": "vaccin.dk.7",
+      "facebookValue": "vaccin.dk.7"
     },
     "sections": {
-      "highlights": "",
-      "consultation": "",
-      "about": ""
+      "highlights": "Kontakt højdepunkter",
+      "consultation": "Konsultation",
+      "about": "Om os"
     },
     "features": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Vaccinationskort",
+        "text": "Efter vaccination på vores klinik modtager du et vaccinationskort til din destination."
       },
       "documentation": {
-        "title": "",
-        "text": ""
+        "title": "Gyldig dokumentation",
+        "text": "Kortet er gyldig dokumentation ved indrejse i det land, du rejser til."
       },
       "help": {
-        "title": "",
-        "text": ""
+        "title": "Vi er her for at hjælpe",
+        "text": "Vi sætter pris på dit valg og ser frem til at hjælpe dig."
       },
       "consultation": {
-        "title": "",
-        "text": ""
+        "title": "Rådgivning",
+        "text": "Vaccination kan beskytte mod alvorlige sygdomme, og takket være børnevaccinationsprogrammet er mange sygdomme nu sjældne i Danmark."
       },
       "travel": {
-        "title": "",
-        "text": ""
+        "title": "Rejsevejledning",
+        "text": "Når du rejser uden for Danmark, kan vaccinationer være relevante for sygdomme, der ikke er omfattet af det danske børnevaccinationsprogram."
       },
       "advice": {
-        "title": "",
-        "text": ""
+        "title": "Få råd",
+        "text": "Kontakt din læge eller en vaccinationsklinik for god vaccinationsvejledning."
       },
       "team": {
-        "title": "",
-        "text": ""
+        "title": "Om klinikken",
+        "text": "Vores team består af læger og klinikpersonale, som ønsker at give en god oplevelse, også i svære situationer."
       },
       "facility": {
-        "title": "",
-        "text": ""
+        "title": "Faciliteter",
+        "text": "Vi har rummelige lokaler, god beliggenhed og gratis parkering ved døren."
       }
     },
     "form": {
-      "title": "",
-      "text": "",
-      "fields": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
-      },
+      "title": "Skriv til os",
+      "text": "Send os en besked, så vender vi tilbage til dig hurtigst muligt.",
+      "fields": { "name": "Navn", "email": "E-mail", "phone": "Telefon", "message": "Besked" },
       "placeholders": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
+        "name": "Dit navn",
+        "email": "navn@eksempel.com",
+        "phone": "+45 12 34 56 78",
+        "message": "Hvordan kan vi hjælpe dig?"
       },
-      "submit": ""
+      "submit": "Send"
     }
   },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ["", ""],
-      "actions": {
-        "call": "",
-        "write": ""
-      }
+      "eyebrow": "Kontakta oss",
+      "title": "Välkommen till VACCIN DK",
+      "lead": [
+        "Destinationer och relevanta vaccinationer.",
+        "Innan du bokar rekommenderar vi att du ringer eller skriver för bästa vägledning."
+      ],
+      "actions": { "call": "Ring nu", "write": "Skriv till oss" }
     },
     "contact": {
-      "title": "",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "instagram": "",
-      "facebook": "",
-      "phoneValue": "",
-      "emailValue": "",
-      "addressValue": "",
-      "instagramValue": "",
-      "facebookValue": ""
+      "title": "Kontaktinformation",
+      "phone": "Telefon",
+      "email": "E-post",
+      "address": "Adress",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "phoneValue": "(+45) 54 55 89 65",
+      "emailValue": "klinik@rcscanning.com",
+      "addressValue": "Amager Landevej 31, 2770",
+      "instagramValue": "vaccin.dk.7",
+      "facebookValue": "vaccin.dk.7"
     },
     "sections": {
-      "highlights": "",
-      "consultation": "",
-      "about": ""
+      "highlights": "Kontakthöjdpunkter",
+      "consultation": "Konsultation",
+      "about": "Om oss"
     },
     "features": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Vaccinationskort",
+        "text": "Efter vaccination på vår klinik får du ett vaccinationskort för din destination."
       },
       "documentation": {
-        "title": "",
-        "text": ""
+        "title": "Giltig dokumentation",
+        "text": "Kortet är giltig dokumentation vid inresa i landet du reser till."
       },
       "help": {
-        "title": "",
-        "text": ""
+        "title": "Vi är här för att hjälpa till",
+        "text": "Vi uppskattar ditt val och ser fram emot att hjälpa dig."
       },
       "consultation": {
-        "title": "",
-        "text": ""
+        "title": "Råd",
+        "text": "Vaccination kan skydda mot allvarliga sjukdomar, och tack vare barnvaccinationsprogrammet är många sjukdomar nu sällsynta i Danmark."
       },
       "travel": {
-        "title": "",
-        "text": ""
+        "title": "Resevägledning",
+        "text": "När du reser utanför Danmark kan vaccinationer vara aktuella för sjukdomar som inte omfattas av det danska barnvaccinationsprogrammet."
       },
       "advice": {
-        "title": "",
-        "text": ""
+        "title": "Få råd",
+        "text": "Kontakta din läkare eller en vaccinationsmottagning för bra vaccinationsvägledning."
       },
       "team": {
-        "title": "",
-        "text": ""
+        "title": "Om kliniken",
+        "text": "Vårt team består av läkare och klinikpersonal som vill ge en bra upplevelse även i svåra situationer."
       },
       "facility": {
-        "title": "",
-        "text": ""
+        "title": "Faciliteter",
+        "text": "Vi har rymliga lokaler, bra läge, och fri parkering vid dörren."
       }
     },
     "form": {
-      "title": "",
-      "text": "",
-      "fields": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
-      },
+      "title": "Skriv till oss",
+      "text": "Skicka ett meddelande till oss så återkommer vi till dig så snart som möjligt.",
+      "fields": { "name": "Namn", "email": "E-post", "phone": "Telefon", "message": "Meddelande" },
       "placeholders": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
+        "name": "Ditt namn",
+        "email": "namn@exempel.com",
+        "phone": "+45 12 34 56 78",
+        "message": "Hur kan vi hjälpa dig?"
       },
-      "submit": ""
+      "submit": "Skicka"
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ["", ""],
-      "actions": {
-        "call": "",
-        "write": ""
-      }
+      "eyebrow": "Свяжитесь с нами",
+      "title": "Добро пожаловать в ВАКЦИН ДК",
+      "lead": [
+        "Направления и соответствующие прививки.",
+        "Перед бронированием рекомендуем позвонить или написать для получения лучшей консультации."
+      ],
+      "actions": { "call": "Позвоните сейчас", "write": "Напишите нам" }
     },
     "contact": {
-      "title": "",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "instagram": "",
-      "facebook": "",
-      "phoneValue": "",
-      "emailValue": "",
-      "addressValue": "",
-      "instagramValue": "",
-      "facebookValue": ""
+      "title": "Контактная информация",
+      "phone": "Телефон",
+      "email": "электронная почта",
+      "address": "Адрес",
+      "instagram": "Инстаграм",
+      "facebook": "Фейсбук",
+      "phoneValue": "(+45) 54 55 89 65",
+      "emailValue": "klinik@rcscanning.com",
+      "addressValue": "Амагер Ландевей 31, 2770",
+      "instagramValue": "вакцин.дк.7",
+      "facebookValue": "вакцин.дк.7"
     },
-    "sections": {
-      "highlights": "",
-      "consultation": "",
-      "about": ""
-    },
+    "sections": { "highlights": "Контакты", "consultation": "Консультация", "about": "О нас" },
     "features": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Карта прививок",
+        "text": "После вакцинации в нашей клинике вы получаете карту прививок по месту назначения."
       },
       "documentation": {
-        "title": "",
-        "text": ""
+        "title": "Действительная документация",
+        "text": "Карта является действительным документом при въезде в страну, в которую вы направляетесь."
       },
       "help": {
-        "title": "",
-        "text": ""
+        "title": "Мы здесь, чтобы помочь",
+        "text": "Мы ценим ваш выбор и будем рады помочь вам."
       },
       "consultation": {
-        "title": "",
-        "text": ""
+        "title": "Совет",
+        "text": "Вакцинация может защитить от серьезных заболеваний, а благодаря программе вакцинации детей многие заболевания сейчас в Дании редки."
       },
       "travel": {
-        "title": "",
-        "text": ""
+        "title": "Путеводитель",
+        "text": "Когда вы выезжаете за пределы Дании, могут потребоваться прививки от болезней, не охваченных датской программой вакцинации детей."
       },
       "advice": {
-        "title": "",
-        "text": ""
+        "title": "Получить консультацию",
+        "text": "Обратитесь к своему врачу или в вакцинационную клинику для получения хороших рекомендаций по вакцинации."
       },
       "team": {
-        "title": "",
-        "text": ""
+        "title": "О клинике",
+        "text": "Наша команда состоит из врачей и сотрудников клиники, которые хотят обеспечить хороший опыт даже в сложных ситуациях."
       },
       "facility": {
-        "title": "",
-        "text": ""
+        "title": "Удобства",
+        "text": "У нас просторные помещения, хорошее расположение и бесплатная парковка у входа."
       }
     },
     "form": {
-      "title": "",
-      "text": "",
+      "title": "Напишите нам",
+      "text": "Отправьте нам сообщение, и мы свяжемся с вами как можно скорее.",
       "fields": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
+        "name": "Имя",
+        "email": "электронная почта",
+        "phone": "Телефон",
+        "message": "Сообщение"
       },
       "placeholders": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
+        "name": "Ваше имя",
+        "email": "имя@example.com",
+        "phone": "+45 12 34 56 78",
+        "message": "Как мы можем вам помочь?"
       },
-      "submit": ""
+      "submit": "Отправлять"
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lead": ["", ""],
-      "actions": {
-        "call": "",
-        "write": ""
-      }
+      "eyebrow": "Επικοινωνήστε μαζί μας",
+      "title": "Καλώς ήρθατε στο VACCIN DK",
+      "lead": [
+        "Προορισμοί και σχετικοί εμβολιασμοί.",
+        "Πριν κάνετε κράτηση, σας συνιστούμε να τηλεφωνήσετε ή να γράψετε για την καλύτερη καθοδήγηση."
+      ],
+      "actions": { "call": "Καλέστε τώρα", "write": "Γράψτε μας" }
     },
     "contact": {
-      "title": "",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "instagram": "",
-      "facebook": "",
-      "phoneValue": "",
-      "emailValue": "",
-      "addressValue": "",
-      "instagramValue": "",
-      "facebookValue": ""
+      "title": "Στοιχεία επικοινωνίας",
+      "phone": "Τηλέφωνο",
+      "email": "Email",
+      "address": "Διεύθυνση",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "phoneValue": "(+45) 54 55 89 65",
+      "emailValue": "klinik@rcscanning.com",
+      "addressValue": "Amager Landevej 31, 2770",
+      "instagramValue": "εμβόλιο.δκ.7",
+      "facebookValue": "εμβόλιο.δκ.7"
     },
     "sections": {
-      "highlights": "",
-      "consultation": "",
-      "about": ""
+      "highlights": "Σημαντικά σημεία επαφής",
+      "consultation": "Διαβούλευση",
+      "about": "Σχετικά με εμάς"
     },
     "features": {
       "certificate": {
-        "title": "",
-        "text": ""
+        "title": "Κάρτα εμβολιασμού",
+        "text": "Μετά τον εμβολιασμό στην κλινική μας, λαμβάνετε μια κάρτα εμβολιασμού για τον προορισμό σας."
       },
       "documentation": {
-        "title": "",
-        "text": ""
+        "title": "Έγκυρη τεκμηρίωση",
+        "text": "Η κάρτα είναι έγκυρη τεκμηρίωση κατά την είσοδο στη χώρα στην οποία ταξιδεύετε."
       },
       "help": {
-        "title": "",
-        "text": ""
+        "title": "Είμαστε εδώ για να βοηθήσουμε",
+        "text": "Εκτιμούμε την επιλογή σας και ανυπομονούμε να σας βοηθήσουμε."
       },
       "consultation": {
-        "title": "",
-        "text": ""
+        "title": "Συμβουλές",
+        "text": "Ο εμβολιασμός μπορεί να προστατεύσει από σοβαρές ασθένειες και χάρη στο πρόγραμμα εμβολιασμού της παιδικής ηλικίας, πολλές ασθένειες είναι πλέον σπάνιες στη Δανία."
       },
       "travel": {
-        "title": "",
-        "text": ""
+        "title": "Ταξιδιωτική καθοδήγηση",
+        "text": "Όταν ταξιδεύετε εκτός Δανίας, οι εμβολιασμοί μπορεί να αφορούν ασθένειες που δεν καλύπτονται από το δανικό πρόγραμμα εμβολιασμού παιδικής ηλικίας."
       },
       "advice": {
-        "title": "",
-        "text": ""
+        "title": "Λάβετε συμβουλές",
+        "text": "Επικοινωνήστε με το γιατρό σας ή μια κλινική εμβολιασμού για καλές οδηγίες εμβολιασμού."
       },
       "team": {
-        "title": "",
-        "text": ""
+        "title": "Σχετικά με την κλινική",
+        "text": "Η ομάδα μας αποτελείται από γιατρούς και προσωπικό κλινικής που θέλουν να προσφέρουν μια καλή εμπειρία, ακόμη και σε δύσκολες καταστάσεις."
       },
       "facility": {
-        "title": "",
-        "text": ""
+        "title": "Εγκαταστάσεις",
+        "text": "Έχουμε ευρύχωρους χώρους, καλή τοποθεσία και δωρεάν πάρκινγκ στην πόρτα."
       }
     },
     "form": {
-      "title": "",
-      "text": "",
-      "fields": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
-      },
+      "title": "Γράψτε μας",
+      "text": "Στείλτε μας ένα μήνυμα και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.",
+      "fields": { "name": "Όνομα", "email": "Email", "phone": "Τηλέφωνο", "message": "Μήνυμα" },
       "placeholders": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "message": ""
+        "name": "Το όνομά σου",
+        "email": "name@example.com",
+        "phone": "+45 12 34 56 78",
+        "message": "Πώς μπορούμε να σας βοηθήσουμε;"
       },
-      "submit": ""
+      "submit": "Αποστολή"
     }
   }
 }

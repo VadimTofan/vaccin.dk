@@ -6,20 +6,15 @@ import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { useLanguage } from '@/app/hooks/localization/localization';
 
+import { useLocale } from '@/app/hooks/localization/localization';
+import locale from '../../locale.json';
 import type { Language } from '@/app/hooks/localization/localization.type';
-
-const languageNames: Record<Language, string> = {
-  da: 'Danish',
-  el: 'Greek',
-  en: 'English',
-  ru: 'Russian',
-  sv: 'Swedish',
-};
 
 export function Contacts() {
   const languageRef = useRef<HTMLDivElement>(null);
   const [state, setState] = useState({ isModalOpen: false, isDropdown: false });
   const { language, setLanguage } = useLanguage();
+  const content = useLocale(locale, language);
 
   const { isModalOpen, isDropdown } = state;
 
@@ -27,17 +22,6 @@ export function Contacts() {
 
   const languages: Language[] = ['da', 'en', 'sv', 'ru', 'el'];
   const inactiveLanguages = languages.filter((lang) => lang !== language);
-
-  useEffect(() => {
-    const storedLanguage = localStorage.getItem('language');
-    if (
-      storedLanguage &&
-      ['en', 'da', 'sv', 'ru'].includes(storedLanguage) &&
-      language !== storedLanguage
-    ) {
-      setLanguage(storedLanguage as Language);
-    }
-  }, [language, setLanguage]);
 
   useEffect(() => {
     const handlePointerDown = (event: PointerEvent) => {
@@ -66,7 +50,7 @@ export function Contacts() {
   };
 
   const handleLanguage = (nextLanguage: Language) => {
-    localStorage.setItem('language', nextLanguage);
+    document.cookie = `language=${nextLanguage}; Path=/; Max-Age=31536000; SameSite=Lax`;
     setLanguage(nextLanguage);
     setState((prev) => ({ ...prev, isDropdown: false }));
   };
@@ -80,7 +64,7 @@ export function Contacts() {
       {isModalOpen && (
         <div className={styles.contacts__modal} onClick={handleClick}>
           <form className={styles.contacts__form} onClick={(event) => event.stopPropagation()}>
-            <p className={styles.contacts__form_text}>TBD</p>
+            <p className={styles.contacts__form_text}>{content.footerCopy.intro}</p>
           </form>
         </div>
       )}
@@ -147,7 +131,7 @@ export function Contacts() {
               onClick={handleDropdown}
               type="button"
               aria-expanded={isDropdown}
-              aria-label={`Current language: ${languageNames[language]}`}
+              aria-label={`${content.shell.currentLanguage}: ${content.shell.languages[language]}`}
             >
               <Image src={`/images/${language}.svg`} width={20} height={20} alt="" />
               <span className={styles.contacts__arrow}>▾</span>
@@ -156,7 +140,7 @@ export function Contacts() {
               <div className={styles.contacts__choice} id="language-menu">
                 {inactiveLanguages.map((item) => (
                   <button
-                    aria-label={`Switch to ${languageNames[item]}`}
+                    aria-label={`${content.shell.switchLanguage} ${content.shell.languages[item]}`}
                     className={styles.contacts__choice_button}
                     key={item}
                     onClick={() => {

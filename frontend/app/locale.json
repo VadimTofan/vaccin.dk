@@ -1,0 +1,357 @@
+{
+  "en": {
+    "metadata": {
+      "title": "Vaccin.dk | Travel vaccinations in Kastrup",
+      "description": "Travel vaccination guidance, certificates, and clinic appointments in Kastrup, Denmark."
+    },
+    "hero": {
+      "eyebrow": "Welcome to VACCIN DK",
+      "title": "Departure-ready travel health",
+      "lead": "Vaccination guidance, travel certificates, and clinic appointments for people leaving Denmark.",
+      "actionsLabel": "Primary actions",
+      "contactAction": "Book contact",
+      "destinationAction": "Choose destination",
+      "summaryLabel": "Travel planning summary",
+      "signalLabel": "Clinic signal",
+      "signalTitle": "Call before booking so the visit matches the trip."
+    },
+    "facts": {
+      "label": "Clinic highlights",
+      "items": [
+        { "value": "Opening hours", "label": "08:00 - 16:00" },
+        { "value": "Phone guidance", "label": "(+45) 54 55 89 65" },
+        { "value": "Location", "label": "Amager Landevej 31, 2770 Kastrup" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Travel services",
+      "title": "Start with the route, finish with the right protection.",
+      "items": [
+        {
+          "title": "Destination advice",
+          "text": "Country-specific guidance before you book vaccines.",
+          "href": "/destination"
+        },
+        {
+          "title": "Vaccines",
+          "text": "Review doses, protection windows, and practical pricing.",
+          "href": "/vaccines"
+        },
+        {
+          "title": "Company agreements",
+          "text": "Vaccination planning for teams with recurring travel.",
+          "href": "/company-agreements"
+        },
+        {
+          "title": "Narco test",
+          "text": "Discreet clinic testing with clear instructions before arrival.",
+          "href": "/narco-test"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Before the appointment",
+      "title": "A cleaner way to plan vaccines before you travel.",
+      "items": [
+        "Share destination, dates, and travel style.",
+        "Get a practical vaccination plan from the clinic.",
+        "Leave with vaccine documentation ready for your trip."
+      ]
+    },
+    "certificate": {
+      "stamp": "Certificate",
+      "eyebrow": "Documentation included",
+      "title": "Vaccination Certificate",
+      "text": "After receiving your vaccines, you receive a vaccination card that can be shown when documentation is requested for your destination."
+    },
+    "visit": {
+      "eyebrow": "Visit the clinic",
+      "title": "Practical travel health from Kastrup, with free parking at the door.",
+      "action": "Write or call the clinic"
+    }
+  },
+  "da": {
+    "metadata": {
+      "title": "Vaccin.dk | Rejsevaccinationer i Kastrup",
+      "description": "Rejsevaccinationsvejledning, certifikater og klinikaftaler i Kastrup, Danmark."
+    },
+    "hero": {
+      "eyebrow": "Velkommen til VACCIN DK",
+      "title": "Afrejseklar rejsesundhed",
+      "lead": "Vaccinationsvejledning, rejsebeviser og klinikaftaler for personer, der rejser fra Danmark.",
+      "actionsLabel": "Primære handlinger",
+      "contactAction": "Book kontakt",
+      "destinationAction": "Vælg destination",
+      "summaryLabel": "Resumé af rejseplanlægning",
+      "signalLabel": "Klinik signal",
+      "signalTitle": "Ring inden booking, så besøget matcher rejsen."
+    },
+    "facts": {
+      "label": "Klinikkens højdepunkter",
+      "items": [
+        { "value": "Åbningstider", "label": "08:00 - 16:00" },
+        { "value": "Telefonisk vejledning", "label": "(+45) 54 55 89 65" },
+        { "value": "Beliggenhed", "label": "Amager Landevej 31, 2770 Kastrup" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Rejseydelser",
+      "title": "Start med ruten, afslut med den rigtige beskyttelse.",
+      "items": [
+        {
+          "title": "Destinationsrådgivning",
+          "text": "Landespecifik vejledning, før du bestiller vacciner.",
+          "href": "/destination"
+        },
+        {
+          "title": "Vacciner",
+          "text": "Gennemgå doser, beskyttelsesvinduer og praktiske priser.",
+          "href": "/vacciner"
+        },
+        {
+          "title": "Virksomhedsaftaler",
+          "text": "Vaccinationsplanlægning for hold med tilbagevendende rejser.",
+          "href": "/virksomhedsaftaler"
+        },
+        {
+          "title": "Narco test",
+          "text": "Diskret kliniktest med klare instruktioner før ankomst.",
+          "href": "/narkotest"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Før aftalen",
+      "title": "En renere måde at planlægge vacciner på, inden du rejser.",
+      "items": [
+        "Del destination, datoer og rejsestil.",
+        "Få en praktisk vaccinationsplan fra klinikken.",
+        "Tag afsted med vaccinedokumentation klar til din rejse."
+      ]
+    },
+    "certificate": {
+      "stamp": "Certifikat",
+      "eyebrow": "Dokumentation medfølger",
+      "title": "Vaccinationsbevis",
+      "text": "Efter at have modtaget dine vacciner modtager du et vaccinationskort, der kan fremvises, når der rekvireres dokumentation for din destination."
+    },
+    "visit": {
+      "eyebrow": "Besøg klinikken",
+      "title": "Praktisk rejsesundhed fra Kastrup, med gratis parkering ved døren.",
+      "action": "Skriv eller ring til klinikken"
+    }
+  },
+  "sv": {
+    "metadata": {
+      "title": "Vaccin.dk | Resevaccinationer i Kastrup",
+      "description": "Resevaccinationsvägledning, intyg och klinikbesök i Kastrup, Danmark."
+    },
+    "hero": {
+      "eyebrow": "Välkommen till VACCIN DK",
+      "title": "Avreseklar reshälsa",
+      "lead": "Vaccinationsvägledning, resecertifikat och klinikbesök för personer som lämnar Danmark.",
+      "actionsLabel": "Primära åtgärder",
+      "contactAction": "Boka kontakt",
+      "destinationAction": "Välj destination",
+      "summaryLabel": "Reseplaneringssammanfattning",
+      "signalLabel": "Kliniksignal",
+      "signalTitle": "Ring innan bokning så besöket matchar resan."
+    },
+    "facts": {
+      "label": "Klinikens höjdpunkter",
+      "items": [
+        { "value": "Öppettider", "label": "08:00 - 16:00" },
+        { "value": "Telefonvägledning", "label": "(+45) 54 55 89 65" },
+        { "value": "Plats", "label": "Amager Landevej 31, 2770 Kastrup" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Resetjänster",
+      "title": "Börja med rutten, avsluta med rätt skydd.",
+      "items": [
+        {
+          "title": "Destinationsråd",
+          "text": "Landsspecifik vägledning innan du bokar vaccin.",
+          "href": "/destination"
+        },
+        {
+          "title": "Vacciner",
+          "text": "Granska doser, skyddsfönster och praktiska priser.",
+          "href": "/vacciner"
+        },
+        {
+          "title": "Företagsavtal",
+          "text": "Vaccinationsplanering för team med återkommande resor.",
+          "href": "/företagsavtal"
+        },
+        {
+          "title": "Narco test",
+          "text": "Diskret kliniktestning med tydliga instruktioner innan ankomst.",
+          "href": "/narkotest"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Innan mötet",
+      "title": "Ett renare sätt att planera vacciner innan du reser.",
+      "items": [
+        "Dela destination, datum och resstil.",
+        "Få en praktisk vaccinationsplan från kliniken.",
+        "Lämna med vaccindokumentation redo för din resa."
+      ]
+    },
+    "certificate": {
+      "stamp": "Certifikat",
+      "eyebrow": "Dokumentation ingår",
+      "title": "Vaccinationsintyg",
+      "text": "Efter att du fått dina vacciner får du ett vaccinationskort som kan visas upp när dokumentation begärs för din destination."
+    },
+    "visit": {
+      "eyebrow": "Besök kliniken",
+      "title": "Praktisk reshälsa från Kastrup, med fri parkering vid dörren.",
+      "action": "Skriv eller ring kliniken"
+    }
+  },
+  "ru": {
+    "metadata": {
+      "title": "Вакцин.дк | Прививки для туристов в Каструпе",
+      "description": "Руководство по вакцинации, сертификаты и запись на прием к врачу в Каструпе, Дания."
+    },
+    "hero": {
+      "eyebrow": "Добро пожаловать в ВАКЦИН ДК",
+      "title": "Здоровье для путешествий, готовое к отъезду",
+      "lead": "Рекомендации по вакцинации, туристические сертификаты и запись к врачу для людей, покидающих Данию.",
+      "actionsLabel": "Основные действия",
+      "contactAction": "Забронировать контакт",
+      "destinationAction": "Выберите пункт назначения",
+      "summaryLabel": "Сводная информация о планировании поездки",
+      "signalLabel": "Сигнал клиники",
+      "signalTitle": "Перед бронированием позвоните, чтобы визит соответствовал поездке."
+    },
+    "facts": {
+      "label": "Основные моменты клиники",
+      "items": [
+        { "value": "Часы работы", "label": "08:00 - 16:00" },
+        { "value": "Руководство по телефону", "label": "(+45) 54 55 89 65" },
+        { "value": "Расположение", "label": "Амагер Ландевей 31, 2770 Каструп" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Туристические услуги",
+      "title": "Начните с маршрута, закончите правильной защитой.",
+      "items": [
+        {
+          "title": "Совет по пункту назначения",
+          "text": "Рекомендации для конкретной страны перед бронированием вакцин.",
+          "href": "/пункт назначения"
+        },
+        {
+          "title": "Вакцины",
+          "text": "Ознакомьтесь с дозами, окнами защиты и практическими ценами.",
+          "href": "/вакцины"
+        },
+        {
+          "title": "Соглашения компании",
+          "text": "Планирование вакцинации для команд, совершающих регулярные поездки.",
+          "href": "/компании-соглашения"
+        },
+        {
+          "title": "Нарко-тест",
+          "text": "Незаметное клиническое тестирование с четкими инструкциями до прибытия.",
+          "href": "/нарко-тест"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "До встречи",
+      "title": "Более чистый способ планирования вакцинации перед поездкой.",
+      "items": [
+        "Поделитесь пунктом назначения, датами и стилем путешествия.",
+        "Получите в клинике практический план вакцинации.",
+        "Уезжайте с документацией о вакцинах, готовой к поездке."
+      ]
+    },
+    "certificate": {
+      "stamp": "Сертификат",
+      "eyebrow": "Документация включена",
+      "title": "Сертификат о вакцинации",
+      "text": "После получения вакцин вы получаете карту вакцинации, которую можно предъявить при запросе документации для пункта назначения."
+    },
+    "visit": {
+      "eyebrow": "Посетите клинику",
+      "title": "Практичное здоровье в путешествии из Каструпа, с бесплатной парковкой у дверей.",
+      "action": "Напишите или позвоните в клинику"
+    }
+  },
+  "el": {
+    "metadata": {
+      "title": "Vaccin.dk | Ταξιδιωτικοί εμβολιασμοί στο Kastrup",
+      "description": "Καθοδήγηση ταξιδιωτικού εμβολιασμού, πιστοποιητικά και ραντεβού σε κλινική στο Kastrup, Δανία."
+    },
+    "hero": {
+      "eyebrow": "Καλώς ήρθατε στο VACCIN DK",
+      "title": "Υγεία ταξιδιού έτοιμη για αναχώρηση",
+      "lead": "Οδηγίες εμβολιασμού, ταξιδιωτικά πιστοποιητικά και ραντεβού σε κλινικές για άτομα που φεύγουν από τη Δανία.",
+      "actionsLabel": "Πρωτογενείς ενέργειες",
+      "contactAction": "Επικοινωνία βιβλίου",
+      "destinationAction": "Επιλέξτε προορισμό",
+      "summaryLabel": "Περίληψη σχεδιασμού ταξιδιού",
+      "signalLabel": "Σήμα κλινικής",
+      "signalTitle": "Καλέστε πριν την κράτηση, ώστε η επίσκεψη να ταιριάζει με το ταξίδι."
+    },
+    "facts": {
+      "label": "Τα κυριότερα σημεία της κλινικής",
+      "items": [
+        { "value": "Ώρες λειτουργίας", "label": "08:00 - 16:00" },
+        { "value": "Τηλεφωνική καθοδήγηση", "label": "(+45) 54 55 89 65" },
+        { "value": "Τοποθεσία", "label": "Amager Landevej 31, 2770 Kastrup" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Ταξιδιωτικές υπηρεσίες",
+      "title": "Ξεκινήστε με τη διαδρομή, τελειώστε με τη σωστή προστασία.",
+      "items": [
+        {
+          "title": "Συμβουλές προορισμού",
+          "text": "Οδηγίες για τη χώρα προτού κάνετε κράτηση για εμβόλια.",
+          "href": "/προορισμός"
+        },
+        {
+          "title": "Εμβόλια",
+          "text": "Ελέγξτε τις δόσεις, τα παράθυρα προστασίας και την πρακτική τιμολόγηση.",
+          "href": "/εμβόλια"
+        },
+        {
+          "title": "Εταιρικές συμφωνίες",
+          "text": "Σχεδιασμός εμβολιασμού για ομάδες με επαναλαμβανόμενα ταξίδια.",
+          "href": "/εταιρεία-συμφωνίες"
+        },
+        {
+          "title": "Ναρκωτικό τεστ",
+          "text": "Διακριτικός έλεγχος κλινικής με σαφείς οδηγίες πριν την άφιξη.",
+          "href": "/ναρκοτεστ"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Πριν το ραντεβού",
+      "title": "Ένας πιο καθαρός τρόπος για να προγραμματίσετε τα εμβόλια πριν ταξιδέψετε.",
+      "items": [
+        "Μοιραστείτε προορισμό, ημερομηνίες και στυλ ταξιδιού.",
+        "Πάρτε ένα πρακτικό σχέδιο εμβολιασμού από την κλινική.",
+        "Αναχωρήστε με την τεκμηρίωση εμβολίου έτοιμη για το ταξίδι σας."
+      ]
+    },
+    "certificate": {
+      "stamp": "Πιστοποιητικό",
+      "eyebrow": "Περιλαμβάνεται τεκμηρίωση",
+      "title": "Πιστοποιητικό εμβολιασμού",
+      "text": "Αφού λάβετε τα εμβόλιά σας, λαμβάνετε μια κάρτα εμβολιασμού που μπορεί να εμφανιστεί όταν ζητηθεί η τεκμηρίωση για τον προορισμό σας."
+    },
+    "visit": {
+      "eyebrow": "Επισκεφθείτε την κλινική",
+      "title": "Πρακτικό ταξίδι υγείας από το Kastrup, με δωρεάν πάρκινγκ στην πόρτα.",
+      "action": "Γράψτε ή καλέστε την κλινική"
+    }
+  }
+}

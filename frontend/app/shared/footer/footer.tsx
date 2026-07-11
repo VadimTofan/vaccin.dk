@@ -45,27 +45,25 @@ export function Footer() {
       <div className={styles.footer__inner}>
         <div className={styles.footer__statement}>
           <div className={styles.footer__identity}>
-            <Link href="/" className={styles.footer__brand} aria-label="Vaccin.dk home">
+            <Link href="/" className={styles.footer__brand} aria-label={content.shell.brandHome}>
               <span className={styles.footer__brand_mark} aria-hidden="true">
                 V
               </span>
               <span className={styles.footer__brand_name}>Vaccin.dk</span>
             </Link>
-            <p className={styles.footer__eyebrow}>Travel health clinic · Kastrup</p>
+            <p className={styles.footer__eyebrow}>{content.footerCopy.eyebrow}</p>
           </div>
 
-          <h2 className={styles.footer__heading}>Leave prepared.</h2>
-          <p className={styles.footer__intro}>
-            Call or message the clinic before booking for guidance shaped around your destination.
-          </p>
+          <h2 className={styles.footer__heading}>{content.footerCopy.heading}</h2>
+          <p className={styles.footer__intro}>{content.footerCopy.intro}</p>
           <Link href="/contact" className={styles.footer__cta}>
-            Contact the clinic
+            {content.footerCopy.contact}
             <span className={styles.footer__arrow} aria-hidden="true">
               ↗
             </span>
           </Link>
 
-          <ul className={styles.footer__socials} aria-label="Social media">
+          <ul className={styles.footer__socials} aria-label={content.footerCopy.socialMedia}>
             {socialProfiles.map((social) => (
               <li className={styles.footer__social_item} key={social.name}>
                 <Link
@@ -83,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className={styles.footer__directory}>
-          <nav aria-label="Services" className={styles.footer__group}>
+          <nav aria-label={content.footerCopy.servicesLabel} className={styles.footer__group}>
             <h3 className={styles.footer__title}>{content.footer.services}</h3>
             <ul className={styles.footer__list}>
               {content.services.map((item) => (
@@ -96,7 +94,7 @@ export function Footer() {
             </ul>
           </nav>
 
-          <nav aria-label="Useful links" className={styles.footer__group}>
+          <nav aria-label={content.footerCopy.usefulLinksLabel} className={styles.footer__group}>
             <h3 className={styles.footer__title}>{content.footer.links}</h3>
             <ul className={styles.footer__list}>
               {usefulLinks.map((item) => (
@@ -141,7 +139,7 @@ export function Footer() {
 
         <div className={styles.footer__baseline}>
           <span>Vaccin.dk</span>
-          <span>Travel vaccination guidance in Kastrup</span>
+          <span>{content.footerCopy.baseline}</span>
         </div>
       </div>
     </footer>

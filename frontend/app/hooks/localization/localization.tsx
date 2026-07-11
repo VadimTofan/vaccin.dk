@@ -5,8 +5,13 @@ import type { Language, LanguageContextType } from './localization.type';
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState('da' as Language);
+type LanguageProviderProps = {
+  children: React.ReactNode;
+  initialLanguage: Language;
+};
+
+export function LanguageProvider({ children, initialLanguage }: LanguageProviderProps) {
+  const [language, setLanguage] = useState(initialLanguage);
 
   useEffect(() => {
     document.documentElement.lang = language;

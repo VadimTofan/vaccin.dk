@@ -44,149 +44,173 @@
   },
   "da": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Narco test",
+      "title": "Narco test",
+      "lede": "Vi tilbyder lægemiddeltest til både private og virksomheder."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Oversigt",
+        "text": "Alkohol og stoffer er fortsat et stort problem for enkeltpersoner, samfundet og mange arbejdspladser. Stoftest kan være en effektiv del af det forebyggende arbejde, når det indgår i en klar alkohol- og stofpolitik.",
+        "list": [
+          "Identificer medarbejdere i fare tidligt og giv hjælp, før det påvirker helbred eller økonomi."
+        ]
       },
       "companies": {
-        "title": "",
-        "text": "",
-        "intro": "",
-        "list": ["", "", ""],
-        "note": ""
+        "title": "Virksomheder",
+        "text": "Hvis en medarbejder er påvirket på arbejdet, øges risikoen for ulykker, og erhvervsforsikringen dækker muligvis ikke tab, når der er stoffer involveret. Før du bestiller en tilfældig test, skal du sikre dig, at du har en klar narkotikapolitik.",
+        "intro": "Vejledende betingelser for lovlig test:",
+        "list": [
+          "Der skal være en begrundet (konkret og aktuel) mistanke om et ulovligt forhold.",
+          "Der skal være særlige drifts- eller sikkerhedsforhold, der berettiger et eftersyn.",
+          "Testen må ikke være unødigt stødende eller påtrængende for medarbejderen."
+        ],
+        "note": "Disse betingelser er kun vejledende, og kontrolforanstaltninger kan være reguleret andre steder afhængigt af, hvordan din narkotikapolitik implementeres."
       },
       "private": {
-        "title": "",
-        "text": ""
+        "title": "Privat",
+        "text": "Som privatperson kan du bestille tid og få foretaget en stoftest på klinikken. Vi kan også sende testen til din private adresse. Vores personale vejleder i forbindelse med testen."
       },
       "price": {
-        "title": "",
-        "value": "",
-        "note": ""
+        "title": "Pris",
+        "value": "690 DKK Multitest",
+        "note": "For test af personer uden dansk cpr-nummer og NemID bedes du kontakte os."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "note": ""
+        "title": "Kontakt os",
+        "address": "Amager Landevej 31, 2770",
+        "hours": "08.00 - 16.00",
+        "phone": "(+45) 54 55 89 65",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
       }
     }
   },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Narco test",
+      "title": "Narco test",
+      "lede": "Vi erbjuder drogtester för både privatpersoner och företag."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Översikt",
+        "text": "Alkohol och droger är fortfarande ett stort problem för individer, samhället och många arbetsplatser. Drogtester kan vara en effektiv del av det förebyggande arbetet när det ingår i en tydlig alkohol- och drogpolicy.",
+        "list": [
+          "Identifiera anställda i riskzonen tidigt och ge hjälp innan det påverkar hälsa eller ekonomi."
+        ]
       },
       "companies": {
-        "title": "",
-        "text": "",
-        "intro": "",
-        "list": ["", "", ""],
-        "note": ""
+        "title": "Företag",
+        "text": "Om en anställd är påverkad på jobbet ökar risken för olycksfall och företagsförsäkringen kanske inte täcker förluster när droger är inblandade. Innan du bokar ett slumpmässigt test, se till att du har en tydlig drogpolicy.",
+        "intro": "Vägledande villkor för laglig provning:",
+        "list": [
+          "Det ska finnas en välgrundad (konkret och aktuell) misstanke om ett olovligt förhållande.",
+          "Det ska finnas särskilda drifts- eller säkerhetsförhållanden som motiverar en kontroll.",
+          "Testet får inte vara onödigt stötande eller påträngande för den anställde."
+        ],
+        "note": "Dessa villkor är endast vägledande och kontrollåtgärder kan regleras på annat håll beroende på hur din narkotikapolicy implementeras."
       },
       "private": {
-        "title": "",
-        "text": ""
+        "title": "Privat",
+        "text": "Som privatperson kan du boka tid och få ett drogtest utfört på kliniken. Vi kan även skicka testet till din privata adress. Vår personal ger vägledning i samband med provet."
       },
       "price": {
-        "title": "",
-        "value": "",
-        "note": ""
+        "title": "Pris",
+        "value": "690 DKK Multitest",
+        "note": "För tester av personer utan danskt personnummer och NemID, vänligen kontakta oss."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "note": ""
+        "title": "Kontakta oss",
+        "address": "Amager Landevej 31, 2770",
+        "hours": "08.00 - 16.00",
+        "phone": "(+45) 54 55 89 65",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
       }
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Нарко-тест",
+      "title": "Нарко-тест",
+      "lede": "Мы предлагаем тестирование на наркотики как частным лицам, так и компаниям."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Обзор",
+        "text": "Алкоголь и наркотики остаются серьезной проблемой для отдельных людей, общества и многих рабочих мест. Тестирование на наркотики может быть эффективной частью профилактической работы, если оно является частью четкой политики в отношении алкоголя и наркотиков.",
+        "list": [
+          "Выявляйте сотрудников, подвергающихся риску, на ранней стадии и оказывайте помощь до того, как это повлияет на здоровье или финансы."
+        ]
       },
       "companies": {
-        "title": "",
-        "text": "",
-        "intro": "",
-        "list": ["", "", ""],
-        "note": ""
+        "title": "Компании",
+        "text": "Если сотрудник находится на работе в состоянии алкогольного опьянения, риск несчастных случаев увеличивается, и страхование бизнеса может не покрыть убытки, связанные с наркотиками. Прежде чем записаться на выборочный тест, убедитесь, что у вас есть четкая политика в отношении наркотиков.",
+        "intro": "Основные условия проведения законного тестирования:",
+        "list": [
+          "Должно быть обоснованное (конкретное и актуальное) подозрение в противоправных отношениях.",
+          "Должны существовать особые условия эксплуатации или безопасности, которые оправдывают проверку.",
+          "Тест не должен быть излишне оскорбительным или навязчивым для работника."
+        ],
+        "note": "Эти условия являются лишь ориентировочными, а меры контроля могут регулироваться где-либо еще в зависимости от того, как реализуется ваша политика в отношении наркотиков."
       },
       "private": {
-        "title": "",
-        "text": ""
+        "title": "Частный",
+        "text": "Как частное лицо, вы можете записаться на прием и пройти тест на наркотики в клинике. Мы также можем отправить тест на ваш личный адрес. Наши сотрудники предоставляют рекомендации по проведению теста."
       },
       "price": {
-        "title": "",
-        "value": "",
-        "note": ""
+        "title": "Цена",
+        "value": "690 датских крон Мультитест",
+        "note": "Чтобы пройти тестирование для лиц, не имеющих датского номера гражданской регистрации и NemID, свяжитесь с нами."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "note": ""
+        "title": "Свяжитесь с нами",
+        "address": "Амагер Ландевей 31, 2770",
+        "hours": "08.00 - 16.00",
+        "phone": "(+45) 54 55 89 65",
+        "note": "Перед бронированием обязательно позвоните или напишите нам, чтобы получить лучшие рекомендации."
       }
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Ναρκωτικό τεστ",
+      "title": "Ναρκωτικό τεστ",
+      "lede": "Προσφέρουμε έλεγχο φαρμάκων τόσο για ιδιώτες όσο και για εταιρείες."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": "",
-        "list": [""]
+        "title": "Επισκόπηση",
+        "text": "Το αλκοόλ και τα ναρκωτικά παραμένουν μείζον πρόβλημα για τα άτομα, την κοινωνία και πολλούς χώρους εργασίας. Το τεστ ναρκωτικών μπορεί να είναι ένα αποτελεσματικό μέρος του έργου πρόληψης όταν εντάσσεται σε μια ξεκάθαρη πολιτική για το αλκοόλ και τα ναρκωτικά.",
+        "list": [
+          "Εντοπίστε έγκαιρα τους υπαλλήλους που διατρέχουν κίνδυνο και παρέχετε βοήθεια προτού επηρεάσει την υγεία ή τα οικονομικά."
+        ]
       },
       "companies": {
-        "title": "",
-        "text": "",
-        "intro": "",
-        "list": ["", "", ""],
-        "note": ""
+        "title": "Εταιρείες",
+        "text": "Εάν ένας εργαζόμενος βρίσκεται υπό την επιρροή στην εργασία, ο κίνδυνος ατυχημάτων αυξάνεται και η επαγγελματική ασφάλιση μπορεί να μην καλύπτει τις ζημίες όταν πρόκειται για ναρκωτικά. Πριν κάνετε κράτηση για ένα τυχαίο τεστ, βεβαιωθείτε ότι έχετε μια σαφή πολιτική για τα ναρκωτικά.",
+        "intro": "Κατευθυντήριες προϋποθέσεις για νόμιμες δοκιμές:",
+        "list": [
+          "Πρέπει να υπάρχει βάσιμη (συγκεκριμένη και τρέχουσα) υποψία για παράνομη σχέση.",
+          "Πρέπει να υπάρχουν ειδικές συνθήκες λειτουργίας ή ασφάλειας που να δικαιολογούν μια επιθεώρηση.",
+          "Το τεστ δεν πρέπει να είναι άσκοπα προσβλητικό ή ενοχλητικό για τον εργαζόμενο."
+        ],
+        "note": "Αυτές οι προϋποθέσεις αποτελούν μόνο καθοδήγηση και τα μέτρα ελέγχου ενδέχεται να ρυθμίζονται αλλού, ανάλογα με τον τρόπο εφαρμογής της πολιτικής σας για τα ναρκωτικά."
       },
       "private": {
-        "title": "",
-        "text": ""
+        "title": "Ιδιωτικό",
+        "text": "Ως ιδιώτης, μπορείτε να κλείσετε ένα ραντεβού και να κάνετε ένα τεστ ναρκωτικών στην κλινική. Μπορούμε επίσης να στείλουμε το τεστ στην ιδιωτική σας διεύθυνση. Το προσωπικό μας παρέχει καθοδήγηση σε σχέση με τη δοκιμή."
       },
       "price": {
-        "title": "",
-        "value": "",
-        "note": ""
+        "title": "Τιμή",
+        "value": "690 DKK Multitest",
+        "note": "Για εξετάσεις προσώπων χωρίς Δανικό αριθμό μητρώου και NemID, επικοινωνήστε μαζί μας."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "hours": "",
-        "phone": "",
-        "note": ""
+        "title": "Επικοινωνήστε μαζί μας",
+        "address": "Amager Landevej 31, 2770",
+        "hours": "08.00 - 16.00",
+        "phone": "(+45) 54 55 89 65",
+        "note": "Πριν την κράτηση, φροντίστε να μας τηλεφωνήσετε ή να μας στείλετε μήνυμα για την καλύτερη καθοδήγηση."
       }
     }
   }

@@ -12,7 +12,7 @@
       },
       "guidance": {
         "title": "Guidance and planning",
-        "text": "We are ready to advise which vaccinations are necessary, and we help plan each employee's vaccination schedule."
+        "text": "We are ready to advise which vaccinations are necessary, and we help plan each employee\u0027s vaccination schedule."
       },
       "service": {
         "title": "Complete service",
@@ -31,151 +31,151 @@
         "address": "Amager Landevej 31, 2770",
         "phone": "(+45) 54 55 89 65",
         "email": "klinik@rcscanning.com",
-        "note": "We appreciate our collaboration with companies and are ready to help you." 
+        "note": "We appreciate our collaboration with companies and are ready to help you."
       }
     }
   },
   "da": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Virksomhedsaftaler",
+      "title": "Virksomhedsaftaler",
+      "lede": "Vi hjælper virksomheder med at holde medarbejderne beskyttet til forretningsrejser med de rigtige vaccinationer og klar vejledning."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": ""
+        "title": "Oversigt",
+        "text": "Vi lægger stor vægt på at holde medarbejderne sikre, når de rejser. Vi kan levere denne service til virksomheder, der ønsker en aftale med vores klinik."
       },
       "guidance": {
-        "title": "",
-        "text": ""
+        "title": "Vejledning og planlægning",
+        "text": "Vi står klar til at rådgive, hvilke vaccinationer der er nødvendige, og vi hjælper med at planlægge hver enkelt medarbejders vaccinationsskema."
       },
       "service": {
-        "title": "",
-        "text": ""
+        "title": "Fuldstændig service",
+        "text": "Vi sikrer, at medarbejderne får alle nødvendige vaccinationer i forbindelse med forretningsrejser."
       },
       "vat": {
-        "title": "",
-        "text": ""
+        "title": "momsfradrag",
+        "text": "Vacciner købt gennem klinikken er fradragsberettigede, når de er nødvendige for tjenesterejsen."
       },
       "logistics": {
-        "title": "",
-        "text": ""
+        "title": "Logistik",
+        "text": "Vacciner leveres ofte i større pakker og skal forberedes. En aftale er med til at sikre, at de rigtige vacciner er tilgængelige, når det er nødvendigt. Vacciner kan kun bestilles hos klinikken efter aftale."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "phone": "",
-        "email": "",
-        "note": ""
+        "title": "Kontakt",
+        "address": "Amager Landevej 31, 2770",
+        "phone": "(+45) 54 55 89 65",
+        "email": "klinik@rcscanning.com",
+        "note": "Vi sætter pris på vores samarbejde med virksomheder og står klar til at hjælpe dig."
       }
     }
   },
   "sv": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Företagsavtal",
+      "title": "Företagsavtal",
+      "lede": "Vi hjälper företag att hålla anställda skyddade för affärsresor med rätt vaccinationer och tydlig vägledning."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": ""
+        "title": "Översikt",
+        "text": "Vi lägger stor vikt vid att hålla medarbetarna säkra när de reser. Vi kan leverera denna tjänst till företag som vill ha ett avtal med vår klinik."
       },
       "guidance": {
-        "title": "",
-        "text": ""
+        "title": "Vägledning och planering",
+        "text": "Vi är redo att ge råd om vilka vaccinationer som är nödvändiga och vi hjälper till att planera varje anställds vaccinationsschema."
       },
       "service": {
-        "title": "",
-        "text": ""
+        "title": "Komplett service",
+        "text": "Vi ser till att anställda får alla nödvändiga vaccinationer relaterade till affärsresor."
       },
       "vat": {
-        "title": "",
-        "text": ""
+        "title": "momsavdrag",
+        "text": "Vaccin köpta via kliniken är avdragsgilla när de är nödvändiga för tjänsteresan."
       },
       "logistics": {
-        "title": "",
-        "text": ""
+        "title": "Logistik",
+        "text": "Vaccin levereras ofta i större förpackningar och måste förberedas. Ett avtal hjälper till att säkerställa att rätt vaccin finns tillgängliga när det behövs. Vaccin kan endast beställas från kliniken efter överenskommelse."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "phone": "",
-        "email": "",
-        "note": ""
+        "title": "Kontakta",
+        "address": "Amager Landevej 31, 2770",
+        "phone": "(+45) 54 55 89 65",
+        "email": "klinik@rcscanning.com",
+        "note": "Vi uppskattar vårt samarbete med företag och står redo att hjälpa dig."
       }
     }
   },
   "ru": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Соглашения компании",
+      "title": "Соглашения компании",
+      "lede": "Мы помогаем компаниям защитить сотрудников во время деловых поездок с помощью правильных прививок и четких инструкций."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": ""
+        "title": "Обзор",
+        "text": "Мы придаем большое значение обеспечению безопасности сотрудников во время путешествий. Мы можем предоставить эту услугу компаниям, которые хотят заключить соглашение с нашей клиникой."
       },
       "guidance": {
-        "title": "",
-        "text": ""
+        "title": "Руководство и планирование",
+        "text": "Мы готовы проконсультировать, какие прививки необходимы, и помогаем спланировать график вакцинации каждого сотрудника."
       },
       "service": {
-        "title": "",
-        "text": ""
+        "title": "Полный сервис",
+        "text": "Мы гарантируем получение сотрудниками всех необходимых прививок, связанных с деловыми поездками."
       },
       "vat": {
-        "title": "",
-        "text": ""
+        "title": "вычет НДС",
+        "text": "Вакцины, приобретенные в клинике, подлежат вычету, если они необходимы для командировки."
       },
       "logistics": {
-        "title": "",
-        "text": ""
+        "title": "Логистика",
+        "text": "Вакцины часто доставляются в более крупных упаковках, и их необходимо заранее подготовить. Соглашение помогает обеспечить наличие нужных вакцин в случае необходимости. Вакцины можно заказать в клинике только по договоренности."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "phone": "",
-        "email": "",
-        "note": ""
+        "title": "Контакт",
+        "address": "Амагер Ландевей 31, 2770",
+        "phone": "(+45) 54 55 89 65",
+        "email": "klinik@rcscanning.com",
+        "note": "Мы ценим наше сотрудничество с компаниями и готовы помочь Вам."
       }
     }
   },
   "el": {
     "hero": {
-      "eyebrow": "",
-      "title": "",
-      "lede": ""
+      "eyebrow": "Εταιρικές συμφωνίες",
+      "title": "Εταιρικές συμφωνίες",
+      "lede": "Βοηθάμε τις εταιρείες να προστατεύουν τους εργαζόμενους για επαγγελματικά ταξίδια με τους σωστούς εμβολιασμούς και σαφείς οδηγίες."
     },
     "sections": {
       "overview": {
-        "title": "",
-        "text": ""
+        "title": "Επισκόπηση",
+        "text": "Δίνουμε μεγάλη σημασία στη διατήρηση της ασφάλειας των εργαζομένων όταν ταξιδεύουν. Μπορούμε να παρέχουμε αυτήν την υπηρεσία σε εταιρείες που θέλουν μια συμφωνία με την κλινική μας."
       },
       "guidance": {
-        "title": "",
-        "text": ""
+        "title": "Καθοδήγηση και προγραμματισμός",
+        "text": "Είμαστε έτοιμοι να σας συμβουλεύσουμε ποιοι εμβολιασμοί είναι απαραίτητοι και βοηθούμε στον προγραμματισμό του προγράμματος εμβολιασμού κάθε υπαλλήλου."
       },
       "service": {
-        "title": "",
-        "text": ""
+        "title": "Ολοκληρωμένη εξυπηρέτηση",
+        "text": "Διασφαλίζουμε ότι οι εργαζόμενοι λαμβάνουν όλους τους απαραίτητους εμβολιασμούς που σχετίζονται με επαγγελματικά ταξίδια."
       },
       "vat": {
-        "title": "",
-        "text": ""
+        "title": "Έκπτωση ΦΠΑ",
+        "text": "Τα εμβόλια που αγοράζονται μέσω της κλινικής εκπίπτουν όταν είναι απαραίτητα για το επαγγελματικό ταξίδι."
       },
       "logistics": {
-        "title": "",
-        "text": ""
+        "title": "Logistics",
+        "text": "Τα εμβόλια συχνά παραδίδονται σε μεγαλύτερες συσκευασίες και πρέπει να προετοιμάζονται. Μια συμφωνία βοηθά να διασφαλιστεί ότι τα σωστά εμβόλια είναι διαθέσιμα όταν χρειάζεται. Τα εμβόλια μπορούν να παραγγελθούν από την κλινική μόνο κατόπιν συμφωνίας."
       },
       "contact": {
-        "title": "",
-        "address": "",
-        "phone": "",
-        "email": "",
-        "note": ""
+        "title": "Επικοινωνία",
+        "address": "Amager Landevej 31, 2770",
+        "phone": "(+45) 54 55 89 65",
+        "email": "klinik@rcscanning.com",
+        "note": "Εκτιμούμε τη συνεργασία μας με εταιρείες και είμαστε έτοιμοι να σας βοηθήσουμε."
       }
     }
   }

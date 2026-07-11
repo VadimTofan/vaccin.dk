@@ -5,10 +5,12 @@ import test from 'node:test';
 test('home page uses the slim travel-health landing redesign', async () => {
   // Given
   const pageSource = await readFile(new URL('./page.tsx', import.meta.url), 'utf8');
+  const localeSource = await readFile(new URL('./locale.json', import.meta.url), 'utf8');
   const styleSource = await readFile(new URL('./page.module.scss', import.meta.url), 'utf8');
 
   // When
-  const hasNewHeadline = pageSource.includes('Departure-ready travel health');
+  const hasNewHeadline = localeSource.includes('Departure-ready travel health');
+  const rendersLocalizedHeadline = pageSource.includes('content.hero.title');
   const hasRouteMapVisual = pageSource.includes('home__route_map');
   const hasGlassClinicSummary = pageSource.includes('home__glass');
   const hasV2StyleMarker = styleSource.includes('landing-redesign-v2');
@@ -18,6 +20,7 @@ test('home page uses the slim travel-health landing redesign', async () => {
 
   // Then
   assert.equal(hasNewHeadline, true);
+  assert.equal(rendersLocalizedHeadline, true);
   assert.equal(hasRouteMapVisual, true);
   assert.equal(hasGlassClinicSummary, true);
   assert.equal(hasV2StyleMarker, true);

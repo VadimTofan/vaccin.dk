@@ -52,6 +52,6 @@ test('the app shell and every major route use the full clinic redesign language'
   // Then
   assert.deepEqual(missingClinicSurface, []);
   assert.deepEqual(missingReferoMarker, []);
-  assert.equal(navbarSource.includes('Book consultation'), true);
+  assert.equal(navbarSource.includes('content.shell.bookConsultation'), true);
   assert.equal(footerSource.includes('footer__cta'), true);
 });

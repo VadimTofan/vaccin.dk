@@ -1,38 +1,58 @@
 {
   "da": {
     "nav": [
-      { "name": "Forside", "path": "/", "dropdown": false },
+      { "name": "Hjem", "path": "/", "dropdown": false },
       { "name": "Destination", "path": "/destination", "dropdown": false },
-      { "name": "Services", "path": "/services", "dropdown": true },
+      { "name": "Tjenester", "path": "/services", "dropdown": true },
       { "name": "Om os", "path": "/about-us", "dropdown": false },
       { "name": "Kontakt", "path": "/contact", "dropdown": false }
     ],
     "services": [
       { "name": "Vacciner", "path": "/vaccines" },
-      { "name": "Råd", "path": "/advice" },
-      { "name": "Narkotest", "path": "/narco-test" },
-      { "name": "Firmaaftaler", "path": "/company-agreements" },
+      { "name": "Rådgivning", "path": "/advice" },
+      { "name": "Narco test", "path": "/narco-test" },
+      { "name": "Virksomhedsaftaler", "path": "/company-agreements" },
       { "name": "FAQ", "path": "/faq" }
     ],
-    "footer": {
-      "services": "Services",
-      "links": "Nyttige links",
-      "information": "Information"
+    "footer": { "services": "Tjenester", "links": "Nyttige links", "information": "Information" },
+    "shell": {
+      "brandHome": "Vaccin.dk hjem",
+      "bookConsultation": "Bogkonsultation",
+      "openNavigation": "Åbn navigation",
+      "closeNavigation": "Luk navigation",
+      "currentLanguage": "Aktuelt sprog",
+      "switchLanguage": "Skift til",
+      "languages": {
+        "da": "dansk",
+        "en": "engelsk",
+        "sv": "svensk",
+        "ru": "russisk",
+        "el": "græsk"
+      }
+    },
+    "footerCopy": {
+      "eyebrow": "Rejsesundhedsklinik · Kastrup",
+      "heading": "Lad være forberedt.",
+      "intro": "Ring eller skriv besked til klinikken inden du booker for vejledning formet omkring din destination.",
+      "contact": "Kontakt klinikken",
+      "socialMedia": "Sociale medier",
+      "servicesLabel": "Tjenester",
+      "usefulLinksLabel": "Nyttige links",
+      "baseline": "Rejsevaccinationsvejledning i Kastrup"
     }
   },
-
   "sv": {
     "nav": [
-      { "name": "Startsida", "path": "/", "dropdown": false },
+      { "name": "Hem", "path": "/", "dropdown": false },
       { "name": "Destination", "path": "/destination", "dropdown": false },
-      { "name": "Services", "path": "/services", "dropdown": true },
+      { "name": "Tjänster", "path": "/services", "dropdown": true },
       { "name": "Om oss", "path": "/about-us", "dropdown": false },
-      { "name": "Kontakt", "path": "/contact", "dropdown": false }
+      { "name": "Kontakta", "path": "/contact", "dropdown": false }
     ],
     "services": [
       { "name": "Vacciner", "path": "/vaccines" },
       { "name": "Råd", "path": "/advice" },
-      { "name": "Narkotest", "path": "/narco-test" },
+      { "name": "Narco test", "path": "/narco-test" },
       { "name": "Företagsavtal", "path": "/company-agreements" },
       { "name": "FAQ", "path": "/faq" }
     ],
@@ -40,9 +60,33 @@
       "services": "Tjänster",
       "links": "Användbara länkar",
       "information": "Information"
+    },
+    "shell": {
+      "brandHome": "Vaccin.dk hem",
+      "bookConsultation": "Bokkonsultation",
+      "openNavigation": "Öppna navigering",
+      "closeNavigation": "Stäng navigering",
+      "currentLanguage": "Aktuellt språk",
+      "switchLanguage": "Byt till",
+      "languages": {
+        "da": "danska",
+        "en": "engelska",
+        "sv": "svenska",
+        "ru": "ryska",
+        "el": "grekiska"
+      }
+    },
+    "footerCopy": {
+      "eyebrow": "Resehälsomottagning · Kastrup",
+      "heading": "Lämna förberedd.",
+      "intro": "Ring eller skicka meddelande till kliniken innan du bokar för vägledning utformad kring din destination.",
+      "contact": "Kontakta kliniken",
+      "socialMedia": "Sociala medier",
+      "servicesLabel": "Tjänster",
+      "usefulLinksLabel": "Användbara länkar",
+      "baseline": "Resevaccinationsvägledning i Kastrup"
     }
   },
-
   "en": {
     "nav": [
       { "name": "Home", "path": "/", "dropdown": false },
@@ -58,39 +102,79 @@
       { "name": "Company Agreements", "path": "/company-agreements" },
       { "name": "FAQ", "path": "/faq" }
     ],
-    "footer": {
-      "services": "Services",
-      "links": "Useful Links",
-      "information": "Information"
+    "footer": { "services": "Services", "links": "Useful Links", "information": "Information" },
+    "shell": {
+      "brandHome": "Vaccin.dk home",
+      "bookConsultation": "Book consultation",
+      "openNavigation": "Open navigation",
+      "closeNavigation": "Close navigation",
+      "currentLanguage": "Current language",
+      "switchLanguage": "Switch to",
+      "languages": {
+        "da": "Danish",
+        "en": "English",
+        "sv": "Swedish",
+        "ru": "Russian",
+        "el": "Greek"
+      }
+    },
+    "footerCopy": {
+      "eyebrow": "Travel health clinic · Kastrup",
+      "heading": "Leave prepared.",
+      "intro": "Call or message the clinic before booking for guidance shaped around your destination.",
+      "contact": "Contact the clinic",
+      "socialMedia": "Social media",
+      "servicesLabel": "Services",
+      "usefulLinksLabel": "Useful links",
+      "baseline": "Travel vaccination guidance in Kastrup"
     }
   },
-
   "ru": {
     "nav": [
       { "name": "Главная", "path": "/", "dropdown": false },
-      { "name": "Направления", "path": "/destination", "dropdown": false },
+      { "name": "Пункт назначения", "path": "/destination", "dropdown": false },
       { "name": "Услуги", "path": "/services", "dropdown": true },
       { "name": "О нас", "path": "/about-us", "dropdown": false },
-      { "name": "Контакты", "path": "/contact", "dropdown": false }
+      { "name": "Контакт", "path": "/contact", "dropdown": false }
     ],
     "services": [
       { "name": "Вакцины", "path": "/vaccines" },
-      { "name": "Рекомендации", "path": "/advice" },
-      { "name": "Наркотест", "path": "/narco-test" },
-      { "name": "Корпоративные договоры", "path": "/company-agreements" },
-      { "name": "ЧАВО", "path": "/faq" }
+      { "name": "Совет", "path": "/advice" },
+      { "name": "Нарко-тест", "path": "/narco-test" },
+      { "name": "Соглашения компании", "path": "/company-agreements" },
+      { "name": "Часто задаваемые вопросы", "path": "/faq" }
     ],
-    "footer": {
-      "services": "Услуги",
-      "links": "Полезные ссылки",
-      "information": "Информация"
+    "footer": { "services": "Услуги", "links": "Полезные ссылки", "information": "Информация" },
+    "shell": {
+      "brandHome": "Главная страница Vaccin.dk",
+      "bookConsultation": "Заказать консультацию",
+      "openNavigation": "Открыть навигацию",
+      "closeNavigation": "Закрыть навигацию",
+      "currentLanguage": "Текущий язык",
+      "switchLanguage": "Переключиться на",
+      "languages": {
+        "da": "датский",
+        "en": "английский",
+        "sv": "Шведский",
+        "ru": "русский",
+        "el": "Греческий"
+      }
+    },
+    "footerCopy": {
+      "eyebrow": "Туристическая поликлиника · Каструп",
+      "heading": "Уходите подготовленными.",
+      "intro": "Перед бронированием позвоните или отправьте сообщение в клинику, чтобы получить рекомендации, соответствующие вашему пункту назначения.",
+      "contact": "Связаться с клиникой",
+      "socialMedia": "Социальные сети",
+      "servicesLabel": "Услуги",
+      "usefulLinksLabel": "Полезные ссылки",
+      "baseline": "Руководство по вакцинации для туристов в Каструпе"
     }
   },
-
   "el": {
     "nav": [
-      { "name": "Αρχική", "path": "/", "dropdown": false },
-      { "name": "Προορισμοί", "path": "/destination", "dropdown": false },
+      { "name": "Σπίτι", "path": "/", "dropdown": false },
+      { "name": "Προορισμός", "path": "/destination", "dropdown": false },
       { "name": "Υπηρεσίες", "path": "/services", "dropdown": true },
       { "name": "Σχετικά με εμάς", "path": "/about-us", "dropdown": false },
       { "name": "Επικοινωνία", "path": "/contact", "dropdown": false }
@@ -98,14 +182,39 @@
     "services": [
       { "name": "Εμβόλια", "path": "/vaccines" },
       { "name": "Συμβουλές", "path": "/advice" },
-      { "name": "Ναρκοτεστ", "path": "/narco-test" },
-      { "name": "Εταιρικές Συμφωνίες", "path": "/company-agreements" },
-      { "name": "Συχνές Ερωτήσεις", "path": "/faq" }
+      { "name": "Narco Test", "path": "/narco-test" },
+      { "name": "Εταιρικές συμφωνίες", "path": "/company-agreements" },
+      { "name": "FAQ", "path": "/faq" }
     ],
     "footer": {
       "services": "Υπηρεσίες",
-      "links": "Χρήσιμοι σύνδεσμοι",
+      "links": "Χρήσιμοι Σύνδεσμοι",
       "information": "Πληροφορίες"
+    },
+    "shell": {
+      "brandHome": "Vaccin.dk σπίτι",
+      "bookConsultation": "Διαβούλευση βιβλίου",
+      "openNavigation": "Ανοίξτε την πλοήγηση",
+      "closeNavigation": "Κλείσιμο πλοήγησης",
+      "currentLanguage": "Τρέχουσα γλώσσα",
+      "switchLanguage": "Εναλλαγή σε",
+      "languages": {
+        "da": "Δανέζικα",
+        "en": "Αγγλικά",
+        "sv": "Σουηδική",
+        "ru": "Ρωσική",
+        "el": "Έλληνας"
+      }
+    },
+    "footerCopy": {
+      "eyebrow": "Ταξιδιωτική κλινική υγείας · Kastrup",
+      "heading": "Αφήστε προετοιμασμένοι.",
+      "intro": "Καλέστε ή στείλτε μήνυμα στην κλινική πριν κάνετε κράτηση για καθοδήγηση σχετικά με τον προορισμό σας.",
+      "contact": "Επικοινωνήστε με την κλινική",
+      "socialMedia": "Μέσα κοινωνικής δικτύωσης",
+      "servicesLabel": "Υπηρεσίες",
+      "usefulLinksLabel": "Χρήσιμοι σύνδεσμοι",
+      "baseline": "Ταξιδιωτικός εμβολιασμός στο Kastrup"
     }
   }
 }
