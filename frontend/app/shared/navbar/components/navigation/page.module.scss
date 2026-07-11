@@ -56,7 +56,7 @@
     white-space: nowrap;
     background: transparent;
     border: 0;
-    border-radius: var(--refero-control-radius);
+    border-radius: 0;
     gap: 0.8rem;
     cursor: pointer;
 
@@ -83,7 +83,7 @@
     gap: 0.2rem;
     background: rgb(0 55 52 / 96%);
     border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: 0.8rem;
+    border-radius: 0;
     box-shadow: 0 1.6rem 4rem rgb(0 16 15 / 24%);
     animation: dropdown-reveal 0.16s ease-out;
 
@@ -112,7 +112,7 @@
     text-transform: uppercase;
     color: $text-ink;
     white-space: nowrap;
-    border-radius: var(--refero-control-radius);
+    border-radius: 0;
   }
 
   &__link:hover,
@@ -131,8 +131,7 @@
     font-size: 1.3rem;
     letter-spacing: 0;
     text-transform: none;
-    color: $text-inverse;
-    border-radius: 0.5rem;
+    color: $text-ink;
 
     &::after {
       width: 0.6rem;
@@ -150,7 +149,7 @@
 
     &:hover,
     &:focus-visible {
-      color: $text-inverse;
+      color: $text-ink;
       background: rgb(255 255 255 / 8%);
 
       &::after {

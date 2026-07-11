@@ -37,3 +37,20 @@ test('services navigation uses an accessible refined dropdown', async () => {
     assert.equal(styleSource.includes(requirement), true, requirement);
   }
 });
+
+test('services dropdown keeps light text on its dark surface', async () => {
+  // Given
+  const styleSource = await readFile(
+    new URL('./page.module.scss', import.meta.url),
+    'utf8',
+  );
+
+  // When
+  const dropdownLinkStart = styleSource.indexOf('  &__link_drop {');
+  const dropdownLinkEnd = styleSource.indexOf('  &__arrow {', dropdownLinkStart);
+  const dropdownLinkStyles = styleSource.slice(dropdownLinkStart, dropdownLinkEnd);
+
+  // Then
+  assert.equal(dropdownLinkStyles.includes('color: $text-ink;'), true);
+  assert.equal(dropdownLinkStyles.includes('color: $text-inverse;'), false);
+});

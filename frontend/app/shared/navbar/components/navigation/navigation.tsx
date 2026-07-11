@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { NavItem } from '../../navbar.type';
 import { useLanguage, useLocale } from '@/app/hooks/localization/localization';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 type NavigationProps = {
   isMenuOpen: boolean;
@@ -13,6 +14,7 @@ type NavigationProps = {
 };
 
 export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
+  const pathname = usePathname();
   const dropdownRef = useRef<HTMLDivElement>(null);
   const [state, setState] = useState({
     content: locale.da,
@@ -77,7 +79,7 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
   }, [setIsMenuOpen]);
 
   return (
-    <ul className={styles.navigation__list} data-open={isMenuOpen}>
+    <ul className={styles.navigation__list} data-open={isMenuOpen} id="primary-navigation">
       {navigation.map((item) => (
         <li className={styles.navigation__item} key={`${item.path}-${item.name}`}>
           {item.dropdown ? (
@@ -98,6 +100,7 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
                   {content.services.map((service) => (
                     <li key={service.path} className={styles.navigation__drop_item}>
                       <Link
+                        aria-current={service.path === pathname ? 'page' : undefined}
                         onClick={handleLink}
                         className={styles.navigation__link_drop}
                         href={service.path}
@@ -110,7 +113,12 @@ export function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
               )}
             </div>
           ) : (
-            <Link onClick={handleLink} className={styles.navigation__link} href={item.path}>
+            <Link
+              aria-current={item.path === pathname ? 'page' : undefined}
+              onClick={handleLink}
+              className={styles.navigation__link}
+              href={item.path}
+            >
               {item.name}
             </Link>
           )}

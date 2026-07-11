@@ -3,7 +3,6 @@
 import styles from './page.module.scss';
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 import { useState } from 'react';
 
@@ -22,15 +21,11 @@ export function Navbar() {
     <nav className={styles.navigation}>
       <Contacts />
       <div className={styles.navigation__navbar}>
-        <Link href="/" className={styles.navigation__brand}>
-          <Image
-            className={styles.navigation__logo}
-            src="/images/logo.webp"
-            width={60}
-            height={40}
-            alt="logo"
-            priority
-          />
+        <Link href="/" className={styles.navigation__brand} aria-label="Vaccin.dk home">
+          <span className={styles.navigation__brand_mark} aria-hidden="true">
+            V
+          </span>
+          <span className={styles.navigation__brand_name}>Vaccin.dk</span>
         </Link>
         <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <Link href="/contact" className={styles.navigation__cta}>

@@ -7,10 +7,18 @@ type MenuProps = {
 
 export function Menu({ isMenuOpen, handleMenu }: MenuProps) {
   return (
-    <button className={styles.menu} data-open={isMenuOpen} onClick={handleMenu} type="button">
-      <span className={styles.menu__line}></span>
-      <span className={styles.menu__line}></span>
-      <span className={styles.menu__line}></span>
+    <button
+      aria-controls="primary-navigation"
+      aria-expanded={isMenuOpen}
+      aria-label={isMenuOpen ? 'Close navigation' : 'Open navigation'}
+      className={styles.menu}
+      data-open={isMenuOpen}
+      onClick={handleMenu}
+      type="button"
+    >
+      <span className={styles.menu__line} />
+      <span className={styles.menu__line} />
+      <span className={styles.menu__line} />
     </button>
   );
 }
