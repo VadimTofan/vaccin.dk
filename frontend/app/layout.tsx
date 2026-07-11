@@ -12,7 +12,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Welcome to Vaccin.dk',
+  title: 'Vaccin.dk | Travel vaccinations in Kastrup',
+  description:
+    'Travel vaccination guidance, certificates, and clinic appointments in Kastrup, Denmark.',
 };
 
 export default function RootLayout({
@@ -21,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="root" lang="da">
       <body className={montserrat.variable}>
         <LanguageProvider>
           <Navbar />
