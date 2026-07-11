@@ -1,0 +1,2815 @@
+[
+  {
+    "name": "Afghanistan",
+    "slug": "afghanistan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Asia.Afghanistan",
+    "photo": "/images/countries/afghanistan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Algeria",
+    "slug": "algeria",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_Africa.Algeria",
+    "photo": "/images/countries/algeria.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "rabies",
+      "yellowfever",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Angola",
+    "slug": "angola",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southern_Africa.Angola",
+    "photo": "/images/countries/angola.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "yellowfever",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Argentina",
+    "slug": "argentina",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Argentina",
+    "photo": "/images/countries/argentina.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Australia",
+    "slug": "australia",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Australia",
+    "photo": "/images/countries/australia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "yellow_fever",
+      "japanese_brain_inflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Austria",
+    "slug": "austria",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Austria",
+    "photo": "/images/countries/austria.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "tbe"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Bahamas",
+    "slug": "bahamas",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Bahamas",
+    "photo": "/images/countries/bahamas.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Bahrain",
+    "slug": "bahrain",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Bahrain",
+    "photo": "/images/countries/bahrain.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Bangladesh",
+    "slug": "bangladesh",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.Bangladesh",
+    "photo": "/images/countries/bangladesh.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Barbados",
+    "slug": "barbados",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Barbados",
+    "photo": "/images/countries/barbados.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Belize",
+    "slug": "belize",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.Belize",
+    "photo": "/images/countries/belize.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Benin",
+    "slug": "benin",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Benin",
+    "photo": "/images/countries/benin.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Bhutan",
+    "slug": "bhutan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.Bhutan",
+    "photo": "/images/countries/bhutan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Bolivia",
+    "slug": "bolivia",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Bolivia",
+    "photo": "/images/countries/bolivia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Botswana",
+    "slug": "botswana",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southern_Africa.Botswana",
+    "photo": "/images/countries/botswana.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Brazil",
+    "slug": "brazil",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Brazil",
+    "photo": "/images/countries/brazil.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Brunei",
+    "slug": "brunei",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Brunei",
+    "photo": "/images/countries/brunei.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Burkina Faso",
+    "slug": "burkina-faso",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Burkina_Faso",
+    "photo": "/images/countries/burkina_faso.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Burundi",
+    "slug": "burundi",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Burundi",
+    "photo": "/images/countries/burundi.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cambodia",
+    "slug": "cambodia",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Cambodia",
+    "photo": "/images/countries/cambodia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cameroon",
+    "slug": "cameroon",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Africa.Cameroon",
+    "photo": "/images/countries/cameroon.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Canada",
+    "slug": "canada",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_America.Canada",
+    "photo": "/images/countries/canada.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cape Verde",
+    "slug": "cape-verde",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Cape_Verde",
+    "photo": "/images/countries/cape_verde.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Chad",
+    "slug": "chad",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Africa.Chad",
+    "photo": "/images/countries/chad.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Chile",
+    "slug": "chile",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Chile",
+    "photo": "/images/countries/chile.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "China",
+    "slug": "china",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.China",
+    "photo": "/images/countries/china.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Colombia",
+    "slug": "colombia",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Colombia",
+    "photo": "/images/countries/colombia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Congo",
+    "slug": "congo",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Africa.Congo",
+    "photo": "/images/countries/congo.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cook Islands",
+    "slug": "cook-islands",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Cook_Islands",
+    "photo": "/images/countries/cook_islands.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Costa Rica",
+    "slug": "costa-rica",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.Costa_Rica",
+    "photo": "/images/countries/costa_rica.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cote d'Ivoire",
+    "slug": "cote-d-ivoire",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Cote_dIvoire",
+    "photo": "/images/countries/cote_divore.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Croatia",
+    "slug": "croatia",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Croatia",
+    "photo": "/images/countries/croatia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "tbe",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cuba",
+    "slug": "cuba",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Cuba",
+    "photo": "/images/countries/cuba.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Curacao",
+    "slug": "curacao",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Curacao",
+    "photo": "/images/countries/curacao.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Cyprus",
+    "slug": "cyprus",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Cyprus",
+    "photo": "/images/countries/cyprus.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Czech Republic",
+    "slug": "czech-republic",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Czech_Republic",
+    "photo": "/images/countries/czech_republic.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "tbe",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Denmark",
+    "slug": "denmark",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Denmark",
+    "photo": "/images/countries/denmark.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Dominican Republic",
+    "slug": "dominican-republic",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Dominican_Republic",
+    "photo": "/images/countries/dominican_republic.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "East Timor",
+    "slug": "east-timor",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.East_Timor",
+    "photo": "/images/countries/east_timor.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Ecuador",
+    "slug": "ecuador",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Equador",
+    "photo": "/images/countries/equador.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Egypt",
+    "slug": "egypt",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_Africa.Egypt",
+    "photo": "/images/countries/egypt.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "El Salvador",
+    "slug": "el-salvador",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.El_Salvador",
+    "photo": "/images/countries/el_salvador.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "England",
+    "slug": "england",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.England",
+    "photo": "/images/countries/england.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "slug": "equatorial-guinea",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Africa.Equatorial_Guinea",
+    "photo": "/images/countries/equatorial_guinea.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Fiji",
+    "slug": "fiji",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Fiji",
+    "photo": "/images/countries/fiji.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "France",
+    "slug": "france",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.France",
+    "photo": "/images/countries/france.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Gabon",
+    "slug": "gabon",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Africa.Gabon",
+    "photo": "/images/countries/gabon.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Gambia",
+    "slug": "gambia",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Gambia",
+    "photo": "/images/countries/gambia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Germany",
+    "slug": "germany",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Germany",
+    "photo": "/images/countries/germany.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Ghana",
+    "slug": "ghana",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Ghana",
+    "photo": "/images/countries/ghana.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Greece",
+    "slug": "greece",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Greece",
+    "photo": "/images/countries/greece.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Grenada",
+    "slug": "grenada",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Grenada",
+    "photo": "/images/countries/grenada.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Guatemala",
+    "slug": "guatemala",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.Guatemala",
+    "photo": "/images/countries/guatemala.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Guinea",
+    "slug": "guinea",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Guinea",
+    "photo": "/images/countries/guinea.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Guinea Bissau",
+    "slug": "guinea-bissau",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Guinea_Bissau",
+    "photo": "/images/countries/guinea_bissau.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Hawaii",
+    "photo": "/images/countries/hawaii.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Honduras",
+    "slug": "honduras",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.Honduras",
+    "photo": "/images/countries/honduras.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Hong Kong",
+    "slug": "hong-kong",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.Hong_Kong",
+    "photo": "/images/countries/hong_kong.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Iceland",
+    "slug": "iceland",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Iceland",
+    "photo": "/images/countries/iceland.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "India",
+    "slug": "india",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.India",
+    "photo": "/images/countries/india.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Indonesia",
+    "slug": "indonesia",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Indonesia",
+    "photo": "/images/countries/indonesia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Iran",
+    "slug": "iran",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Iran",
+    "photo": "/images/countries/iran.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Iraq",
+    "slug": "iraq",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Iraq",
+    "photo": "/images/countries/iraq.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Ireland",
+    "slug": "ireland",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Ireland",
+    "photo": "/images/countries/ireland.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Italy",
+    "slug": "italy",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Italy",
+    "photo": "/images/countries/italy.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Jamaica",
+    "slug": "jamaica",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Jamaica",
+    "photo": "/images/countries/jamaica.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Japan",
+    "slug": "japan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.Japan",
+    "photo": "/images/countries/japan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisb",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Jordan",
+    "slug": "jordan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Jordan",
+    "photo": "/images/countries/jordan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Kenya",
+    "slug": "kenya",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Kenya",
+    "photo": "/images/countries/kenya.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Kuwait",
+    "slug": "kuwait",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Kuwait",
+    "photo": "/images/countries/kuwait.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Laos",
+    "slug": "laos",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Laos",
+    "photo": "/images/countries/laos.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Lebanon",
+    "slug": "lebanon",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Lebanon",
+    "photo": "/images/countries/lebanon.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Lesotho",
+    "slug": "lesotho",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southern_Africa.Lesotho",
+    "photo": "/images/countries/lesotho.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Liberia",
+    "slug": "liberia",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Liberia",
+    "photo": "/images/countries/liberia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Libya",
+    "slug": "libya",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_Africa.Libya",
+    "photo": "/images/countries/libya.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Macau",
+    "slug": "macau",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.Macau",
+    "photo": "/images/countries/macau.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Madagascar",
+    "slug": "madagascar",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Madagascar",
+    "photo": "/images/countries/madagascar.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Malawi",
+    "slug": "malawi",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Malawi",
+    "photo": "/images/countries/malawi.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Malaysia",
+    "slug": "malaysia",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Malaysia",
+    "photo": "/images/countries/malaysia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Maldives",
+    "slug": "maldives",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.Maldives",
+    "photo": "/images/countries/maldives.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Mali",
+    "slug": "mali",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Mali",
+    "photo": "/images/countries/mali.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Mauritania",
+    "slug": "mauritania",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Mauritania",
+    "photo": "/images/countries/mauritania.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Mauritius",
+    "slug": "mauritius",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Mauritius",
+    "photo": "/images/countries/mauritius.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Mexico",
+    "slug": "mexico",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_America.Mexico",
+    "photo": "/images/countries/mexico.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Mongolia",
+    "slug": "mongolia",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.Mongolia",
+    "photo": "/images/countries/mongolia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Morocco",
+    "slug": "morocco",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_Africa.Morocco",
+    "photo": "/images/countries/morocco.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Mozambique",
+    "slug": "mozambique",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Mozambique",
+    "photo": "/images/countries/mozambique.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Myanmar",
+    "slug": "myanmar",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Myanmar",
+    "photo": "/images/countries/myanmar.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Namibia",
+    "slug": "namibia",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southern_Africa.Namibia",
+    "photo": "/images/countries/nambia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Nepal",
+    "slug": "nepal",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.Nepal",
+    "photo": "/images/countries/nepal.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Netherlands Antilles",
+    "slug": "netherlands-antilles",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Netherlands_Antilles",
+    "photo": "/images/countries/netherlands_antilles.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "New Zealand",
+    "slug": "new-zealand",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.New_Zealand",
+    "photo": "/images/countries/new_zealand.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Nicaragua",
+    "slug": "nicaragua",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.Nicaragua",
+    "photo": "/images/countries/nicaragua.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Nigeria",
+    "photo": "/images/countries/nigeria.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "North Korea",
+    "slug": "north-korea",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.North_Korea",
+    "photo": "/images/countries/north_korea.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Norway",
+    "slug": "norway",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Norway",
+    "photo": "/images/countries/norway.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Oman",
+    "slug": "oman",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Oman",
+    "photo": "/images/countries/oman.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Pakistan",
+    "slug": "pakistan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.Pakistan",
+    "photo": "/images/countries/pakistan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Panama",
+    "slug": "panama",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_America.Panama",
+    "photo": "/images/countries/panama.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Papua New Guinea",
+    "slug": "papua-new-guinea",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Papua_New_Guinea",
+    "photo": "/images/countries/papua_new_guinea.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "japanese_brain_inflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Paraguay",
+    "slug": "paraguay",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Paraguay",
+    "photo": "/images/countries/paraguay.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Peru",
+    "slug": "peru",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Peru",
+    "photo": "/images/countries/peru.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Philippines",
+    "slug": "philippines",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Philippines",
+    "photo": "/images/countries/philippines.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Portugal",
+    "slug": "portugal",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Portugal",
+    "photo": "/images/countries/portugal.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Qatar",
+    "slug": "qatar",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Qatar",
+    "photo": "/images/countries/qatar.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Russia",
+    "slug": "russia",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Russia",
+    "photo": "/images/countries/russia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "tbe",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies",
+      "japanese_brain_inflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Rwanda",
+    "slug": "rwanda",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Rwanda",
+    "photo": "/images/countries/rwanda.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Samoa",
+    "slug": "samoa",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Samoa",
+    "photo": "/images/countries/samoa.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Saudi_Arabia",
+    "photo": "/images/countries/saudi_arabia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Senegal",
+    "slug": "senegal",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Senegal",
+    "photo": "/images/countries/senegal.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Sierra Leone",
+    "slug": "sierra-leone",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Sierra_Leone",
+    "photo": "/images/countries/sierra_leone.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Singapore",
+    "slug": "singapore",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Singapore",
+    "photo": "/images/countries/singapore.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Solomon Islands",
+    "slug": "solomon-islands",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Solomon_Islands",
+    "photo": "/images/countries/solomon_islands.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "South Korea",
+    "slug": "south-korea",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.South_Korea",
+    "photo": "/images/countries/south_korea.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Spain",
+    "slug": "spain",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Spain",
+    "photo": "/images/countries/spain.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Sri Lanka",
+    "slug": "sri-lanka",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_Asia.Sri_Lanka",
+    "photo": "/images/countries/sri_lanka.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "yellowfever",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Sudan",
+    "slug": "sudan",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_Africa.Sudan",
+    "photo": "/images/countries/sudan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Sweden",
+    "slug": "sweden",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Sweden",
+    "photo": "/images/countries/sweden.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "tbe"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Syria",
+    "slug": "syria",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Syria",
+    "photo": "/images/countries/syria.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Tahiti",
+    "slug": "tahiti",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Tahiti",
+    "photo": "/images/countries/tahiti.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Taiwan",
+    "slug": "taiwan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Asia.Taiwan",
+    "photo": "/images/countries/taiwan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Tajikistan",
+    "slug": "tajikistan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Asia.Tajikistan",
+    "photo": "/images/countries/tajikistan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Tanzania",
+    "slug": "tanzania",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Tanzania",
+    "photo": "/images/countries/tanzania.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Thailand",
+    "slug": "thailand",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Thailand",
+    "photo": "/images/countries/thailand.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "yellowfever",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "The Central African Republic",
+    "slug": "the-central-african-republic",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Africa.Central_African_Republic",
+    "photo": "/images/countries/central_african_republic.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "The United States of America",
+    "slug": "the-united-states-of-america",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_America.USA",
+    "photo": "/images/countries/usa.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Togo",
+    "slug": "togo",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "West_Africa.Togo",
+    "photo": "/images/countries/togo.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Tonga",
+    "slug": "tonga",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Tonga",
+    "photo": "/images/countries/tonga.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Trinidad & Tobago",
+    "slug": "trinidad-tobago",
+    "continent": "North America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Carribean.Trinidad_Tobago",
+    "photo": "/images/countries/tobago.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Tunisia",
+    "slug": "tunisia",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "North_Africa.Tunisia",
+    "photo": "/images/countries/tunisia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Turkey",
+    "slug": "turkey",
+    "continent": "Europe",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Europe.Turkey",
+    "photo": "/images/countries/turkey.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "tbe",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Turkmenistan",
+    "slug": "turkmenistan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Asia.Turkmenistan",
+    "photo": "/images/countries/turkmenistan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Uganda",
+    "slug": "uganda",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Uganda",
+    "photo": "/images/countries/uganda.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "meningococcaldiseases"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "United Arab Emirates",
+    "slug": "united-arab-emirates",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.UAE",
+    "photo": "/images/countries/uae.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Uruguay",
+    "slug": "uruguay",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Uruguay",
+    "photo": "/images/countries/uruguay.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Uzbekistan",
+    "slug": "uzbekistan",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Central_Asia.Uzbekistan",
+    "photo": "/images/countries/uzbekistan.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Vanuatu",
+    "slug": "vanuatu",
+    "continent": "Oceania",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Oceania.Vanuatu",
+    "photo": "/images/countries/vanuatu.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "typhoid",
+      "tuberculosis",
+      "malaria"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Venezuela",
+    "slug": "venezuela",
+    "continent": "South America",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "South_America.Venezuela",
+    "photo": "/images/countries/venezuela.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellow_fever",
+      "typhoid",
+      "tuberculosis",
+      "malaria",
+      "rabies"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Vietnam",
+    "slug": "vietnam",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Southeast_Asia.Vietnam",
+    "photo": "/images/countries/vietnam.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis",
+      "japanesebraininflammation"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Yemen",
+    "slug": "yemen",
+    "continent": "Asia",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "Middle_East.Yemen",
+    "photo": "/images/countries/yemen.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  },
+  {
+    "name": "Zambia",
+    "slug": "zambia",
+    "continent": "Africa",
+    "sourceUrl": "https://vaccin.dk/#travels-page",
+    "sourceKey": "East_Africa.Zambia",
+    "photo": "/images/countries/zambia.webp",
+    "vaccines": [
+      "tetanus",
+      "diphtheria",
+      "hepatitisa",
+      "hepatitisb",
+      "yellowfever",
+      "malaria",
+      "typhoid",
+      "rabies",
+      "tuberculosis"
+    ],
+    "status": "complete",
+    "acquiredAt": "2026-07-11"
+  }
+]

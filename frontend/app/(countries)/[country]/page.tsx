@@ -1,6 +1,8 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
+import { cookies } from 'next/headers';
 
+import { resolveLanguage } from '@/app/hooks/localization/language';
 import { CountryRenderer } from './country-renderer';
 import { CountryMap } from '../../(pages)/destination/components/country-map/country-map';
 import { mapCountries } from '../../(pages)/destination/components/country-map/country-map.data';
@@ -36,11 +38,10 @@ function applyCountryToken(locale: CountryLocale, countryName: string): CountryL
 async function loadCountryLocale(country: string, countryName: string): Promise<CountryLocale> {
   const localeFilePath = path.join(
     process.cwd(),
-    'frontend',
     'app',
     '(countries)',
     'locale',
-    `${country}.json`
+    `${country}.json`,
   );
 
   try {
@@ -56,11 +57,18 @@ export default async function CountryPage({ params }: CountryPageProps) {
   const safeCountry = normalizeCountryFromUrl(country);
   const countryName = toCountryName(safeCountry);
   const locale = await loadCountryLocale(safeCountry, countryName);
+  const cookieStore = await cookies();
+  const language = resolveLanguage(cookieStore.get('language')?.value);
+  const content = locale[language];
 
   return (
     <>
       <CountryRenderer countryName={countryName} country={safeCountry} locale={locale} />
-      <CountryMap countries={mapCountries} />
+      <CountryMap
+        countries={mapCountries}
+        label={content.sections.about.mapNote}
+        optionLabel={content.sections.recommended.title}
+      />
     </>
   );
 }

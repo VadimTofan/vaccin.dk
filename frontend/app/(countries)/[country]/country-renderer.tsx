@@ -20,7 +20,7 @@ function getRecommendedItems(items: RecommendedItemsSource) {
   })) as RecommendedItem[];
 }
 
-export function CountryRenderer({ countryName, country, locale }: CountryRendererProps) {
+export function CountryRenderer({ country, locale }: CountryRendererProps) {
   const { language } = useLanguage();
   const content = useLocale(locale, language);
 
@@ -94,7 +94,10 @@ export function CountryRenderer({ countryName, country, locale }: CountryRendere
             </p>
             <p className={styles.country__text}>{content.sections.about.footer}</p>
           </div>
-          <div className={styles.country__map_placeholder} aria-label={`${countryName} map`}>
+          <div
+            className={styles.country__map_placeholder}
+            aria-label={content.sections.about.mapNote}
+          >
             <p className={styles.country__map_text}>{content.sections.about.mapNote}</p>
           </div>
         </div>
