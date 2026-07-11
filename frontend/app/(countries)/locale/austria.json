@@ -1,0 +1,332 @@
+{
+  "da": {
+    "hero": {
+      "eyebrow": "Myndigheds anbefalinger",
+      "title": "Østrig",
+      "imageAlt": "Et billede, der beskriver Østrig"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Anbefalede vacciner",
+        "subtitle": "Til rejser op til 6 måneder",
+        "items": [
+          {
+            "title": "Stivkrampe",
+            "text": [
+              "Stivkrampe er en bakteriesygdom, hvor symptomerne inkluderer hovedpine, muskelstivhed og voldsomme muskelspasmer. Bakterien findes normalt i jord. Den kommer ind via et sår eller en rift i huden og begynder at producere giftstoffer, hvilket forårsager muskelsammentrækninger og en krampetilstand, der kan være livstruende."
+            ],
+            "link": "Anbefalede vacciner: Stivkrampe",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri er en smitsom sygdom, der typisk spredes gennem hoste og nys.",
+              "Hvis en smittet person har en hudinfektion, kan sygdommen også spredes ved direkte kontakt med sår.",
+              "Symptomer på difteri omfatter feber og halsbetændelse.",
+              "Ved alvorlig infektion kan der ses tykke hvid-grålige belægninger i halsen samt hævede og ømme lymfekirtler på halsen.",
+              "Difteribakterien producerer et giftstof, som kan forårsage alvorlige komplikationer såsom påvirkning af hjerte, muskler, nyrer og nerver.",
+              "Sygdommen kan i alvorlige tilfælde være dødelig.",
+              "Difteri kan også forekomme som hudinfektion med sårdannelse."
+            ],
+            "link": "Anbefalede vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "TBE – Tick Borne Encephalitis (Flåtoverført Hjernebetændelse)",
+            "text": [
+              "TBE (Tick Borne Encephalitis), også kaldet flåtoverført hjernebetændelse, er en virussygdom, der overføres via flåtbid i endemiske områder.",
+              "Smitte sker typisk inden for få minutter efter flåtbiddet gennem flåtens spyt.",
+              "Der findes også en mulig smittekilde gennem indtagelse af upasteuriseret mælk.",
+              "De fleste smittede personer forbliver symptomfrie.",
+              "Hvis symptomer opstår, ses de ofte i to faser. Den første fase indtræder typisk lidt over en uge efter flåtbiddet og giver mild feber, hovedpine og udtalt træthed.",
+              "Denne fase varer som regel et par dage, og op mod to tredjedele af patienterne kommer sig fuldstændigt efter denne fase.",
+              "Efter 2–10 symptomfri dage udvikler cirka én ud af tre patienter sygdommens anden fase med høj feber og symptomer fra centralnervesystemet.",
+              "Det anslås, at omkring hver tiende patient i anden fase udvikler langvarige eller permanente neurologiske symptomer.",
+              "TBE kan være livstruende, men dødeligheden er relativt lav. Sygdommen er mest alvorlig hos ældre, mens børn sjældnere rammes af alvorlige forløb."
+            ],
+            "link": "Anbefalede vacciner: TBE – Tick Borne Encephalitis (Flåtoverført Hjernebetændelse)",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakt os",
+        "note": "Inden du booker, skal du sørge for at ringe eller sende en besked til os for at få den bedste vejledning."
+      },
+      "about": {
+        "title": "Østrig",
+        "text": "Østalperne, Ötztaler Alpen, Zillertaler Alpen, De Karniske Alper, Hohe Tauern (Østrigs højeste punkt), Niedere Tauern og mange flere gør i den grad Østrig til et bjergland. Kun få steder i landet findes større lavlandsområder. Netop de store bjergområder gør, at befolkningstætheden ikke er særlig stor.",
+        "textTwo": "Østrigs tempererede klima varierer alt efter om du besøger de kolde Alper i vest eller hovedstaden Wien i det fladere landskab mod øst. I vest er somrene korte og nedbørsrige, dog varmere end de danske. Om vinteren byder det snerige bjerglandskab på skisportssteder i verdensklasse. Fastlandsklimaet i den østlige del af Østrig har mindre nedbør, dejligt varme somre og kolde vintre. Østrig er fra øst til vest et dejligt land at besøge hele året, hvis blot man husker de uldne sokker om vinteren og måske en paraply, når sommerferien går til Tyrol.r.",
+        "notice": "Vaccinerne anført for {{land}} er sundhedsmyndighedernes generelle anbefalinger. Ved vaccinationen gives en konkret anbefaling baseret på en vurdering af den rejsendes konkrete situation(er). Dette kan afvige fra de generelle anbefalinger.",
+        "sourcePrefix": "Oplysningerne er baseret på anbefalinger for rejser til udlandet fra",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Hvis din destination er {{land}}, anbefales nedenstående vaccinationer.",
+        "mapNote": "Forhåndsvisning af kort er tilgængelig på live-siden. Kontakt os for destinationsvejledning."
+      }
+    }
+  },
+  "en": {
+    "hero": {
+      "eyebrow": "Authority Recommendations",
+      "title": "Austria",
+      "imageAlt": "A photo that describes Austria"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Recommended vaccines",
+        "subtitle": "For travel up to 6 months",
+        "items": [
+          {
+            "title": "Tetanus",
+            "text": [
+              "Tetanus is a bacterial disease with symptoms including headache, muscle stiffness, and severe muscle spasms. The bacterium is normally found in soil. It enters through a wound or scratch in the skin and begins producing toxins, causing muscle contractions and a spasm condition that can be life-threatening."
+            ],
+            "link": "Recommended vaccines: Tetanus",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Diphtheria",
+            "text": [
+              "Diphtheria is a contagious disease that typically spreads through coughing and sneezing.",
+              "If an infected person has a skin infection, the disease can also spread through direct contact with wounds.",
+              "Symptoms of diphtheria include fever and sore throat.",
+              "In severe infection, thick gray-white coatings can be seen in the throat, as well as swollen and painful lymph nodes in the neck.",
+              "The diphtheria bacterium produces a toxin that can cause serious complications such as affecting the heart, muscles, kidneys, and nerves.",
+              "The disease can be fatal in severe cases.",
+              "Diphtheria can also occur as a skin infection with wound formation."
+            ],
+            "link": "Recommended vaccines: Diphtheria",
+            "href": "/vaccines"
+          },
+          {
+            "title": "TBE – Tick Borne Encephalitis",
+            "text": [
+              "TBE (Tick Borne Encephalitis) is a viral disease transmitted via tick bites in endemic areas.",
+              "Infection typically occurs within a few minutes after the tick bite through the tick’s saliva.",
+              "There is also a possible source of infection through consumption of unpasteurized milk.",
+              "Most infected persons remain symptom-free.",
+              "If symptoms occur, they often appear in two phases. The first phase usually occurs about a week after the tick bite and causes mild fever, headache, and significant fatigue.",
+              "This phase usually lasts a couple of days, and up to two-thirds of patients fully recover after this phase.",
+              "After 2–10 symptom-free days, about one in three patients develops the second phase with high fever and symptoms from the central nervous system.",
+              "It is estimated that around one in ten patients in the second phase develops long-term or permanent neurological symptoms.",
+              "TBE can be life-threatening, but the mortality is relatively low. The disease is most severe in older people, while children are less likely to experience severe courses."
+            ],
+            "link": "Recommended vaccines: TBE – Tick Borne Encephalitis",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Contact Us",
+        "note": "Before booking, make sure you call or message us for best guidance."
+      },
+      "about": {
+        "title": "Austria",
+        "text": "The Eastern Alps, the Ötztal Alps, the Zillertal Alps, the Carnic Alps, the Hohe Tauern (Austria's highest point), the Lower Tauern and many more make Austria a mountainous country. Only a few places in the country have larger lowland areas. Precisely the large mountain areas mean that the population density is not very high.",
+        "textTwo": "It’s also surprisingly varied. You can hurtle down a black run in the skiing paradises of Kitzbühel and St Anton, or cozy up with a hot drink in one of Vienna’s famous coffee houses. You can skate across icy lakes in winter or seek out wildflower meadows on summertime hikes. You can wander at the intricate church interiors and the ostentatious opulence of the old Habsburg palaces or indulge in a more low-key aspect of Mitteleuropa culture over a steaming goulash in a rustic country inn. Or you can ride a horse through pretty wooded tracts, get an eyeful of Rubens, Raphael, and Rembrandt, and marvel at Hundertwasser House in Vienna – a fantastical housing complex characterized by its vivid patterns and mismatched colors.",
+        "notice": "The vaccines listed for Austria are the general recommendations of the health authorities. At the vaccination, a specific recommendation is given based on an assessment of the traveler's specific situation (s). This may deviate from the general recommendations.",
+        "sourcePrefix": "The information is based on recommendations for travel abroad from the",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "If your destination is Austria, the vaccinations below are recommended.",
+        "mapNote": "Map preview is available in the live site. Contact us for destination guidance."
+      }
+    }
+  },
+  "sv": {
+    "hero": {
+      "eyebrow": "Myndighetsrekommendationer",
+      "title": "Österrike",
+      "imageAlt": "Ett foto som beskriver Österrike"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Rekommenderade vacciner",
+        "subtitle": "För resor upp till 6 månader",
+        "items": [
+          {
+            "title": "Stelkramp",
+            "text": [
+              "Stelkramp är en bakteriell sjukdom med symtom som huvudvärk, muskelstelhet och svåra muskelkramper. Bakterien finns normalt i jord. Den tränger in genom ett sår eller skrapa i huden och börjar producera toxiner som orsakar muskelkontraktioner och ett kramp-tillstånd som kan vara livshotande."
+            ],
+            "link": "Rekommenderade vacciner: Stelkramp",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Difteri",
+            "text": [
+              "Difteri är en smittsam sjukdom som vanligtvis sprids genom hosta och nysning.",
+              "Om en infekterad person har en hudinfektion kan sjukdomen också spridas genom direktkontakt med sår.",
+              "Symtom på difteri inkluderar feber och ont i halsen.",
+              "Vid svår infektion kan tjocka gråvita beläggningar ses i halsen samt svullna och smärtsamma lymfkörtlar i nacken.",
+              "Difteri-bakterien producerar ett toxin som kan orsaka allvarliga komplikationer såsom påverkan på hjärtat, muskler, njurar och nerver.",
+              "Sjukdomen kan vara dödlig i svåra fall.",
+              "Difteri kan också förekomma som hudinfektion med sårbildning."
+            ],
+            "link": "Rekommenderade vacciner: Difteri",
+            "href": "/vaccines"
+          },
+          {
+            "title": "TBE – fästingburen encefalit",
+            "text": [
+              "TBE (tick borne encephalitis) är en virussjukdom som överförs via fästingbett i endemiska områden.",
+              "Infektion sker vanligtvis inom några minuter efter fästingbettet via fästingens saliv.",
+              "Det finns även en möjlig smittkälla genom konsumtion av opastöriserad mjölk.",
+              "De flesta infekterade personer förblir symtomfria.",
+              "Om symtom uppstår kommer de ofta i två faser. Den första fasen inträffar vanligtvis ungefär en vecka efter fästingbettet och ger mild feber, huvudvärk och stor trötthet.",
+              "Denna fas varar vanligtvis några dagar, och upp till två tredjedelar av patienterna återhämtar sig helt efter denna fas.",
+              "Efter 2–10 symtomfria dagar utvecklar cirka en av tre patienter den andra fasen med hög feber och symtom från centrala nervsystemet.",
+              "Det uppskattas att cirka en av tio patienter i den andra fasen utvecklar långvariga eller permanenta neurologiska symtom.",
+              "TBE kan vara livshotande, men dödligheten är relativt låg. Sjukdomen är mest allvarlig hos äldre personer, medan barn har mindre risk för svåra förlopp."
+            ],
+            "link": "Rekommenderade vacciner: TBE – fästingburen encefalit",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Kontakta oss",
+        "note": "Innan du bokar, se till att du ringer eller skickar ett meddelande till oss för bästa vägledning."
+      },
+      "about": {
+        "title": "Österrike",
+        "text": "Östra Alperna, Ötztalalperna, Zillertalalperna, Karniska Alperna, Hohe Tauern (Österrikes högsta punkt), Nedre Tauern och många fler gör Österrike till ett bergigt land. Bara ett fåtal platser i landet har större låglandsområden. Just de stora bergsområdena gör att befolkningstätheten inte är särskilt hög.",
+        "textTwo": "Det är också förvånansvärt varierat. Du kan kasta ner en svart körning i skidparadiset Kitzbühel och St Anton, eller mysiga med en varm dryck i ett av Wiens berömda kaffehus. Du kan åka skridskor över isiga sjöar på vintern eller söka vildblommor på sommarturer. Du kan vandra i de invecklade kyrkans interiörer och den prydliga överflödet i de gamla Habsburg-palatserna eller njuta av en mer lågmäld aspekt av Mitteleuropakulturen över en ångande gulasch i ett rustikt lantgård. Eller så kan du åka häst genom vackra skogsklädda områden, få ett ögonblick av Rubens, Raphael och Rembrandt och förundras över Hundertwasser House i Wien - ett fantastiskt huskomplex som kännetecknas av dess levande mönster och ojämna färger.",
+        "notice": "Vaccinerna som listas för {{land}} är allmänna rekommendationer från hälsomyndigheterna. Vid vaccinationen ges en specifik rekommendation utifrån en bedömning av resenärens specifika situation(er). Detta kan avvika från de allmänna rekommendationerna.",
+        "sourcePrefix": "Informationen är baserad på rekommendationer för utlandsresor från",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Om din destination är Österrike rekommenderas vaccinationerna nedan.",
+        "mapNote": "Förhandsgranskning av kartan är tillgänglig på livesidan. Kontakta oss för destinationsvägledning."
+      }
+    }
+  },
+  "ru": {
+    "hero": {
+      "eyebrow": "Рекомендации органов власти",
+      "title": "Австрия",
+      "imageAlt": "Фотография, описывающая Австрия"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Рекомендуемые вакцины",
+        "subtitle": "Для путешествий до 6 месяцев",
+        "items": [
+          {
+            "title": "Столбняк",
+            "text": [
+              "Столбняк — бактериальное заболевание с симптомами, включающими головную боль, мышечную скованность и сильные мышечные спазмы. Бактерия обычно встречается в почве. Она проникает через рану или царапину на коже и начинает вырабатывать токсины, вызывающие сокращение мышц и спазмы, которые могут быть опасны для жизни."
+            ],
+            "link": "Рекомендуемые вакцины: Столбняк",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Дифтерия",
+            "text": [
+              "Дифтерия — заразное заболевание, которое обычно распространяется при кашле и чихании.",
+              "Если у инфицированного человека есть кожная инфекция, заболевание также может распространяться при прямом контакте с ранами.",
+              "Симптомы дифтерии включают температуру и боль в горле.",
+              "При тяжелой инфекции в горле могут появляться толстые серо-белые налёты, а также увеличенные и болезненные лимфатические узлы на шее.",
+              "Бактерия дифтерии производит токсин, который может вызвать серьёзные осложнения, влияя на сердце, мышцы, почки и нервы.",
+              "В тяжелых случаях заболевание может быть смертельным.",
+              "Дифтерия также может проявляться как кожная инфекция с образованием ран."
+            ],
+            "link": "Рекомендуемые вакцины: Дифтерия",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Клещевой Энцефалит(TBE)",
+            "text": [
+              "Клещевой энцефалит (TBE) — вирусное заболевание, передающееся через укусы клещей в эндемичных районах.",
+              "Инфекция обычно происходит через несколько минут после укуса клеща через слюну клеща.",
+              "Также возможен источник заражения через употребление непастеризованного молока.",
+              "Большинство инфицированных остаются без симптомов.",
+              "Если симптомы появляются, они часто проявляются в две фазы. Первая фаза обычно наступает примерно через неделю после укуса клеща и вызывает лёгкую температуру, головную боль и значительную усталость.",
+              "Эта фаза обычно длится пару дней, и до двух третей пациентов полностью выздоравливают после неё.",
+              "После 2–10 дней без симптомов примерно у одного из трёх пациентов развивается вторая фаза с высокой температурой и симптомами со стороны центральной нервной системы.",
+              "Оценивается, что примерно у одного из десяти пациентов во второй фазе развиваются длительные или постоянные неврологические симптомы.",
+              "Клещевой энцефалит может быть опасным для жизни, но смертность относительно низкая. Заболевание наиболее тяжело протекает у пожилых людей, тогда как у детей тяжелые формы встречаются реже."
+            ],
+            "link": "Рекомендуемые вакцины: Клещевой Энцефалит(TBE)",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Свяжитесь с нами",
+        "note": "Перед бронированием обязательно позвоните или напишите нам для получения лучших рекомендаций."
+      },
+      "about": {
+        "title": "Австрия",
+        "text": "Восточные Альпы, Эцтальские Альпы, Циллертальские Альпы, Карнийские Альпы, Высокий Тауэрн (самая высокая точка Австрии), Нижний Тауэрн и многие другие делают Австрию горной страной. Лишь в нескольких местах в стране есть более крупные равнинные территории. Именно большие горные территории означают, что плотность населения не очень высока.",
+        "textTwo": "Он также удивительно разнообразен. Вы можете промчаться по черной трассе в лыжном раю Китцбюэля и Санкт-Антона или расслабиться за горячим напитком в одной из знаменитых венских кофеен. Вы можете кататься на коньках по ледяным озерам зимой или искать луга с полевыми цветами во время летних походов. Вы можете побродить по замысловатым церковным интерьерам и показному богатству старых дворцов Габсбургов или насладиться более сдержанным аспектом культуры Миттельевропы за дымящимся гуляшем в деревенской деревенской гостинице. Или вы можете покататься на лошади по красивым лесным массивам, увидеть Рубенса, Рафаэля и Рембрандта и полюбоваться Домом Хундертвассера в Вене — фантастическим жилым комплексом, характеризующимся яркими узорами и несовпадающими цветами.",
+        "notice": "Вакцины, перечисленные для Австрия, представляют собой общие рекомендации органов здравоохранения. При вакцинации даются конкретные рекомендации, основанные на оценке конкретной ситуации(й) путешественника. Это может отличаться от общих рекомендаций.",
+        "sourcePrefix": "Информация основана на рекомендациях по поездкам за границу от",
+        "sourceLabel": "Статенский институт сывороток (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Если вашим пунктом назначения является Австрия, рекомендуется сделать следующие прививки.",
+        "mapNote": "Предварительный просмотр карты доступен на живом сайте. Свяжитесь с нами для получения информации о пункте назначения."
+      }
+    }
+  },
+  "el": {
+    "hero": {
+      "eyebrow": "Συστάσεις της Αρχής",
+      "title": "Αυστρία",
+      "imageAlt": "Μια φωτογραφία που περιγράφει Αυστρία"
+    },
+    "sections": {
+      "recommended": {
+        "title": "Συνιστώμενα εμβόλια",
+        "subtitle": "Για ταξίδια έως 6 μήνες",
+        "items": [
+          {
+            "title": "Τέτανος",
+            "text": [
+              "Ο τέτανος είναι βακτηριακή νόσος με συμπτώματα που περιλαμβάνουν πονοκέφαλο, δυσκαμψία μυών και σοβαρές μυϊκές κράμπες. Το βακτήριο βρίσκεται συνήθως στο έδαφος. Εισέρχεται μέσω τραύματος ή γρατζουνιάς στο δέρμα και αρχίζει να παράγει τοξίνες, προκαλώντας συσπάσεις μυών και κατάσταση σπασμού που μπορεί να είναι απειλητική για τη ζωή."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Τέτανος",
+            "href": "/vaccines"
+          },
+          {
+            "title": "Διφθερίτιδα",
+            "text": [
+              "Η διφθερίτιδα είναι μεταδοτική νόσος που συνήθως εξαπλώνεται μέσω βήχα και φτερνίσματος.",
+              "Εάν ένα μολυσμένο άτομο έχει δερματική λοίμωξη, η νόσος μπορεί επίσης να μεταδοθεί μέσω άμεσης επαφής με πληγές.",
+              "Τα συμπτώματα της διφθερίτιδας περιλαμβάνουν πυρετό και πονόλαιμο.",
+              "Σε σοβαρή λοίμωξη, μπορούν να εμφανιστούν παχύρρευστες γκρι-λευκές επενδύσεις στον λαιμό, καθώς και πρησμένοι και επώδυνοι λεμφαδένες στον λαιμό.",
+              "Το βακτήριο της διφθερίτιδας παράγει τοξίνη που μπορεί να προκαλέσει σοβαρές επιπλοκές όπως επηρεασμό της καρδιάς, των μυών, των νεφρών και των νεύρων.",
+              "Η νόσος μπορεί να είναι θανατηφόρα σε σοβαρές περιπτώσεις.",
+              "Η διφθερίτιδα μπορεί επίσης να εμφανιστεί ως δερματική λοίμωξη με δημιουργία πληγών."
+            ],
+            "link": "Συνιστώμενα εμβόλια: Διφθερίτιδα",
+            "href": "/vaccines"
+          },
+          {
+            "title": "TBE – Εγκεφαλίτιδα από Τσιμπούρια",
+            "text": [
+              "Η TBE (Εγκεφαλίτιδα από Τσιμπούρια) είναι ιογενής νόσος που μεταδίδεται μέσω δαγκώματος τσιμπουριού σε ενδημικές περιοχές.",
+              "Η λοίμωξη συνήθως συμβαίνει μέσα σε λίγα λεπτά μετά το δάγκωμα του τσιμπουριού μέσω του σάλιου του.",
+              "Υπάρχει επίσης πιθανή πηγή μόλυνσης μέσω κατανάλωσης μη παστεριωμένου γάλακτος.",
+              "Οι περισσότεροι μολυσμένοι παραμένουν χωρίς συμπτώματα.",
+              "Αν εμφανιστούν συμπτώματα, συχνά εμφανίζονται σε δύο φάσεις. Η πρώτη φάση συνήθως εμφανίζεται περίπου μία εβδομάδα μετά το δάγκωμα και προκαλεί ήπιο πυρετό, πονοκέφαλο και σημαντική κόπωση.",
+              "Αυτή η φάση συνήθως διαρκεί λίγες ημέρες, και έως δύο τρίτα των ασθενών αναρρώνουν πλήρως μετά από αυτή τη φάση.",
+              "Μετά από 2–10 ημέρες χωρίς συμπτώματα, περίπου ένας στους τρεις ασθενείς αναπτύσσει τη δεύτερη φάση με υψηλό πυρετό και συμπτώματα από το κεντρικό νευρικό σύστημα.",
+              "Εκτιμάται ότι περίπου ένας στους δέκα ασθενείς στη δεύτερη φάση αναπτύσσει μακροχρόνια ή μόνιμα νευρολογικά συμπτώματα.",
+              "Η TBE μπορεί να είναι απειλητική για τη ζωή, αλλά η θνησιμότητα είναι σχετικά χαμηλή. Η νόσος είναι πιο σοβαρή σε ηλικιωμένους, ενώ τα παιδιά είναι λιγότερο πιθανό να έχουν σοβαρή πορεία."
+            ],
+            "link": "Συνιστώμενα εμβόλια: TBE – Εγκεφαλίτιδα από Τσιμπούρια",
+            "href": "/vaccines"
+          }
+        ],
+        "cta": "Επικοινωνήστε μαζί μας",
+        "note": "Πριν την κράτηση, φροντίστε να μας καλέσετε ή να μας στείλετε μήνυμα για καλύτερη καθοδήγηση."
+      },
+      "about": {
+        "title": "Αυστρία",
+        "text": "Οι Ανατολικές Άλπεις, οι Άλπεις Ötztal, οι Άλπεις Zillertal, οι Άλπεις Carnic, το Hohe Tauern (το υψηλότερο σημείο της Αυστρίας), το Lower Tauern και πολλά άλλα κάνουν την Αυστρία μια ορεινή χώρα. Μόνο λίγα μέρη στη χώρα έχουν μεγαλύτερες πεδινές εκτάσεις. Ακριβώς οι μεγάλες ορεινές περιοχές σημαίνουν ότι η πληθυσμιακή πυκνότητα δεν είναι πολύ υψηλή.",
+        "textTwo": "Είναι επίσης εκπληκτικά ποικίλο. Μπορείτε να κάνετε μια μαύρη διαδρομή στους παραδείσους για σκι του Kitzbühel και του St Anton ή να χαλαρώσετε με ένα ζεστό ρόφημα σε ένα από τα διάσημα καφέ της Βιέννης. Μπορείτε να κάνετε πατινάζ στις παγωμένες λίμνες το χειμώνα ή να αναζητήσετε λιβάδια με αγριολούλουδα στις καλοκαιρινές πεζοπορίες. Μπορείτε να περιπλανηθείτε στους περίπλοκους εσωτερικούς χώρους της εκκλησίας και στην επιδεικτική χλιδή των παλαιών ανακτόρων των Αψβούργων ή να αφεθείτε σε μια πιο χαμηλών τόνων πτυχή της κουλτούρας Mitteleuropa πάνω από ένα αχνιστό γκούλας σε ένα ρουστίκ εξοχικό πανδοχείο. Ή μπορείτε να καβαλήσετε ένα άλογο μέσα από όμορφα δασώδεις εκτάσεις, να γνωρίσετε τον Ρούμπενς, τον Ραφαήλ και τον Ρέμπραντ και να θαυμάσετε το Hundertwasser House στη Βιέννη – ένα φανταστικό συγκρότημα κατοικιών που χαρακτηρίζεται από τα ζωηρά μοτίβα και τα αταίριαστα χρώματα.",
+        "notice": "Τα εμβόλια που αναφέρονται για {{χώρα}} είναι οι γενικές συστάσεις των υγειονομικών αρχών. Κατά τον εμβολιασμό, δίνεται μια συγκεκριμένη σύσταση με βάση την αξιολόγηση της ειδικής κατάστασης (των) του ταξιδιώτη. Αυτό μπορεί να αποκλίνει από τις γενικές συστάσεις.",
+        "sourcePrefix": "Οι πληροφορίες βασίζονται σε συστάσεις για ταξίδια στο εξωτερικό από το",
+        "sourceLabel": "Statens Serum Institut (SSI)",
+        "sourceHref": "https://rejse.ssi.dk/om-rejsevaccination",
+        "footer": "Εάν ο προορισμός σας είναι η {{χώρα}}, συνιστώνται οι παρακάτω εμβολιασμοί.",
+        "mapNote": "Η προεπισκόπηση χάρτη είναι διαθέσιμη στη ζωντανή τοποθεσία. Επικοινωνήστε μαζί μας για καθοδήγηση προορισμού."
+      }
+    }
+  }
+}
