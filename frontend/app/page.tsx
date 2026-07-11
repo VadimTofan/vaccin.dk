@@ -1,20 +1,19 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from './page.module.scss';
 
 const clinicFacts = [
   {
-    value: '08-16',
-    label: 'Weekday clinic',
+    value: 'Opening hours',
+    label: '08:00 - 16:00',
   },
   {
-    value: '+45',
-    label: 'Phone guidance',
+    value: 'Phone guidance',
+    label: '(+45) 54 55 89 65',
   },
   {
-    value: 'CPH',
-    label: 'Kastrup location',
+    value: 'Location',
+    label: 'Amager Landevej 31, 2770 Kastrup',
   },
 ];
 
@@ -79,14 +78,6 @@ export default function Home() {
           </div>
 
           <aside className={styles.home__glass}>
-            <Image
-              className={styles.home__logo}
-              src="/images/logo.webp"
-              width={120}
-              height={80}
-              alt="VACCIN DK clinic logo"
-              priority
-            />
             <div className={styles.home__glass_copy}>
               <p className={styles.home__label}>Clinic signal</p>
               <h2 className={styles.home__glass_title}>

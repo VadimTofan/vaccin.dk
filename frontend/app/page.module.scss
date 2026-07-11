@@ -1,4 +1,5 @@
 // landing-redesign-v2
+// landing-editorial-retouch
 // clinic-surface
 // refero-clinical-blueprint
 // refero-auros
@@ -53,10 +54,8 @@
   }
 
   &__kicker {
-    padding: 0.7rem 0.9rem;
-    background-color: rgb(1 29 28 / 72%);
-    border: 0.1rem solid rgb(203 255 252 / 16%);
-    border-radius: var(--refero-control-radius);
+    padding: 0.7rem 0;
+    border-bottom: 0.1rem solid rgb(203 255 252 / 28%);
   }
 
   &__title {
@@ -115,7 +114,7 @@
     min-height: 35rem;
     background: linear-gradient(145deg, rgb(0 55 52 / 82%), rgb(1 29 28 / 84%)), $surface-card;
     border: 0.1rem solid rgb(203 255 252 / 14%);
-    border-radius: var(--refero-card-radius);
+    border-left: 0.3rem solid $refero-phosphor;
     overflow: hidden;
   }
 
@@ -167,11 +166,10 @@
   &__glass {
     display: grid;
     position: relative;
-    margin: 1.6rem;
-    padding: 1.6rem;
-    background: rgb(1 38 36 / 82%);
-    border: 0.1rem solid rgb(203 255 252 / 18%);
-    border-radius: var(--refero-card-radius);
+    margin: 0;
+    padding: 2rem;
+    background: rgb(1 38 36 / 92%);
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
     align-self: end;
     gap: 1.4rem;
     backdrop-filter: blur(1.4rem);
@@ -179,20 +177,9 @@
 
   @include mixins.small-tablet {
     &__glass {
-      grid-template-columns: 8.8rem minmax(0, 1fr);
-      align-items: center;
-      margin: 2.4rem;
-      padding: 2rem;
+      margin: 0 0 2.4rem 2.4rem;
+      padding: 2rem 2.4rem;
     }
-  }
-
-  &__logo {
-    width: 8.8rem;
-    height: 6rem;
-    object-fit: contain;
-    background-color: rgb(237 255 254 / 8%);
-    border: 0.1rem solid rgb(203 255 252 / 14%);
-    border-radius: var(--refero-control-radius);
   }
 
   &__glass_copy {
@@ -222,7 +209,8 @@
     width: min(100% - 4rem, 144rem);
     margin: 0 auto;
     padding: 0 0 4rem;
-    gap: 1rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
   }
 
   @include mixins.small-tablet {
@@ -240,13 +228,28 @@
 
   &__fact {
     display: flex;
-    align-items: baseline;
-    min-height: 8rem;
-    padding: 1.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 9rem;
+    padding: 1.8rem 0;
     gap: 1.2rem;
-    background-color: rgb(0 55 52 / 72%);
-    border: 0.1rem solid rgb(203 255 252 / 12%);
-    border-radius: var(--refero-card-radius);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 12%);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  @include mixins.small-tablet {
+    &__fact {
+      padding: 1.8rem;
+      border-right: 0.1rem solid rgb(203 255 252 / 12%);
+      border-bottom: 0;
+
+      &:last-child {
+        border-right: 0;
+      }
+    }
   }
 
   &__fact_value {
@@ -287,6 +290,8 @@
     display: grid;
     max-width: 72rem;
     gap: 1.2rem;
+    padding-left: 1.6rem;
+    border-left: 0.1rem solid $refero-phosphor;
   }
 
   &__heading,
@@ -309,7 +314,7 @@
 
   &__service_grid {
     display: grid;
-    gap: 1rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
   }
 
   @include mixins.tablet {
@@ -321,13 +326,36 @@
   &__service {
     display: flex;
     flex-direction: column;
-    min-height: 17rem;
-    padding: 1.8rem;
+    min-height: 18rem;
+    padding: 2rem 0;
     gap: 1rem;
     color: $text-ink;
-    background-color: $surface-card;
-    border: 0.1rem solid rgb(203 255 252 / 12%);
-    border-radius: var(--refero-card-radius);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
+    transition:
+      color 0.18s ease,
+      padding 0.18s ease;
+
+    &:hover,
+    &:focus-visible {
+      padding-left: 1rem;
+      color: $accent-sea;
+    }
+  }
+
+  @include mixins.tablet {
+    &__service {
+      padding: 2rem;
+      border-right: 0.1rem solid rgb(203 255 252 / 18%);
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+        border-right: 0;
+      }
+    }
   }
 
   &__service_title {
@@ -387,17 +415,18 @@
 
   &__certificate {
     grid-template-columns: 1fr;
-    padding: 2.4rem;
-    background-color: $surface-card;
-    border: 0.1rem solid rgb(203 255 252 / 12%);
-    border-radius: var(--refero-card-radius);
+    margin-top: 5rem;
+    padding: 2.4rem 0;
+    background: linear-gradient(90deg, rgb(0 55 52 / 64%), rgb(0 55 52 / 12%));
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
   }
 
   @include mixins.tablet {
     &__certificate {
       grid-template-columns: minmax(26rem, 0.75fr) minmax(0, 1fr);
       align-items: center;
-      padding: 3.2rem;
+      padding: 4rem;
       gap: 4rem;
     }
   }
@@ -409,7 +438,6 @@
     padding: 2rem;
     background-color: rgb(1 29 28 / 72%);
     border: 0.1rem solid rgb(203 255 252 / 12%);
-    border-radius: var(--refero-control-radius);
   }
 
   &__certificate_code,
@@ -436,7 +464,14 @@
 
   &__certificate_copy {
     display: grid;
+    padding: 0 2rem;
     gap: 1.2rem;
+  }
+
+  @include mixins.tablet {
+    &__certificate_copy {
+      padding: 0;
+    }
   }
 
   &__visit {

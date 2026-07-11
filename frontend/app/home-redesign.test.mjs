@@ -13,6 +13,8 @@ test('home page uses the slim travel-health landing redesign', async () => {
   const hasGlassClinicSummary = pageSource.includes('home__glass');
   const hasV2StyleMarker = styleSource.includes('landing-redesign-v2');
   const keepsHeroLightweight = !styleSource.includes('min-height: 68rem');
+  const removesLowResolutionLogo = !pageSource.includes('/images/logo.webp')
+    && !styleSource.includes('&__logo');
 
   // Then
   assert.equal(hasNewHeadline, true);
@@ -20,4 +22,5 @@ test('home page uses the slim travel-health landing redesign', async () => {
   assert.equal(hasGlassClinicSummary, true);
   assert.equal(hasV2StyleMarker, true);
   assert.equal(keepsHeroLightweight, true);
+  assert.equal(removesLowResolutionLogo, true);
 });
