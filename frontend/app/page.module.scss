@@ -1,0 +1,447 @@
+// landing-redesign-v2
+// clinic-surface
+// refero-clinical-blueprint
+// refero-auros
+@use '@/styles/colors' as *;
+@use '@/styles/mixins' as mixins;
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: $text-ink;
+  background:
+    radial-gradient(circle at 78% 10%, rgb(203 255 252 / 14%), transparent 26rem),
+    radial-gradient(circle at 6% 18%, rgb(250 209 255 / 8%), transparent 22rem), $surface-cream;
+  overflow: hidden;
+
+  &__hero {
+    display: grid;
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 6.4rem 2rem 3.2rem;
+    gap: 3.2rem;
+  }
+
+  @include mixins.tablet {
+    &__hero {
+      grid-template-columns: minmax(0, 1fr) minmax(34rem, 0.82fr);
+      align-items: end;
+      width: 100%;
+      min-height: 58rem;
+      padding: 8rem 6vw 4rem;
+      gap: 5rem;
+    }
+  }
+
+  &__hero_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 78rem;
+    gap: 1.8rem;
+  }
+
+  &__kicker,
+  &__label {
+    width: fit-content;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $accent-sea;
+  }
+
+  &__kicker {
+    padding: 0.7rem 0.9rem;
+    background-color: rgb(1 29 28 / 72%);
+    border: 0.1rem solid rgb(203 255 252 / 16%);
+    border-radius: var(--refero-control-radius);
+  }
+
+  &__title {
+    max-width: 82rem;
+    margin: 0;
+    font-size: clamp(5rem, 8vw, 9.6rem);
+    font-weight: 500;
+    line-height: 0.94;
+    letter-spacing: 0;
+    color: $refero-platinum;
+  }
+
+  &__lead {
+    max-width: 56rem;
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.55;
+    color: $text-muted;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.6rem;
+    gap: 1rem;
+  }
+
+  &__primary,
+  &__secondary {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4.6rem;
+    padding: 0 1.6rem;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1;
+    color: $text-ink;
+    border: 0.1rem solid transparent;
+    border-radius: var(--refero-control-radius);
+  }
+
+  &__primary {
+    color: $text-inverse;
+    background: $refero-gradient;
+  }
+
+  &__secondary {
+    background-color: rgb(203 255 252 / 7%);
+    border-color: rgb(203 255 252 / 16%);
+  }
+
+  &__route_map {
+    display: grid;
+    position: relative;
+    min-height: 35rem;
+    background: linear-gradient(145deg, rgb(0 55 52 / 82%), rgb(1 29 28 / 84%)), $surface-card;
+    border: 0.1rem solid rgb(203 255 252 / 14%);
+    border-radius: var(--refero-card-radius);
+    overflow: hidden;
+  }
+
+  &__route_map::before {
+    position: absolute;
+    inset: 2.4rem;
+    content: '';
+    background-image:
+      linear-gradient(rgb(203 255 252 / 8%) 0.1rem, transparent 0.1rem),
+      linear-gradient(90deg, rgb(203 255 252 / 8%) 0.1rem, transparent 0.1rem);
+    background-size: 4.8rem 4.8rem;
+    mask-image: linear-gradient(180deg, transparent, #000 22%, #000 72%, transparent);
+  }
+
+  &__orbit {
+    position: absolute;
+    inset: 4rem;
+  }
+
+  &__route_line {
+    position: absolute;
+    inset: 5.5rem 2.2rem auto 1.2rem;
+    height: 16rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 26%);
+    border-right: 0.1rem solid rgb(203 255 252 / 26%);
+    border-radius: 0 16rem 0 0;
+    transform: rotate(-12deg);
+  }
+
+  &__route_pin,
+  &__route_pin_alt {
+    position: absolute;
+    width: 1.1rem;
+    height: 1.1rem;
+    background: $refero-gradient;
+    border-radius: 50%;
+  }
+
+  &__route_pin {
+    top: 6.4rem;
+    left: 2rem;
+  }
+
+  &__route_pin_alt {
+    right: 4.4rem;
+    bottom: 7.2rem;
+  }
+
+  &__glass {
+    display: grid;
+    position: relative;
+    margin: 1.6rem;
+    padding: 1.6rem;
+    background: rgb(1 38 36 / 82%);
+    border: 0.1rem solid rgb(203 255 252 / 18%);
+    border-radius: var(--refero-card-radius);
+    align-self: end;
+    gap: 1.4rem;
+    backdrop-filter: blur(1.4rem);
+  }
+
+  @include mixins.small-tablet {
+    &__glass {
+      grid-template-columns: 8.8rem minmax(0, 1fr);
+      align-items: center;
+      margin: 2.4rem;
+      padding: 2rem;
+    }
+  }
+
+  &__logo {
+    width: 8.8rem;
+    height: 6rem;
+    object-fit: contain;
+    background-color: rgb(237 255 254 / 8%);
+    border: 0.1rem solid rgb(203 255 252 / 14%);
+    border-radius: var(--refero-control-radius);
+  }
+
+  &__glass_copy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  &__glass_title {
+    max-width: 34rem;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: 0;
+  }
+
+  &__glass_text {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.45;
+    color: $text-muted;
+  }
+
+  &__facts {
+    display: grid;
+    width: min(100% - 4rem, 144rem);
+    margin: 0 auto;
+    padding: 0 0 4rem;
+    gap: 1rem;
+  }
+
+  @include mixins.small-tablet {
+    &__facts {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @include mixins.tablet {
+    &__facts {
+      width: min(88vw, 144rem);
+      padding-bottom: 6rem;
+    }
+  }
+
+  &__fact {
+    display: flex;
+    align-items: baseline;
+    min-height: 8rem;
+    padding: 1.6rem;
+    gap: 1.2rem;
+    background-color: rgb(0 55 52 / 72%);
+    border: 0.1rem solid rgb(203 255 252 / 12%);
+    border-radius: var(--refero-card-radius);
+  }
+
+  &__fact_value {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+    color: $refero-phosphor;
+  }
+
+  &__fact_label {
+    font-size: 1.25rem;
+    line-height: 1.35;
+    color: $text-muted;
+  }
+
+  &__section,
+  &__process,
+  &__certificate,
+  &__visit {
+    display: grid;
+    width: min(100% - 4rem, 144rem);
+    margin: 0 auto;
+    padding: 5.2rem 0;
+    gap: 2.4rem;
+  }
+
+  @include mixins.tablet {
+    &__section,
+    &__process,
+    &__certificate,
+    &__visit {
+      width: min(88vw, 144rem);
+      padding: 7rem 0;
+    }
+  }
+
+  &__section_header {
+    display: grid;
+    max-width: 72rem;
+    gap: 1.2rem;
+  }
+
+  &__heading,
+  &__visit_title {
+    margin: 0;
+    font-size: clamp(3.2rem, 5vw, 6.1rem);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0;
+    color: $refero-platinum;
+  }
+
+  &__text {
+    max-width: 62rem;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: $text-muted;
+  }
+
+  &__service_grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @include mixins.tablet {
+    &__service_grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__service {
+    display: flex;
+    flex-direction: column;
+    min-height: 17rem;
+    padding: 1.8rem;
+    gap: 1rem;
+    color: $text-ink;
+    background-color: $surface-card;
+    border: 0.1rem solid rgb(203 255 252 / 12%);
+    border-radius: var(--refero-card-radius);
+  }
+
+  &__service_title {
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  &__service_text {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $text-muted;
+  }
+
+  &__process {
+    grid-template-columns: 1fr;
+    background: linear-gradient(90deg, rgb(1 29 28 / 0%), rgb(0 55 52 / 38%)), transparent;
+  }
+
+  @include mixins.tablet {
+    &__process {
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      align-items: start;
+      gap: 5rem;
+    }
+  }
+
+  &__timeline {
+    display: grid;
+    padding: 0;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  &__timeline_item {
+    display: grid;
+    grid-template-columns: 5.2rem minmax(0, 1fr);
+    align-items: center;
+    min-height: 7.2rem;
+    padding: 1.2rem 0;
+    gap: 1.4rem;
+    border-bottom: 0.1rem solid rgb(203 255 252 / 14%);
+  }
+
+  &__timeline_number {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: $refero-phosphor;
+  }
+
+  &__timeline_text {
+    font-size: 1.7rem;
+    line-height: 1.4;
+    color: $refero-mist;
+  }
+
+  &__certificate {
+    grid-template-columns: 1fr;
+    padding: 2.4rem;
+    background-color: $surface-card;
+    border: 0.1rem solid rgb(203 255 252 / 12%);
+    border-radius: var(--refero-card-radius);
+  }
+
+  @include mixins.tablet {
+    &__certificate {
+      grid-template-columns: minmax(26rem, 0.75fr) minmax(0, 1fr);
+      align-items: center;
+      padding: 3.2rem;
+      gap: 4rem;
+    }
+  }
+
+  &__certificate_mark {
+    display: grid;
+    align-content: space-between;
+    min-height: 20rem;
+    padding: 2rem;
+    background-color: rgb(1 29 28 / 72%);
+    border: 0.1rem solid rgb(203 255 252 / 12%);
+    border-radius: var(--refero-control-radius);
+  }
+
+  &__certificate_code,
+  &__certificate_stamp {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $text-muted;
+  }
+
+  &__certificate_line {
+    width: 100%;
+    height: 0.1rem;
+    background: $refero-gradient;
+  }
+
+  &__certificate_stamp {
+    font-size: 3rem;
+    letter-spacing: 0;
+    color: $accent-sea;
+  }
+
+  &__certificate_copy {
+    display: grid;
+    gap: 1.2rem;
+  }
+
+  &__visit {
+    padding-bottom: 8rem;
+    justify-items: start;
+    gap: 1.6rem;
+  }
+}
