@@ -11,12 +11,12 @@ export function NotFoundState({
   href = '/',
 }: NotFoundStateProps) {
   return (
-    <section className={styles.not_found} role="status" aria-live="polite">
-      <div className={styles.not_found__badge}>404</div>
-      <div className={styles.not_found__content}>
-        <h1 className={styles.not_found__title}>{title}</h1>
-        <p className={styles.not_found__message}>{message}</p>
-        <Link className={styles.not_found__button} href={href}>
+    <section className={styles.notfound} role="status" aria-live="polite">
+      <div className={styles.notfound__badge}>404</div>
+      <div className={styles.notfound__content}>
+        <h1 className={styles.notfound__title}>{title}</h1>
+        <p className={styles.notfound__message}>{message}</p>
+        <Link className={styles.notfound__button} href={href}>
           {actionLabel}
         </Link>
       </div>

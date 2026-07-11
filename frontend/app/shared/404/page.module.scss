@@ -1,59 +1,52 @@
 // clinic-surface
 // refero-clinical-blueprint
-// refero-auros
+// sitewide-editorial-retouch
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
-.not_found {
+.notfound {
   display: grid;
-  width: min(100%, 72rem);
+  align-content: center;
+  width: min(100% - 4rem, 96rem);
+  min-height: 54rem;
   margin: 0 auto;
-  padding: 5rem var(--clinic-page-gutter) 7rem;
-  gap: 1.6rem;
-  text-align: center;
+  padding: 6rem 0;
+  gap: 2.4rem;
   color: $text-ink;
+  border-top: 0.1rem solid rgb(203 255 252 / 18%);
+  border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
 
   @include mixins.small-tablet {
     grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
-    text-align: left;
+    gap: 4rem;
   }
 
   &__badge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 9rem;
-    height: 9rem;
-    margin: 0 auto;
-    font-size: 2.8rem;
+    font-size: clamp(6rem, 12vw, 12rem);
     font-weight: 500;
-    color: $text-inverse;
-    background: $refero-gradient;
-    border-radius: var(--refero-control-radius);
-    box-shadow: none;
+    line-height: 0.8;
+    letter-spacing: -0.06em;
+    color: $accent-sea;
   }
 
   &__content {
     display: grid;
-    padding: 2.4rem;
-    gap: 1.2rem;
-    background: rgb(0 55 52 / 82%);
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
+    gap: 1.4rem;
   }
 
   &__title {
-    font-size: clamp(2.8rem, 5vw, 4.8rem);
+    font-size: clamp(3.6rem, 6vw, 6.4rem);
     font-weight: 500;
-    line-height: 1;
+    line-height: 0.96;
+    color: $text-ink;
   }
 
   &__message {
-    font-size: 1.5rem;
+    max-width: 52rem;
+    font-size: 1.6rem;
     line-height: 1.7;
-    color: $text-muted;
+    color: $text-light;
   }
 
   &__button {
@@ -62,18 +55,12 @@
     align-items: center;
     width: fit-content;
     min-height: 4.6rem;
-    margin: 0 auto;
     padding: 0 1.6rem;
-    font-size: 1.35rem;
-    font-weight: 500;
-    letter-spacing: 0.12em;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $text-inverse;
     background: $refero-gradient;
-    border-radius: var(--refero-control-radius);
-
-    @include mixins.small-tablet {
-      margin: 0;
-    }
   }
 }
