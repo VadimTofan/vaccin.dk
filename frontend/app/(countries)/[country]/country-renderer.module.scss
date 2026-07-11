@@ -1,90 +1,76 @@
 // clinic-surface
 // refero-clinical-blueprint
-// refero-auros
+// sitewide-editorial-retouch
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
 .country {
-  display: flex;
-  flex-direction: column;
-  width: min(100%, var(--clinic-page-max));
+  display: grid;
+  width: min(100% - 4rem, var(--clinic-page-max));
   margin: 0 auto;
-  padding: 5rem var(--clinic-page-gutter) 7rem;
+  padding: 6rem 0 9rem;
   color: $text-ink;
-  gap: 3.2rem;
-
-  @include mixins.tablet {
-    padding-block: 7rem 9rem;
-    gap: 4rem;
-  }
-
-  @include mixins.laptop {
-    padding: 8rem 5.6rem 9.6rem;
-  }
 
   &__hero {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    align-items: center;
-    text-align: center;
+    display: grid;
+    max-width: 96rem;
+    padding: 2rem 0 4rem;
+    gap: 1.4rem;
   }
 
   &__eyebrow {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     color: $accent-sea;
   }
 
   &__title {
-    font-size: 4.4rem;
+    font-size: clamp(4.8rem, 8vw, 8.8rem);
     font-weight: 500;
+    line-height: 0.94;
+    letter-spacing: -0.04em;
     color: $text-ink;
-
-    @include mixins.tablet {
-      font-size: 5.2rem;
-    }
   }
 
   &__image_wrap {
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
+    max-height: 42rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 18%);
+    border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
     overflow: hidden;
   }
 
   &__image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
 
   &__section {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
+    display: grid;
+    padding: 4rem 0;
+    gap: 2rem;
+    border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
   }
 
   &__heading {
-    font-size: 2.6rem;
+    font-size: clamp(3rem, 5vw, 5.6rem);
     font-weight: 500;
-    text-align: center;
     color: $text-ink;
   }
 
   &__subheading {
-    font-size: 1.3rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: $text-muted;
+    color: $text-light;
   }
 
   &__grid {
     display: grid;
-    gap: 2.4rem;
+    border-top: 0.1rem solid rgb(203 255 252 / 14%);
 
     @include mixins.tablet {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -92,29 +78,32 @@
   }
 
   &__card {
-    display: flex;
-    flex-direction: column;
-    padding: 2.4rem;
-    background-color: $surface-card;
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
+    display: grid;
+    padding: 2.4rem 0;
     gap: 1.2rem;
+    border-bottom: 0.1rem solid rgb(203 255 252 / 14%);
+
+    @include mixins.tablet {
+      padding: 2.4rem;
+      border-right: 0.1rem solid rgb(203 255 252 / 14%);
+    }
   }
 
   &__card_title {
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
 
-  &__text {
+  &__text,
+  &__map_text {
     font-size: 1.6rem;
     line-height: 1.7;
-    color: $text-muted;
+    color: $text-light;
   }
 
   &__link {
+    width: fit-content;
     font-size: 1.4rem;
     font-weight: 600;
     color: $accent-sea;
@@ -122,66 +111,55 @@
 
   &__cta_wrap {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 1.2rem;
-    margin-top: 1.6rem;
+    gap: 1.6rem;
   }
 
   &__cta {
-    padding: 1.2rem 2.6rem;
+    padding: 1.2rem 2rem;
     font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $text-inverse;
     background: $refero-gradient;
-    border-radius: var(--refero-control-radius);
   }
 
   &__note {
     font-size: 1.4rem;
-    font-weight: 600;
-    text-align: center;
-    color: $success;
+    color: $accent-sea;
   }
 
   &__columns {
     display: grid;
-    gap: 2.4rem;
+    gap: 3rem;
 
     @include mixins.tablet {
-      grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
-      align-items: start;
+      grid-template-columns: minmax(0, 1.2fr) minmax(28rem, 0.8fr);
     }
   }
 
   &__copy {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 1.6rem;
   }
 
   &__emphasis {
+    padding-left: 1.6rem;
     font-size: 1.5rem;
     line-height: 1.7;
     font-style: italic;
     color: $text-ink;
+    border-left: 0.1rem solid $refero-phosphor;
   }
 
   &__map_placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 32rem;
+    display: grid;
+    place-items: center;
+    min-height: 28rem;
     padding: 2.4rem;
     text-align: center;
-    background: $surface-cream;
-    border: 0.1rem solid var(--clinic-surface-border);
-    border-radius: var(--refero-card-radius);
-  }
-
-  &__map_text {
-    font-size: 1.4rem;
-    color: $text-muted;
+    background: rgb(0 55 52 / 38%);
+    border: 0.1rem solid rgb(203 255 252 / 18%);
   }
 }

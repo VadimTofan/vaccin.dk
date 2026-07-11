@@ -1,20 +1,19 @@
 // clinic-surface
 // refero-clinical-blueprint
-// refero-auros
+// sitewide-editorial-retouch
 @use '@/styles/colors' as *;
 @use '@/styles/mixins' as mixins;
 
-.country_map {
+.map {
+  grid-column: 1 / -1;
   width: 100%;
-  max-width: 140rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.6rem;
+  margin-top: 2.4rem;
+  padding: 2.4rem 0;
+  border-top: 0.1rem solid rgb(203 255 252 / 18%);
+  border-bottom: 0.1rem solid rgb(203 255 252 / 18%);
 
   &__continents {
     display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 1.2rem;
 
     @include mixins.tablet {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -26,46 +25,43 @@
   }
 
   &__continent_card {
-    display: flex;
-    flex-direction: column;
-    padding: 1.4rem;
-    background: $surface-card;
-    border: 0.1rem solid rgba($secondary, 0.1);
-    border-radius: var(--refero-card-radius);
-    box-shadow: none;
-    gap: 1rem;
+    display: grid;
+    padding: 2rem 0;
+    gap: 1.2rem;
+    border-bottom: 0.1rem solid rgb(203 255 252 / 14%);
+
+    @include mixins.tablet {
+      padding: 2rem;
+      border-right: 0.1rem solid rgb(203 255 252 / 14%);
+    }
   }
 
   &__continent_title {
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: $secondary;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: $text-ink;
   }
 
   &__label {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+    display: grid;
+    gap: 0.8rem;
   }
 
   &__label_text {
-    font-size: 1.2rem;
-    letter-spacing: 0.03rem;
-    color: $text-muted;
+    font-size: 1.15rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $text-light;
   }
 
   &__select {
-    height: 3.8rem;
-    padding: 0 1rem;
+    width: 100%;
+    height: 4.4rem;
+    padding: 0 1.2rem;
     font-size: 1.4rem;
-    color: $secondary;
+    color: $text-ink;
     background-color: $surface-card;
-    border: 0.1rem solid rgba($secondary, 0.16);
-    border-radius: var(--refero-card-radius);
-
-    &:focus-visible {
-      outline: 0.2rem solid $accent-sea;
-      outline-offset: 0.2rem;
-    }
+    border: 0.1rem solid rgb(203 255 252 / 18%);
+    border-radius: 0;
   }
 }

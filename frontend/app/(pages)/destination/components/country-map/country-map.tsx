@@ -31,18 +31,18 @@ export function CountryMap({ countries }: CountryMapProps) {
   }, [countries]);
 
   return (
-    <section className={styles.country_map} aria-label="Choose destination by continent">
-      <div className={styles.country_map__continents}>
+    <section className={styles.map} aria-label="Choose destination by continent">
+      <div className={styles.map__continents}>
         {continentOrder.map((continent) => {
           const continentCountries = sortCountriesByName(countriesByContinent.get(continent) ?? []);
 
           return (
-            <article key={continent} className={styles.country_map__continent_card}>
-              <h3 className={styles.country_map__continent_title}>{continent}</h3>
-              <label className={styles.country_map__label}>
-                <span className={styles.country_map__label_text}>Choose country</span>
+            <article key={continent} className={styles.map__continent_card}>
+              <h3 className={styles.map__continent_title}>{continent}</h3>
+              <label className={styles.map__label}>
+                <span className={styles.map__label_text}>Choose country</span>
                 <select
-                  className={styles.country_map__select}
+                  className={styles.map__select}
                   defaultValue=""
                   onChange={(event) => {
                     const selectedSlug = event.target.value;
